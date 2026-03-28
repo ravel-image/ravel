@@ -10,7 +10,7 @@ nuanced, and long-tail concepts.
 ## Quick Start — Generate Images with RAVEL
 
 **Prerequisites:** 
-1) `.env` configured, Neo4j instance running (you can get a free auroradb instance), KG built (see Part 1 and Option B below).
+1) `.env` configured, Neo4j instance running (you can get a free auradb instance), KG built (see Part 1 and Option B below).
 2) Please ensure your venv is running on at least Python=3.12
 
 ### Step 1 — Build the KG (one time only)
