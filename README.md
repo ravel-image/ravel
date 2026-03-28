@@ -5,7 +5,7 @@ Knowledge Graph (KG) to enable high-fidelity generation of rare, culturally
 nuanced, and long-tail concepts.
 
 <p align="center">
-  <img src="images/ravel-trailer.png" width="800"/>
+  <img src="images/ravel-teaser.png" width="800"/>
 </p>
 
 
