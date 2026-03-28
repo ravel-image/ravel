@@ -1,0 +1,23 @@
+# Core ML & Vision
+torch
+torchvision
+transformers
+diffusers
+accelerate
+huggingface_hub
+
+# Graph & Data
+neo4j
+wikipedia
+PyYAML
+python-dotenv
+
+# LangChain Ecosystem
+openai
+langchain
+langchain-openai
+langchain-community
+langchain-google-community
+
+# External Repos
+git+https://github.com/deepseek-ai/Janus.git
