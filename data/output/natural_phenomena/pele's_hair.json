@@ -1,0 +1,72 @@
+{
+    "name": "Pele's Hair",
+    "domain": "natural_phenomena",
+    "entity_type": "volcanic_glass_formation",
+    "alternative_names": [
+        "Lauoho o Pele",
+        "Lauoho Pele",
+        "Lauoho ehuehu a Pele",
+        "nornahár"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "18th century Hawaiian newspapers"
+    ],
+    "visual_attributes": {
+        "morphology": "thin, elongated strands",
+        "distinctive_features": [
+            "golden yellow color",
+            "shimmering appearance in sunlight",
+            "resembles human hair or dry straw"
+        ],
+        "color_palette": [
+            "golden yellow"
+        ],
+        "texture": "brittle and sharp",
+        "size_and_scale": "length varies from 5 to 15 cm, up to 2 m; diameter 1 to 300 μm",
+        "structural_arrangement": "accumulates in gaps, treetops, and high places",
+        "domain_specific_visual": {
+            "formation_process": "formed from cooled lava stretched into thin strands"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "indicator of volcanic activity",
+        "secondary_functions": [
+            "provides information about eruption temperatures",
+            "indicates magma path"
+        ],
+        "domain_specific_functional": {
+            "volcanological_significance": "helps in understanding eruption dynamics"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ASSOCIATED_WITH",
+                "target": "Pele's Tears",
+                "description": "Both are volcanic glass formations providing information about eruptions"
+            }
+        ],
+        "associated_entities": [
+            "Pele's Tears"
+        ],
+        "symbolic_items": [
+            "volcanic activity indicators"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Hawaiian mythology",
+        "historical_period": "documented since the 18th century",
+        "geographic_range": "Hawaii, Nicaragua, Italy, Ethiopia, Iceland",
+        "cultural_significance": "named after Pele, the Hawaiian goddess of volcanoes",
+        "primary_sources": [
+            "Wikipedia",
+            "18th century Hawaiian newspapers"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT human hair",
+        "NOT smooth or soft texture",
+        "NOT unrelated to volcanic activity"
+    ]
+}

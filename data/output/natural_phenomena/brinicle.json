@@ -1,1 +1,85 @@
-
+{
+    "name": "Brinicle",
+    "domain": "natural_phenomena",
+    "entity_type": "Ice Formation",
+    "alternative_names": [
+        "Brine Icicle",
+        "Ice Stalactite"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "BBC Frozen Planet",
+        "Research by Seelye Martin",
+        "National University of Colombia",
+        "Lawrence Livermore National Laboratory"
+    ],
+    "visual_attributes": {
+        "morphology": "Downward-growing hollow tube of ice",
+        "distinctive_features": [
+            "Hollow structure enclosing a plume of descending brine",
+            "Resembles an inverted chimney of ice",
+            "Thin, fragile walls that thicken over time"
+        ],
+        "color_palette": [
+            "Translucent white",
+            "Light blue",
+            "Clear"
+        ],
+        "texture": "Smooth and glassy exterior with a hollow interior",
+        "size_and_scale": "Can extend from the underside of sea ice to the seafloor, depending on conditions",
+        "structural_arrangement": "Vertical tube extending downward from sea ice",
+        "domain_specific_visual": {
+            "formation_environment": "Beneath developing sea ice in polar oceans",
+            "growth_pattern": "Grows downward as ice accumulates around descending brine"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Formation of ice around descending brine",
+        "secondary_functions": [
+            "Creates transient brine pools on the seafloor",
+            "Encases and traps bottom-dwelling sea creatures"
+        ],
+        "domain_specific_functional": {
+            "ecological_impact": "Can freeze and trap marine life on the seafloor",
+            "temperature_dependency": "Growth influenced by air and water temperature"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "FORMED_BENEATH",
+                "target": "Sea Ice",
+                "description": "Brinicles form beneath developing sea ice as brine is expelled."
+            },
+            {
+                "type": "INTERACTS_WITH",
+                "target": "Seawater",
+                "description": "The descending brine interacts with surrounding seawater to form ice."
+            }
+        ],
+        "associated_entities": [
+            "Sea Ice",
+            "Seawater"
+        ],
+        "symbolic_items": [
+            "Ice Stalactite",
+            "Brine Pool"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Polar Oceans",
+        "historical_period": "Known since the 1960s",
+        "geographic_range": "Polar regions with sea ice",
+        "cultural_significance": "Studied for its unique formation and impact on marine ecosystems",
+        "primary_sources": [
+            "Wikipedia",
+            "BBC Frozen Planet",
+            "Research by Seelye Martin"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT Regular Icicle",
+        "NOT Solid Ice Column",
+        "NOT Freshwater Ice Formation"
+    ]
+}

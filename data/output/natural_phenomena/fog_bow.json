@@ -1,0 +1,82 @@
+{
+    "name": "Fog Bow",
+    "domain": "natural_phenomena",
+    "entity_type": "optical phenomenon",
+    "alternative_names": [
+        "white rainbow",
+        "sea-dog",
+        "cloud bow",
+        "lunar fog bow"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "meteorological studies"
+    ],
+    "visual_attributes": {
+        "morphology": "arc-shaped optical phenomenon",
+        "distinctive_features": [
+            "appears in fog rather than rain",
+            "larger angular size than a rainbow",
+            "weak colors with red outer edge and bluish inner edge"
+        ],
+        "color_palette": [
+            "white",
+            "pale red",
+            "pale blue"
+        ],
+        "texture": "smooth and diffuse",
+        "size_and_scale": "outer radius slightly less than a rainbow",
+        "structural_arrangement": "arc with potential inner rings or supernumeraries",
+        "domain_specific_visual": {
+            "DROPLET_SIZE": "smaller than 0.05 millimeters",
+            "DIFFRACTION_EFFECT": "causes color fading"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "optical display in fog conditions",
+        "secondary_functions": [
+            "navigation aid for mariners",
+            "aesthetic phenomenon"
+        ],
+        "domain_specific_functional": {
+            "VIEWING_CONDITIONS": "seen with sun behind observer",
+            "NIGHT_APPEARANCE": "called lunar fog bow"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "SIMILAR_TO",
+                "target": "Rainbow",
+                "description": "Both are optical phenomena caused by light interacting with water droplets."
+            },
+            {
+                "type": "DIFFERENTIATED_FROM",
+                "target": "Glory",
+                "description": "Fog bow lacks the multiple pale-colored rings of a glory."
+            }
+        ],
+        "associated_entities": [
+            "Rainbow",
+            "Glory"
+        ],
+        "symbolic_items": [
+            "navigation tool for mariners"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "natural atmospheric conditions",
+        "historical_period": "observed throughout history",
+        "geographic_range": "global, wherever fog occurs",
+        "cultural_significance": "used by mariners for navigation",
+        "primary_sources": [
+            "Wikipedia",
+            "meteorological studies"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT Rainbow",
+        "NOT vivid colors",
+        "NOT rain-based phenomenon"
+    ]
+}

@@ -1,0 +1,96 @@
+{
+    "name": "Ice shove",
+    "domain": "natural_phenomena",
+    "entity_type": "ice surge",
+    "alternative_names": [
+        "fast ice",
+        "ice surge",
+        "ice push",
+        "ice heave",
+        "shoreline ice pileup",
+        "ice piling",
+        "ice thrust",
+        "ice tsunami",
+        "ice ride-up",
+        "ivu"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "Arctic climate studies",
+        "Oceanographic research papers"
+    ],
+    "visual_attributes": {
+        "morphology": "large, irregular piles of ice",
+        "distinctive_features": [
+            "towering ice formations up to 12 meters high",
+            "jagged and uneven ice blocks",
+            "piled ice sheets along shorelines"
+        ],
+        "color_palette": [
+            "white",
+            "light blue",
+            "gray"
+        ],
+        "texture": "rough and jagged",
+        "size_and_scale": "up to 12 meters (40 feet) high",
+        "structural_arrangement": "randomly stacked ice blocks forming a ridge or pile",
+        "domain_specific_visual": {
+            "ice_type": "landfast ice",
+            "formation_pattern": "pushed onto shore by wind and water currents"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "natural ice movement onto shorelines",
+        "secondary_functions": [
+            "creates travel and hunting pathways for Arctic peoples",
+            "provides breathing holes for ringed seals"
+        ],
+        "domain_specific_functional": {
+            "ecological_role": "affects sediment dynamics and coastal erosion",
+            "climate_interaction": "influenced by temperature fluctuations and wind patterns"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "AFFECTS",
+                "target": "Arctic communities",
+                "description": "Ice shoves can cause damage to infrastructure and ecosystems in Arctic regions."
+            },
+            {
+                "type": "UTILIZED_BY",
+                "target": "Iñupiat",
+                "description": "The Iñupiat use ice shoves for travel and hunting."
+            },
+            {
+                "type": "HABITAT_FOR",
+                "target": "Ringed seals",
+                "description": "Ringed seals use ice shoves for maintaining breathing holes."
+            }
+        ],
+        "associated_entities": [
+            "polar bears",
+            "Chukchi Sea",
+            "Beaufort Sea"
+        ],
+        "symbolic_items": [
+            "breathing holes",
+            "hunting pathways"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Arctic regions",
+        "historical_period": "ongoing phenomenon",
+        "geographic_range": "Arctic regions, Upper Midwest USA, central Canada",
+        "cultural_significance": "Important for Arctic indigenous peoples for travel and hunting",
+        "primary_sources": [
+            "Arctic climate studies",
+            "Oceanographic research papers"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT iceberg",
+        "NOT smooth ice sheet",
+        "NOT confined to polar regions only"
+    ]
+}

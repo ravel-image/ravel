@@ -1,0 +1,89 @@
+{
+    "name": "Frost Flowers",
+    "domain": "natural_phenomena",
+    "entity_type": "ice formation",
+    "alternative_names": [
+        "frost faces",
+        "ice castles",
+        "ice blossoms",
+        "crystallofolia",
+        "ice ribbons",
+        "rabbit frost",
+        "rabbit ice"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "scientific journals on ice formations"
+    ],
+    "visual_attributes": {
+        "morphology": "thin layers of ice extruded from plant stems",
+        "distinctive_features": [
+            "petal-like ice formations",
+            "delicate and intricate patterns",
+            "curling ice layers"
+        ],
+        "color_palette": [
+            "translucent white",
+            "frosty blue",
+            "clear"
+        ],
+        "texture": "delicate and fragile",
+        "size_and_scale": "varies, typically a few centimeters in length",
+        "structural_arrangement": "ice layers curl and form petal-like structures around plant stems",
+        "domain_specific_visual": {
+            "formation_condition": "occurs in freezing weather when ground is not frozen",
+            "visibility": "visible in early morning or shaded areas"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "natural ice formation",
+        "secondary_functions": [
+            "aesthetic beauty",
+            "indicator of specific weather conditions"
+        ],
+        "domain_specific_functional": {
+            "ecological_role": "occurs on specific plant species",
+            "weather_indicator": "indicates freezing conditions without frozen ground"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "FORMED_FROM",
+                "target": "long-stemmed plants",
+                "description": "Frost flowers form from the stems of specific plants."
+            },
+            {
+                "type": "VISIBLE_IN",
+                "target": "early morning",
+                "description": "Frost flowers are typically visible in the early morning."
+            }
+        ],
+        "associated_entities": [
+            "white crownbeard",
+            "yellow ironweed",
+            "dittany",
+            "Helianthemum canadense",
+            "Isodon henryi"
+        ],
+        "symbolic_items": [
+            "ice petals",
+            "natural beauty"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "natural occurrence in temperate regions",
+        "historical_period": "not applicable",
+        "geographic_range": "regions with suitable freezing conditions",
+        "cultural_significance": "represents the beauty and transience of nature",
+        "primary_sources": [
+            "Wikipedia",
+            "scientific journals on ice formations"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT snowflakes",
+        "NOT window frost",
+        "NOT permanent ice structures"
+    ]
+}

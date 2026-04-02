@@ -1,0 +1,83 @@
+{
+    "name": "Lenticular Cloud",
+    "domain": "natural_phenomena",
+    "entity_type": "cloud formation",
+    "alternative_names": [
+        "lenticularis",
+        "lens cloud",
+        "saucer cloud"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "meteorological studies",
+        "cloud atlases"
+    ],
+    "visual_attributes": {
+        "morphology": "lens-shaped, saucer-like",
+        "distinctive_features": [
+            "stationary appearance",
+            "smooth, lens-like edges",
+            "iridescent colors along edges"
+        ],
+        "color_palette": [
+            "white",
+            "gray",
+            "iridescent hues"
+        ],
+        "texture": "smooth",
+        "size_and_scale": "varies greatly, can span several kilometers",
+        "structural_arrangement": "aligned parallel to wind direction",
+        "domain_specific_visual": {
+            "ALTITUDE_VARIATION": "altocumulus, stratocumulus, cirrocumulus",
+            "FORMATION_CONTEXT": "leeward side of mountains"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "indicate atmospheric wave patterns",
+        "secondary_functions": [
+            "assist glider pilots in locating wave lift",
+            "serve as a visual indicator of turbulence"
+        ],
+        "domain_specific_functional": {
+            "GLIDER_NAVIGATION": "used by glider pilots to achieve high altitudes",
+            "WEATHER_INDICATION": "indicates stable, moist air over mountains"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "FORMED_BY",
+                "target": "mountain waves",
+                "description": "Formed by air flowing over mountains creating standing waves"
+            },
+            {
+                "type": "MISTAKEN_FOR",
+                "target": "UFOs",
+                "description": "Often mistaken for UFOs due to their saucer-like shape"
+            }
+        ],
+        "associated_entities": [
+            "mountains",
+            "troposphere"
+        ],
+        "symbolic_items": [
+            "flying saucer",
+            "lens"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "troposphere, leeward side of mountains",
+        "historical_period": "observed throughout meteorological history",
+        "geographic_range": "global, near mountainous regions",
+        "cultural_significance": "often associated with UFO sightings",
+        "primary_sources": [
+            "Wikipedia",
+            "meteorological studies"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT cumulus cloud",
+        "NOT flat terrain formation",
+        "NOT low altitude cloud"
+    ]
+}

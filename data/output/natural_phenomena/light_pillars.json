@@ -1,0 +1,81 @@
+{
+    "name": "Light Pillars",
+    "domain": "natural_phenomena",
+    "entity_type": "Atmospheric Optical Phenomenon",
+    "alternative_names": [
+        "Ice Pillar",
+        "Sun Pillar",
+        "Solar Pillar"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "Atmospheric Optics Databases"
+    ],
+    "visual_attributes": {
+        "morphology": "Vertical beam of light",
+        "distinctive_features": [
+            "Vertical extension above or below a light source",
+            "Reflection from tiny ice crystals",
+            "Optical illusion of a column"
+        ],
+        "color_palette": [
+            "White",
+            "Yellow",
+            "Orange"
+        ],
+        "texture": "Smooth and ethereal",
+        "size_and_scale": "Varies with the size and number of ice crystals",
+        "structural_arrangement": "Columnar arrangement due to aligned ice crystals",
+        "domain_specific_visual": {
+            "ICE_CRYSTAL_SHAPE": "Flat, hexagonal plates",
+            "LIGHT_SOURCE": "Sun, Moon, or artificial sources"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Optical illusion created by light reflection",
+        "secondary_functions": [
+            "Enhances visual beauty of the sky",
+            "Indicates atmospheric conditions"
+        ],
+        "domain_specific_functional": {
+            "HALO_FAMILY_MEMBER": "Yes",
+            "WEATHER_INDICATOR": "Presence of ice crystals in the atmosphere"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "CREATED_BY",
+                "target": "Ice Crystals",
+                "description": "Light pillars are formed by the reflection of light from ice crystals."
+            },
+            {
+                "type": "RELATED_TO",
+                "target": "Halos",
+                "description": "Light pillars are part of the halo family of optical phenomena."
+            }
+        ],
+        "associated_entities": [
+            "Cirrostratus Clouds",
+            "Cirrus Clouds"
+        ],
+        "symbolic_items": [
+            "Diamond Dust"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Atmospheric conditions involving ice crystals",
+        "historical_period": "Observed throughout history",
+        "geographic_range": "Polar and temperate regions",
+        "cultural_significance": "Often seen as a natural spectacle",
+        "primary_sources": [
+            "Wikipedia",
+            "Atmospheric Optics Databases"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT Aurora Borealis",
+        "NOT Physical light beam",
+        "NOT Exclusive to polar regions"
+    ]
+}

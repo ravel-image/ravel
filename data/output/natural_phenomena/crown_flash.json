@@ -1,0 +1,80 @@
+{
+    "name": "Crown Flash",
+    "domain": "natural_phenomena",
+    "entity_type": "meteorological phenomenon",
+    "alternative_names": [
+        "leaping sundog",
+        "jumping sundog"
+    ],
+    "primary_sources": [
+        "Monthly Weather Review 1885",
+        "Nature 1971",
+        "Guinness Book of Records",
+        "YouTube videos since 2009"
+    ],
+    "visual_attributes": {
+        "morphology": "tall streamer or pillar of light",
+        "distinctive_features": [
+            "brightening of a thunderhead crown",
+            "aurora-like streamers",
+            "rapidly shifting light patterns"
+        ],
+        "color_palette": [
+            "bright white",
+            "pale blue",
+            "iridescent"
+        ],
+        "texture": "smooth and luminous",
+        "size_and_scale": "appears as large as the thunderhead crown",
+        "structural_arrangement": "emanates vertically from the cloud crown",
+        "domain_specific_visual": {
+            "alignment": "ice crystals aligned by electric fields",
+            "movement": "dancing and mechanical realignment"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "reflection and refraction of sunlight",
+        "secondary_functions": [
+            "visual spectacle",
+            "indicator of atmospheric electrical activity"
+        ],
+        "domain_specific_functional": {
+            "electric_field_effect": "causes realignment of ice crystals",
+            "light_pattern_shift": "occurs with electrical charging or discharging"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "CAUSED_BY",
+                "target": "cumulonimbus cloud",
+                "description": "Occurs above the crown of a cumulonimbus cloud due to electrical fluctuations."
+            },
+            {
+                "type": "RELATED_TO",
+                "target": "sundog",
+                "description": "Similar to sundogs but with dynamic movement and alignment."
+            }
+        ],
+        "associated_entities": [
+            "cumulonimbus cloud",
+            "sundog"
+        ],
+        "symbolic_items": []
+    },
+    "contextual_attributes": {
+        "origin": "atmospheric phenomenon",
+        "historical_period": "first described in 1885",
+        "geographic_range": "observed globally where cumulonimbus clouds form",
+        "cultural_significance": "rare and visually striking meteorological event",
+        "primary_sources": [
+            "Monthly Weather Review 1885",
+            "Nature 1971"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT aurora",
+        "NOT static sundog",
+        "NOT self-generated light like lightning"
+    ]
+}

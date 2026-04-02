@@ -1,0 +1,86 @@
+{
+    "name": "Red Sprite",
+    "domain": "natural_phenomena",
+    "entity_type": "upper-atmospheric electrical discharge",
+    "alternative_names": [
+        "sprite",
+        "upper-atmospheric lightning"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "NASA APOD",
+        "University of Minnesota research"
+    ],
+    "visual_attributes": {
+        "morphology": "large-scale electric discharge with varied visual shapes",
+        "distinctive_features": [
+            "luminous red-orange flashes",
+            "bluish hanging tendrils",
+            "clusters of small, decameter scale balls of ionization"
+        ],
+        "color_palette": [
+            "red",
+            "orange",
+            "blue"
+        ],
+        "texture": "glowing, ethereal",
+        "size_and_scale": "spans 50 to 90 km in altitude, horizontally displaced up to 50 km",
+        "structural_arrangement": "clusters of ionization balls moving downward and upward",
+        "domain_specific_visual": {
+            "ALTITUDE_RANGE": "50–90 km",
+            "TRIGGER": "positive lightning discharges"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "electrical discharge in the upper atmosphere",
+        "secondary_functions": [
+            "visual phenomenon",
+            "indicator of thunderstorm activity"
+        ],
+        "domain_specific_functional": {
+            "ELECTRICAL_FIELD_RESPONSE": "occurs in response to electric fields from lightning",
+            "NITROGEN_EXCITATION": "red color from nitrogen excitation"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ASSOCIATED_WITH",
+                "target": "positive lightning",
+                "description": "Sprites are triggered by positive lightning discharges."
+            },
+            {
+                "type": "RELATED_TO",
+                "target": "blue jets",
+                "description": "Sprites are related to other upper-atmospheric phenomena like blue jets."
+            },
+            {
+                "type": "RELATED_TO",
+                "target": "ELVES",
+                "description": "Sprites are sometimes mistaken for ELVES due to visual similarity."
+            }
+        ],
+        "associated_entities": [
+            "blue jets",
+            "ELVES"
+        ],
+        "symbolic_items": [
+            "air spirits"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "upper atmosphere, mesosphere",
+        "historical_period": "first documented in 1989",
+        "geographic_range": "observed globally over large thunderstorm systems",
+        "cultural_significance": "named after mythological air spirits due to elusive nature",
+        "primary_sources": [
+            "Wikipedia",
+            "NASA APOD"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT regular lightning",
+        "NOT hot channel temperatures",
+        "NOT terrestrial or lower-atmospheric phenomenon"
+    ]
+}

@@ -1,0 +1,86 @@
+{
+    "name": "Waterspout",
+    "domain": "natural_phenomena",
+    "entity_type": "atmospheric phenomenon",
+    "alternative_names": [
+        "tornado over water",
+        "fair-weather waterspout",
+        "tornadic waterspout",
+        "snowspout",
+        "ice devil"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "National Weather Service",
+        "meteorological studies"
+    ],
+    "visual_attributes": {
+        "morphology": "funnel-shaped cloud",
+        "distinctive_features": [
+            "rotating column of air",
+            "visible condensation funnel",
+            "spray ring at the base"
+        ],
+        "color_palette": [
+            "gray",
+            "white",
+            "dark blue"
+        ],
+        "texture": "smooth and misty",
+        "size_and_scale": "up to several hundred feet in height",
+        "structural_arrangement": "vertical column connecting water surface to cloud",
+        "domain_specific_visual": {
+            "cloud_type": "cumuliform",
+            "water_interaction": "contact with water surface"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "atmospheric vortex",
+        "secondary_functions": [
+            "marine hazard",
+            "weather phenomenon"
+        ],
+        "domain_specific_functional": {
+            "weather_warning": "triggers marine warnings",
+            "formation_process": "develops from cumulus or supercell clouds"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ASSOCIATED_WITH",
+                "target": "cumuliform cloud",
+                "description": "Waterspouts form under cumuliform clouds."
+            },
+            {
+                "type": "OCCURS_OVER",
+                "target": "bodies of water",
+                "description": "Waterspouts occur over oceans, seas, lakes, and rivers."
+            }
+        ],
+        "associated_entities": [
+            "tornado",
+            "landspout",
+            "snow devil"
+        ],
+        "symbolic_items": [
+            "marine warnings",
+            "weather reports"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "global, with higher frequency in tropical and subtropical regions",
+        "historical_period": "observed since ancient times",
+        "geographic_range": "tropical and temperate regions worldwide",
+        "cultural_significance": "recognized as a natural hazard",
+        "primary_sources": [
+            "historical records",
+            "meteorological data"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT tornado on land",
+        "NOT static cloud formation",
+        "NOT desert dust devil"
+    ]
+}

@@ -1,0 +1,81 @@
+{
+    "name": "Sunglint",
+    "domain": "natural_phenomena",
+    "entity_type": "Optical Phenomenon",
+    "alternative_names": [
+        "Sun Glare",
+        "Ocean Mirror Effect"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "NASA Earth Observatory"
+    ],
+    "visual_attributes": {
+        "morphology": "Reflective surface pattern on ocean water",
+        "distinctive_features": [
+            "Silvery mirror-like appearance on smooth water",
+            "Dark patches on rough water",
+            "Wave patterns indicating atmospheric gravity waves"
+        ],
+        "color_palette": [
+            "Silver",
+            "Dark Blue",
+            "White"
+        ],
+        "texture": "Smooth and reflective on calm water, rough on disturbed water",
+        "size_and_scale": "Varies depending on the area of ocean surface and angle of sunlight",
+        "structural_arrangement": "Alternating bright and dark regions corresponding to wave crests and troughs",
+        "domain_specific_visual": {
+            "OCEAN_SURFACE": "Reflective and smooth in sunglint areas",
+            "ATMOSPHERIC_WAVES": "Visible as patterns in sunglint regions"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Reflects sunlight back to sensors, revealing ocean and atmospheric features",
+        "secondary_functions": [
+            "Highlights atmospheric gravity waves",
+            "Enhances visibility of ocean surface patterns"
+        ],
+        "domain_specific_functional": {
+            "SATELLITE_IMAGING": "Enhances detection of oceanic and atmospheric phenomena",
+            "WEATHER_ANALYSIS": "Provides data on atmospheric conditions"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "OBSERVED_BY",
+                "target": "Satellites",
+                "description": "Sunglint is captured by satellites when sunlight reflects off the ocean surface."
+            },
+            {
+                "type": "CAUSED_BY",
+                "target": "Sunlight",
+                "description": "Sunglint occurs due to sunlight reflecting at specific angles."
+            }
+        ],
+        "associated_entities": [
+            "Atmospheric Gravity Waves",
+            "Ocean Surface"
+        ],
+        "symbolic_items": [
+            "Mirror",
+            "Wave Patterns"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Occurs naturally on ocean surfaces worldwide",
+        "historical_period": "Observed since the advent of satellite imaging",
+        "geographic_range": "Global, wherever sunlight and ocean surfaces interact",
+        "cultural_significance": "Used in scientific studies of ocean and atmospheric conditions",
+        "primary_sources": [
+            "Wikipedia",
+            "NASA Earth Observatory"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a simple ocean wave",
+        "NOT a static reflection without atmospheric influence",
+        "NOT limited to a specific geographic location"
+    ]
+}

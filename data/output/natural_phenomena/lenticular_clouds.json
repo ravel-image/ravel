@@ -1,0 +1,83 @@
+{
+    "name": "Lenticular Clouds",
+    "domain": "natural_phenomena",
+    "entity_type": "cloud formation",
+    "alternative_names": [
+        "lenticularis",
+        "lens clouds",
+        "saucer clouds"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "Meteorological studies",
+        "Aviation reports"
+    ],
+    "visual_attributes": {
+        "morphology": "lens-shaped, saucer-like",
+        "distinctive_features": [
+            "stationary appearance",
+            "smooth, lens-like shape",
+            "iridescent edges"
+        ],
+        "color_palette": [
+            "white",
+            "gray",
+            "iridescent colors"
+        ],
+        "texture": "smooth",
+        "size_and_scale": "varies greatly, can span several kilometers",
+        "structural_arrangement": "parallel alignment to wind direction",
+        "domain_specific_visual": {
+            "altitude_variation": "altocumulus, stratocumulus, cirrocumulus",
+            "wave_cloud_formation": "long strings near wave crests"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "indicate atmospheric wave patterns",
+        "secondary_functions": [
+            "assist glider pilots in locating rising air masses",
+            "serve as visual indicators of turbulence"
+        ],
+        "domain_specific_functional": {
+            "aviation_impact": "avoided by powered aircraft due to turbulence",
+            "gliding_benefit": "used by gliders for wave lift"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "FORMED_BY",
+                "target": "mountain waves",
+                "description": "Formed by air flowing over mountains creating standing waves"
+            },
+            {
+                "type": "ASSOCIATED_WITH",
+                "target": "nacreous clouds",
+                "description": "Sometimes have similar lenticular shapes"
+            }
+        ],
+        "associated_entities": [
+            "mountains",
+            "gliders"
+        ],
+        "symbolic_items": [
+            "UFOs",
+            "flying saucers"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "troposphere",
+        "historical_period": "observed throughout meteorological history",
+        "geographic_range": "typically over mountainous regions",
+        "cultural_significance": "often mistaken for UFOs due to their shape",
+        "primary_sources": [
+            "Wikipedia",
+            "Meteorological studies"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT cumulus clouds",
+        "NOT flat terrain formations",
+        "NOT low-altitude clouds"
+    ]
+}

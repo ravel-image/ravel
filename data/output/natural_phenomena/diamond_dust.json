@@ -1,0 +1,84 @@
+{
+    "name": "Diamond Dust",
+    "domain": "natural_phenomena",
+    "entity_type": "meteorological phenomenon",
+    "alternative_names": [
+        "ice crystals",
+        "ice mist",
+        "clear-sky precipitation"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "Schwerdtfeger (1970)",
+        "Radok and Lile (1977)"
+    ],
+    "visual_attributes": {
+        "morphology": "ground-level cloud composed of tiny ice crystals",
+        "distinctive_features": [
+            "glittering effect resembling tiny diamonds",
+            "hexagonal plates or columns",
+            "thin and transparent appearance"
+        ],
+        "color_palette": [
+            "white",
+            "transparent",
+            "sparkling"
+        ],
+        "texture": "crystalline",
+        "size_and_scale": "crystals are tiny, layer depth varies from 20 to 300 meters",
+        "structural_arrangement": "randomly tumbling through the air",
+        "domain_specific_visual": {
+            "OPTICAL_EFFECTS": "associated with halos, sun dogs, and light pillars",
+            "FORMATION_CONDITIONS": "forms under clear or nearly clear skies"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "reflects and refracts light, creating optical phenomena",
+        "secondary_functions": [
+            "indicates very cold temperatures",
+            "contributes to precipitation in polar regions"
+        ],
+        "domain_specific_functional": {
+            "WEATHER_INDICATOR": "indicates temperature inversion and high relative humidity",
+            "VISIBILITY_EFFECT": "may reduce visibility to under 600 meters"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ASSOCIATED_WITH",
+                "target": "Antarctica",
+                "description": "Most frequently observed in the interior of Antarctica"
+            },
+            {
+                "type": "ASSOCIATED_WITH",
+                "target": "Arctic",
+                "description": "Commonly observed in the Arctic regions"
+            }
+        ],
+        "associated_entities": [
+            "fog",
+            "ice fog",
+            "cirrus clouds"
+        ],
+        "symbolic_items": [
+            "METAR code IC"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "polar regions",
+        "historical_period": "observed throughout history in cold climates",
+        "geographic_range": "Antarctica, Arctic, and any cold region",
+        "cultural_significance": "symbolizes extreme cold and pristine natural beauty",
+        "primary_sources": [
+            "Wikipedia",
+            "Schwerdtfeger (1970)",
+            "Radok and Lile (1977)"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT fog",
+        "NOT liquid water droplets",
+        "NOT warm weather phenomenon"
+    ]
+}

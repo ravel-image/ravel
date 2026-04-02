@@ -1,0 +1,82 @@
+{
+    "name": "Fata Morgana",
+    "domain": "natural_phenomena",
+    "entity_type": "complex mirage",
+    "alternative_names": [
+        "Morgan the Fairy",
+        "Morgan le Fay mirage"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "Physiologia Epicuro-Gassendo-Charltoniana by Walter Charleton",
+        "Diodorus Siculus",
+        "Athanasius Kircher's book of travels"
+    ],
+    "visual_attributes": {
+        "morphology": "complex superior mirage with multiple stacked images",
+        "distinctive_features": [
+            "inverted and upright images stacked",
+            "alternating compressed and stretched zones",
+            "rapidly changing appearance"
+        ],
+        "color_palette": [
+            "varies with atmospheric conditions",
+            "often ghostly or ethereal"
+        ],
+        "texture": "smooth and fluid due to atmospheric distortion",
+        "size_and_scale": "varies greatly depending on the distance and size of the object being mirrored",
+        "structural_arrangement": "images are layered vertically with both inverted and erect forms",
+        "domain_specific_visual": {
+            "ATMOSPHERIC_CONDITIONS": "requires a steep thermal inversion and atmospheric duct",
+            "VIEWING_ANGLE": "visible from any altitude within Earth's atmosphere"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "optical illusion caused by atmospheric conditions",
+        "secondary_functions": [
+            "creates ghostly or fantastical appearances",
+            "distorts recognizable objects"
+        ],
+        "domain_specific_functional": {
+            "NAVIGATIONAL_IMPACT": "can mislead sailors and explorers",
+            "CULTURAL_IMPACT": "inspired legends and folklore"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ASSOCIATED_WITH",
+                "target": "Morgan le Fay",
+                "description": "Named after the sorceress from Arthurian legend"
+            },
+            {
+                "type": "OBSERVED_IN",
+                "target": "Strait of Messina",
+                "description": "Frequently seen in this location"
+            }
+        ],
+        "associated_entities": [
+            "Flying Dutchman",
+            "Phantom islands"
+        ],
+        "symbolic_items": [
+            "ghost ships",
+            "fairy castles"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Italian folklore, associated with Morgan le Fay",
+        "historical_period": "documented since ancient times",
+        "geographic_range": "polar regions, deserts, seas, and lakes worldwide",
+        "cultural_significance": "linked to myths and legends, such as the Flying Dutchman",
+        "primary_sources": [
+            "Wikipedia",
+            "Physiologia Epicuro-Gassendo-Charltoniana by Walter Charleton"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a simple mirage",
+        "NOT a static image",
+        "NOT limited to a specific geographic location"
+    ]
+}

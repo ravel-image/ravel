@@ -1,0 +1,85 @@
+{
+    "name": "Sun dog",
+    "domain": "natural_phenomena",
+    "entity_type": "atmospheric_optical_phenomenon",
+    "alternative_names": [
+        "sundog",
+        "mock sun",
+        "parhelion"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "Oxford English Dictionary",
+        "Meteorology III.2 by Aristotle",
+        "Phaenomena by Aratus",
+        "Historia Naturalis by Pliny the Elder"
+    ],
+    "visual_attributes": {
+        "morphology": "bright spots flanking the Sun",
+        "distinctive_features": [
+            "subtly colored patches of light",
+            "located at 22° to the left and right of the Sun",
+            "appear at the same altitude as the Sun"
+        ],
+        "color_palette": [
+            "red",
+            "orange",
+            "blue"
+        ],
+        "texture": "smooth and diffuse",
+        "size_and_scale": "angular distance of 22° from the Sun",
+        "structural_arrangement": "parallel to the horizon, flanking the Sun",
+        "domain_specific_visual": {
+            "halo_family": "22° halo",
+            "ice_crystal_type": "plate-shaped hexagonal ice crystals"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "optical phenomenon caused by refraction of sunlight",
+        "secondary_functions": [
+            "weather indicator",
+            "cultural symbol"
+        ],
+        "domain_specific_functional": {
+            "co_occurrence": "often seen with circumzenithal arc and 22° halo",
+            "planetary_variation": "can occur on other planets with different ice crystals"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "CAUSED_BY",
+                "target": "ice_crystals",
+                "description": "Sun dogs are caused by the refraction of sunlight through ice crystals."
+            },
+            {
+                "type": "ASSOCIATED_WITH",
+                "target": "22_degree_halo",
+                "description": "Sun dogs often appear within a 22° halo."
+            }
+        ],
+        "associated_entities": [
+            "circumzenithal arc",
+            "22° halo"
+        ],
+        "symbolic_items": [
+            "weather dogs",
+            "lagas awel"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "global phenomenon",
+        "historical_period": "documented since antiquity",
+        "geographic_range": "visible worldwide",
+        "cultural_significance": "interpreted as weather omens and symbols in various cultures",
+        "primary_sources": [
+            "Meteorology III.2 by Aristotle",
+            "Historia Naturalis by Pliny the Elder"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT rainbow",
+        "NOT aurora",
+        "NOT purely saturated colors"
+    ]
+}

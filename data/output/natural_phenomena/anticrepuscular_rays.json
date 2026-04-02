@@ -1,0 +1,71 @@
+{
+    "name": "Anticrepuscular Rays",
+    "domain": "natural_phenomena",
+    "entity_type": "meteorological optical phenomenon",
+    "alternative_names": [
+        "antisolar rays"
+    ],
+    "primary_sources": [
+        "Wikipedia"
+    ],
+    "visual_attributes": {
+        "morphology": "parallel rays of light",
+        "distinctive_features": [
+            "appear to converge toward the antisolar point",
+            "visible around dawn or dusk",
+            "can be continuous with crepuscular rays"
+        ],
+        "color_palette": [
+            "soft white",
+            "pale yellow",
+            "light pink"
+        ],
+        "texture": "smooth and diffuse",
+        "size_and_scale": "spanning across the sky",
+        "structural_arrangement": "rays appear to converge at a vanishing point opposite the Sun",
+        "domain_specific_visual": {
+            "perspective_illusion": "convergence due to linear perspective",
+            "enclosure": "sometimes enclosed by a rainbow"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "optical illusion due to atmospheric light scattering",
+        "secondary_functions": [
+            "visual phenomenon at dawn or dusk",
+            "creates a visual connection with crepuscular rays"
+        ],
+        "domain_specific_functional": {
+            "light_scattering": "backscattering at low angles to the horizon"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "RELATED_TO",
+                "target": "Crepuscular Rays",
+                "description": "Anticrepuscular rays are similar to crepuscular rays but appear opposite the Sun."
+            }
+        ],
+        "associated_entities": [
+            "Crepuscular Rays",
+            "Rainbow"
+        ],
+        "symbolic_items": [
+            "Wagon-wheel spokes"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "atmospheric optical phenomenon",
+        "historical_period": "not applicable",
+        "geographic_range": "visible worldwide under appropriate conditions",
+        "cultural_significance": "aesthetic and scientific interest in atmospheric optics",
+        "primary_sources": [
+            "Wikipedia"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT Crepuscular Rays",
+        "NOT bright or intense light",
+        "NOT associated with a specific cultural or mythological narrative"
+    ]
+}

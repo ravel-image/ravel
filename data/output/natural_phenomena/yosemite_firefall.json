@@ -1,0 +1,80 @@
+{
+    "name": "Yosemite Firefall",
+    "domain": "natural_phenomena",
+    "entity_type": "man-made natural spectacle",
+    "alternative_names": [
+        "Glacier Point Firefall"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "National Park Service archives"
+    ],
+    "visual_attributes": {
+        "morphology": "A cascade of glowing embers falling from a cliff",
+        "distinctive_features": [
+            "Glowing embers resembling a waterfall of fire",
+            "Originates from a high cliff, Glacier Point",
+            "Performed at night for visual effect"
+        ],
+        "color_palette": [
+            "fiery orange",
+            "red",
+            "yellow"
+        ],
+        "texture": "fiery and glowing",
+        "size_and_scale": "3,000 feet (900 m) drop from Glacier Point",
+        "structural_arrangement": "Embers pushed off the edge of a cliff in a controlled manner",
+        "domain_specific_visual": {
+            "lighting": "Occurs at night for maximum visual impact",
+            "setting": "Backdrop of Yosemite Valley"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Entertainment spectacle",
+        "secondary_functions": [
+            "Tourist attraction",
+            "Cultural event"
+        ],
+        "domain_specific_functional": {
+            "historical_significance": "Part of Yosemite's cultural history",
+            "ecological_impact": "Discontinued to preserve natural environment"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "PERFORMED_AT",
+                "target": "Glacier Point",
+                "description": "The location from which the embers were pushed"
+            },
+            {
+                "type": "REPLACED_BY",
+                "target": "Horsetail Fall",
+                "description": "Natural phenomenon that resembles the Firefall"
+            }
+        ],
+        "associated_entities": [
+            "Camp Curry",
+            "Glacier Point Hotel"
+        ],
+        "symbolic_items": [
+            "red fir bark",
+            "long-handled metal pushers"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Yosemite National Park, California, USA",
+        "historical_period": "1871 to January 1968",
+        "geographic_range": "Yosemite Valley",
+        "cultural_significance": "Symbol of Yosemite's early tourism and entertainment",
+        "primary_sources": [
+            "Wikipedia",
+            "National Park Service archives"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a natural waterfall",
+        "NOT a daytime event",
+        "NOT a permanent or naturally occurring phenomenon"
+    ]
+}

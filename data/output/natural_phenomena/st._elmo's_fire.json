@@ -1,0 +1,87 @@
+{
+    "name": "St. Elmo's Fire",
+    "domain": "natural_phenomena",
+    "entity_type": "weather phenomenon",
+    "alternative_names": [
+        "corposant",
+        "Hermes fire",
+        "furole",
+        "witchfire",
+        "witch's fire"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "De Bello Africo",
+        "Naturalis Historia",
+        "The Lusiads",
+        "Anatomy of Melancholy"
+    ],
+    "visual_attributes": {
+        "morphology": "luminous plasma discharge",
+        "distinctive_features": [
+            "blue or violet glow",
+            "hissing or buzzing sound",
+            "occurs on pointed objects"
+        ],
+        "color_palette": [
+            "blue",
+            "violet"
+        ],
+        "texture": "glowing, smooth",
+        "size_and_scale": "localized around pointed objects like masts or spires",
+        "structural_arrangement": "emanates from sharp points or edges",
+        "domain_specific_visual": {
+            "electric_field_intensity": "proportional to glow intensity",
+            "occurrence_conditions": "visible in low-light conditions during thunderstorms"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "visual indicator of atmospheric electric field",
+        "secondary_functions": [
+            "omen for sailors",
+            "potential lighting source"
+        ],
+        "domain_specific_functional": {
+            "electric_discharge": "ionizes air molecules",
+            "historical_omen": "considered a good omen by sailors"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ASSOCIATED_WITH",
+                "target": "St. Erasmus of Formia",
+                "description": "Named after the patron saint of sailors"
+            },
+            {
+                "type": "OCCURS_DURING",
+                "target": "thunderstorms",
+                "description": "Occurs when high-voltage differentials are present"
+            }
+        ],
+        "associated_entities": [
+            "thunderstorms",
+            "volcanic eruptions"
+        ],
+        "symbolic_items": [
+            "torch",
+            "candles of the Holy Ghost"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Mediterranean maritime culture",
+        "historical_period": "documented since ancient Greece",
+        "geographic_range": "global, especially in maritime regions",
+        "cultural_significance": "seen as a divine or favorable omen by sailors",
+        "primary_sources": [
+            "De Bello Africo",
+            "Naturalis Historia",
+            "The Lusiads"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT ball lightning",
+        "NOT continuous lightning bolt",
+        "NOT purely mythological entity"
+    ]
+}

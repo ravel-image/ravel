@@ -1,0 +1,83 @@
+{
+    "name": "Polar Stratospheric Cloud",
+    "domain": "natural_phenomena",
+    "entity_type": "Atmospheric Cloud",
+    "alternative_names": [
+        "PSC",
+        "Nacreous Cloud"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "Nacreous Clouds at atoptics.co.uk",
+        "Polar Stratospheric Clouds Above Spitsbergen at Alfred Wegener Institute"
+    ],
+    "visual_attributes": {
+        "morphology": "Stratiform or cirriform cloud formations",
+        "distinctive_features": [
+            "Iridescence due to diffraction of sunlight",
+            "Pearly-white appearance from forward scattering",
+            "High-altitude formation"
+        ],
+        "color_palette": [
+            "Pearly white",
+            "Iridescent colors",
+            "Pastel hues"
+        ],
+        "texture": "Smooth and thin",
+        "size_and_scale": "Extends over large areas at altitudes of 15,000 to 25,000 meters",
+        "structural_arrangement": "Layered or lens-shaped formations",
+        "domain_specific_visual": {
+            "ALTITUDE_RANGE": "15,000 to 25,000 meters",
+            "TEMPERATURE_CONDITIONS": "Below −78 °C"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Reflect sunlight and contribute to ozone depletion",
+        "secondary_functions": [
+            "Create visual phenomena like iridescence",
+            "Indicate extreme cold conditions"
+        ],
+        "domain_specific_functional": {
+            "OZONE_DEPLETION_ROLE": "Supports chemical reactions that produce active chlorine",
+            "LIGHT_SCATTERING": "Reflects sunlight from below the horizon"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "CONTRIBUTES_TO",
+                "target": "Ozone Hole",
+                "description": "Type I PSCs support chemical reactions that lead to ozone depletion"
+            },
+            {
+                "type": "OBSERVED_IN",
+                "target": "Polar Regions",
+                "description": "Commonly observed in polar stratosphere during winter"
+            }
+        ],
+        "associated_entities": [
+            "Ozone Layer",
+            "Stratosphere"
+        ],
+        "symbolic_items": [
+            "Polar Twilight",
+            "Iridescence"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Polar stratosphere",
+        "historical_period": "Modern scientific observation",
+        "geographic_range": "Polar regions, especially Antarctica",
+        "cultural_significance": "Represents extreme atmospheric conditions and environmental change",
+        "primary_sources": [
+            "Wikipedia",
+            "Nacreous Clouds at atoptics.co.uk",
+            "Polar Stratospheric Clouds Above Spitsbergen at Alfred Wegener Institute"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT Common Tropospheric Cloud",
+        "NOT Low Altitude Formation",
+        "NOT Non-Iridescent Appearance"
+    ]
+}

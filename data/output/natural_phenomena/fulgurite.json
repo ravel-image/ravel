@@ -1,0 +1,82 @@
+{
+    "name": "Fulgurite",
+    "domain": "natural_phenomena",
+    "entity_type": "Mineraloid formed by lightning",
+    "alternative_names": [
+        "Fossilized lightning",
+        "Lechatelierite (when silica-based)"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "The Voyage of the Beagle by Charles Darwin",
+        "Yale University Peabody Museum of Natural History"
+    ],
+    "visual_attributes": {
+        "morphology": "Tubular, branching, or clumped masses",
+        "distinctive_features": [
+            "Hollow or vesicular glassy tubes",
+            "Branching assemblages with fractal-like patterns",
+            "Smooth interior with rough or porous exterior"
+        ],
+        "color_palette": [
+            "White",
+            "Black",
+            "Brownish-green"
+        ],
+        "texture": "Glassy, smooth interior with rough or porous exterior",
+        "size_and_scale": "Can exceed 20 cm in diameter and penetrate up to 15 m deep",
+        "structural_arrangement": "Branching network with central axial voids",
+        "domain_specific_visual": {
+            "LIGHTNING_INDUCED": "Formed by high-voltage lightning strikes",
+            "SILICA_RICH": "Often composed of silica, forming lechatelierite"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Indicator of past lightning strikes",
+        "secondary_functions": [
+            "Study of paleolightning",
+            "Formation of high-pressure, high-temperature minerals"
+        ],
+        "domain_specific_functional": {
+            "CLIMATE_INDICATOR": "Used to estimate historical lightning frequency",
+            "EXTREME_ENVIRONMENT_MINERALS": "Contains minerals formed in extreme conditions"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "FORMED_BY",
+                "target": "Lightning",
+                "description": "Fulgurites are formed when lightning strikes the ground"
+            },
+            {
+                "type": "CONTAINS",
+                "target": "Lechatelierite",
+                "description": "Silica-based fulgurites contain lechatelierite"
+            }
+        ],
+        "associated_entities": [
+            "Lichtenberg figures",
+            "Shocked quartz"
+        ],
+        "symbolic_items": [
+            "Lightning rod",
+            "Glass"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Formed globally wherever lightning strikes suitable substrates",
+        "historical_period": "Observed since ancient times, noted by Avicenna and Al-Biruni",
+        "geographic_range": "Found worldwide, notable examples in Florida and Michigan",
+        "cultural_significance": "Misinterpreted historically, now understood as natural phenomena",
+        "primary_sources": [
+            "Wikipedia",
+            "The Voyage of the Beagle by Charles Darwin"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT Glass sculpture",
+        "NOT Man-made glass",
+        "NOT Volcanic glass"
+    ]
+}

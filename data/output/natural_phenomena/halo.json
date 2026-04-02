@@ -1,0 +1,86 @@
+{
+    "name": "Halo",
+    "domain": "natural_phenomena",
+    "entity_type": "optical phenomenon",
+    "alternative_names": [
+        "cock's eye",
+        "Indrasabha"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "Official History of the Chin Dynasty",
+        "Vädersolstavlan",
+        "Brewster's studies",
+        "A. Cornu's studies"
+    ],
+    "visual_attributes": {
+        "morphology": "circular or arc-shaped optical display",
+        "distinctive_features": [
+            "22° halo with a large ring around the Sun or Moon",
+            "light pillars appearing as vertical columns",
+            "sun dogs appearing as bright spots on either side of the Sun"
+        ],
+        "color_palette": [
+            "white",
+            "rainbow-like colors",
+            "dark sky inside the ring"
+        ],
+        "texture": "smooth and ethereal",
+        "size_and_scale": "radius of about 22° for the 22° halo",
+        "structural_arrangement": "rings, arcs, and spots in the sky",
+        "domain_specific_visual": {
+            "ICE_CRYSTAL_INTERACTION": "light interacting with ice crystals",
+            "CIRRUS_CLOUDS": "typically seen in cirrus or cirrostratus clouds"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "optical display caused by light refraction and reflection",
+        "secondary_functions": [
+            "weather prediction",
+            "cultural symbolism"
+        ],
+        "domain_specific_functional": {
+            "WEATHER_INDICATOR": "indicates approaching frontal systems and potential rain",
+            "CULTURAL_OMEN": "considered an omen of bad weather in some cultures"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "CAUSED_BY",
+                "target": "ice crystals",
+                "description": "Halos are caused by the interaction of light with ice crystals."
+            },
+            {
+                "type": "ASSOCIATED_WITH",
+                "target": "cirrus clouds",
+                "description": "Halos are often seen in cirrus or cirrostratus clouds."
+            }
+        ],
+        "associated_entities": [
+            "Sun",
+            "Moon",
+            "cirrus clouds"
+        ],
+        "symbolic_items": [
+            "Vädersolstavlan",
+            "Chin Dynasty records"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Ancient Greek, Chinese, and European observations",
+        "historical_period": "documented since antiquity",
+        "geographic_range": "global, wherever ice crystals are present in the atmosphere",
+        "cultural_significance": "used in weather lore and as omens in various cultures",
+        "primary_sources": [
+            "Wikipedia",
+            "Official History of the Chin Dynasty",
+            "Vädersolstavlan"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT rainbow",
+        "NOT water droplet-based phenomena",
+        "NOT purely decorative or artistic representation"
+    ]
+}

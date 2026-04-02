@@ -1,0 +1,92 @@
+{
+    "name": "Will-o'-the-Wisp",
+    "domain": "natural_phenomena",
+    "entity_type": "atmospheric ghost light",
+    "alternative_names": [
+        "ignis fatuus",
+        "jack-o'-lantern",
+        "friar's lantern",
+        "hinkypunk",
+        "feu follet",
+        "Irrlicht",
+        "dwaallicht",
+        "fuoco fatuo",
+        "Pauline Light",
+        "Spooklight",
+        "St. Louis Light",
+        "Abu Fanous"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "A Dictionary of Fairies by K. M. Briggs"
+    ],
+    "visual_attributes": {
+        "morphology": "flickering, floating light",
+        "distinctive_features": [
+            "appears as a small, flickering flame",
+            "often seen hovering over marshy or boggy areas",
+            "can appear to dance or move erratically"
+        ],
+        "color_palette": [
+            "pale blue",
+            "yellow",
+            "white"
+        ],
+        "texture": "glowing, ethereal",
+        "size_and_scale": "small, typically a few inches in diameter",
+        "structural_arrangement": "appears as a singular or multiple points of light",
+        "domain_specific_visual": {
+            "light_intensity": "dim to moderate",
+            "movement_pattern": "erratic, floating"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "mislead or guide travelers",
+        "secondary_functions": [
+            "symbolize spirits or supernatural entities",
+            "indicate hidden treasures or dangers"
+        ],
+        "domain_specific_functional": {
+            "cultural_role": "often seen as a mischievous or malevolent spirit",
+            "narrative_function": "used in folklore to explain mysterious lights in nature"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "EQUIVALENT_TO",
+                "target": "Boi-tatá",
+                "description": "Brazilian equivalent of the will-o'-the-wisp"
+            },
+            {
+                "type": "EQUIVALENT_TO",
+                "target": "Aleya",
+                "description": "Bengali equivalent of the will-o'-the-wisp"
+            }
+        ],
+        "associated_entities": [
+            "ghosts",
+            "fairies",
+            "elemental spirits"
+        ],
+        "symbolic_items": [
+            "lantern",
+            "torch"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "European folklore",
+        "historical_period": "documented since the 16th century",
+        "geographic_range": "global, with variations in Europe, Asia, and the Americas",
+        "cultural_significance": "represents the unknown and the supernatural, often used to explain mysterious natural phenomena",
+        "primary_sources": [
+            "Wikipedia",
+            "A Dictionary of Fairies by K. M. Briggs"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a common lantern",
+        "NOT a stationary light source",
+        "NOT a modern artificial light"
+    ]
+}

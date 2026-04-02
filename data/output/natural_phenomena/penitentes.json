@@ -1,0 +1,74 @@
+{
+    "name": "Penitentes",
+    "domain": "natural_phenomena",
+    "entity_type": "snow formation",
+    "alternative_names": [
+        "nieves penitentes"
+    ],
+    "primary_sources": [
+        "scientific journals on glaciology",
+        "geographical surveys"
+    ],
+    "visual_attributes": {
+        "morphology": "tall, thin blades of hardened snow or ice",
+        "distinctive_features": [
+            "vertical, blade-like structures",
+            "tapered tips pointing towards the sun",
+            "arranged in clusters"
+        ],
+        "color_palette": [
+            "white",
+            "light blue",
+            "gray"
+        ],
+        "texture": "crystalline and rough",
+        "size_and_scale": "typically 1 to 6 meters tall",
+        "structural_arrangement": "aligned in rows, often facing the same direction",
+        "domain_specific_visual": {
+            "formation_process": "formed by sublimation under intense sunlight",
+            "environment": "high-altitude regions with dry air"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "natural snow and ice formation",
+        "secondary_functions": [
+            "indicator of climatic conditions",
+            "influence on local albedo"
+        ],
+        "domain_specific_functional": {
+            "ecological_role": "affects snowmelt patterns",
+            "climatic_indicator": "presence indicates specific atmospheric conditions"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "FORMED_BY",
+                "target": "sublimation",
+                "description": "Penitentes are formed through the sublimation of snow under specific conditions."
+            }
+        ],
+        "associated_entities": [
+            "glaciers",
+            "andes mountains"
+        ],
+        "symbolic_items": [
+            "sunlight",
+            "high altitude"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Andes Mountains",
+        "historical_period": "observed since the 19th century",
+        "geographic_range": "high-altitude regions in the Andes and Himalayas",
+        "cultural_significance": "named for their resemblance to processions of penitent monks",
+        "primary_sources": [
+            "scientific studies on high-altitude snow formations"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT snow dunes",
+        "NOT smooth snow surfaces",
+        "NOT low-altitude snow formations"
+    ]
+}

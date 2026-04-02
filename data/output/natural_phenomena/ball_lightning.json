@@ -1,0 +1,82 @@
+{
+    "name": "Ball Lightning",
+    "domain": "natural_phenomena",
+    "entity_type": "Unexplained Atmospheric Phenomenon",
+    "alternative_names": [
+        "Globular Lightning",
+        "Fireball"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "Scientific American",
+        "Gervase of Canterbury Chronicle"
+    ],
+    "visual_attributes": {
+        "morphology": "Spherical or pear-shaped with fuzzy edges",
+        "distinctive_features": [
+            "Luminescent and multicolored",
+            "Can move through solid objects",
+            "May explode or dissipate suddenly"
+        ],
+        "color_palette": [
+            "Red",
+            "Orange",
+            "Yellow"
+        ],
+        "texture": "Smooth and glowing",
+        "size_and_scale": "1–100 cm in diameter, most commonly 10–20 cm",
+        "structural_arrangement": "Evenly lit with possible rotational motion",
+        "domain_specific_visual": {
+            "LUMINESCENCE": "Brightness similar to a domestic lamp",
+            "MOTION_PATTERN": "Erratic, can hover or move horizontally"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Unexplained natural occurrence",
+        "secondary_functions": [
+            "Potentially destructive",
+            "Cultural and historical significance"
+        ],
+        "domain_specific_functional": {
+            "ASSOCIATED_WEATHER": "Often appears during thunderstorms",
+            "INTERACTION_WITH_OBJECTS": "Can be attracted to or repelled by metal objects"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "DISTINCT_FROM",
+                "target": "St. Elmo's Fire",
+                "description": "Ball lightning is often confused with but distinct from St. Elmo's Fire."
+            },
+            {
+                "type": "ASSOCIATED_WITH",
+                "target": "Thunderstorms",
+                "description": "Frequently appears almost simultaneously with cloud-to-ground lightning discharge."
+            }
+        ],
+        "associated_entities": [
+            "St. Elmo's Fire",
+            "Will-o'-the-wisp"
+        ],
+        "symbolic_items": [
+            "Sulfurous odor",
+            "Ozone smell"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Global phenomenon with historical accounts",
+        "historical_period": "Documented since at least the 12th century",
+        "geographic_range": "Reported worldwide",
+        "cultural_significance": "Source of myths and legends, such as the Anchimayen in Mapuche culture",
+        "primary_sources": [
+            "Gervase of Canterbury Chronicle",
+            "Scientific American"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT St. Elmo's Fire",
+        "NOT Static lightning bolt",
+        "NOT Solely a mythological entity"
+    ]
+}

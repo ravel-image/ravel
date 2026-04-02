@@ -1,0 +1,80 @@
+{
+    "name": "Belt of Venus",
+    "domain": "natural_phenomena",
+    "entity_type": "atmospheric phenomenon",
+    "alternative_names": [
+        "Venus's Girdle",
+        "antitwilight arch",
+        "antitwilight"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "atmospheric science texts"
+    ],
+    "visual_attributes": {
+        "morphology": "arch-like glow in the sky",
+        "distinctive_features": [
+            "pinkish glow surrounding the observer",
+            "separated from the horizon by Earth's shadow"
+        ],
+        "color_palette": [
+            "pink",
+            "yellowish-orange",
+            "blue"
+        ],
+        "texture": "smooth and diffuse",
+        "size_and_scale": "extends 10–20° above the horizon",
+        "structural_arrangement": "appears opposite to the afterglow, above the antisolar point",
+        "domain_specific_visual": {
+            "twilight_position": "visible shortly before sunrise or after sunset",
+            "seasonal_variation": "vivid pink in winter, faded in summer"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "visual atmospheric phenomenon",
+        "secondary_functions": [
+            "indicates twilight progression",
+            "enhances sky aesthetics"
+        ],
+        "domain_specific_functional": {
+            "light_scattering": "caused by Rayleigh scattering and backscatter of sunlight",
+            "relation_to_earth_shadow": "separated by the twilight wedge"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "RELATED_TO",
+                "target": "alpenglow",
+                "description": "Both are caused by backscatter of reddened sunlight."
+            },
+            {
+                "type": "RELATED_TO",
+                "target": "Earth's shadow",
+                "description": "Separated from the horizon by the dark band of Earth's shadow."
+            }
+        ],
+        "associated_entities": [
+            "zodiacal light",
+            "gegenschein"
+        ],
+        "symbolic_items": [
+            "cestus of Aphrodite"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "atmospheric conditions during twilight",
+        "historical_period": "ancient Greek and Roman mythology",
+        "geographic_range": "visible globally under appropriate conditions",
+        "cultural_significance": "named after the girdle of the goddess Venus, symbolizing beauty",
+        "primary_sources": [
+            "Wikipedia",
+            "atmospheric science texts"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a rainbow",
+        "NOT a sunset or sunrise",
+        "NOT a phenomenon associated with Venus the planet"
+    ]
+}

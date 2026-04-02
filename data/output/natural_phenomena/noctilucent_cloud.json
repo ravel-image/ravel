@@ -1,0 +1,82 @@
+{
+    "name": "Noctilucent Cloud",
+    "domain": "natural_phenomena",
+    "entity_type": "atmospheric phenomenon",
+    "alternative_names": [
+        "night shining clouds",
+        "polar mesospheric clouds"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "Aeronomy of Ice in the Mesosphere satellite data",
+        "Upper Atmosphere Research Satellite data"
+    ],
+    "visual_attributes": {
+        "morphology": "diffuse cloud-like formations",
+        "distinctive_features": [
+            "visible only during astronomical twilight",
+            "high radar reflectivity",
+            "composed of tiny ice crystals"
+        ],
+        "color_palette": [
+            "pale blue",
+            "silver",
+            "white"
+        ],
+        "texture": "tenuous and wispy",
+        "size_and_scale": "exist at altitudes of 76 to 85 km",
+        "structural_arrangement": "layered scattering of ice crystals",
+        "domain_specific_visual": {
+            "altitude": "76 to 85 km",
+            "visibility_condition": "visible when lower atmosphere is in Earth's shadow"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "reflect sunlight during twilight",
+        "secondary_functions": [
+            "indicate atmospheric conditions",
+            "reflect radar signals"
+        ],
+        "domain_specific_functional": {
+            "formation_condition": "requires very cold temperatures and water vapor",
+            "seasonal_occurrence": "predominantly during summer months"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "FORMED_BY",
+                "target": "micrometeors",
+                "description": "Dust from micrometeors contributes to cloud formation."
+            },
+            {
+                "type": "AFFECTED_BY",
+                "target": "solar cycle",
+                "description": "Cloud brightness varies with solar ultraviolet radiation."
+            }
+        ],
+        "associated_entities": [
+            "mesosphere",
+            "polar regions"
+        ],
+        "symbolic_items": [
+            "ice crystals",
+            "radar reflectivity"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "upper atmosphere near polar regions",
+        "historical_period": "first observed in 1885",
+        "geographic_range": "latitudes between ±50° and ±70°",
+        "cultural_significance": "indicator of atmospheric changes and conditions",
+        "primary_sources": [
+            "Wikipedia",
+            "Aeronomy of Ice in the Mesosphere satellite data"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT common clouds like cirrus or cumulus",
+        "NOT visible during daylight",
+        "NOT formed at lower altitudes"
+    ]
+}

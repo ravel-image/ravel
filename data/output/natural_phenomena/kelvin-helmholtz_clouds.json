@@ -1,0 +1,81 @@
+{
+    "name": "Kelvin-Helmholtz Clouds",
+    "domain": "natural_phenomena",
+    "entity_type": "atmospheric phenomenon",
+    "alternative_names": [
+        "Kelvin-Helmholtz instability clouds"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "fluid dynamics textbooks",
+        "geophysical observation studies"
+    ],
+    "visual_attributes": {
+        "morphology": "wave-like cloud formations",
+        "distinctive_features": [
+            "rolling wave patterns",
+            "sharp, crest-like edges",
+            "layered appearance"
+        ],
+        "color_palette": [
+            "white",
+            "gray",
+            "blue"
+        ],
+        "texture": "smooth and wispy",
+        "size_and_scale": "varies, typically spans several kilometers",
+        "structural_arrangement": "aligned in parallel bands",
+        "domain_specific_visual": {
+            "CLOUD_FORMATION": "resembles ocean waves breaking in the sky",
+            "ATMOSPHERIC_LAYER": "occurs at the boundary between two layers of air with different velocities"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "visual indicator of atmospheric instability",
+        "secondary_functions": [
+            "aesthetic natural phenomenon",
+            "indicator of wind shear"
+        ],
+        "domain_specific_functional": {
+            "WEATHER_INDICATOR": "can signal turbulence in the atmosphere",
+            "FLUID_DYNAMICS_EXAMPLE": "demonstrates principles of fluid instability"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "RELATED_TO",
+                "target": "Rayleigh-Taylor instability",
+                "description": "Both are fluid instabilities but occur under different conditions."
+            },
+            {
+                "type": "OBSERVED_IN",
+                "target": "Earth's atmosphere",
+                "description": "Commonly seen in cloud formations on Earth."
+            }
+        ],
+        "associated_entities": [
+            "Lord Kelvin",
+            "Hermann von Helmholtz"
+        ],
+        "symbolic_items": [
+            "ocean waves",
+            "wind shear"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "discovered in the 19th century by Hermann von Helmholtz and Lord Kelvin",
+        "historical_period": "19th century",
+        "geographic_range": "global, wherever atmospheric conditions permit",
+        "cultural_significance": "often admired for their beauty and used as an example in fluid dynamics",
+        "primary_sources": [
+            "Wikipedia",
+            "fluid dynamics textbooks"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT generic cumulus clouds",
+        "NOT smooth, featureless cloud formations",
+        "NOT unrelated to atmospheric instability"
+    ]
+}

@@ -1,0 +1,88 @@
+{
+    "name": "Glory (optical phenomenon)",
+    "domain": "natural_phenomena",
+    "entity_type": "optical phenomenon",
+    "alternative_names": [
+        "Buddha's light",
+        "Ulloa's halo",
+        "Bouguer's halo"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "Scientific American",
+        "Mayes, Lawrence",
+        "Nave, R",
+        "Nussenzveig, H. Moysés"
+    ],
+    "visual_attributes": {
+        "morphology": "concentric rings around the shadow of the observer's head",
+        "distinctive_features": [
+            "concentric rings",
+            "red on the outside, bluish towards the center",
+            "surrounds the shadow of the observer's head"
+        ],
+        "color_palette": [
+            "red",
+            "bluish",
+            "white"
+        ],
+        "texture": "smooth",
+        "size_and_scale": "angular size of 5° to 20°",
+        "structural_arrangement": "concentric, successively dimmer rings",
+        "domain_specific_visual": {
+            "LIGHT_INTERACTION": "wave interference of light internally refracted within small droplets",
+            "OBSERVATION_POINT": "centered on the antisolar or antilunar point"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "optical phenomenon caused by light interaction with water droplets",
+        "secondary_functions": [
+            "visual spectacle",
+            "cultural symbol of enlightenment"
+        ],
+        "domain_specific_functional": {
+            "PHYSICAL_PROCESS": "wave interference and surface wave interaction",
+            "CULTURAL_INTERPRETATION": "personal enlightenment or divinity"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ASSOCIATED_WITH",
+                "target": "Brocken spectre",
+                "description": "Often seen in association with the Brocken spectre when viewed from a mountain or tall building."
+            },
+            {
+                "type": "ASSOCIATED_WITH",
+                "target": "rainbow",
+                "description": "Can occur simultaneously with a rainbow under the right conditions."
+            }
+        ],
+        "associated_entities": [
+            "Brocken spectre",
+            "rainbow"
+        ],
+        "symbolic_items": [
+            "Great Seal of the United States",
+            "Eye of Providence"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "observed globally, notably in China and Europe",
+        "historical_period": "records date back to A.D. 63",
+        "geographic_range": "mountains, hillsides, aircraft, sea fog",
+        "cultural_significance": "symbol of personal enlightenment in Chinese culture",
+        "primary_sources": [
+            "Wikipedia",
+            "Scientific American",
+            "Mayes, Lawrence",
+            "Nave, R",
+            "Nussenzveig, H. Moysés"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a circular rainbow",
+        "NOT a complete ring without interruption",
+        "NOT a phenomenon with a large diameter like a rainbow"
+    ]
+}

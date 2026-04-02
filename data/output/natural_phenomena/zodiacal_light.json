@@ -1,0 +1,84 @@
+{
+    "name": "Zodiacal Light",
+    "domain": "natural_phenomena",
+    "entity_type": "Astronomical Phenomenon",
+    "alternative_names": [
+        "False Dawn",
+        "Zodiacal Band"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "NASA",
+        "ESA/Rosetta orbiter",
+        "Juno mission data"
+    ],
+    "visual_attributes": {
+        "morphology": "Triangular glow extending from the Sun along the zodiac",
+        "distinctive_features": [
+            "Faint glow of diffuse sunlight",
+            "Brighter around the Sun",
+            "Appears as a column tilted at the angle of the ecliptic"
+        ],
+        "color_palette": [
+            "Pale white",
+            "Soft yellow",
+            "Faint blue"
+        ],
+        "texture": "Smooth and diffuse",
+        "size_and_scale": "Spans the entire sky, visible in a dark night sky",
+        "structural_arrangement": "Lens-shaped volume centered on the Sun",
+        "domain_specific_visual": {
+            "ECLIPTIC_ALIGNMENT": "Aligned along the ecliptic plane",
+            "FORWARD_SCATTERING": "Strongly forward scattering of sunlight"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Scattering of sunlight by interplanetary dust",
+        "secondary_functions": [
+            "Contributes to natural light of the night sky",
+            "Indicator of interplanetary dust distribution"
+        ],
+        "domain_specific_functional": {
+            "DUST_ORIGIN": "Primarily from Jupiter-family comets and asteroid collisions",
+            "ECLIPTIC_VISIBILITY": "Best observed near the horizon at small angles with the Sun"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "RELATED_TO",
+                "target": "Gegenschein",
+                "description": "Both are phenomena caused by sunlight scattering off interplanetary dust"
+            },
+            {
+                "type": "CONTRIBUTED_BY",
+                "target": "Jupiter-family comets",
+                "description": "Dust from these comets contributes to the zodiacal light"
+            }
+        ],
+        "associated_entities": [
+            "Interplanetary Dust Cloud",
+            "Comets",
+            "Asteroids"
+        ],
+        "symbolic_items": [
+            "False Dawn",
+            "True Dawn"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Solar System",
+        "historical_period": "Observed since before 1500 by Mesoamericans",
+        "geographic_range": "Visible globally in dark skies",
+        "cultural_significance": "Referenced in Islamic tradition as 'false dawn'",
+        "primary_sources": [
+            "Kosmos by Alexander von Humboldt",
+            "Historical records by Giovanni Domenico Cassini"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT Aurora Borealis",
+        "NOT Meteor Shower",
+        "NOT Artificial Light Pollution"
+    ]
+}

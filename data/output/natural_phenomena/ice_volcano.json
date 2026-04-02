@@ -1,0 +1,87 @@
+{
+    "name": "Ice Volcano",
+    "domain": "natural_phenomena",
+    "entity_type": "Ice Formation",
+    "alternative_names": [
+        "Cold Spot",
+        "Ice Cone"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "Geological Studies on Ice Formations"
+    ],
+    "visual_attributes": {
+        "morphology": "Conical mound of ice",
+        "distinctive_features": [
+            "Volcanic cone shape",
+            "Symmetrical rows",
+            "V-shaped channel at the base"
+        ],
+        "color_palette": [
+            "White",
+            "Light Blue",
+            "Gray"
+        ],
+        "texture": "Smooth and icy",
+        "size_and_scale": "Height ranges from less than 1 meter to 10 meters",
+        "structural_arrangement": "Successive rows with equal height and spacing within a row",
+        "domain_specific_visual": {
+            "WAVE_DRIVEN_FORMATION": "Formed by waves colliding with ice sheet irregularities",
+            "ERUPTION_VISIBILITY": "Eruptions can reach over 10 meters high"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Reduce coastal erosion",
+        "secondary_functions": [
+            "Serve as hunting platforms for snowy owls",
+            "Attract visitors for observation"
+        ],
+        "domain_specific_functional": {
+            "TEMPORARY_FORMATION": "Frequently destroyed by storms and warm weather",
+            "NON_HYDROTHERMAL": "Not related to geothermal activity"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "FORMED_BY",
+                "target": "Waves",
+                "description": "Waves provide the energy needed for the formation of ice volcanoes."
+            },
+            {
+                "type": "LOCATED_AT",
+                "target": "Lake Erie",
+                "description": "Commonly observed along the southern coast of Lake Erie."
+            },
+            {
+                "type": "LOCATED_AT",
+                "target": "Lake Ontario",
+                "description": "Commonly observed along the southern coast of Lake Ontario."
+            }
+        ],
+        "associated_entities": [
+            "Snowy Owl",
+            "Lake Erie",
+            "Lake Ontario"
+        ],
+        "symbolic_items": [
+            "Volcanic Cone",
+            "Ice Shelf"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Great Lakes region",
+        "historical_period": "Observed in modern times",
+        "geographic_range": "Primarily in the Great Lakes region",
+        "cultural_significance": "Natural phenomenon attracting visitors and impacting local ecology",
+        "primary_sources": [
+            "Wikipedia",
+            "Geological Studies on Ice Formations"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT Geyser",
+        "NOT Hydrothermal Feature",
+        "NOT Permanent Structure"
+    ]
+}

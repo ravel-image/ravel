@@ -1,0 +1,85 @@
+{
+    "name": "Fire Whirl",
+    "domain": "natural_phenomena",
+    "entity_type": "whirlwind induced by fire",
+    "alternative_names": [
+        "fire devil",
+        "fire tornado",
+        "firenado",
+        "fire swirl",
+        "fire twister"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "meteorological studies",
+        "fire dynamics research"
+    ],
+    "visual_attributes": {
+        "morphology": "tornado-like vortex",
+        "distinctive_features": [
+            "composed of flame and/or ash",
+            "visible smoke whirl",
+            "intense rising heat"
+        ],
+        "color_palette": [
+            "orange",
+            "red",
+            "black"
+        ],
+        "texture": "fiery and smoky",
+        "size_and_scale": "10–50 m (33–164 ft) tall, a few meters wide; can exceed 1 km (0.6 mi) tall",
+        "structural_arrangement": "rotating pocket of air with a burning core",
+        "domain_specific_visual": {
+            "vortex_intensity": "can reach wind speeds over 200 km/h (120 mph)",
+            "temperature": "up to 2,000 °F (1,090 °C)"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "a natural phenomenon resulting from fire-induced wind conditions",
+        "secondary_functions": [
+            "can uproot trees",
+            "aids in wildfire propagation by lifting burning materials"
+        ],
+        "domain_specific_functional": {
+            "firestorm_interaction": "spawned from wildfires or firestorms",
+            "volcanic_interaction": "can occur near volcanic eruptions"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "SPAWNED_BY",
+                "target": "wildfire",
+                "description": "Fire whirls are often spawned by wildfires."
+            },
+            {
+                "type": "ASSOCIATED_WITH",
+                "target": "pyrocumulonimbus",
+                "description": "Fire whirls can be associated with pyrocumulonimbus clouds."
+            }
+        ],
+        "associated_entities": [
+            "wildfire",
+            "pyrocumulonimbus"
+        ],
+        "symbolic_items": [
+            "tornado warning",
+            "firestorm"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "natural occurrence in fire-prone areas",
+        "historical_period": "documented throughout history, notable in 1923 Great Kantō earthquake",
+        "geographic_range": "global, particularly in areas prone to wildfires",
+        "cultural_significance": "represents the destructive power of fire and wind",
+        "primary_sources": [
+            "Wikipedia",
+            "historical accounts of wildfires"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a classic tornado",
+        "NOT a simple wildfire",
+        "NOT a non-fire-induced whirlwind"
+    ]
+}

@@ -1,0 +1,85 @@
+{
+    "name": "Snow Roller",
+    "domain": "natural_phenomena",
+    "entity_type": "meteorological phenomenon",
+    "alternative_names": [
+        "snow bales",
+        "snow donuts",
+        "snownuts",
+        "wind snowballs"
+    ],
+    "primary_sources": [
+        "Wikipedia"
+    ],
+    "visual_attributes": {
+        "morphology": "cylindrical snowball",
+        "distinctive_features": [
+            "hollow center",
+            "cylindrical shape",
+            "layered snow structure"
+        ],
+        "color_palette": [
+            "white",
+            "off-white",
+            "light gray"
+        ],
+        "texture": "smooth outer surface with potential rough inner edges",
+        "size_and_scale": "ranging from the size of a tennis ball to larger than a car",
+        "structural_arrangement": "concentric layers with a hollow core",
+        "domain_specific_visual": {
+            "formation_process": "formed by rolling motion on snow-covered surfaces",
+            "environmental_conditions": "requires specific snow and wind conditions"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "natural snow formation",
+        "secondary_functions": [
+            "indicator of specific meteorological conditions"
+        ],
+        "domain_specific_functional": {
+            "formation_conditions": "requires wet, loose snow and a non-sticky substrate",
+            "movement": "propelled by wind or gravity"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "REQUIRES_CONDITIONS",
+                "target": "wet loose snow",
+                "description": "Snow rollers form under specific snow conditions."
+            },
+            {
+                "type": "MOVED_BY",
+                "target": "wind",
+                "description": "Wind can propel snow rollers across surfaces."
+            },
+            {
+                "type": "MOVED_BY",
+                "target": "gravity",
+                "description": "Gravity can cause snow rollers to roll downhill."
+            }
+        ],
+        "associated_entities": [
+            "wind",
+            "gravity"
+        ],
+        "symbolic_items": [
+            "snowball",
+            "doughnut"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "natural occurrence in snowy regions",
+        "historical_period": "not applicable",
+        "geographic_range": "hilly areas with suitable snow conditions",
+        "cultural_significance": "rare and intriguing natural phenomenon",
+        "primary_sources": [
+            "Wikipedia"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a man-made snowball",
+        "NOT a solid snow structure",
+        "NOT a common snow formation"
+    ]
+}

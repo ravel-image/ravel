@@ -1,0 +1,86 @@
+{
+    "name": "Sprite Lightning",
+    "domain": "natural_phenomena",
+    "entity_type": "upper-atmospheric electrical discharge",
+    "alternative_names": [
+        "red sprites",
+        "upper-atmospheric lightning"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "NASA APOD blog",
+        "University of Minnesota research"
+    ],
+    "visual_attributes": {
+        "morphology": "large-scale electric discharges with varied visual shapes",
+        "distinctive_features": [
+            "luminous red-orange flashes",
+            "bluish hanging tendrils",
+            "clusters of small, decameter scale ionization balls"
+        ],
+        "color_palette": [
+            "red-orange",
+            "blue",
+            "reddish halo"
+        ],
+        "texture": "glowing, ethereal",
+        "size_and_scale": "50 to 90 km altitude range, up to 50 km wide",
+        "structural_arrangement": "clusters with tendrils below and branches above",
+        "domain_specific_visual": {
+            "altitude": "50–90 km",
+            "speed": "up to ten percent the speed of light"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "electrical discharge in the upper atmosphere",
+        "secondary_functions": [
+            "visual phenomenon associated with thunderstorms",
+            "indicator of positive lightning discharges"
+        ],
+        "domain_specific_functional": {
+            "trigger": "positive lightning between thundercloud and ground",
+            "duration": "a few milliseconds to up to 100 milliseconds"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ASSOCIATED_WITH",
+                "target": "positive lightning",
+                "description": "Sprites are triggered by positive lightning discharges."
+            },
+            {
+                "type": "RELATED_TO",
+                "target": "blue jets",
+                "description": "Sprites are part of a group of upper-atmospheric optical phenomena."
+            },
+            {
+                "type": "RELATED_TO",
+                "target": "ELVES",
+                "description": "Sprites are sometimes mistaken for ELVES due to visual similarity."
+            }
+        ],
+        "associated_entities": [
+            "blue jets",
+            "ELVES"
+        ],
+        "symbolic_items": [
+            "air spirits"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "upper atmosphere",
+        "historical_period": "first photographed in 1989",
+        "geographic_range": "observed globally over large thunderstorm systems",
+        "cultural_significance": "named after mythological air spirits due to their elusive nature",
+        "primary_sources": [
+            "Wikipedia",
+            "NASA APOD blog"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT common lightning",
+        "NOT hot channel temperatures",
+        "NOT lower stratospheric discharges"
+    ]
+}

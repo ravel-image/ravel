@@ -1,0 +1,87 @@
+{
+    "name": "Kelvin-Helmholtz Instability",
+    "domain": "natural_phenomena",
+    "entity_type": "fluid instability",
+    "alternative_names": [
+        "KH instability",
+        "Kelvin-Helmholtz waves"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "Fluid Dynamics Textbooks",
+        "Geophysical Research Papers"
+    ],
+    "visual_attributes": {
+        "morphology": "wave-like patterns",
+        "distinctive_features": [
+            "rolling wave structures",
+            "smooth, continuous wave crests",
+            "sharp, well-defined edges"
+        ],
+        "color_palette": [
+            "white",
+            "gray",
+            "blue"
+        ],
+        "texture": "smooth",
+        "size_and_scale": "varies from small-scale cloud formations to large atmospheric waves",
+        "structural_arrangement": "alternating crests and troughs",
+        "domain_specific_visual": {
+            "FLUID_DYNAMICS": "visible in cloud formations and atmospheric layers",
+            "ASTRONOMICAL": "observed in planetary atmospheres like Jupiter's Red Spot"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "indicates velocity shear in fluids",
+        "secondary_functions": [
+            "visual indicator of atmospheric dynamics",
+            "contributes to turbulence in fluid layers"
+        ],
+        "domain_specific_functional": {
+            "PLASMA_PHYSICS": "relevant in plasma confinement and fusion research",
+            "METEOROLOGY": "used to study cloud dynamics and weather patterns"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "DISCOVERED_BY",
+                "target": "Hermann von Helmholtz",
+                "description": "First identified the instability in 1868."
+            },
+            {
+                "type": "MATHEMATICALLY_MODELED_BY",
+                "target": "Lord Kelvin",
+                "description": "Developed mathematical solutions for the instability."
+            },
+            {
+                "type": "DESCRIBED_BY",
+                "target": "Taylor-Goldstein equation",
+                "description": "Describes the dynamics of the instability."
+            }
+        ],
+        "associated_entities": [
+            "Rayleigh-Taylor Instability",
+            "Richardson Number"
+        ],
+        "symbolic_items": [
+            "cloud formations",
+            "ocean waves"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "discovered in Europe",
+        "historical_period": "19th century",
+        "geographic_range": "global, observed in various planetary atmospheres",
+        "cultural_significance": "important in understanding atmospheric and fluid dynamics",
+        "primary_sources": [
+            "Wikipedia",
+            "Fluid Dynamics Textbooks"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT generic ocean waves",
+        "NOT simple cloud formations without wave patterns",
+        "NOT unrelated atmospheric phenomena"
+    ]
+}

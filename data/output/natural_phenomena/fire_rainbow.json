@@ -1,0 +1,88 @@
+{
+    "name": "Fire Rainbow",
+    "domain": "natural_phenomena",
+    "entity_type": "optical_phenomenon",
+    "alternative_names": [
+        "circumhorizontal arc",
+        "circumhorizon arc",
+        "lower symmetric 46° plate arc"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "optical phenomena databases",
+        "meteorological studies"
+    ],
+    "visual_attributes": {
+        "morphology": "large, brightly spectrum-coloured band",
+        "distinctive_features": [
+            "runs parallel to the horizon",
+            "red is the topmost color",
+            "formed by refraction in plate-shaped ice crystals"
+        ],
+        "color_palette": [
+            "red",
+            "orange",
+            "yellow",
+            "green",
+            "blue",
+            "indigo",
+            "violet"
+        ],
+        "texture": "smooth, spectral",
+        "size_and_scale": "considerable angular extent, rarely complete",
+        "structural_arrangement": "horizontal band below the Sun or Moon",
+        "domain_specific_visual": {
+            "ICE_CRYSTAL_FORMATION": "hexagonal plate crystals",
+            "LIGHT_SOURCE_ANGLE": "58° or greater elevation"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "optical display in the atmosphere",
+        "secondary_functions": [
+            "aesthetic phenomenon",
+            "indicator of atmospheric conditions"
+        ],
+        "domain_specific_functional": {
+            "REQUIRES_SUN_OR_MOON": "high elevation light source",
+            "VISIBLE_AT_LATITUDES": "between 55°N and 55°S"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "FORMED_BY",
+                "target": "plate-shaped ice crystals",
+                "description": "The arc is formed by the refraction of light in these crystals."
+            },
+            {
+                "type": "OCCURS_WITH",
+                "target": "cirrus clouds",
+                "description": "The phenomenon is typically seen in cirrus or cirrostratus clouds."
+            }
+        ],
+        "associated_entities": [
+            "Sun",
+            "Moon",
+            "cirrus clouds"
+        ],
+        "symbolic_items": [
+            "ice crystals",
+            "spectrum colors"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "atmospheric optical phenomenon",
+        "historical_period": "documented since at least 1920",
+        "geographic_range": "visible in regions between 55°N and 55°S",
+        "cultural_significance": "misleadingly called 'fire rainbow' due to its appearance",
+        "primary_sources": [
+            "Wikipedia",
+            "meteorological studies"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT rainbow",
+        "NOT related to fire",
+        "NOT cloud iridescence"
+    ]
+}

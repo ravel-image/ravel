@@ -1,0 +1,85 @@
+{
+    "name": "Volcanic Lightning",
+    "domain": "natural_phenomena",
+    "entity_type": "electrical discharge phenomenon",
+    "alternative_names": [
+        "dirty thunderstorm"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "Pliny the Younger",
+        "Luigi Palmieri's studies",
+        "Eyjafjallajökull and Grímsvötn eruption studies"
+    ],
+    "visual_attributes": {
+        "morphology": "irregular, branching electrical discharges within volcanic plumes",
+        "distinctive_features": [
+            "occurs within volcanic ash clouds",
+            "can occur without ice crystals",
+            "associated with volcanic eruptions"
+        ],
+        "color_palette": [
+            "bright white",
+            "bluish-white",
+            "occasional yellowish hue"
+        ],
+        "texture": "luminous and ephemeral",
+        "size_and_scale": "discharges can span several kilometers",
+        "structural_arrangement": "randomly branching paths within the plume",
+        "domain_specific_visual": {
+            "plume_height": "varies from 1 to 12 km",
+            "ash_density": "dense with volcanic ash particles"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "electrical discharge during volcanic eruptions",
+        "secondary_functions": [
+            "indicates volcanic activity",
+            "contributes to geological formations"
+        ],
+        "domain_specific_functional": {
+            "charge_generation": "through frictional, ice, fractoemission, and radioactive charging",
+            "spherule_creation": "forms lightning-induced volcanic spherules"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ASSOCIATED_WITH",
+                "target": "volcanic eruptions",
+                "description": "Occurs during volcanic eruptions when ash plumes are present."
+            },
+            {
+                "type": "CREATES",
+                "target": "lightning-induced volcanic spherules",
+                "description": "High-temperature processes during lightning strikes create these spherules."
+            }
+        ],
+        "associated_entities": [
+            "Mount Vesuvius",
+            "Mount Augustine",
+            "Eyjafjallajökull",
+            "Mount Etna",
+            "Taal Volcano"
+        ],
+        "symbolic_items": [
+            "volcanic spherules",
+            "fulgurites"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "geographically linked to volcanic regions",
+        "historical_period": "observed since ancient times, notably AD 79",
+        "geographic_range": "global, in regions with active volcanoes",
+        "cultural_significance": "symbolizes the power and unpredictability of volcanic eruptions",
+        "primary_sources": [
+            "Pliny the Younger's writings",
+            "Vesuvius Observatory records"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT ordinary thunderstorm lightning",
+        "NOT dependent on ice crystals",
+        "NOT a cultural or mythological phenomenon"
+    ]
+}

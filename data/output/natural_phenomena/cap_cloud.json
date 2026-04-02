@@ -1,0 +1,80 @@
+{
+    "name": "Cap Cloud",
+    "domain": "natural_phenomena",
+    "entity_type": "lenticular cloud",
+    "alternative_names": [
+        "Pileus",
+        "Scarf Cloud"
+    ],
+    "primary_sources": [
+        "Wikipedia"
+    ],
+    "visual_attributes": {
+        "morphology": "small, horizontal, lenticular shape",
+        "distinctive_features": [
+            "appears above cumulus or cumulonimbus clouds",
+            "bright iridescent colors due to sunlight diffraction",
+            "smooth horizontal cap shape"
+        ],
+        "color_palette": [
+            "white",
+            "iridescent colors"
+        ],
+        "texture": "smooth",
+        "size_and_scale": "small, typically covering the top of a cumulus cloud",
+        "structural_arrangement": "forms a cap over the main cloud",
+        "domain_specific_visual": {
+            "formation_context": "formed by strong updrafts at lower altitudes",
+            "iridescence": "caused by small, similar-sized droplets"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "indicator of severe weather",
+        "secondary_functions": [
+            "foreshadows transformation into cumulonimbus cloud",
+            "indicates strong updraft within the cloud"
+        ],
+        "domain_specific_functional": {
+            "weather_indicator": "signals rapid growth and instability in parent cloud"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "FORMS_ABOVE",
+                "target": "Cumulus Cloud",
+                "description": "Cap clouds form above cumulus clouds indicating strong updrafts."
+            },
+            {
+                "type": "FORMS_ABOVE",
+                "target": "Cumulonimbus Cloud",
+                "description": "Cap clouds can form above cumulonimbus clouds, indicating potential severe weather."
+            },
+            {
+                "type": "FORMS_ABOVE",
+                "target": "Pyrocumulus Cloud",
+                "description": "Cap clouds can form above pyrocumulus clouds from erupting volcanoes."
+            }
+        ],
+        "associated_entities": [
+            "Cumulus Cloud",
+            "Cumulonimbus Cloud",
+            "Pyrocumulus Cloud"
+        ],
+        "symbolic_items": []
+    },
+    "contextual_attributes": {
+        "origin": "atmospheric phenomenon",
+        "historical_period": "not applicable",
+        "geographic_range": "global, wherever cumulus clouds form",
+        "cultural_significance": "indicator of weather changes and potential storms",
+        "primary_sources": [
+            "Wikipedia"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT generic cloud",
+        "NOT vertically growing cloud",
+        "NOT non-iridescent cloud"
+    ]
+}

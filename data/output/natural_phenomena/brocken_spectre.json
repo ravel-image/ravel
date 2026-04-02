@@ -1,0 +1,86 @@
+{
+    "name": "Brocken Spectre",
+    "domain": "natural_phenomena",
+    "entity_type": "optical phenomenon",
+    "alternative_names": [
+        "Brocken specter",
+        "Brockengespenst",
+        "Brocken bow",
+        "mountain spectre",
+        "spectre of the Brocken"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "Johann Silberschlag's observations",
+        "Ulloa's reports"
+    ],
+    "visual_attributes": {
+        "morphology": "magnified shadow of an observer cast on clouds",
+        "distinctive_features": [
+            "halo-like rings of rainbow-colored light",
+            "bright area called Heiligenschein around the head",
+            "triangular shape due to perspective"
+        ],
+        "color_palette": [
+            "gray",
+            "rainbow",
+            "white"
+        ],
+        "texture": "smooth and diffuse",
+        "size_and_scale": "apparently enormous due to optical illusion",
+        "structural_arrangement": "shadow surrounded by circular glories and halos",
+        "domain_specific_visual": {
+            "light_source": "strong light source opposite the observer",
+            "cloud_type": "misty mountainside or cloud bank"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "optical illusion created by light and shadow",
+        "secondary_functions": [
+            "creates visual spectacle",
+            "influences local legends"
+        ],
+        "domain_specific_functional": {
+            "illusion_mechanism": "refracts and backscatters sunlight",
+            "observer_position": "observer looking down from a ridge or peak"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "OBSERVED_BY",
+                "target": "Johann Silberschlag",
+                "description": "First described the Brocken Spectre in 1780."
+            },
+            {
+                "type": "OBSERVED_BY",
+                "target": "Antonio de Ulloa",
+                "description": "Reported similar phenomenon called Ulloa's halo."
+            }
+        ],
+        "associated_entities": [
+            "Ulloa's halo",
+            "Bouguer's halo"
+        ],
+        "symbolic_items": [
+            "Heiligenschein",
+            "glory",
+            "fog bow"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Brocken, Harz Mountains, Germany",
+        "historical_period": "First described in 1780",
+        "geographic_range": "Misty mountainsides and cloud banks worldwide",
+        "cultural_significance": "Inspired local legends and literature",
+        "primary_sources": [
+            "Johann Silberschlag's observations",
+            "Ulloa's reports"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a solid object",
+        "NOT a stationary phenomenon",
+        "NOT limited to the Brocken mountain"
+    ]
+}

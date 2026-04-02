@@ -1,0 +1,80 @@
+{
+    "name": "Kelvin-Helmholtz Cloud",
+    "domain": "natural_phenomena",
+    "entity_type": "cloud formation",
+    "alternative_names": [
+        "Kelvin-Helmholtz instability clouds"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "Geophysical Fluid Dynamics Texts"
+    ],
+    "visual_attributes": {
+        "morphology": "wave-like cloud formation",
+        "distinctive_features": [
+            "resembles ocean waves",
+            "smooth, rolling crests",
+            "sharp, well-defined edges"
+        ],
+        "color_palette": [
+            "white",
+            "gray",
+            "blue"
+        ],
+        "texture": "smooth and wispy",
+        "size_and_scale": "varies, typically spans several kilometers",
+        "structural_arrangement": "aligned in parallel bands",
+        "domain_specific_visual": {
+            "CLOUD_LAYER": "upper troposphere",
+            "WAVE_PATTERN": "alternating crests and troughs"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "visual indicator of atmospheric instability",
+        "secondary_functions": [
+            "aesthetic phenomenon",
+            "indicator of wind shear"
+        ],
+        "domain_specific_functional": {
+            "ATMOSPHERIC_INDICATOR": "presence of velocity shear",
+            "WEATHER_PREDICTION": "potential for turbulence"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ASSOCIATED_WITH",
+                "target": "velocity shear",
+                "description": "forms due to velocity differences in atmospheric layers"
+            },
+            {
+                "type": "OBSERVED_IN",
+                "target": "Earth's atmosphere",
+                "description": "commonly seen in Earth's cloud formations"
+            }
+        ],
+        "associated_entities": [
+            "Rayleigh-Taylor instability",
+            "Brunt–Väisälä frequency"
+        ],
+        "symbolic_items": [
+            "ocean waves",
+            "wind shear"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "atmospheric science",
+        "historical_period": "discovered in the late 19th century",
+        "geographic_range": "global, wherever atmospheric conditions permit",
+        "cultural_significance": "symbolizes the dynamic nature of the atmosphere",
+        "primary_sources": [
+            "Wikipedia",
+            "Geophysical Fluid Dynamics Texts"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT generic cumulus clouds",
+        "NOT fluffy or amorphous shapes",
+        "NOT static or non-dynamic formations"
+    ]
+}

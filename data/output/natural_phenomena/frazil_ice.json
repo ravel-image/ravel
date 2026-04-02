@@ -1,0 +1,82 @@
+{
+    "name": "Frazil ice",
+    "domain": "natural_phenomena",
+    "entity_type": "ice formation",
+    "alternative_names": [
+        "loose ice crystals",
+        "grease ice precursor"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "scientific journals on ice formation",
+        "hydrology textbooks"
+    ],
+    "visual_attributes": {
+        "morphology": "collection of loose, randomly oriented ice crystals",
+        "distinctive_features": [
+            "millimeter and sub-millimeter size",
+            "various shapes including elliptical disks, dendrites, and needles",
+            "irregular nature"
+        ],
+        "color_palette": [
+            "white",
+            "translucent",
+            "light blue"
+        ],
+        "texture": "smooth and crystalline",
+        "size_and_scale": "individual crystals are millimeter and sub-millimeter in size",
+        "structural_arrangement": "randomly oriented and loosely packed",
+        "domain_specific_visual": {
+            "formation_environment": "turbulent water bodies",
+            "aggregation": "can accumulate into grease ice on water surface"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "forms in supercooled turbulent water",
+        "secondary_functions": [
+            "blocks water intakes",
+            "adheres to submerged objects"
+        ],
+        "domain_specific_functional": {
+            "ecological_impact": "can cause flooding and damage to infrastructure",
+            "industrial_impact": "affects hydropower and water supply facilities"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "FORMS_IN",
+                "target": "turbulent water bodies",
+                "description": "Frazil ice forms in turbulent water conditions."
+            },
+            {
+                "type": "TRANSFORMS_INTO",
+                "target": "grease ice",
+                "description": "Frazil ice can accumulate and transform into grease ice."
+            }
+        ],
+        "associated_entities": [
+            "grease ice",
+            "supercooled water"
+        ],
+        "symbolic_items": [
+            "ice crystals",
+            "trash racks"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "forms in cold, turbulent water environments",
+        "historical_period": "not applicable",
+        "geographic_range": "rivers, lakes, reservoirs, oceans in cold regions",
+        "cultural_significance": "important in understanding ice formation and its impact on infrastructure",
+        "primary_sources": [
+            "Wikipedia",
+            "scientific journals on ice formation"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT snow",
+        "NOT solid ice sheet",
+        "NOT calm water formation"
+    ]
+}

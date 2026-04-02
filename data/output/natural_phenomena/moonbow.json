@@ -1,0 +1,79 @@
+{
+    "name": "Moonbow",
+    "domain": "natural_phenomena",
+    "entity_type": "optical phenomenon",
+    "alternative_names": [
+        "moon rainbow",
+        "lunar rainbow"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "Aristotle's Meteorology"
+    ],
+    "visual_attributes": {
+        "morphology": "arc-shaped light phenomenon",
+        "distinctive_features": [
+            "faint appearance compared to solar rainbows",
+            "often appears white to the human eye",
+            "colors visible in long exposure photographs"
+        ],
+        "color_palette": [
+            "white",
+            "faint spectrum colors"
+        ],
+        "texture": "smooth, ethereal",
+        "size_and_scale": "spans across the sky opposite the Moon",
+        "structural_arrangement": "arc opposite the Moon",
+        "domain_specific_visual": {
+            "light_source": "moonlight",
+            "water_droplets": "rain, spray, or mist"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "optical refraction phenomenon",
+        "secondary_functions": [
+            "aesthetic beauty",
+            "cultural symbolism"
+        ],
+        "domain_specific_functional": {
+            "visibility_conditions": "requires full moon, low moon elevation, and dark sky",
+            "geographic_conditions": "requires presence of water droplets"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "CAUSED_BY",
+                "target": "Moon",
+                "description": "Moonbows are caused by the refraction of moonlight."
+            },
+            {
+                "type": "REQUIRES",
+                "target": "Water Droplets",
+                "description": "Moonbows require water droplets for light refraction."
+            }
+        ],
+        "associated_entities": [
+            "Moon",
+            "Water Droplets"
+        ],
+        "symbolic_items": [
+            "Selene, the Greek Lunar goddess"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "ancient Greek",
+        "historical_period": "since at least 350 BC",
+        "geographic_range": "global, specific locations include Niagara Falls, Victoria Falls, Costa Rica, Hawaii",
+        "cultural_significance": "associated with the Lunar goddess Selene",
+        "primary_sources": [
+            "Wikipedia",
+            "Aristotle's Meteorology"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT Solar Rainbow",
+        "NOT Bright Colors",
+        "NOT Daytime Phenomenon"
+    ]
+}

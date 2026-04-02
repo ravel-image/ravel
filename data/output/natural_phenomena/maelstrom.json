@@ -1,0 +1,90 @@
+{
+    "name": "Maelstrom",
+    "domain": "natural_phenomena",
+    "entity_type": "whirlpool",
+    "alternative_names": [
+        "whirlpool",
+        "vortex"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "Edgar Allan Poe's 'A Descent into the Maelström'",
+        "Jules Verne's works",
+        "Olaus Magnus's map"
+    ],
+    "visual_attributes": {
+        "morphology": "circular vortex",
+        "distinctive_features": [
+            "rotating water",
+            "central downdraft",
+            "large diameter and depth"
+        ],
+        "color_palette": [
+            "blue",
+            "white",
+            "dark green"
+        ],
+        "texture": "turbulent and frothy",
+        "size_and_scale": "up to 10 meters in diameter and 5 meters in depth",
+        "structural_arrangement": "concentric circles with a central downdraft",
+        "domain_specific_visual": {
+            "water_flow": "opposing currents or current running into an obstacle",
+            "tidal_influence": "often caused by tides in narrow ocean straits"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "natural water rotation",
+        "secondary_functions": [
+            "navigation hazard",
+            "cultural symbol"
+        ],
+        "domain_specific_functional": {
+            "ecological_impact": "affects local marine life and watercraft",
+            "narrative_role": "featured in myths and literature as a powerful force"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "LOCATED_IN",
+                "target": "Saltstraumen",
+                "description": "One of the strongest tidal currents in the world, forming whirlpools."
+            },
+            {
+                "type": "LOCATED_IN",
+                "target": "Moskstraumen",
+                "description": "A system of whirlpools in the Lofoten Islands, Norway."
+            },
+            {
+                "type": "LOCATED_IN",
+                "target": "Corryvreckan",
+                "description": "A narrow strait in Scotland known for its powerful whirlpool."
+            }
+        ],
+        "associated_entities": [
+            "Saltstraumen",
+            "Moskstraumen",
+            "Corryvreckan",
+            "Niagara Whirlpool"
+        ],
+        "symbolic_items": [
+            "Horrenda Caribdis",
+            "the Hag"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Scandinavian and Dutch etymology",
+        "historical_period": "documented since at least the 1500s",
+        "geographic_range": "global, with notable occurrences in Norway, Scotland, Canada, and Japan",
+        "cultural_significance": "symbolizes danger and mystery in literature and folklore",
+        "primary_sources": [
+            "Edgar Allan Poe's 'A Descent into the Maelström'",
+            "Jules Verne's works"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a small bathtub or sink whirlpool",
+        "NOT a calm or placid body of water",
+        "NOT a purely fictional or mythical entity"
+    ]
+}

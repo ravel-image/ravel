@@ -1,0 +1,84 @@
+{
+    "name": "Catatumbo Lightning",
+    "domain": "natural_phenomena",
+    "entity_type": "atmospheric phenomenon",
+    "alternative_names": [
+        "Relámpago del Catatumbo",
+        "Lighthouse of Maracaibo",
+        "Lanterns of Saint Anthony"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "NASA studies",
+        "Historical accounts by Alexander von Humboldt and Agustin Codazzi"
+    ],
+    "visual_attributes": {
+        "morphology": "continuous lightning flashes within storm clouds",
+        "distinctive_features": [
+            "high frequency of lightning flashes",
+            "occurs mostly within clouds",
+            "visible for miles around Lake Maracaibo"
+        ],
+        "color_palette": [
+            "bright white",
+            "blue",
+            "purple"
+        ],
+        "texture": "luminous and flickering",
+        "size_and_scale": "250 lightning instances per km2",
+        "structural_arrangement": "originates from storm clouds at altitudes over 1 km",
+        "domain_specific_visual": {
+            "lightning_density": "highest in the world",
+            "occurrence_pattern": "140 to 160 nights a year, 9 hours per day"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "natural electrical discharge",
+        "secondary_functions": [
+            "navigation aid",
+            "cultural symbol"
+        ],
+        "domain_specific_functional": {
+            "ozone_production": "produces a great quantity of ozone",
+            "climate_interaction": "influenced by ENSO and local atmospheric conditions"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ENDEMIC_TO",
+                "target": "Lake Maracaibo",
+                "description": "Occurs specifically over and around Lake Maracaibo in Venezuela."
+            },
+            {
+                "type": "INFLUENCED_BY",
+                "target": "Inter-Tropical Convergence Zone",
+                "description": "Its variability is related to the ITCZ and other climate modes."
+            }
+        ],
+        "associated_entities": [
+            "Lake Maracaibo",
+            "Andes Mountains",
+            "Barí people"
+        ],
+        "symbolic_items": [
+            "flag of Zulia",
+            "coat of arms of Zulia"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Lake Maracaibo, Venezuela",
+        "historical_period": "known for centuries",
+        "geographic_range": "specific to the region around Lake Maracaibo",
+        "cultural_significance": "symbol of strength and respect in Wayuu culture",
+        "primary_sources": [
+            "historical accounts",
+            "indigenous cosmology"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT generic thunderstorms",
+        "NOT isolated lightning strikes",
+        "NOT unrelated to cultural or historical context of Venezuela"
+    ]
+}

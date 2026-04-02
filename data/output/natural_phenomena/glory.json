@@ -1,0 +1,83 @@
+{
+    "name": "Glory",
+    "domain": "natural_phenomena",
+    "entity_type": "optical phenomenon",
+    "alternative_names": [
+        "Ulloa's halo",
+        "Bouguer's halo",
+        "Buddha's light"
+    ],
+    "primary_sources": [
+        "Mayes, Lawrence (2003), Glories – an Atmospheric Phenomenon",
+        "Nave, R (n.d.), Glories",
+        "Nussenzveig, H. Moysés (2012). 'The Science of the Glory'. Scientific American"
+    ],
+    "visual_attributes": {
+        "morphology": "concentric rings around the shadow of the observer's head",
+        "distinctive_features": [
+            "concentric rings",
+            "red on the outside, bluish towards the center",
+            "centered on the antisolar or antilunar point"
+        ],
+        "color_palette": [
+            "red",
+            "bluish",
+            "white"
+        ],
+        "texture": "smooth and ethereal",
+        "size_and_scale": "angular size of 5° to 20°",
+        "structural_arrangement": "rings are successively dimmer and rarely complete",
+        "domain_specific_visual": {
+            "light_source": "sunlight or moonlight",
+            "medium": "tiny water droplets in mist or clouds"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "optical phenomenon caused by light interaction",
+        "secondary_functions": [
+            "symbol of personal enlightenment",
+            "inspiration for scientific devices"
+        ],
+        "domain_specific_functional": {
+            "wave_interference": "caused by wave interference of light",
+            "cultural_symbolism": "associated with divinity and enlightenment"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ASSOCIATED_WITH",
+                "target": "Brocken spectre",
+                "description": "Often seen in association with the Brocken spectre, a magnified shadow of the observer."
+            },
+            {
+                "type": "ASSOCIATED_WITH",
+                "target": "rainbow",
+                "description": "Can occur simultaneously with a rainbow under the right conditions."
+            }
+        ],
+        "associated_entities": [
+            "Brocken spectre",
+            "rainbow"
+        ],
+        "symbolic_items": [
+            "Great Seal of the United States",
+            "Eye of Providence"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "observed globally, notably in the Harz mountains and Mount Emei",
+        "historical_period": "records date back to A.D. 63",
+        "geographic_range": "global, often in mountainous or misty regions",
+        "cultural_significance": "symbolizes personal enlightenment and divinity in various cultures",
+        "primary_sources": [
+            "Mayes, Lawrence (2003), Glories – an Atmospheric Phenomenon",
+            "Nave, R (n.d.), Glories"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a circular rainbow",
+        "NOT a complete ring",
+        "NOT caused by large water droplets"
+    ]
+}

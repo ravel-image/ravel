@@ -1,0 +1,79 @@
+{
+    "name": "Morning Glory Cloud",
+    "domain": "natural_phenomena",
+    "entity_type": "meteorological phenomenon",
+    "alternative_names": [
+        "kangólgi",
+        "solitary wave",
+        "soliton",
+        "undular bore"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "Studies by Reg H. Clarke",
+        "Local Aboriginal lore"
+    ],
+    "visual_attributes": {
+        "morphology": "roll cloud or arcus cloud",
+        "distinctive_features": [
+            "up to 1,000 kilometers long",
+            "1 to 2 kilometers high",
+            "rolls along the underside of an inversion layer"
+        ],
+        "color_palette": [
+            "white",
+            "gray",
+            "light blue"
+        ],
+        "texture": "smooth and continuous at the leading edge, turbulent at the rear",
+        "size_and_scale": "up to 1,000 kilometers long, 1 to 2 kilometers high",
+        "structural_arrangement": "series of consecutive roll clouds, sometimes up to ten",
+        "domain_specific_visual": {
+            "wave_type": "solitary wave",
+            "cloud_formation": "formed at the leading edge, eroded at the trailing edge"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "atmospheric wave phenomenon",
+        "secondary_functions": [
+            "creates sudden wind squalls",
+            "causes intense low-level wind shear"
+        ],
+        "domain_specific_functional": {
+            "weather_impact": "can lead to showers or thunderstorms",
+            "aviation_interest": "attracts glider pilots"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ENDEMIC_TO",
+                "target": "Gulf of Carpentaria",
+                "description": "The only known location where it can be predicted and observed regularly."
+            }
+        ],
+        "associated_entities": [
+            "Gulf of Carpentaria",
+            "Burketown"
+        ],
+        "symbolic_items": [
+            "glider planes",
+            "wind squalls"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Gulf of Carpentaria, Northern Australia",
+        "historical_period": "First reported by Royal Australian Air Force in 1942",
+        "geographic_range": "Primarily Gulf of Carpentaria, occasionally observed globally",
+        "cultural_significance": "Known as kangólgi by the local Garrwa Aboriginal people",
+        "primary_sources": [
+            "Wikipedia",
+            "Studies by Reg H. Clarke"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT generic cloud formations",
+        "NOT stationary clouds",
+        "NOT clouds without rolling motion"
+    ]
+}

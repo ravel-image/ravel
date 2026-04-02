@@ -1,0 +1,81 @@
+{
+    "name": "Rime ice",
+    "domain": "natural_phenomena",
+    "entity_type": "ice formation",
+    "alternative_names": [
+        "Rime",
+        "Rimed ice"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "Meteorological studies"
+    ],
+    "visual_attributes": {
+        "morphology": "ice deposition on surfaces",
+        "distinctive_features": [
+            "comb-like appearance for hard rime",
+            "feathery or spiky appearance for soft rime",
+            "milky and crystalline texture"
+        ],
+        "color_palette": [
+            "white",
+            "milky"
+        ],
+        "texture": "crystalline, rough",
+        "size_and_scale": "varies depending on surface and conditions",
+        "structural_arrangement": "parallel streaks in the direction of wind for hard rime",
+        "domain_specific_visual": {
+            "formation_conditions": "forms on windward side of objects",
+            "temperature_range": "between −2 and −10 °C (28 and 14 °F)"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "ice formation on surfaces",
+        "secondary_functions": [
+            "disrupts airflow on aircraft",
+            "adds weight and drag"
+        ],
+        "domain_specific_functional": {
+            "impact_on_aircraft": "can spoil lift and cause catastrophic effects",
+            "ecological_role": "forms on trees and surfaces in cold, foggy conditions"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "FORMS_UNDER_CONDITIONS",
+                "target": "supercooled water droplets",
+                "description": "Rime ice forms when supercooled water droplets freeze onto surfaces."
+            },
+            {
+                "type": "SIMILAR_TO",
+                "target": "hoar frost",
+                "description": "Soft rime is similar in appearance to hoar frost but forms differently."
+            }
+        ],
+        "associated_entities": [
+            "supercooled water droplets",
+            "hoar frost",
+            "graupel"
+        ],
+        "symbolic_items": [
+            "ice formations",
+            "winter landscapes"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "atmospheric conditions",
+        "historical_period": "not applicable",
+        "geographic_range": "mountainous regions, areas with freezing fog",
+        "cultural_significance": "represents winter and cold weather phenomena",
+        "primary_sources": [
+            "Wikipedia",
+            "Meteorological studies"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT clear ice",
+        "NOT homogeneous and transparent",
+        "NOT formed by freezing rain"
+    ]
+}

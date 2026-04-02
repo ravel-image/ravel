@@ -1,0 +1,82 @@
+{
+    "name": "Mammatus Clouds",
+    "domain": "natural_phenomena",
+    "entity_type": "cloud formation",
+    "alternative_names": [
+        "mamma",
+        "mammatocumulus",
+        "mammary cloud"
+    ],
+    "primary_sources": [
+        "WMO International Cloud Atlas",
+        "Wikipedia",
+        "William Clement Ley's descriptions"
+    ],
+    "visual_attributes": {
+        "morphology": "cellular pattern of pouches hanging underneath the base of a cloud",
+        "distinctive_features": [
+            "lumpy undersides",
+            "smooth, ragged, or lumpy lobes",
+            "opaque or translucent appearance"
+        ],
+        "color_palette": [
+            "white",
+            "gray",
+            "blue-gray"
+        ],
+        "texture": "smooth to ragged",
+        "size_and_scale": "individual lobes average 1-3 kilometers in diameter and 0.5 kilometers in length",
+        "structural_arrangement": "grouping of lobes that can vary from isolated clusters to fields spreading over hundreds of kilometers",
+        "domain_specific_visual": {
+            "cloud_type": "cumulonimbus, altostratus, cirrus, or volcanic ash clouds",
+            "composition": "primarily ice, but can include liquid water"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "indicator of severe weather or strong storms",
+        "secondary_functions": [
+            "visual spectacle",
+            "indicator of atmospheric instability"
+        ],
+        "domain_specific_functional": {
+            "aviation_warning": "indicates convectively induced turbulence"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ASSOCIATED_WITH",
+                "target": "cumulonimbus clouds",
+                "description": "often extend from the base of cumulonimbus clouds"
+            },
+            {
+                "type": "INDICATES",
+                "target": "severe thunderstorms",
+                "description": "presence often indicates strong storms"
+            }
+        ],
+        "associated_entities": [
+            "anvil clouds",
+            "thunderstorms"
+        ],
+        "symbolic_items": [
+            "storm warning",
+            "atmospheric instability"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "atmospheric phenomena",
+        "historical_period": "first described in 1894",
+        "geographic_range": "global, associated with severe weather systems",
+        "cultural_significance": "often seen as ominous due to association with storms",
+        "primary_sources": [
+            "WMO International Cloud Atlas",
+            "Wikipedia"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT generic clouds",
+        "NOT smooth cloud bases without lobes",
+        "NOT unrelated to severe weather systems"
+    ]
+}

@@ -1,0 +1,90 @@
+{
+    "name": "Dust Devil",
+    "domain": "natural_phenomena",
+    "entity_type": "whirlwind",
+    "alternative_names": [
+        "dirt devil",
+        "Willy willy",
+        "sí gaoithe",
+        "fairy wind"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "meteorological studies",
+        "climatology texts"
+    ],
+    "visual_attributes": {
+        "morphology": "vertically oriented rotating column of wind",
+        "distinctive_features": [
+            "funnel-like chimney structure",
+            "visible dust or sand particles caught in the vortex",
+            "upward and circular motion"
+        ],
+        "color_palette": [
+            "brown",
+            "tan",
+            "gray"
+        ],
+        "texture": "dusty and gritty",
+        "size_and_scale": "ranges from 18 inches (0.5 meters) to over 30 feet (10 meters) wide and up to half a mile (1 km) tall",
+        "structural_arrangement": "central core of rising hot air surrounded by descending cooler air",
+        "domain_specific_visual": {
+            "ROTATION_DIRECTION": "can be cyclonic or anticyclonic",
+            "VISIBILITY": "enhanced by dust or sand particles"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "transport dust and small particles into the atmosphere",
+        "secondary_functions": [
+            "create electrical fields",
+            "contribute to atmospheric dust content"
+        ],
+        "domain_specific_functional": {
+            "ELECTRICAL_ACTIVITY": "produces radio noise and electrical fields",
+            "PARTICLE_LIFTING": "lifts dust and small particles through triboelectrification"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "RELATED_TO",
+                "target": "tornado",
+                "description": "Both are vertically oriented rotating columns of wind, but dust devils are less intense."
+            },
+            {
+                "type": "RELATED_TO",
+                "target": "ash devil",
+                "description": "Similar formation process but occurs in recently burned areas."
+            },
+            {
+                "type": "RELATED_TO",
+                "target": "fire whirl",
+                "description": "Similar in appearance but involves fire and is more intense."
+            }
+        ],
+        "associated_entities": [
+            "tornado",
+            "ash devil",
+            "fire whirl"
+        ],
+        "symbolic_items": [
+            "sand pillar",
+            "whirlwind"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "occurs globally in arid and semi-arid regions",
+        "historical_period": "observed throughout history",
+        "geographic_range": "common in deserts and flat barren terrains",
+        "cultural_significance": "often seen as harmless but can be dangerous in rare cases",
+        "primary_sources": [
+            "meteorological studies",
+            "climatology texts"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT tornado",
+        "NOT water spout",
+        "NOT intense storm phenomenon"
+    ]
+}

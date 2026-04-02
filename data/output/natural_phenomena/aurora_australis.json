@@ -1,0 +1,80 @@
+{
+    "name": "Aurora Australis",
+    "domain": "natural_phenomena",
+    "entity_type": "polar light display",
+    "alternative_names": [
+        "Southern Lights"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "scientific journals on auroras"
+    ],
+    "visual_attributes": {
+        "morphology": "dynamic light display in the sky",
+        "distinctive_features": [
+            "curtains of light",
+            "rays and spirals",
+            "dynamic flickers"
+        ],
+        "color_palette": [
+            "green",
+            "red",
+            "purple"
+        ],
+        "texture": "ethereal and luminous",
+        "size_and_scale": "covers large portions of the sky",
+        "structural_arrangement": "appears as arcs, rays, and coronas",
+        "domain_specific_visual": {
+            "altitude_range": "70 km to 150 km",
+            "auroral_zone_width": "approximately 660 km"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "visual display caused by solar wind interactions",
+        "secondary_functions": [
+            "indicator of geomagnetic activity",
+            "cultural and aesthetic significance"
+        ],
+        "domain_specific_functional": {
+            "geomagnetic_storm_indicator": "expands auroral ovals during storms",
+            "solar_activity_indicator": "linked to sunspot cycles"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "CAUSED_BY",
+                "target": "solar wind",
+                "description": "Aurora Australis is caused by charged particles from the solar wind colliding with Earth's atmosphere."
+            },
+            {
+                "type": "OCCURS_IN",
+                "target": "auroral zone",
+                "description": "Aurora Australis occurs within the auroral zone around the South Pole."
+            }
+        ],
+        "associated_entities": [
+            "Aurora Borealis",
+            "Earth's magnetosphere"
+        ],
+        "symbolic_items": [
+            "Roman goddess Aurora",
+            "Greco-Roman mythology"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Antarctic regions",
+        "historical_period": "observed since ancient times",
+        "geographic_range": "Antarctica, Southern Cone, South Africa, Australasia",
+        "cultural_significance": "represents natural beauty and scientific interest",
+        "primary_sources": [
+            "Wikipedia",
+            "scientific journals on auroras"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT Aurora Borealis",
+        "NOT static light display",
+        "NOT limited to a single color"
+    ]
+}

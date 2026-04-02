@@ -1,0 +1,86 @@
+{
+    "name": "Sundog",
+    "domain": "natural_phenomena",
+    "entity_type": "atmospheric_optical_phenomenon",
+    "alternative_names": [
+        "mock sun",
+        "parhelion",
+        "weather dog",
+        "lagas awel"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "Oxford English Dictionary",
+        "Meteorology III.2 by Aristotle",
+        "Phaenomena by Aratus",
+        "Historia Naturalis by Pliny the Elder"
+    ],
+    "visual_attributes": {
+        "morphology": "bright spots flanking the Sun",
+        "distinctive_features": [
+            "subtly colored patches of light",
+            "located at 22° to the left and right of the Sun",
+            "appear at the same altitude as the Sun"
+        ],
+        "color_palette": [
+            "red",
+            "orange",
+            "blue"
+        ],
+        "texture": "smooth and diffuse",
+        "size_and_scale": "22° angular distance from the Sun",
+        "structural_arrangement": "parallel to the horizon, flanking the Sun",
+        "domain_specific_visual": {
+            "halo_type": "22° halo",
+            "ice_crystal_shape": "plate-shaped hexagonal"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "optical phenomenon caused by refraction of sunlight",
+        "secondary_functions": [
+            "weather prediction",
+            "cultural symbolism"
+        ],
+        "domain_specific_functional": {
+            "light_refraction": "caused by ice crystals",
+            "co-occurrence": "often seen with circumzenithal arc and 22° halo"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "CAUSED_BY",
+                "target": "ice_crystals",
+                "description": "Sun dogs are caused by the refraction of sunlight through ice crystals."
+            },
+            {
+                "type": "OCCURS_WITH",
+                "target": "circumzenithal_arc",
+                "description": "Sun dogs often occur with circumzenithal arcs due to similar ice crystal conditions."
+            }
+        ],
+        "associated_entities": [
+            "circumzenithal arc",
+            "22° halo"
+        ],
+        "symbolic_items": [
+            "three suns in Wars of the Roses",
+            "weather prediction symbols"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "global atmospheric phenomenon",
+        "historical_period": "observed since antiquity",
+        "geographic_range": "worldwide",
+        "cultural_significance": "interpreted as omens or symbols in various cultures",
+        "primary_sources": [
+            "Meteorology III.2 by Aristotle",
+            "Historia Naturalis by Pliny the Elder"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT rainbow",
+        "NOT aurora",
+        "NOT purely saturated colors"
+    ]
+}

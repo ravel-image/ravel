@@ -1,0 +1,93 @@
+{
+    "name": "Katabatic Wind",
+    "domain": "natural_phenomena",
+    "entity_type": "downslope wind",
+    "alternative_names": [
+        "catabatic wind",
+        "piteraq",
+        "Bora",
+        "Bohemian Wind",
+        "Santa Ana winds",
+        "oroshi",
+        "the Barber"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "meteorological studies",
+        "climatology textbooks"
+    ],
+    "visual_attributes": {
+        "morphology": "flowing air mass descending a slope",
+        "distinctive_features": [
+            "cool or cold air mass",
+            "high-density air",
+            "downslope movement"
+        ],
+        "color_palette": [
+            "light blue",
+            "white",
+            "gray"
+        ],
+        "texture": "smooth and flowing",
+        "size_and_scale": "can cover large geographic areas, from mountain slopes to valleys",
+        "structural_arrangement": "descending from elevated areas to lower regions",
+        "domain_specific_visual": {
+            "temperature_gradient": "cooler at higher elevations, warmer at lower elevations",
+            "density_variation": "higher density at the top, lower density at the bottom"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "transport cooler air downslope",
+        "secondary_functions": [
+            "affect local weather patterns",
+            "influence wildfire behavior"
+        ],
+        "domain_specific_functional": {
+            "GRAVITATIONAL_FORCE": "drives the movement of the air mass",
+            "RADIATIVE_COOLING": "initiates the cooling of the air mass"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ASSOCIATED_WITH",
+                "target": "Antarctica",
+                "description": "Katabatic winds are commonly found blowing from the ice sheets of Antarctica."
+            },
+            {
+                "type": "ASSOCIATED_WITH",
+                "target": "Greenland",
+                "description": "Piteraq winds in Greenland are a type of katabatic wind."
+            },
+            {
+                "type": "CAUSES",
+                "target": "wildfires",
+                "description": "Strong katabatic winds can exacerbate wildfires by providing oxygen and spreading flames."
+            }
+        ],
+        "associated_entities": [
+            "Antarctica",
+            "Greenland",
+            "California wildfires"
+        ],
+        "symbolic_items": [
+            "ice sheets",
+            "mountain slopes"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "geographic regions with elevated terrains and ice sheets",
+        "historical_period": "observed throughout meteorological history",
+        "geographic_range": "Antarctica, Greenland, California, Japan, New Zealand, Spain",
+        "cultural_significance": "influences local climate and weather patterns, impacts human activities",
+        "primary_sources": [
+            "Wikipedia",
+            "meteorological studies"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a föhn wind",
+        "NOT a warm air mass",
+        "NOT a generic breeze"
+    ]
+}

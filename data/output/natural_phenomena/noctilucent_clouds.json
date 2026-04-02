@@ -1,0 +1,82 @@
+{
+    "name": "Noctilucent Clouds",
+    "domain": "natural_phenomena",
+    "entity_type": "atmospheric phenomenon",
+    "alternative_names": [
+        "night shining clouds",
+        "polar mesospheric clouds"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "Aeronomy of Ice in the Mesosphere satellite data",
+        "Upper Atmosphere Research Satellite data"
+    ],
+    "visual_attributes": {
+        "morphology": "diffuse cloud-like formations",
+        "distinctive_features": [
+            "visible only during astronomical twilight",
+            "high radar reflectivity",
+            "composed of tiny ice crystals"
+        ],
+        "color_palette": [
+            "silvery blue",
+            "white",
+            "pale blue"
+        ],
+        "texture": "wispy and tenuous",
+        "size_and_scale": "exist at altitudes of 76 to 85 km",
+        "structural_arrangement": "layered and scattered across the sky",
+        "domain_specific_visual": {
+            "altitude": "76 to 85 km",
+            "composition": "water ice crystals"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "reflect sunlight during twilight",
+        "secondary_functions": [
+            "indicate atmospheric conditions",
+            "reflect radar signals"
+        ],
+        "domain_specific_functional": {
+            "formation_conditions": "require very cold temperatures and water vapor",
+            "seasonal_occurrence": "predominantly during summer months"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "FORMED_BY",
+                "target": "micrometeors",
+                "description": "Dust from micrometeors contributes to their formation."
+            },
+            {
+                "type": "INFLUENCED_BY",
+                "target": "methane emissions",
+                "description": "Increased methane emissions can enhance their formation."
+            }
+        ],
+        "associated_entities": [
+            "mesosphere",
+            "polar regions"
+        ],
+        "symbolic_items": [
+            "twilight",
+            "summer solstice"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "polar regions",
+        "historical_period": "first observed in 1885",
+        "geographic_range": "latitudes between ±50° and ±70°",
+        "cultural_significance": "represent atmospheric changes and are a subject of scientific study",
+        "primary_sources": [
+            "Wikipedia",
+            "Aeronomy of Ice in the Mesosphere satellite data"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT common clouds like cirrus or cumulus",
+        "NOT visible during daylight",
+        "NOT formed at lower altitudes"
+    ]
+}

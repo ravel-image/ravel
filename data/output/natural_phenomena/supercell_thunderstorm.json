@@ -1,0 +1,80 @@
+{
+    "name": "Supercell Thunderstorm",
+    "domain": "natural_phenomena",
+    "entity_type": "Thunderstorm",
+    "alternative_names": [
+        "Rotating Thunderstorm"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "Severe Thunderstorm Evolution and Mesocyclone Structure as Related to Tornadogenesis by Leslie R. Lemon and Charles A. Doswell III"
+    ],
+    "visual_attributes": {
+        "morphology": "Large, rotating storm system with a mesocyclone",
+        "distinctive_features": [
+            "Mesocyclone with deep rotating updraft",
+            "Overshooting top above the anvil",
+            "Anvil cloud extending downwind"
+        ],
+        "color_palette": [
+            "Dark gray",
+            "White",
+            "Blue-gray"
+        ],
+        "texture": "Turbulent and smooth in different regions",
+        "size_and_scale": "Up to 70,000 feet (21,000 m) in height",
+        "structural_arrangement": "Isolated storm with a central rotating updraft and anvil extending outward",
+        "domain_specific_visual": {
+            "CLOUD_FORMATION": "Anvil and overshooting top",
+            "PRECIPITATION_PATTERN": "Hook echo indicating mesocyclone"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Severe weather generation",
+        "secondary_functions": [
+            "Tornado formation",
+            "Heavy rainfall production"
+        ],
+        "domain_specific_functional": {
+            "WEATHER_IMPACT": "Can dominate local weather up to 32 kilometers away",
+            "DURATION": "Typically lasts 2-4 hours, but can last longer under favorable conditions"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_COMPONENT",
+                "target": "Mesocyclone",
+                "description": "The rotating updraft that characterizes the supercell"
+            },
+            {
+                "type": "OCCURS_IN",
+                "target": "Tornado Alley",
+                "description": "Commonly found in this region due to favorable conditions"
+            }
+        ],
+        "associated_entities": [
+            "Tornado",
+            "Squall Line"
+        ],
+        "symbolic_items": [
+            "Doppler Radar",
+            "Weather Satellite"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Identified in Wokingham, England in 1959",
+        "historical_period": "Modern meteorological studies began in the 1960s",
+        "geographic_range": "Great Plains of the United States, Tornado Corridor of Argentina, parts of Europe, and other mid-latitude regions",
+        "cultural_significance": "Represents severe weather phenomena and is a focus of meteorological research",
+        "primary_sources": [
+            "Wikipedia",
+            "Severe Thunderstorm Evolution and Mesocyclone Structure as Related to Tornadogenesis by Leslie R. Lemon and Charles A. Doswell III"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT Generic Thunderstorm",
+        "NOT Non-rotating cloud formations",
+        "NOT Limited to a single geographic region"
+    ]
+}
