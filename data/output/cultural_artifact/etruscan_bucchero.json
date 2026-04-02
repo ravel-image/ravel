@@ -1,0 +1,81 @@
+{
+    "name": "Etruscan Bucchero",
+    "domain": "cultural_artifact",
+    "entity_type": "ceramic pottery",
+    "alternative_names": [
+        "Bucchero ware",
+        "Bucchero sottile",
+        "Bucchero pesante"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "archaeological literature on Etruscan pottery"
+    ],
+    "visual_attributes": {
+        "morphology": "vessel with thin or thick walls, often with handles",
+        "distinctive_features": [
+            "black glossy surface",
+            "thin-walled structure in bucchero sottile",
+            "thicker, squat proportions in bucchero pesante"
+        ],
+        "color_palette": [
+            "black"
+        ],
+        "texture": "smooth and glossy",
+        "size_and_scale": "varies from small cups to larger amphorae",
+        "structural_arrangement": "often includes handles and decorative incisions or mold-formed figures",
+        "domain_specific_visual": {
+            "firing_method": "reduction firing technique",
+            "decoration": "incised lines, toothed wheel patterns, mold-formed figures"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "ceremonial and utilitarian vessel",
+        "secondary_functions": [
+            "funerary purposes",
+            "daily household use"
+        ],
+        "domain_specific_functional": {
+            "cultural_influence": "influenced by Greek and Eastern Mediterranean pottery",
+            "trade_role": "local alternative to imported metalwares"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "INFLUENCED_BY",
+                "target": "Greek pottery",
+                "description": "Etruscan bucchero was influenced by Greek vase shapes and aesthetics."
+            },
+            {
+                "type": "PRODUCED_IN",
+                "target": "Etruria",
+                "description": "Bucchero was produced in the Etruscan heartland of central Italy."
+            }
+        ],
+        "associated_entities": [
+            "Villanovan culture",
+            "Greek pottery"
+        ],
+        "symbolic_items": [
+            "kantharos",
+            "kyathos",
+            "oinochoe"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Etruria, central Italy",
+        "historical_period": "675 BCE to 5th century BCE",
+        "geographic_range": "Etruscan heartland, including Caere, Veii, and Tarquinia",
+        "cultural_significance": "Regarded as the national pottery of ancient Etruria, symbolizing Etruscan craftsmanship and cultural identity.",
+        "primary_sources": [
+            "archaeological findings in Etruscan tombs",
+            "historical texts on Etruscan culture"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT Greek black-glazed pottery",
+        "NOT red or tan colored pottery",
+        "NOT modern ceramic techniques"
+    ]
+}

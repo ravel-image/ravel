@@ -1,0 +1,81 @@
+{
+    "name": "Tlingit Raven Rattle",
+    "domain": "cultural_artifact",
+    "entity_type": "ceremonial_rattle",
+    "alternative_names": [
+        "Raven Rattle",
+        "Tlingit Ceremonial Rattle"
+    ],
+    "primary_sources": [
+        "Northwest Coast art documentation",
+        "Tlingit cultural records"
+    ],
+    "visual_attributes": {
+        "morphology": "elongated handle with a bulbous end, often depicting a raven",
+        "distinctive_features": [
+            "carved raven figure on the bulbous end",
+            "intricate formline designs",
+            "use of ovoid and U forms"
+        ],
+        "color_palette": [
+            "black",
+            "red",
+            "yellow"
+        ],
+        "texture": "smooth, polished wood",
+        "size_and_scale": "approximately 12-18 inches in length",
+        "structural_arrangement": "raven figure on top, handle below, often with additional figures or motifs carved into the sides",
+        "domain_specific_visual": {
+            "FORMLINE_DESIGNS": "incorporates traditional Tlingit formline art",
+            "MATERIAL": "traditionally carved from wood, often cedar"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "used in ceremonial contexts, often in dances or rituals",
+        "secondary_functions": [
+            "symbol of cultural identity",
+            "storytelling aid"
+        ],
+        "domain_specific_functional": {
+            "SYMBOLISM": "represents the Raven, a significant figure in Tlingit mythology",
+            "CEREMONIAL_USE": "used in potlatches and other important cultural ceremonies"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "REPRESENTS",
+                "target": "Raven",
+                "description": "The rattle often depicts the Raven, a key figure in Tlingit mythology."
+            },
+            {
+                "type": "USED_IN",
+                "target": "Potlatch",
+                "description": "The rattle is used in potlatch ceremonies, which are significant cultural events."
+            }
+        ],
+        "associated_entities": [
+            "Tlingit people",
+            "Northwest Coast art"
+        ],
+        "symbolic_items": [
+            "Totem Pole",
+            "Chilkat Blanket"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Tlingit culture, Northwest Coast of North America",
+        "historical_period": "pre-European contact to present",
+        "geographic_range": "Northwest Coast, primarily Alaska and British Columbia",
+        "cultural_significance": "The Raven Rattle is a symbol of cultural heritage and identity, used in storytelling and ceremonial practices.",
+        "primary_sources": [
+            "Northwest Coast art documentation",
+            "Tlingit cultural records"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic musical instrument",
+        "NOT a simple wooden rattle without carvings",
+        "NOT a non-Tlingit cultural artifact"
+    ]
+}

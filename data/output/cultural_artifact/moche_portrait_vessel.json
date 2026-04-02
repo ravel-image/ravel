@@ -1,0 +1,80 @@
+{
+    "name": "Moche Portrait Vessel",
+    "domain": "cultural_artifact",
+    "entity_type": "ceramic vessel",
+    "alternative_names": [
+        "Huaco Retrato Mochica"
+    ],
+    "primary_sources": [
+        "University of California, Los Angeles",
+        "Larco Museum"
+    ],
+    "visual_attributes": {
+        "morphology": "stirrup spout vessel with human face",
+        "distinctive_features": [
+            "individualized human faces",
+            "naturalistic representation",
+            "stirrup spout"
+        ],
+        "color_palette": [
+            "red",
+            "pale cream",
+            "black"
+        ],
+        "texture": "smooth ceramic surface",
+        "size_and_scale": "6–45 cm in height, most between 15–30 cm",
+        "structural_arrangement": "three-dimensional human face with possible fineline paintings",
+        "domain_specific_visual": {
+            "headdress": "two-headed bird with feathers",
+            "earrings": "tubular earrings"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "container for liquids",
+        "secondary_functions": [
+            "funerary object",
+            "status symbol"
+        ],
+        "domain_specific_functional": {
+            "cultural_role": "depiction of Moche elite or rulers",
+            "ceremonial_use": "used in life and placed in graves"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "BELONGS_TO",
+                "target": "Moche culture",
+                "description": "The vessel is a product of the Moche culture of Peru."
+            },
+            {
+                "type": "DEPICTS",
+                "target": "Moche ruler",
+                "description": "The vessel often depicts Moche rulers or elite figures."
+            }
+        ],
+        "associated_entities": [
+            "Moche culture",
+            "Larco Museum"
+        ],
+        "symbolic_items": [
+            "headdress",
+            "earrings"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Moche culture, north coast of Peru",
+        "historical_period": "100–800 CE",
+        "geographic_range": "north coast of Peru, between the Pacific Ocean and the Andean cordillera",
+        "cultural_significance": "realistic portrayal of Moche individuals, especially elite",
+        "primary_sources": [
+            "University of California, Los Angeles",
+            "Larco Museum"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT generic Precolumbian pottery",
+        "NOT idealized human faces",
+        "NOT unrelated to Moche culture"
+    ]
+}

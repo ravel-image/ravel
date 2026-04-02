@@ -1,0 +1,83 @@
+{
+    "name": "Shona Sculpture",
+    "domain": "cultural_artifact",
+    "entity_type": "stone sculpture",
+    "alternative_names": [
+        "Zimbabwean Stone Sculpture"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "British Museum",
+        "National Gallery of Zimbabwe"
+    ],
+    "visual_attributes": {
+        "morphology": "abstract and figurative forms often depicting human and animal figures",
+        "distinctive_features": [
+            "use of serpentine stone, particularly springstone",
+            "smooth, polished surfaces with intricate details",
+            "often features elongated forms and stylized figures"
+        ],
+        "color_palette": [
+            "dark green",
+            "black",
+            "brown"
+        ],
+        "texture": "smooth and polished with occasional rough areas for contrast",
+        "size_and_scale": "varies from small handheld pieces to large monumental works",
+        "structural_arrangement": "balanced compositions with a focus on symmetry and flow",
+        "domain_specific_visual": {
+            "carving_technique": "hand-carved using traditional tools",
+            "cultural_motifs": "incorporates Shona cultural symbols and spiritual themes"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "artistic expression and cultural representation",
+        "secondary_functions": [
+            "spiritual significance",
+            "aesthetic decoration"
+        ],
+        "domain_specific_functional": {
+            "cultural_identity": "reflects Shona beliefs and traditions",
+            "economic_role": "source of income for artists and communities"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "CREATED_BY",
+                "target": "Shona artists",
+                "description": "Shona sculpture is crafted by artists from the Shona ethnic group in Zimbabwe."
+            },
+            {
+                "type": "EXHIBITED_AT",
+                "target": "National Gallery of Zimbabwe",
+                "description": "Shona sculptures are frequently displayed at the National Gallery of Zimbabwe."
+            }
+        ],
+        "associated_entities": [
+            "Frank McEwen",
+            "Joram Mariga",
+            "Tengenenge Sculpture Community"
+        ],
+        "symbolic_items": [
+            "soapstone birds",
+            "soapstone bowl"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Zimbabwe",
+        "historical_period": "modern renaissance began in 1954",
+        "geographic_range": "primarily Zimbabwe, with international exhibitions",
+        "cultural_significance": "represents the artistic and spiritual heritage of the Shona people",
+        "primary_sources": [
+            "Wikipedia",
+            "British Museum",
+            "National Gallery of Zimbabwe"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT generic African sculpture",
+        "NOT made from wood or metal",
+        "NOT unrelated to Shona culture"
+    ]
+}

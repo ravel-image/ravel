@@ -1,0 +1,82 @@
+{
+    "name": "Cycladic Figurine",
+    "domain": "cultural_artifact",
+    "entity_type": "Marble Figurine",
+    "alternative_names": [
+        "FAF",
+        "Folded-Arm Figurine",
+        "Cycladic Idol"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "Archaeological Studies of the Cycladic Culture"
+    ],
+    "visual_attributes": {
+        "morphology": "Full-length female figure with arms folded across the front",
+        "distinctive_features": [
+            "Sharply defined nose",
+            "Smooth, blank face",
+            "Flat, geometric quality"
+        ],
+        "color_palette": [
+            "White",
+            "Off-white",
+            "Marble"
+        ],
+        "texture": "Smooth",
+        "size_and_scale": "Typically no larger than 30 centimeters",
+        "structural_arrangement": "Arms folded across the stomach, right arm below the left",
+        "domain_specific_visual": {
+            "material": "Marble",
+            "anatomical_features": "Elongated neck, pointed feet"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Funerary practice",
+        "secondary_functions": [
+            "Cult image",
+            "Representation of a deity"
+        ],
+        "domain_specific_functional": {
+            "cultural_role": "Possibly valued by the deceased during life",
+            "artistic_influence": "Influenced 20th-century modern art"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ASSOCIATED_WITH",
+                "target": "Aegean Cultures",
+                "description": "Part of the three major Aegean cultures along with Minoan and Mycenaean"
+            },
+            {
+                "type": "FOUND_IN",
+                "target": "Graves",
+                "description": "Regularly used in funerary practice"
+            }
+        ],
+        "associated_entities": [
+            "Minoan Civilization",
+            "Mycenaean Greece"
+        ],
+        "symbolic_items": [
+            "Harp",
+            "Pipe"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Aegean Sea Islands",
+        "historical_period": "3300 to 1100 BCE",
+        "geographic_range": "Cycladic Islands, Crete, Mainland Greece",
+        "cultural_significance": "Represents Cycladic art, possibly a Great Goddess of nature",
+        "primary_sources": [
+            "Wikipedia",
+            "Archaeological Studies of the Cycladic Culture"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT Generic Greek Statue",
+        "NOT Detailed Facial Features",
+        "NOT Modern Cultural Context"
+    ]
+}

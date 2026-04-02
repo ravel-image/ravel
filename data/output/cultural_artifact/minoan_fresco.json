@@ -1,0 +1,87 @@
+{
+    "name": "Minoan Fresco",
+    "domain": "cultural_artifact",
+    "entity_type": "fresco",
+    "alternative_names": [
+        "Minoan Wall Painting",
+        "Aegean Fresco"
+    ],
+    "primary_sources": [
+        "Heraklion Archaeological Museum",
+        "Wall Paintings of Thera",
+        "Knossos Frescoes"
+    ],
+    "visual_attributes": {
+        "morphology": "large wall paintings",
+        "distinctive_features": [
+            "depictions of bull-leaping",
+            "marine life motifs",
+            "landscape elements with rocks and flowers"
+        ],
+        "color_palette": [
+            "reddish-brown",
+            "white",
+            "blue"
+        ],
+        "texture": "smooth plaster surface",
+        "size_and_scale": "varies, often covering large wall sections",
+        "structural_arrangement": "figures in profile with exaggerated features, surrounded by landscape elements",
+        "domain_specific_visual": {
+            "INFLUENCED_BY": "Egyptian and Syrian fresco techniques",
+            "RESTORED_BY": "Emile Gilliéron and Émile Gilliéron"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "decorative and religious",
+        "secondary_functions": [
+            "symbolic representation of nature",
+            "depiction of cultural rituals"
+        ],
+        "domain_specific_functional": {
+            "REPRESENTS": "Minoan religious and cultural themes",
+            "USED_IN": "elite buildings and palaces"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "INFLUENCED_BY",
+                "target": "Ancient Egyptian Art",
+                "description": "Minoan frescoes were inspired by Egyptian fresco techniques."
+            },
+            {
+                "type": "INFLUENCED_BY",
+                "target": "Syrian Art",
+                "description": "Minoan frescoes may have been inspired by Syrian examples."
+            },
+            {
+                "type": "HOUSED_IN",
+                "target": "Heraklion Archaeological Museum",
+                "description": "The largest collection of Minoan frescoes is housed here."
+            }
+        ],
+        "associated_entities": [
+            "Knossos",
+            "Akrotiri"
+        ],
+        "symbolic_items": [
+            "bull",
+            "marine fauna"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Crete, Aegean civilization",
+        "historical_period": "Bronze Age, 3000 to 1100 BC",
+        "geographic_range": "Crete and surrounding Aegean islands",
+        "cultural_significance": "Reflects Minoan reverence for nature and religious practices",
+        "primary_sources": [
+            "Heraklion Archaeological Museum",
+            "Wall Paintings of Thera"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT Roman Fresco",
+        "NOT Renaissance Wall Painting",
+        "NOT depicting individual portraits or royal figures"
+    ]
+}

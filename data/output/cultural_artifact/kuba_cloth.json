@@ -1,0 +1,88 @@
+{
+    "name": "Kuba Cloth",
+    "domain": "cultural_artifact",
+    "entity_type": "textile",
+    "alternative_names": [
+        "Kuba textiles",
+        "Bambala fabrics"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "Emil Torday's ethnographic studies",
+        "Joseph Cornet's writings",
+        "Vanessa Drake Moraga's art history analysis"
+    ],
+    "visual_attributes": {
+        "morphology": "rectangular or square pieces of woven cloth",
+        "distinctive_features": [
+            "geometric designs in linear embroidery",
+            "cut pile surfaces resembling velvet",
+            "appliqué patterns"
+        ],
+        "color_palette": [
+            "natural raffia",
+            "deep red (twool dye)",
+            "various dyed colors"
+        ],
+        "texture": "dense and plush with cut-pile embroidery",
+        "size_and_scale": "approximately 26x28 inches per square",
+        "structural_arrangement": "assembled from multiple embroidered blocks",
+        "domain_specific_visual": {
+            "geometric_patterns": "rectilinear lines, guilloche interlace",
+            "embroidery_techniques": "cut pile, stem stitch, appliqué"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "ceremonial and decorative textile",
+        "secondary_functions": [
+            "funerary regalia",
+            "prestige clothing"
+        ],
+        "domain_specific_functional": {
+            "cultural_significance": "represents community and collective creation",
+            "ritual_use": "used in birth and death rituals"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "CREATED_BY",
+                "target": "Kuba people",
+                "description": "The Kuba people are responsible for the creation of Kuba cloth."
+            },
+            {
+                "type": "INSPIRED_BY",
+                "target": "natural and supernatural beliefs",
+                "description": "Kuba designs are inspired by their environment and beliefs in the supernatural."
+            },
+            {
+                "type": "DYED_WITH",
+                "target": "twool",
+                "description": "Twool is used to dye Kuba cloth, believed to have magical properties."
+            }
+        ],
+        "associated_entities": [
+            "Pende people",
+            "Bushong women"
+        ],
+        "symbolic_items": [
+            "ceremonial skirts",
+            "velvet tribute cloths"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Democratic Republic of the Congo",
+        "historical_period": "ongoing, with roots in early 20th century",
+        "geographic_range": "Kasai-Sankuru region",
+        "cultural_significance": "symbolizes community, creativity, and cultural heritage",
+        "primary_sources": [
+            "Wikipedia",
+            "Emil Torday's ethnographic studies"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT generic woven cloth",
+        "NOT smooth or uniform texture",
+        "NOT Euro-American repetitive patterning"
+    ]
+}

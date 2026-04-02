@@ -1,0 +1,91 @@
+{
+    "name": "Barkcloth Tapa",
+    "domain": "cultural_artifact",
+    "entity_type": "textile_artifact",
+    "alternative_names": [
+        "ngatu",
+        "siapo",
+        "hiapo",
+        "kapa",
+        "ʻuha",
+        "masi",
+        "ahu",
+        "aute",
+        "tapia"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "Melville's Typee",
+        "Friedrich Ratzel's 1896 publication"
+    ],
+    "visual_attributes": {
+        "morphology": "large rectangular sheets",
+        "distinctive_features": [
+            "geometric patterns with repeated motifs",
+            "grid of squares with stylized leaves and fish",
+            "unpainted border on both sides"
+        ],
+        "color_palette": [
+            "rust-brown",
+            "black",
+            "white"
+        ],
+        "texture": "smooth with raised patterns",
+        "size_and_scale": "up to 60 meters long and 3 meters wide",
+        "structural_arrangement": "two layers of strips at right angles",
+        "domain_specific_visual": {
+            "decoration_technique": "rubbing, stamping, stencilling, smoking, dyeing",
+            "pattern_design": "standard kupesi designs like 'pine road', 'shield of Tonga', 'lion', 'dove', 'Manulua'"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "decorative and ceremonial textile",
+        "secondary_functions": [
+            "clothing",
+            "blanket",
+            "room divider"
+        ],
+        "domain_specific_functional": {
+            "cultural_gift": "given as gifts during life events like marriages and funerals",
+            "sacred_wrapping": "used to wrap sacred objects"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "MADE_FROM",
+                "target": "paper mulberry tree",
+                "description": "Barkcloth Tapa is made from the inner bark of the paper mulberry tree."
+            },
+            {
+                "type": "DECORATED_WITH",
+                "target": "kupesi designs",
+                "description": "Tapa cloth is decorated with traditional kupesi designs."
+            }
+        ],
+        "associated_entities": [
+            "paper mulberry tree",
+            "kupesi designs"
+        ],
+        "symbolic_items": [
+            "God staffs",
+            "ceremonial masks"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Pacific Islands",
+        "historical_period": "circa 1000 AD to present",
+        "geographic_range": "Tonga, Samoa, Fiji, Niue, Cook Islands, Futuna, Solomon Islands, Java, Sulawesi, New Zealand, Vanuatu, Papua New Guinea, Hawaii",
+        "cultural_significance": "highly prized for its decorative value and social importance in ceremonies",
+        "primary_sources": [
+            "Wikipedia",
+            "Melville's Typee",
+            "Friedrich Ratzel's 1896 publication"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT generic fabric",
+        "NOT machine-woven textile",
+        "NOT modern synthetic material"
+    ]
+}

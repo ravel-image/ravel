@@ -1,0 +1,85 @@
+{
+    "name": "Pueblo Kachina Doll",
+    "domain": "cultural_artifact",
+    "entity_type": "Hopi Kachina Figure",
+    "alternative_names": [
+        "Hopi Kachina Doll",
+        "Katsina",
+        "Katsinam",
+        "Tithu",
+        "Katsintithu"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "Hopi Kachinas by Edward Kennard"
+    ],
+    "visual_attributes": {
+        "morphology": "Anthropomorphic figure with a cylindrical body and carved head",
+        "distinctive_features": [
+            "Carved from cottonwood root",
+            "Decorative regalia often including carved feathers",
+            "Painted with mineral and vegetable pigments"
+        ],
+        "color_palette": [
+            "Earth tones",
+            "Bright ceremonial colors",
+            "Natural wood"
+        ],
+        "texture": "Smooth with visible wood grain",
+        "size_and_scale": "Typically 8 to 10 inches tall",
+        "structural_arrangement": "Full-bodied with arms and head often in action poses",
+        "domain_specific_visual": {
+            "FACIAL_FEATURES": "Painted or attached pop eyes and painted mouths",
+            "REGALIA": "Carved and painted clothing, sometimes with real clothing elements"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Educational tool for teaching about kachinas",
+        "secondary_functions": [
+            "Decorative home article",
+            "Gift during ceremonies"
+        ],
+        "domain_specific_functional": {
+            "SYMBOLIC_ROLE": "Represents kachinas, spirits of deities, natural elements, or ancestors",
+            "CEREMONIAL_USE": "Given to Hopi girls during ceremonies"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "CREATED_BY",
+                "target": "Hopi People",
+                "description": "Carved by Hopi people to represent kachinas"
+            },
+            {
+                "type": "ASSOCIATED_WITH",
+                "target": "Kachina Ceremonies",
+                "description": "Used in ceremonies to educate and gift to children"
+            }
+        ],
+        "associated_entities": [
+            "Hopi People",
+            "Kachina Ceremonies"
+        ],
+        "symbolic_items": [
+            "Rain",
+            "Natural elements",
+            "Spiritual messages"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Hopi culture, northeastern Arizona",
+        "historical_period": "18th century to present",
+        "geographic_range": "Hopi Reservation, northeastern Arizona",
+        "cultural_significance": "Represents spiritual beings and serves as an educational tool",
+        "primary_sources": [
+            "Wikipedia",
+            "Hopi Kachinas by Edward Kennard"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT Generic Doll",
+        "NOT Plastic or Synthetic Material",
+        "NOT Non-Hopi Cultural Context"
+    ]
+}

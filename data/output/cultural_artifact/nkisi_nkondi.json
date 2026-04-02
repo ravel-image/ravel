@@ -1,0 +1,83 @@
+{
+    "name": "Nkisi Nkondi",
+    "domain": "cultural_artifact",
+    "entity_type": "spiritual_power_figure",
+    "alternative_names": [
+        "nail fetish",
+        "minkondi",
+        "zinkondi"
+    ],
+    "primary_sources": [
+        "Description of Africa",
+        "Kikongo Catechism of 1624"
+    ],
+    "visual_attributes": {
+        "morphology": "anthropomorphic wooden statue",
+        "distinctive_features": [
+            "nails driven into the body",
+            "reflective surfaces like mirrors on the stomach or eyes",
+            "decorative tubes containing substances like gunpowder"
+        ],
+        "color_palette": [
+            "brown",
+            "metallic silver",
+            "red ochre"
+        ],
+        "texture": "rough wooden surface with metallic elements",
+        "size_and_scale": "typically human-sized or smaller",
+        "structural_arrangement": "upright figure with nails protruding from various parts",
+        "domain_specific_visual": {
+            "SPIRITUAL_SYMBOLISM": "reflective surfaces symbolize vision in the spirit world",
+            "AGGRESSIVE_POSTURE": "nails symbolize activation and aggression"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "to search out wrongdoing and enforce oaths",
+        "secondary_functions": [
+            "cause or cure sicknesses",
+            "punish criminals"
+        ],
+        "domain_specific_functional": {
+            "SPIRITUAL_MEDIATION": "mediates between the living and the spirit world",
+            "OATH_ENFORCEMENT": "enforces oaths through spiritual power"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "CREATED_BY",
+                "target": "nganga",
+                "description": "Nkondi are created and activated by spiritual leaders known as nganga."
+            },
+            {
+                "type": "ASSOCIATED_WITH",
+                "target": "bakisi",
+                "description": "Nkondi are associated with spirits known as bakisi."
+            }
+        ],
+        "associated_entities": [
+            "nganga",
+            "bakisi"
+        ],
+        "symbolic_items": [
+            "nails",
+            "mirrors",
+            "gunpowder"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Congo Basin, Central Africa",
+        "historical_period": "since at least the sixteenth century",
+        "geographic_range": "primarily in the Territory of Cabinda",
+        "cultural_significance": "Nkondi are used to enforce social norms and justice within the community.",
+        "primary_sources": [
+            "Description of Africa",
+            "Kikongo Catechism of 1624"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT generic wooden statue",
+        "NOT devoid of nails or reflective surfaces",
+        "NOT unrelated to spiritual or judicial functions"
+    ]
+}

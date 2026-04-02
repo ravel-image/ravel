@@ -1,0 +1,75 @@
+{
+    "name": "Mimbres Bowl",
+    "domain": "cultural_artifact",
+    "entity_type": "ceramic pottery",
+    "alternative_names": [
+        "Classic Mimbres pottery",
+        "Mimbres black and white pottery"
+    ],
+    "primary_sources": [
+        "Swarts Ruin excavations",
+        "Santa Fe Railroad 'Mimbreños' china dinnerware"
+    ],
+    "visual_attributes": {
+        "morphology": "circular bowl with a wide, open mouth and a rounded base",
+        "distinctive_features": [
+            "black and white geometric and figurative designs",
+            "boldface patterns",
+            "intricate animal and human motifs"
+        ],
+        "color_palette": [
+            "black",
+            "white"
+        ],
+        "texture": "smooth ceramic surface",
+        "size_and_scale": "typically around 20-30 cm in diameter",
+        "structural_arrangement": "symmetrical design with a central motif",
+        "domain_specific_visual": {
+            "pottery_style": "Classic Mimbres",
+            "design_period": "1000–1130 CE"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "ceremonial and utilitarian use",
+        "secondary_functions": [
+            "artistic expression",
+            "cultural storytelling"
+        ],
+        "domain_specific_functional": {
+            "cultural_role": "used in rituals and daily life",
+            "symbolic_meaning": "depicts cultural narratives and beliefs"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "PART_OF",
+                "target": "Mimbres culture",
+                "description": "The Mimbres Bowl is a product of the Mimbres branch of the Mogollon culture."
+            }
+        ],
+        "associated_entities": [
+            "Mogollon culture",
+            "Mimbres Valley"
+        ],
+        "symbolic_items": [
+            "kivas",
+            "ceremonial structures"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Mimbres Valley, Southwestern New Mexico",
+        "historical_period": "Classic Mimbres phase (1000–1130 CE)",
+        "geographic_range": "Southwestern New Mexico and Southeastern Arizona",
+        "cultural_significance": "Represents the artistic and cultural achievements of the Mimbres people",
+        "primary_sources": [
+            "Swarts Ruin excavations",
+            "Santa Fe Railroad 'Mimbreños' china dinnerware"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT generic Southwestern pottery",
+        "NOT plain or undecorated ceramic",
+        "NOT modern or contemporary pottery styles"
+    ]
+}

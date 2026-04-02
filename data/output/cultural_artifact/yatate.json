@@ -1,0 +1,80 @@
+{
+    "name": "Yatate",
+    "domain": "cultural_artifact",
+    "entity_type": "portable writing set",
+    "alternative_names": [
+        "矢立"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "historical texts on Japanese writing tools"
+    ],
+    "visual_attributes": {
+        "morphology": "elongated, smoking-pipe-shaped structure",
+        "distinctive_features": [
+            "ink compartment in the axis of the pen",
+            "chain-attached ink box used as a netsuke",
+            "shakudo alloy finish turning purple-black over time"
+        ],
+        "color_palette": [
+            "metallic gold",
+            "copper",
+            "purple-black"
+        ],
+        "texture": "smooth metallic surface",
+        "size_and_scale": "approximately 15-20 cm in length",
+        "structural_arrangement": "long box with ink compartment and brush shaft, sometimes with a chain-attached ink box",
+        "domain_specific_visual": {
+            "writing_tool_design": "smoking-pipe shape",
+            "decorative_finish": "shakudo alloy"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "portable writing set for calligraphy",
+        "secondary_functions": [
+            "self-defense",
+            "belt accessory"
+        ],
+        "domain_specific_functional": {
+            "ink_storage": "ink-saturated cotton in a sumi tsubo",
+            "attachment_method": "netsuke or tucked behind the belt"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "INSPIRED_BY",
+                "target": "Chinese writing set",
+                "description": "The yatate was inspired by traditional Chinese writing sets."
+            },
+            {
+                "type": "USED_BY",
+                "target": "samurai",
+                "description": "Yatate were used by samurai for writing and sometimes self-defense."
+            }
+        ],
+        "associated_entities": [
+            "sumi",
+            "calligraphy brush"
+        ],
+        "symbolic_items": [
+            "katana",
+            "netsuke"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Japan",
+        "historical_period": "Kamakura to Edo period",
+        "geographic_range": "Japan",
+        "cultural_significance": "Represents the evolution of portable writing tools in Japanese culture, associated with samurai and calligraphy.",
+        "primary_sources": [
+            "historical texts on Japanese writing tools",
+            "museum collections"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic pen or pencil",
+        "NOT a modern fountain pen",
+        "NOT a non-Japanese cultural artifact"
+    ]
+}

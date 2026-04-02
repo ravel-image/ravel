@@ -1,1 +1,86 @@
-
+{
+    "name": "Churinga",
+    "domain": "cultural_artifact",
+    "entity_type": "sacred object",
+    "alternative_names": [
+        "Tjurunga",
+        "Tjuringa"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "Durkheim's writings",
+        "Carl Strehlow's translations"
+    ],
+    "visual_attributes": {
+        "morphology": "oblong pieces of polished stone or wood",
+        "distinctive_features": [
+            "totemic engravings",
+            "hair or string strung through them",
+            "polished surface"
+        ],
+        "color_palette": [
+            "earthy brown",
+            "stone grey",
+            "natural wood"
+        ],
+        "texture": "smooth and polished",
+        "size_and_scale": "varies, typically handheld",
+        "structural_arrangement": "engraved with totemic symbols",
+        "domain_specific_visual": {
+            "TOTEMIC_ENGRAVINGS": "specific to the clan or group",
+            "BULLROARER_FEATURE": "some have string for use as bullroarers"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "sacred ceremonial object",
+        "secondary_functions": [
+            "used in sacred chants",
+            "healing rituals"
+        ],
+        "domain_specific_functional": {
+            "SYMBOLIC_REPRESENTATION": "represents the totem of the group",
+            "MAGICAL_PROPERTIES": "thought to confer sacredness and heal"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "BELONGS_TO",
+                "target": "Arrernte group",
+                "description": "Owned by the Arrernte and other Central Australian Aboriginal groups"
+            },
+            {
+                "type": "REPRESENTS",
+                "target": "Totemic ancestor",
+                "description": "Embodies the fertility and essence of the totemic ancestor"
+            }
+        ],
+        "associated_entities": [
+            "Arrernte",
+            "Luritja",
+            "Kaitish",
+            "Unmatjera",
+            "Illpirra"
+        ],
+        "symbolic_items": [
+            "ceremonial poles",
+            "sacred chants"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Central Australia",
+        "historical_period": "pre-colonial to present",
+        "geographic_range": "Central Australian regions",
+        "cultural_significance": "Highly sacred, embodies totemic and ancestral significance",
+        "primary_sources": [
+            "Wikipedia",
+            "Durkheim's writings",
+            "Carl Strehlow's translations"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT generic stone or wooden artifact",
+        "NOT devoid of totemic engravings",
+        "NOT a publicly displayed object"
+    ]
+}

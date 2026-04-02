@@ -1,0 +1,84 @@
+{
+    "name": "Gandhara Sculpture",
+    "domain": "cultural_artifact",
+    "entity_type": "Greco-Buddhist Art",
+    "alternative_names": [
+        "Greco-Buddhist Art",
+        "Gandhara Art"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "Edicts of Ashoka",
+        "Milinda Panha"
+    ],
+    "visual_attributes": {
+        "morphology": "Sculptural representations of Buddhist figures with Greco-Roman stylistic influences",
+        "distinctive_features": [
+            "Idealistic realism and sensuous description",
+            "First representations of Gautama Buddha in human form",
+            "Greco-Roman elements such as drapery and anatomical precision"
+        ],
+        "color_palette": [
+            "Stone grey",
+            "Earthy tones",
+            "Occasional gold accents"
+        ],
+        "texture": "Smooth stone with detailed carvings",
+        "size_and_scale": "Varies from small reliefs to large statues, typically life-sized or larger",
+        "structural_arrangement": "Figures often depicted in frontal poses with detailed backgrounds",
+        "domain_specific_visual": {
+            "Buddhist_iconography": "Dharmachakra, lotus, Bodhi tree",
+            "Hellenistic_influence": "Drapery, realistic anatomy"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Religious and devotional representation",
+        "secondary_functions": [
+            "Cultural syncretism",
+            "Artistic expression"
+        ],
+        "domain_specific_functional": {
+            "Symbolism": "Represents the spread of Buddhism and cultural exchange",
+            "Historical_significance": "Marks the end of aniconism in Buddhist art"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "INFLUENCED_BY",
+                "target": "Hellenistic Art",
+                "description": "Gandhara Sculpture incorporates elements of Hellenistic art such as realism and anatomical precision."
+            },
+            {
+                "type": "REPRESENTS",
+                "target": "Gautama Buddha",
+                "description": "Gandhara Sculpture often depicts the Buddha in human form, a significant development in Buddhist art."
+            }
+        ],
+        "associated_entities": [
+            "Kushan Empire",
+            "Indo-Greek Kingdoms"
+        ],
+        "symbolic_items": [
+            "Dharmachakra",
+            "Lotus",
+            "Bodhi Tree"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Gandhara region, northwestern Indian subcontinent",
+        "historical_period": "1st-5th century AD",
+        "geographic_range": "Northwestern India, Central Asia",
+        "cultural_significance": "Represents the fusion of Greek and Buddhist artistic traditions",
+        "primary_sources": [
+            "Wikipedia",
+            "Edicts of Ashoka",
+            "Milinda Panha"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT Generic Buddhist Sculpture",
+        "NOT Purely Indian or Greek Art",
+        "NOT Modern or Contemporary Art"
+    ]
+}

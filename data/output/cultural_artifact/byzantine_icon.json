@@ -1,0 +1,81 @@
+{
+    "name": "Byzantine Icon",
+    "domain": "cultural_artifact",
+    "entity_type": "religious icon",
+    "alternative_names": [
+        "Orthodox Icon",
+        "Christian Icon"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "Byzantine Art History Texts"
+    ],
+    "visual_attributes": {
+        "morphology": "rectangular or oval panel",
+        "distinctive_features": [
+            "depiction of religious figures such as Christ, the Virgin Mary, or saints",
+            "gold leaf background",
+            "stylized, elongated figures with solemn expressions"
+        ],
+        "color_palette": [
+            "gold",
+            "deep blue",
+            "crimson"
+        ],
+        "texture": "smooth with visible brush strokes",
+        "size_and_scale": "typically small to medium, ranging from 30 cm to 1 meter in height",
+        "structural_arrangement": "central figure with symmetrical composition",
+        "domain_specific_visual": {
+            "iconography": "adherence to traditional canons of representation",
+            "halo": "golden halo around the head of the depicted figure"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "object of veneration",
+        "secondary_functions": [
+            "aid in prayer",
+            "liturgical use"
+        ],
+        "domain_specific_functional": {
+            "spiritual_presence": "believed to manifest the presence of the depicted figure",
+            "ritual_use": "used in Orthodox Christian rituals and ceremonies"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "INFLUENCED_BY",
+                "target": "Eastern Roman Empire",
+                "description": "Byzantine icons were influenced by the artistic traditions of the Eastern Roman Empire."
+            },
+            {
+                "type": "USED_IN",
+                "target": "Orthodox Church",
+                "description": "Icons are used in the liturgical practices of the Orthodox Church."
+            }
+        ],
+        "associated_entities": [
+            "Hagia Sophia",
+            "Eastern Orthodox Christianity"
+        ],
+        "symbolic_items": [
+            "cross",
+            "Bible"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Eastern Roman Empire",
+        "historical_period": "Byzantine period (330-1453 AD)",
+        "geographic_range": "Eastern Europe, Eastern Mediterranean",
+        "cultural_significance": "represents the divine and serves as a medium for spiritual connection",
+        "primary_sources": [
+            "Byzantine Art History Texts",
+            "Orthodox Christian Writings"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT Western religious painting",
+        "NOT naturalistic depiction",
+        "NOT secular art"
+    ]
+}

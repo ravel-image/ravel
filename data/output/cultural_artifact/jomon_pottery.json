@@ -1,0 +1,83 @@
+{
+    "name": "Jomon Pottery",
+    "domain": "cultural_artifact",
+    "entity_type": "ancient earthenware pottery",
+    "alternative_names": [
+        "縄文土器",
+        "Jōmon doki"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "archaeological studies",
+        "radiometric dating tests"
+    ],
+    "visual_attributes": {
+        "morphology": "rounded-bottom vessels",
+        "distinctive_features": [
+            "rope-patterned impressions",
+            "complex and decorated rims",
+            "small size"
+        ],
+        "color_palette": [
+            "earthy brown",
+            "reddish-brown",
+            "dark soot"
+        ],
+        "texture": "rough with rope impressions",
+        "size_and_scale": "small vessels, typically handheld",
+        "structural_arrangement": "rounded bottoms with complex rim designs",
+        "domain_specific_visual": {
+            "DECORATIVE_STYLE": "rope-patterned",
+            "HEATING_TEMPERATURE": "600–900 degrees Celsius"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "cooking food",
+        "secondary_functions": [
+            "storage",
+            "ceremonial use"
+        ],
+        "domain_specific_functional": {
+            "RESIDUE_INDICATION": "soot and food residue",
+            "PERIOD_SPECIFIC_STYLE": "varied by Jomon period"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "FOLLOWED_BY",
+                "target": "Yayoi pottery",
+                "description": "Jomon pottery was succeeded by Yayoi pottery in Japan."
+            },
+            {
+                "type": "ASSOCIATED_WITH",
+                "target": "dogū",
+                "description": "Dogū are clay figurines produced during the Jomon period."
+            }
+        ],
+        "associated_entities": [
+            "Yayoi pottery",
+            "dogū"
+        ],
+        "symbolic_items": [
+            "rope-patterned designs",
+            "clay figurines"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Japan",
+        "historical_period": "Jomon period (14,500 BCE - 300 BCE)",
+        "geographic_range": "Japan, primarily Kyushu and Honshu",
+        "cultural_significance": "represents one of the earliest forms of pottery in the world",
+        "primary_sources": [
+            "Odai Yamamoto I site",
+            "Fukui cave",
+            "Torihama shell mound"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT modern pottery",
+        "NOT smooth or glossy surface",
+        "NOT associated with post-Jomon periods"
+    ]
+}

@@ -1,0 +1,91 @@
+{
+    "name": "Maya Codex",
+    "domain": "cultural_artifact",
+    "entity_type": "ancient manuscript",
+    "alternative_names": [
+        "Maya Codices",
+        "Maya Folding Books"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "Museo Nacional de Arqueología",
+        "Sächsische Landesbibliothek (SLUB)"
+    ],
+    "visual_attributes": {
+        "morphology": "folding book with screen-folded pages",
+        "distinctive_features": [
+            "Maya hieroglyphic script",
+            "richly illustrated astronomical tables",
+            "screen-folded structure"
+        ],
+        "color_palette": [
+            "earthy brown",
+            "dark ink black",
+            "faded parchment yellow"
+        ],
+        "texture": "smooth, slightly fibrous",
+        "size_and_scale": "varies by codex, e.g., Dresden Codex is 3.56 meters long",
+        "structural_arrangement": "long sheet of paper folded accordion-style",
+        "domain_specific_visual": {
+            "MATERIAL": "Mesoamerican bark paper (huun)",
+            "SCRIPT": "Maya hieroglyphs"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "recording astronomical and ritualistic information",
+        "secondary_functions": [
+            "divination",
+            "historical record keeping"
+        ],
+        "domain_specific_functional": {
+            "ASTRONOMICAL_USE": "predicting eclipses and planetary cycles",
+            "RITUAL_USE": "guiding religious ceremonies"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "CREATED_BY",
+                "target": "Maya civilization",
+                "description": "The Maya civilization produced these codices."
+            },
+            {
+                "type": "PATRONAGE_OF",
+                "target": "Tonsured Maize God",
+                "description": "The codices were created under the patronage of deities like the Tonsured Maize God."
+            },
+            {
+                "type": "PATRONAGE_OF",
+                "target": "Howler Monkey Gods",
+                "description": "The codices were created under the patronage of deities like the Howler Monkey Gods."
+            }
+        ],
+        "associated_entities": [
+            "Dresden Codex",
+            "Madrid Codex",
+            "Paris Codex",
+            "Maya Codex of Mexico"
+        ],
+        "symbolic_items": [
+            "serpents",
+            "stars",
+            "deities"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Mesoamerica",
+        "historical_period": "5th century to Postclassic period (circa 900–1521 AD)",
+        "geographic_range": "Yucatán Peninsula, Guatemala",
+        "cultural_significance": "Represents the intellectual and spiritual achievements of the Maya civilization",
+        "primary_sources": [
+            "Wikipedia",
+            "Museo Nacional de Arqueología",
+            "Sächsische Landesbibliothek (SLUB)"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a modern book",
+        "NOT printed on modern paper",
+        "NOT written in Latin script"
+    ]
+}

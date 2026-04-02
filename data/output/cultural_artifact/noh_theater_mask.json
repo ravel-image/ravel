@@ -1,0 +1,82 @@
+{
+    "name": "Noh Theater Mask",
+    "domain": "cultural_artifact",
+    "entity_type": "theatrical_mask",
+    "alternative_names": [
+        "Noh Mask",
+        "Nōmen"
+    ],
+    "primary_sources": [
+        "Japanese cultural texts",
+        "Noh performance archives",
+        "UNESCO Intangible Cultural Heritage documentation"
+    ],
+    "visual_attributes": {
+        "morphology": "oval-shaped face mask with exaggerated features",
+        "distinctive_features": [
+            "stylized expressions representing specific characters",
+            "small eye slits for limited visibility",
+            "intricate carvings and painted details"
+        ],
+        "color_palette": [
+            "white",
+            "red",
+            "black"
+        ],
+        "texture": "smooth with a polished finish",
+        "size_and_scale": "approximately 20 cm in height and 15 cm in width",
+        "structural_arrangement": "symmetrical facial features with a slight forward tilt",
+        "domain_specific_visual": {
+            "character_representation": "depicts roles such as ghosts, women, deities, and demons",
+            "material": "traditionally made from Japanese cypress wood"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "used in Noh theater performances to represent characters",
+        "secondary_functions": [
+            "symbolizes the transformation of supernatural beings",
+            "conveys emotions through stylized expressions"
+        ],
+        "domain_specific_functional": {
+            "cultural_role": "integral to the storytelling in Noh performances",
+            "performance_impact": "enhances the actor's portrayal of the character"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "USED_IN",
+                "target": "Noh Theater",
+                "description": "Noh masks are essential components of Noh theater performances."
+            },
+            {
+                "type": "MADE_BY",
+                "target": "Noh Mask Artisans",
+                "description": "Crafted by skilled artisans specializing in traditional mask-making techniques."
+            }
+        ],
+        "associated_entities": [
+            "Noh Theater",
+            "Noh Mask Artisans"
+        ],
+        "symbolic_items": [
+            "Noh Costumes",
+            "Noh Props"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Japan",
+        "historical_period": "14th century to present",
+        "geographic_range": "primarily Japan",
+        "cultural_significance": "represents traditional Japanese performing arts and cultural heritage",
+        "primary_sources": [
+            "Japanese cultural texts",
+            "Noh performance archives"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic theater mask",
+        "NOT a modern or abstract design",
+        "NOT associated with Western theatrical traditions"
+    ]
+}

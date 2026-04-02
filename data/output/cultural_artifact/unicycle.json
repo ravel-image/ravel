@@ -1,0 +1,82 @@
+{
+    "name": "Unicycle",
+    "domain": "cultural_artifact",
+    "entity_type": "Pedal-Powered Vehicle",
+    "alternative_names": [
+        "Monocycle"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "US patents by Frederick Myers and Battista Scuri"
+    ],
+    "visual_attributes": {
+        "morphology": "Single-wheel vehicle with a frame and saddle",
+        "distinctive_features": [
+            "Single wheel touching the ground",
+            "Pedal-driven direct-drive system",
+            "Fork-style frame"
+        ],
+        "color_palette": [
+            "Black",
+            "Silver",
+            "White"
+        ],
+        "texture": "Smooth metal and rubber",
+        "size_and_scale": "Wheel diameter ranges from 12 inches to 36 inches",
+        "structural_arrangement": "Wheel at the bottom, frame and saddle above",
+        "domain_specific_visual": {
+            "WHEEL_TYPE": "Bicycle-like with special hub",
+            "SADDLE_TYPE": "Narrow and adjustable"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Transportation and performance",
+        "secondary_functions": [
+            "Sport",
+            "Recreation",
+            "Circus acts"
+        ],
+        "domain_specific_functional": {
+            "SPORT_VARIATIONS": "Unicycle basketball, unicycle hockey",
+            "EXTREME_SPORTS": "Mountain unicycling, trials unicycling"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_VARIATION",
+                "target": "Giraffe Unicycle",
+                "description": "A taller version of the unicycle using a chain drive"
+            },
+            {
+                "type": "HAS_VARIATION",
+                "target": "Mountain Unicycle",
+                "description": "Designed for off-road and mountain trails"
+            }
+        ],
+        "associated_entities": [
+            "Bicycle",
+            "Tricycle",
+            "Quadracycle"
+        ],
+        "symbolic_items": [
+            "Circus",
+            "Street Performance"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Developed from the penny-farthing",
+        "historical_period": "Late 19th century",
+        "geographic_range": "Global",
+        "cultural_significance": "Symbol of balance and skill in performance arts",
+        "primary_sources": [
+            "US patents",
+            "Circus history"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT Bicycle",
+        "NOT Two-wheeled vehicle",
+        "NOT Motorized vehicle"
+    ]
+}

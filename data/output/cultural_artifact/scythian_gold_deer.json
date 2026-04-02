@@ -1,0 +1,80 @@
+{
+    "name": "Scythian Gold Deer",
+    "domain": "cultural_artifact",
+    "entity_type": "decorative_object",
+    "alternative_names": [
+        "Scythian Stag",
+        "Scythian Gold Stag"
+    ],
+    "primary_sources": [
+        "Hermitage Museum",
+        "National Museum of Hungary",
+        "Wikipedia"
+    ],
+    "visual_attributes": {
+        "morphology": "crouching deer with legs tucked beneath its body, head upright",
+        "distinctive_features": [
+            "looped antlers",
+            "muscles tight to give the impression of speed",
+            "stylized tree in openwork plaque"
+        ],
+        "color_palette": [
+            "gold"
+        ],
+        "texture": "smooth, metallic",
+        "size_and_scale": "varies from small plaques to large shield ornaments",
+        "structural_arrangement": "central ornament for shields or smaller plaques for clothing",
+        "domain_specific_visual": {
+            "animal_style": "stylized animal figures",
+            "iconography": "deer with looped antlers"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "decorative",
+        "secondary_functions": [
+            "symbolic representation",
+            "clan totem"
+        ],
+        "domain_specific_functional": {
+            "cultural_significance": "possibly a clan totem for steppes peoples",
+            "use_in_art": "central ornament for shields, clothing decoration"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ASSOCIATED_WITH",
+                "target": "Scythian Culture",
+                "description": "The Scythian Gold Deer is a product of Scythian art and culture."
+            },
+            {
+                "type": "HOUSED_IN",
+                "target": "Hermitage Museum",
+                "description": "Some of the most notable examples are housed in the Hermitage Museum."
+            }
+        ],
+        "associated_entities": [
+            "Scythian Culture",
+            "Pazyryk Culture"
+        ],
+        "symbolic_items": [
+            "stag",
+            "antlers"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Eurasian Steppe",
+        "historical_period": "7th to 3rd centuries BC",
+        "geographic_range": "Scythian territories, including Kuban, Hungary, Crimea",
+        "cultural_significance": "Highly valued by museums, possibly a clan totem",
+        "primary_sources": [
+            "Hermitage Museum",
+            "National Museum of Hungary"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT generic deer sculpture",
+        "NOT smooth antlers",
+        "NOT modern or contemporary art style"
+    ]
+}

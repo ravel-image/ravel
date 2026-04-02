@@ -1,0 +1,87 @@
+{
+    "name": "Tibetan Thangka Painting",
+    "domain": "cultural_artifact",
+    "entity_type": "Buddhist Scroll Painting",
+    "alternative_names": [
+        "Thangka",
+        "Pau Bha",
+        "Tson-tang"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "Giuseppe Tucci's works on Tibetan art"
+    ],
+    "visual_attributes": {
+        "morphology": "Rectangular scroll painting",
+        "distinctive_features": [
+            "Central deity surrounded by smaller figures",
+            "Symmetrical composition",
+            "Mounted on textile backing with silk cover"
+        ],
+        "color_palette": [
+            "Red",
+            "Gold",
+            "Blue"
+        ],
+        "texture": "Smooth with intricate details",
+        "size_and_scale": "Varies from small (portrait size) to several meters",
+        "structural_arrangement": "Central figure flanked by smaller figures, often in framed compartments",
+        "domain_specific_visual": {
+            "MANDALA_REPRESENTATION": "Depicts Buddhist deities and scenes",
+            "TEXTILE_BACKING": "Mounted on textile backing with silk cover"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Religious and meditative tool",
+        "secondary_functions": [
+            "Teaching aid",
+            "Decorative art"
+        ],
+        "domain_specific_functional": {
+            "SYMBOLIC_REPRESENTATION": "Depicts the life of Buddha and Buddhist teachings",
+            "CEREMONIAL_USE": "Displayed during religious festivals"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "DEPICTS",
+                "target": "Buddhist Deity",
+                "description": "Central figure often represents a Buddhist deity or scene"
+            },
+            {
+                "type": "INFLUENCED_BY",
+                "target": "Indo-Nepalese Art",
+                "description": "Stylistic influences from Indo-Nepalese traditions"
+            },
+            {
+                "type": "INFLUENCED_BY",
+                "target": "Han Chinese Art",
+                "description": "Incorporates elements from Han Chinese painting"
+            }
+        ],
+        "associated_entities": [
+            "Buddhist Deity",
+            "Monastic Students"
+        ],
+        "symbolic_items": [
+            "Wheel of Life",
+            "Mandala"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Tibet",
+        "historical_period": "11th century onwards",
+        "geographic_range": "Tibet, Nepal, Mongolia, Bhutan, Himalayan regions",
+        "cultural_significance": "Represents Buddhist teachings and serves as a meditation aid",
+        "primary_sources": [
+            "Wikipedia",
+            "Giuseppe Tucci's works on Tibetan art"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT Generic Scroll Painting",
+        "NOT Framed Art",
+        "NOT Non-Buddhist Cultural Context"
+    ]
+}

@@ -1,0 +1,91 @@
+{
+    "name": "Dhol",
+    "domain": "cultural_artifact",
+    "entity_type": "double-headed drum",
+    "alternative_names": [
+        "Dholak",
+        "Dholki"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "Ain-i-Akbari",
+        "Sangitasara"
+    ],
+    "visual_attributes": {
+        "morphology": "double-sided barrel drum",
+        "distinctive_features": [
+            "wooden barrel body",
+            "animal hide or synthetic skin stretched over ends",
+            "decorative engraved patterns or paint"
+        ],
+        "color_palette": [
+            "natural wood",
+            "brown",
+            "black"
+        ],
+        "texture": "smooth wooden surface with taut skin",
+        "size_and_scale": "varies by region, typically large and bulky in Punjab",
+        "structural_arrangement": "barrel shape with two drumheads, one thicker than the other",
+        "domain_specific_visual": {
+            "stick_type": "Dagga (bent hardwood) and Teeli (thin and flexible)",
+            "strap_material": "woven cotton"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "musical accompaniment",
+        "secondary_functions": [
+            "ceremonial use",
+            "dance rhythm support"
+        ],
+        "domain_specific_functional": {
+            "associated_dances": [
+                "Bhangra",
+                "Rongali Bihu",
+                "Garba"
+            ],
+            "ceremonial_roles": [
+                "wedding processions",
+                "Sufi devotional dances"
+            ]
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "RELATED_TO",
+                "target": "Dholak",
+                "description": "A smaller, similar type of drum used in similar contexts."
+            },
+            {
+                "type": "PLAYED_BY",
+                "target": "Dholi",
+                "description": "A person who plays the dhol."
+            }
+        ],
+        "associated_entities": [
+            "Tabla",
+            "Tasha",
+            "Cymbals"
+        ],
+        "symbolic_items": [
+            "Khol",
+            "Devo Badyo"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Indian subcontinent",
+        "historical_period": "Ancient to present",
+        "geographic_range": "Northern India, Pakistan, Assam, Goa, Gujarat, Maharashtra",
+        "cultural_significance": "Integral to regional music and dance, symbol of cultural identity",
+        "primary_sources": [
+            "Wikipedia",
+            "Ain-i-Akbari",
+            "Sangitasara"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a single-headed drum",
+        "NOT a modern electronic drum",
+        "NOT exclusively a Western musical instrument"
+    ]
+}

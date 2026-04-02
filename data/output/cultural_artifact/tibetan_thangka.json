@@ -1,0 +1,88 @@
+{
+    "name": "Tibetan Thangka",
+    "domain": "cultural_artifact",
+    "entity_type": "Buddhist Scroll Painting",
+    "alternative_names": [
+        "Thangka",
+        "Thanka",
+        "Tanka",
+        "Pau Bha"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "Giuseppe Tucci's works on Tibetan art"
+    ],
+    "visual_attributes": {
+        "morphology": "Rectangular scroll painting",
+        "distinctive_features": [
+            "Central deity surrounded by smaller figures",
+            "Symmetrical composition",
+            "Elaborate details with many small figures"
+        ],
+        "color_palette": [
+            "Red",
+            "Gold",
+            "Blue"
+        ],
+        "texture": "Smooth with intricate brushwork",
+        "size_and_scale": "Varies from small (portrait size) to several meters",
+        "structural_arrangement": "Mounted on textile backing with silk cover",
+        "domain_specific_visual": {
+            "DEPICTS": "Buddhist deities, scenes, or mandalas",
+            "STYLE": "Influence of Indo-Nepalese and Han Chinese painting"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Religious and meditative tool",
+        "secondary_functions": [
+            "Teaching aid",
+            "Decorative art"
+        ],
+        "domain_specific_functional": {
+            "USED_IN": "Personal meditation, monastic instruction",
+            "DISPLAYED_DURING": "Religious festivals"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "DEPICTS",
+                "target": "Buddhist Deity",
+                "description": "Central figure often represents a deity or important monk"
+            },
+            {
+                "type": "INFLUENCED_BY",
+                "target": "Indo-Nepalese Art",
+                "description": "Stylistic elements derived from Indo-Nepalese tradition"
+            },
+            {
+                "type": "INFLUENCED_BY",
+                "target": "Han Chinese Art",
+                "description": "Incorporates elements from Han Chinese painting"
+            }
+        ],
+        "associated_entities": [
+            "Buddhist Deity",
+            "Monastic Students"
+        ],
+        "symbolic_items": [
+            "Wheel of Life",
+            "Mandala"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Tibet",
+        "historical_period": "11th century onwards",
+        "geographic_range": "Tibet, Nepal, Bhutan, Mongolia, Himalayan India",
+        "cultural_significance": "Represents Buddhist teachings and serves as a meditation aid",
+        "primary_sources": [
+            "Mogao Caves",
+            "Ajanta Caves"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT Generic Scroll Painting",
+        "NOT Framed Artwork",
+        "NOT Secular Art"
+    ]
+}

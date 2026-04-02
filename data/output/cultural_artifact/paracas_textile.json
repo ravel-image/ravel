@@ -1,0 +1,82 @@
+{
+    "name": "Paracas Textile",
+    "domain": "cultural_artifact",
+    "entity_type": "Ancient Textile",
+    "alternative_names": [
+        "Paracas Embroidery",
+        "Paracas Necropolis Textile"
+    ],
+    "primary_sources": [
+        "British Museum",
+        "A History of the World in 100 Objects",
+        "Julio C. Tello's Discoveries"
+    ],
+    "visual_attributes": {
+        "morphology": "Large woven cloth with embroidered designs",
+        "distinctive_features": [
+            "Depictions of flying shamans holding severed heads",
+            "Brightly colored with supernatural imagery",
+            "Intricate embroidery with natural dyes"
+        ],
+        "color_palette": [
+            "Bright red",
+            "Deep blue",
+            "Vibrant yellow"
+        ],
+        "texture": "Soft and fibrous with intricate embroidery",
+        "size_and_scale": "Up to 100 feet (34 meters) in length",
+        "structural_arrangement": "Large cloths used to wrap mummified bodies",
+        "domain_specific_visual": {
+            "MATERIAL": "Camelid wool and cotton",
+            "EMBROIDERY_STYLE": "Woolen embroidery on cotton base"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Funerary wrapping for mummified bodies",
+        "secondary_functions": [
+            "Ceremonial representation",
+            "Symbolic depiction of spiritual beliefs"
+        ],
+        "domain_specific_functional": {
+            "SYMBOLISM": "Represents spirits or supernatural beings",
+            "CULTURAL_ROLE": "Part of burial customs in Paracas culture"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "DISCOVERED_BY",
+                "target": "Julio C. Tello",
+                "description": "Tello discovered the Paracas necropolis and its textiles in the 1920s."
+            },
+            {
+                "type": "HOUSED_IN",
+                "target": "British Museum",
+                "description": "Some Paracas textiles are preserved and displayed in the British Museum."
+            }
+        ],
+        "associated_entities": [
+            "Julio C. Tello",
+            "British Museum"
+        ],
+        "symbolic_items": [
+            "Severed heads",
+            "Flying shamans"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Paracas Peninsula, Peru",
+        "historical_period": "200–300 BCE",
+        "geographic_range": "South America, specifically Peru",
+        "cultural_significance": "Represents the spiritual and ceremonial practices of the Paracas culture",
+        "primary_sources": [
+            "British Museum",
+            "A History of the World in 100 Objects"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT Modern Textile",
+        "NOT Plain or monochrome fabric",
+        "NOT Inca or later cultural artifact"
+    ]
+}

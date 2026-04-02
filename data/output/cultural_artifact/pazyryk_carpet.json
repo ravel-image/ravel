@@ -1,0 +1,76 @@
+{
+    "name": "Pazyryk Carpet",
+    "domain": "cultural_artifact",
+    "entity_type": "pile carpet",
+    "alternative_names": [
+        "Pazyryk Rug",
+        "Scythian Carpet"
+    ],
+    "primary_sources": [
+        "Hermitage Museum",
+        "Excavations by Sergei Ivanovich Rudenko"
+    ],
+    "visual_attributes": {
+        "morphology": "rectangular textile",
+        "distinctive_features": [
+            "earliest known pile carpet",
+            "intricate geometric and animal motifs",
+            "zoomorphic designs"
+        ],
+        "color_palette": [
+            "red",
+            "blue",
+            "yellow"
+        ],
+        "texture": "woven pile",
+        "size_and_scale": "approximately 2 meters by 2 meters",
+        "structural_arrangement": "symmetrical pattern with central medallion and border",
+        "domain_specific_visual": {
+            "motifs": "animal and geometric patterns",
+            "weaving_technique": "knotting"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "decorative textile",
+        "secondary_functions": [
+            "status symbol",
+            "burial good"
+        ],
+        "domain_specific_functional": {
+            "cultural_role": "used in burial rituals",
+            "trade_item": "indicative of trade connections"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "EXCAVATED_FROM",
+                "target": "Pazyryk Kurgans",
+                "description": "The carpet was found in the Pazyryk burial mounds."
+            }
+        ],
+        "associated_entities": [
+            "Scythian Culture",
+            "Pazyryk Culture"
+        ],
+        "symbolic_items": [
+            "felt hangings",
+            "Chinese silk"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Altai Mountains, Siberia",
+        "historical_period": "4th–3rd centuries BCE",
+        "geographic_range": "Pazyryk Valley, Altai Mountains",
+        "cultural_significance": "Represents the wealth and artistic skill of the Pazyryk culture",
+        "primary_sources": [
+            "Hermitage Museum",
+            "Excavations by Sergei Ivanovich Rudenko"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a modern Persian carpet",
+        "NOT a flat-woven kilim",
+        "NOT a contemporary machine-made rug"
+    ]
+}

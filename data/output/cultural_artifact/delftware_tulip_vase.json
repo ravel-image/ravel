@@ -1,0 +1,78 @@
+{
+    "name": "Delftware Tulip Vase",
+    "domain": "cultural_artifact",
+    "entity_type": "tin-glazed earthenware vase",
+    "alternative_names": [
+        "Delft Blue Tulip Vase",
+        "Delfts blauw Tulip Vase"
+    ],
+    "primary_sources": [
+        "Caiger-Smith, Alan (1973). Tin-Glaze Pottery in Europe and the Islamic World: The Tradition of 1000 Years in Maiolica, Faience and Delftware. Faber and Faber. ISBN 0-571-09349-3."
+    ],
+    "visual_attributes": {
+        "morphology": "tall, multi-tiered vase with bulbous sections and narrow necks",
+        "distinctive_features": [
+            "blue and white floral and geometric patterns",
+            "multiple spouts for holding individual tulips",
+            "ornate decorative motifs inspired by Chinese and Japanese designs"
+        ],
+        "color_palette": [
+            "white",
+            "cobalt blue"
+        ],
+        "texture": "smooth glazed surface",
+        "size_and_scale": "typically 30-60 cm in height",
+        "structural_arrangement": "tiered structure with multiple openings for flowers",
+        "domain_specific_visual": {
+            "TIN_GLAZE": "white tin glaze with cobalt blue underglaze",
+            "DECORATIVE_STYLE": "influenced by Chinese porcelain and Japanese Imari ware"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "decorative vase for displaying tulips",
+        "secondary_functions": [
+            "symbol of Dutch cultural heritage",
+            "collectible art piece"
+        ],
+        "domain_specific_functional": {
+            "SYMBOLIC_ROLE": "represents the Dutch Golden Age and trade connections",
+            "CULTURAL_IMPORTANCE": "iconic example of Dutch craftsmanship and artistry"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "PRODUCED_BY",
+                "target": "De Koninklijke Porceleyne Fles",
+                "description": "One of the main factories producing Delftware Tulip Vases"
+            },
+            {
+                "type": "INSPIRED_BY",
+                "target": "Chinese porcelain",
+                "description": "Designs and techniques influenced by imported Chinese porcelain"
+            }
+        ],
+        "associated_entities": [
+            "De Koninklijke Porceleyne Fles",
+            "Chinese porcelain"
+        ],
+        "symbolic_items": [
+            "tulips",
+            "windmills"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Delft, Netherlands",
+        "historical_period": "Dutch Golden Age (17th century)",
+        "geographic_range": "primarily the Netherlands, exported across Europe",
+        "cultural_significance": "represents the height of Dutch artistic achievement and international trade",
+        "primary_sources": [
+            "Caiger-Smith, Alan (1973). Tin-Glaze Pottery in Europe and the Islamic World: The Tradition of 1000 Years in Maiolica, Faience and Delftware. Faber and Faber. ISBN 0-571-09349-3."
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic blue and white vase",
+        "NOT lacking multiple spouts for tulips",
+        "NOT a modern or minimalist design"
+    ]
+}

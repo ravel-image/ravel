@@ -1,0 +1,81 @@
+{
+    "name": "Hopi Polychrome Pottery",
+    "domain": "cultural_artifact",
+    "entity_type": "ceramic_artifact",
+    "alternative_names": [
+        "Sikyatki-style pottery"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "Santa Fe Indian School archives",
+        "Institute of American Indian Arts records"
+    ],
+    "visual_attributes": {
+        "morphology": "varied vessel forms including ollas, bowls, mugs, jugs, ladles, and seed jars",
+        "distinctive_features": [
+            "polished surfaces",
+            "black painted designs",
+            "Sikyatki-style motifs"
+        ],
+        "color_palette": [
+            "earthy red",
+            "black",
+            "yellow ochre"
+        ],
+        "texture": "smooth and polished",
+        "size_and_scale": "varies from small mugs to large ollas",
+        "structural_arrangement": "symmetrical with balanced decorative patterns",
+        "domain_specific_visual": {
+            "DECORATIVE_STYLE": "Sikyatki-style",
+            "CEREMONIAL_USE": "ritual vessels"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "ceremonial and utilitarian use",
+        "secondary_functions": [
+            "trade goods",
+            "cultural expression"
+        ],
+        "domain_specific_functional": {
+            "SOCIAL_ACTIVITY": "pottery making as a communal activity",
+            "CULTURAL_REVIVAL": "revived by Nampeyo in the 20th century"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "REVIVED_BY",
+                "target": "Nampeyo",
+                "description": "Nampeyo revived the Sikyatki-style polychrome pottery in the 20th century."
+            },
+            {
+                "type": "MADE_BY",
+                "target": "Hopi Tribe",
+                "description": "Created by the Hopi tribe for both daily and ceremonial use."
+            }
+        ],
+        "associated_entities": [
+            "Nampeyo",
+            "Hopi Tribe"
+        ],
+        "symbolic_items": [
+            "ceremonial mugs",
+            "seed jars"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Hopi villages in Arizona",
+        "historical_period": "14th to 17th centuries, revived in the 20th century",
+        "geographic_range": "American Southwest, primarily Arizona",
+        "cultural_significance": "Represents Hopi cultural heritage and artistic revival",
+        "primary_sources": [
+            "Wikipedia",
+            "Santa Fe Indian School archives"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT generic Pueblo pottery",
+        "NOT unpolished or rough texture",
+        "NOT non-Hopi cultural context"
+    ]
+}

@@ -1,0 +1,82 @@
+{
+    "name": "Moche Stirrup Spout Vessel",
+    "domain": "cultural_artifact",
+    "entity_type": "ceramic vessel",
+    "alternative_names": [
+        "Huaco Retrato Mochica",
+        "Moche portrait vessel"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "Larco Museum",
+        "University of California, Los Angeles photographic collection"
+    ],
+    "visual_attributes": {
+        "morphology": "stirrup spout vessel with a human face effigy",
+        "distinctive_features": [
+            "individualized human face representation",
+            "stirrup spout design",
+            "headdress with a two-headed bird"
+        ],
+        "color_palette": [
+            "red",
+            "pale cream",
+            "black"
+        ],
+        "texture": "smooth ceramic surface with painted slip",
+        "size_and_scale": "ranges from 6–45 cm in height, typically 15–30 cm",
+        "structural_arrangement": "three-dimensional human face with a stirrup spout on top",
+        "domain_specific_visual": {
+            "headdress": "decorated with a two-headed bird and feathers",
+            "earrings": "tubular earrings"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "ceremonial liquid container",
+        "secondary_functions": [
+            "funerary object",
+            "status symbol"
+        ],
+        "domain_specific_functional": {
+            "cultural_role": "depicts Moche rulers or elite members",
+            "use_context": "used during life and placed in graves"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ASSOCIATED_WITH",
+                "target": "Moche culture",
+                "description": "Created by the Moche culture of Peru"
+            },
+            {
+                "type": "FOUND_IN",
+                "target": "Huaca de la Cruz",
+                "description": "Similar headdresses found in the tomb of the warrior priest god"
+            }
+        ],
+        "associated_entities": [
+            "Moche rulers",
+            "Moche elite"
+        ],
+        "symbolic_items": [
+            "headdress",
+            "tubular earrings"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Moche culture, north coast of Peru",
+        "historical_period": "100–800 CE",
+        "geographic_range": "Moche Valley, Virú Valley, north coast of Peru",
+        "cultural_significance": "Represents Moche rulers and elite, used in ceremonial and funerary contexts",
+        "primary_sources": [
+            "Rafael Larco Hoyle's chronology",
+            "archaeological discoveries in the North Coast"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT generic ceramic vessel",
+        "NOT idealized human face",
+        "NOT unrelated cultural artifact"
+    ]
+}

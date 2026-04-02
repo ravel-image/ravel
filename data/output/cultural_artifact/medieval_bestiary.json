@@ -1,0 +1,84 @@
+{
+    "name": "Medieval Bestiary",
+    "domain": "cultural_artifact",
+    "entity_type": "illuminated manuscript",
+    "alternative_names": [
+        "bestiarium vocabulum",
+        "book of beasts"
+    ],
+    "primary_sources": [
+        "Physiologus",
+        "Etymologiae by Saint Isidore of Seville",
+        "Aberdeen Bestiary",
+        "Queen Mary Psalter"
+    ],
+    "visual_attributes": {
+        "morphology": "codex with illuminated pages",
+        "distinctive_features": [
+            "illustrated depictions of animals",
+            "marginal decorations",
+            "symbolic representations of animals"
+        ],
+        "color_palette": [
+            "gold",
+            "red",
+            "blue"
+        ],
+        "texture": "vellum with illuminated illustrations",
+        "size_and_scale": "varies, typically folio-sized",
+        "structural_arrangement": "organized by animal groupings or alphabetically",
+        "domain_specific_visual": {
+            "ILLUMINATION_STYLE": "medieval",
+            "SYMBOLIC_ANIMAL_DEPICTIONS": "moral and religious symbolism"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "educational and moral instruction",
+        "secondary_functions": [
+            "entertainment",
+            "religious symbolism"
+        ],
+        "domain_specific_functional": {
+            "MORAL_LESSONS": "Christian morals represented by animals",
+            "SYMBOLIC_LANGUAGE": "animals as symbols in Western Christian art"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "INFLUENCED_BY",
+                "target": "Physiologus",
+                "description": "The bestiary's content was largely derived from the Physiologus."
+            },
+            {
+                "type": "EXPANDED_BY",
+                "target": "Saint Isidore of Seville",
+                "description": "Expanded the religious message of bestiaries with biblical references."
+            }
+        ],
+        "associated_entities": [
+            "dragons",
+            "unicorns",
+            "griffins"
+        ],
+        "symbolic_items": [
+            "coats of arms",
+            "heraldic symbols"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Western Europe",
+        "historical_period": "Middle Ages (500–1500)",
+        "geographic_range": "primarily England and France",
+        "cultural_significance": "symbolic language of animals in Christian art and literature",
+        "primary_sources": [
+            "Physiologus",
+            "Etymologiae by Saint Isidore of Seville"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a modern zoological textbook",
+        "NOT a purely factual representation of animals",
+        "NOT devoid of religious or moral symbolism"
+    ]
+}

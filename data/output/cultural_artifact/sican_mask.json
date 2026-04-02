@@ -1,0 +1,82 @@
+{
+    "name": "Sican Mask",
+    "domain": "cultural_artifact",
+    "entity_type": "ceremonial_mask",
+    "alternative_names": [
+        "Sicán Mask",
+        "Lambayeque Mask"
+    ],
+    "primary_sources": [
+        "Shimada 2000",
+        "Nickle Arts Museum 2006",
+        "Goldstein and Shimada 2007"
+    ],
+    "visual_attributes": {
+        "morphology": "oval-shaped face mask",
+        "distinctive_features": [
+            "upturned eyes",
+            "avian features such as beaks and wings",
+            "stylized ears"
+        ],
+        "color_palette": [
+            "gold",
+            "black",
+            "red"
+        ],
+        "texture": "smooth metallic surface",
+        "size_and_scale": "approximately 30 cm in height",
+        "structural_arrangement": "symmetrical facial features with a central nose or beak projection",
+        "domain_specific_visual": {
+            "iconography": "depicts the Sican Deity with avian features",
+            "material": "crafted from gold and other metals"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "ceremonial and religious representation",
+        "secondary_functions": [
+            "symbol of power",
+            "artifact of cultural identity"
+        ],
+        "domain_specific_functional": {
+            "religious_significance": "represents the Sican Deity",
+            "cultural_role": "used in rituals and as a symbol of authority"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "REPRESENTS",
+                "target": "Sican Deity",
+                "description": "The mask is a representation of the Sican Deity in religious ceremonies."
+            },
+            {
+                "type": "ASSOCIATED_WITH",
+                "target": "Naylamp",
+                "description": "The avian features on the mask are related to Naylamp, a key figure in Sican mythology."
+            }
+        ],
+        "associated_entities": [
+            "Sican Deity",
+            "Naylamp"
+        ],
+        "symbolic_items": [
+            "tumi knives",
+            "trophy heads"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Lambayeque region, north coast of Peru",
+        "historical_period": "Middle Sican period (900-1100 CE)",
+        "geographic_range": "La Leche and Lambayeque valleys",
+        "cultural_significance": "Represents religious and political power in Sican culture",
+        "primary_sources": [
+            "Shimada 2000",
+            "Nickle Arts Museum 2006"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic tribal mask",
+        "NOT a mask with human facial features",
+        "NOT associated with Inca or Moche cultures"
+    ]
+}

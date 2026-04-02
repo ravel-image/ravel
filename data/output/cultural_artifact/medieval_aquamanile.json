@@ -1,0 +1,83 @@
+{
+    "name": "Medieval Aquamanile",
+    "domain": "cultural_artifact",
+    "entity_type": "ewer or jug-type vessel",
+    "alternative_names": [
+        "aquamanilia",
+        "aquamaniles"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "State Hermitage Museum",
+        "Metropolitan Museum of Art",
+        "Victoria and Albert Museum"
+    ],
+    "visual_attributes": {
+        "morphology": "jug or ewer shaped in the form of animal or human figures",
+        "distinctive_features": [
+            "zoomorphic or anthropomorphic forms",
+            "decorative inlays of silver and copper",
+            "movable parts in some Islamic examples"
+        ],
+        "color_palette": [
+            "bronze",
+            "brass",
+            "silver"
+        ],
+        "texture": "smooth with intricate inlays",
+        "size_and_scale": "typically handheld, varying from small to medium-sized vessels",
+        "structural_arrangement": "hollow interior with a spout for pouring and an opening for filling",
+        "domain_specific_visual": {
+            "decorative_style": "fantastical and symbolic designs",
+            "material": "primarily metal, often copper alloys"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "used for washing hands during meals or religious rituals",
+        "secondary_functions": [
+            "symbol of subdeaconate",
+            "display of wealth"
+        ],
+        "domain_specific_functional": {
+            "ritual_use": "Christian Eucharist and upper-class meals",
+            "secular_use": "court rituals and symbolic displays"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "INFLUENCED_BY",
+                "target": "Islamic Art",
+                "description": "Islamic aquamaniles predate European examples and influenced their design."
+            },
+            {
+                "type": "USED_IN",
+                "target": "Christian Liturgy",
+                "description": "Used in the ritual of the lavabo during Christian services."
+            }
+        ],
+        "associated_entities": [
+            "Islamic aquamanile",
+            "Christian Eucharist"
+        ],
+        "symbolic_items": [
+            "weathervane",
+            "lion symbolism"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Europe and Islamic regions",
+        "historical_period": "6th century onwards",
+        "geographic_range": "Europe, Middle East, North Africa",
+        "cultural_significance": "Symbol of religious and social status",
+        "primary_sources": [
+            "Wikipedia",
+            "State Hermitage Museum"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic ewer or jug",
+        "NOT plain or undecorated",
+        "NOT exclusively religious in context"
+    ]
+}

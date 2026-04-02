@@ -1,0 +1,89 @@
+{
+    "name": "Kuba Raffia Cloth",
+    "domain": "cultural_artifact",
+    "entity_type": "textile",
+    "alternative_names": [
+        "Kuba textiles",
+        "Kuba cloth",
+        "Bambala fabrics"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "Emil Torday's ethnographic studies",
+        "Joseph Cornet's writings",
+        "Vanessa Drake Moraga's art history analysis"
+    ],
+    "visual_attributes": {
+        "morphology": "rectangular or square pieces of woven cloth",
+        "distinctive_features": [
+            "geometric designs in linear embroidery",
+            "cut pile surfaces resembling velvet",
+            "appliqué patterns"
+        ],
+        "color_palette": [
+            "natural raffia color",
+            "deep red from twool dye",
+            "monochrome red or white"
+        ],
+        "texture": "dense and plush with a velvet-like texture",
+        "size_and_scale": "approximately 26x28 inches per square",
+        "structural_arrangement": "assembled from multiple embroidered blocks",
+        "domain_specific_visual": {
+            "GEOMETRIC_PATTERN": "rectilinear lines and motifs like guilloche interlace",
+            "SURFACE_DECORATION": "intricate embroidery with cultural significance"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "ceremonial and ritual use",
+        "secondary_functions": [
+            "funerary regalia",
+            "prestige clothing"
+        ],
+        "domain_specific_functional": {
+            "CULTURAL_EXPRESSION": "represents community values and artistic skill",
+            "MAGICAL_PROPERTIES": "twool dye believed to have protective properties"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "MADE_BY",
+                "target": "Kuba people",
+                "description": "Created by the Kuba people of the Democratic Republic of the Congo"
+            },
+            {
+                "type": "DECORATED_BY",
+                "target": "Kuba women",
+                "description": "Embroidered and decorated by women, often pregnant, in the Kuba community"
+            },
+            {
+                "type": "INSPIRED_BY",
+                "target": "natural and supernatural beliefs",
+                "description": "Designs inspired by Kuba beliefs in spells, witchcraft, and the supernatural"
+            }
+        ],
+        "associated_entities": [
+            "Pende people",
+            "Bushong clan"
+        ],
+        "symbolic_items": [
+            "ceremonial skirts",
+            "velvet tribute cloths"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Democratic Republic of the Congo",
+        "historical_period": "ongoing, with roots in early 20th century and earlier",
+        "geographic_range": "Kasai-Sankuru region",
+        "cultural_significance": "Represents Kuba cultural values, community, and artistic expression",
+        "primary_sources": [
+            "Wikipedia",
+            "Emil Torday's ethnographic studies"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT generic woven cloth",
+        "NOT smooth or plain texture",
+        "NOT devoid of cultural or ceremonial context"
+    ]
+}

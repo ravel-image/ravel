@@ -1,0 +1,82 @@
+{
+    "name": "Olmec Colossal Head",
+    "domain": "cultural_artifact",
+    "entity_type": "stone sculpture",
+    "alternative_names": [
+        "Olmec Head",
+        "Colossal Head"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "archaeological studies on Olmec civilization"
+    ],
+    "visual_attributes": {
+        "morphology": "large stone representation of a human head",
+        "distinctive_features": [
+            "fleshy cheeks",
+            "flat noses",
+            "slightly-crossed eyes",
+            "distinctive headdresses"
+        ],
+        "color_palette": [
+            "dark gray",
+            "basalt black"
+        ],
+        "texture": "smooth stone surface",
+        "size_and_scale": "1.17 to 3.4 meters in height, weighing 6 to 50 tons",
+        "structural_arrangement": "spherical boulders with flat backs",
+        "domain_specific_visual": {
+            "headdress_style": "cloth or animal hide representation, sometimes with feathers or bird motifs",
+            "earspools": "large earspools inserted into ear lobes"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "representation of powerful individual Olmec rulers",
+        "secondary_functions": [
+            "ceremonial significance",
+            "possibly related to Mesoamerican ballgame"
+        ],
+        "domain_specific_functional": {
+            "portraiture": "individualized features suggesting portraits of specific rulers",
+            "dynastic_identification": "headdresses may indicate different dynasties or rulers"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "CREATED_BY",
+                "target": "Olmec civilization",
+                "description": "The Olmec civilization created these heads as part of their monumental art."
+            },
+            {
+                "type": "FOUND_AT",
+                "target": "Tres Zapotes",
+                "description": "The first colossal head was discovered at Tres Zapotes."
+            }
+        ],
+        "associated_entities": [
+            "Olmec civilization",
+            "San Lorenzo Tenochtitlán",
+            "La Venta"
+        ],
+        "symbolic_items": [
+            "headdresses",
+            "earspools"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Gulf Coast of Mexico, specifically Veracruz and Tabasco",
+        "historical_period": "Early Preclassic to Middle Preclassic period (1500–400 BC)",
+        "geographic_range": "Olmec heartland in Mesoamerica",
+        "cultural_significance": "Symbolizes the power and authority of Olmec rulers; part of the 'Mother Culture' of Mesoamerica",
+        "primary_sources": [
+            "archaeological studies",
+            "historical records"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT generic stone statue",
+        "NOT smooth, featureless face",
+        "NOT unrelated to Mesoamerican culture"
+    ]
+}

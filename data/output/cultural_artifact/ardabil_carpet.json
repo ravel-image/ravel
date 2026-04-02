@@ -1,0 +1,86 @@
+{
+    "name": "Ardabil Carpet",
+    "domain": "cultural_artifact",
+    "entity_type": "Persian Carpet",
+    "alternative_names": [
+        "Ardebil Carpet"
+    ],
+    "primary_sources": [
+        "Victoria and Albert Museum",
+        "Los Angeles County Museum of Art",
+        "Historical records from the Safavid period"
+    ],
+    "visual_attributes": {
+        "morphology": "Rectangular textile with intricate patterns",
+        "distinctive_features": [
+            "Central medallion design",
+            "Cartouches with calligraphy",
+            "Differently sized lamp motifs"
+        ],
+        "color_palette": [
+            "Deep blue",
+            "Rich red",
+            "Gold accents"
+        ],
+        "texture": "Dense wool pile with a silk foundation",
+        "size_and_scale": "34 ft 3 in × 17 ft 6+7⁄8 in for the London carpet; 23 ft 7 in × 13 ft 1+1⁄2 in for the Los Angeles carpet",
+        "structural_arrangement": "Central medallion surrounded by ornate designs and a border of cartouches",
+        "domain_specific_visual": {
+            "KNOT_DENSITY": "300–350 knots per square inch",
+            "DESIGN_INFLUENCE": "Resembles the interior dome of the Sheikh Lotfollah Mosque"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Decorative and symbolic representation of paradise",
+        "secondary_functions": [
+            "Cultural heritage",
+            "Historical artifact"
+        ],
+        "domain_specific_functional": {
+            "SYMBOLIC_ROLE": "Represents Persian gardens and paradise",
+            "HISTORICAL_SIGNIFICANCE": "Earliest dated Persian carpet"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HOUSED_IN",
+                "target": "Victoria and Albert Museum",
+                "description": "The larger Ardabil Carpet is housed in this museum."
+            },
+            {
+                "type": "HOUSED_IN",
+                "target": "Los Angeles County Museum of Art",
+                "description": "The smaller Ardabil Carpet is housed in this museum."
+            },
+            {
+                "type": "CREATED_DURING",
+                "target": "Reign of Shah Tahmasp I",
+                "description": "The carpets were created during this ruler's reign."
+            }
+        ],
+        "associated_entities": [
+            "Sheikh Safi al-Din Khānegāh and Shrine Ensemble",
+            "Imam Reza Shrine"
+        ],
+        "symbolic_items": [
+            "Persian gardens",
+            "Islamic paradise"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Iran, specifically Kashan",
+        "historical_period": "Safavid period, 1539-40",
+        "geographic_range": "Originally from Iran, now in the UK and USA",
+        "cultural_significance": "Represents the pinnacle of Persian carpet weaving and Islamic art",
+        "primary_sources": [
+            "Victoria and Albert Museum records",
+            "Los Angeles County Museum of Art records"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic Persian rug",
+        "NOT a modern carpet design",
+        "NOT unrelated to Islamic art and Persian culture"
+    ]
+}

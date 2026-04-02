@@ -1,0 +1,86 @@
+{
+    "name": "Benin Bronze Plaque",
+    "domain": "cultural_artifact",
+    "entity_type": "metal plaque",
+    "alternative_names": [
+        "Ama"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "British Museum",
+        "Dan Hicks' works"
+    ],
+    "visual_attributes": {
+        "morphology": "rectangular metal plaque",
+        "distinctive_features": [
+            "relief images depicting historical scenes",
+            "decorative motifs specific to the Kingdom of Benin",
+            "nails punched through for hanging"
+        ],
+        "color_palette": [
+            "bronze",
+            "brass",
+            "patina green"
+        ],
+        "texture": "smooth with raised relief",
+        "size_and_scale": "varies, typically around 30-60 cm in height",
+        "structural_arrangement": "relief images arranged in narrative scenes",
+        "domain_specific_visual": {
+            "casting_technique": "lost-wax casting",
+            "material_composition": "primarily brass with some bronze"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "decorative and ceremonial",
+        "secondary_functions": [
+            "historical documentation",
+            "glorification of the Oba"
+        ],
+        "domain_specific_functional": {
+            "courtly_art": "used to glorify the Oba and the history of his imperial power",
+            "ritual_use": "hung in the royal palace for ceremonial purposes"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "CREATED_BY",
+                "target": "Guild of Benin Bronze Casters",
+                "description": "The guild responsible for crafting the plaques."
+            },
+            {
+                "type": "DEPICTS",
+                "target": "Kingdom of Benin",
+                "description": "The plaques depict scenes from the history of the Kingdom of Benin."
+            },
+            {
+                "type": "HOUSED_IN",
+                "target": "British Museum",
+                "description": "Many plaques are part of the British Museum's collection."
+            }
+        ],
+        "associated_entities": [
+            "Oba of Benin",
+            "Iyoba of Benin"
+        ],
+        "symbolic_items": [
+            "manillas",
+            "ivory carvings"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Kingdom of Benin, Edo State, Nigeria",
+        "historical_period": "14th to 19th century",
+        "geographic_range": "Southern Nigeria",
+        "cultural_significance": "Represents the artistic and cultural achievements of the Edo people",
+        "primary_sources": [
+            "Wikipedia",
+            "British Museum"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT generic bronze sculpture",
+        "NOT modern art piece",
+        "NOT unrelated to African history"
+    ]
+}

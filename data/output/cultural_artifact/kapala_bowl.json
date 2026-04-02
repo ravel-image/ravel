@@ -1,0 +1,83 @@
+{
+    "name": "Kapala Bowl",
+    "domain": "cultural_artifact",
+    "entity_type": "ritual implement",
+    "alternative_names": [
+        "skull cup",
+        "kapāla"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "Tibetan Buddhist texts",
+        "Hindu Tantric texts"
+    ],
+    "visual_attributes": {
+        "morphology": "bowl-shaped structure made from a human skull",
+        "distinctive_features": [
+            "elaborate carvings",
+            "mounted with precious metals and jewels",
+            "lid shaped like a skull"
+        ],
+        "color_palette": [
+            "silver",
+            "gold",
+            "bronze"
+        ],
+        "texture": "smooth with embossed decorations",
+        "size_and_scale": "approximately the size of a human cranium",
+        "structural_arrangement": "skull cup with a handle and a lid, often placed on a triangular pedestal",
+        "domain_specific_visual": {
+            "DECORATIVE_ELEMENTS": "precious metals and jewels",
+            "SYMBOLIC_ENGRAVINGS": "depictions of deities and tantric symbols"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "ritual implement for offerings and meditation",
+        "secondary_functions": [
+            "symbol of wisdom and knowledge",
+            "tool for lineage transmission"
+        ],
+        "domain_specific_functional": {
+            "TANTRIC_RITUAL_USE": "used in higher tantric meditation and libations",
+            "SYMBOLIC_REPRESENTATION": "represents non-discriminatory awareness and enlightenment"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "USED_BY",
+                "target": "Tibetan Buddhists",
+                "description": "Used in rituals and offerings in Tibetan Buddhism"
+            },
+            {
+                "type": "ASSOCIATED_WITH",
+                "target": "Hindu Deities",
+                "description": "Depicted with deities like Kali, Durga, and Shiva"
+            }
+        ],
+        "associated_entities": [
+            "Dharmapāla",
+            "Vajrayogini",
+            "Chinnamasta"
+        ],
+        "symbolic_items": [
+            "thunderbolt handle",
+            "triangular pedestal"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Tibetan and Hindu cultures",
+        "historical_period": "8th century CE to present",
+        "geographic_range": "Tibet, India",
+        "cultural_significance": "Represents the transformation of duality into non-dual awareness",
+        "primary_sources": [
+            "Tibetan Buddhist texts",
+            "Hindu Tantric texts"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic bowl",
+        "NOT made of ceramic or clay",
+        "NOT used for mundane purposes like eating or drinking"
+    ]
+}

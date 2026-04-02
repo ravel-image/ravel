@@ -1,0 +1,84 @@
+{
+    "name": "Quern Stone",
+    "domain": "cultural_artifact",
+    "entity_type": "Grinding Tool",
+    "alternative_names": [
+        "Saddle Quern",
+        "Rotary Quern",
+        "Handstone",
+        "Muller",
+        "Rubber"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "Archaeological studies",
+        "Ethnographic evidence"
+    ],
+    "visual_attributes": {
+        "morphology": "circular or saddle-shaped stone tool",
+        "distinctive_features": [
+            "upper stone with central hole called the eye",
+            "lower stationary stone with convex surface",
+            "grooved working surfaces"
+        ],
+        "color_palette": [
+            "gray",
+            "brown",
+            "black"
+        ],
+        "texture": "rough, gritty surface",
+        "size_and_scale": "varies, typically 30-50 cm in diameter",
+        "structural_arrangement": "upper stone rotates or moves back-and-forth over lower stone",
+        "domain_specific_visual": {
+            "handle_slot": "present in rotary querns for rotation",
+            "hopper": "dish in upper surface for grain input"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "grinding grains into flour",
+        "secondary_functions": [
+            "processing other foodstuffs",
+            "grinding metal ores"
+        ],
+        "domain_specific_functional": {
+            "used_in": "bread-making, medicine preparation, cosmetics production"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "USED_WITH",
+                "target": "Grain",
+                "description": "Quern stones are primarily used to grind grains into flour."
+            },
+            {
+                "type": "MADE_OF",
+                "target": "Basalt",
+                "description": "Preferred material for quern stones due to its rough surface."
+            }
+        ],
+        "associated_entities": [
+            "Millstone",
+            "Metate"
+        ],
+        "symbolic_items": [
+            "Millrind",
+            "Handle"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Neolithic era",
+        "historical_period": "Used since 30,000 years ago",
+        "geographic_range": "Worldwide, with notable use in Europe, China, and the Americas",
+        "cultural_significance": "Essential tool for food preparation in ancient and non-mechanized societies",
+        "primary_sources": [
+            "Archaeological findings",
+            "Historical texts"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT Modern Millstone",
+        "NOT Smooth Surface",
+        "NOT Exclusively European Origin"
+    ]
+}

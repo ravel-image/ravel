@@ -1,0 +1,79 @@
+{
+    "name": "Ainu Iomante Bear Carving",
+    "domain": "cultural_artifact",
+    "entity_type": "ceremonial_artifact",
+    "alternative_names": [
+        "Iyomante Bear Carving",
+        "Iomante Ritual Sculpture"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "John Batchelor's writings on Ainu culture"
+    ],
+    "visual_attributes": {
+        "morphology": "Carved representation of a bear, often depicted in a stylized or symbolic form.",
+        "distinctive_features": [
+            "Intricate carvings representing the bear's fur and features",
+            "Decorative elements such as inau wood-shavings or ceremonial adornments"
+        ],
+        "color_palette": [
+            "Brown",
+            "Black",
+            "Natural wood tones"
+        ],
+        "texture": "Carved wood texture with smooth and detailed engravings",
+        "size_and_scale": "Typically small to medium-sized, ranging from 20 cm to 50 cm in height",
+        "structural_arrangement": "The bear is often depicted in a standing or sitting posture, sometimes with ceremonial adornments",
+        "domain_specific_visual": {
+            "ceremonial_adornments": "Inau wood-shavings, symbolic clothing or aprons"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Symbolic representation of the bear god in Ainu culture",
+        "secondary_functions": [
+            "Used in ceremonial rituals",
+            "Serves as a cultural artifact for storytelling"
+        ],
+        "domain_specific_functional": {
+            "ritual_use": "Used in the Iomante ceremony to symbolize the bear's spirit",
+            "cultural_significance": "Represents the connection between humans and the bear god"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "REPRESENTS",
+                "target": "Bear God",
+                "description": "The carving symbolizes the bear god in Ainu culture."
+            },
+            {
+                "type": "USED_IN",
+                "target": "Iomante Ceremony",
+                "description": "The carving is used during the Iomante ceremony as a symbolic object."
+            }
+        ],
+        "associated_entities": [
+            "Ainu People",
+            "Iomante Ceremony"
+        ],
+        "symbolic_items": [
+            "Inau wood-shavings",
+            "Ceremonial arrows"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Hokkaido and Sakhalin, Japan",
+        "historical_period": "Traditional Ainu culture, ongoing",
+        "geographic_range": "Primarily Hokkaido, Japan",
+        "cultural_significance": "Represents the Ainu's spiritual beliefs and practices related to the bear god",
+        "primary_sources": [
+            "Wikipedia",
+            "John Batchelor's writings on Ainu culture"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT Generic Bear Sculpture",
+        "NOT Smooth Modern Finish",
+        "NOT Non-Ainu Cultural Context"
+    ]
+}

@@ -1,0 +1,84 @@
+{
+    "name": "Cloisonné Enamel",
+    "domain": "cultural_artifact",
+    "entity_type": "decorative metalwork technique",
+    "alternative_names": [
+        "Cloisonné",
+        "Cloisonné technique"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "art history texts",
+        "museum collections"
+    ],
+    "visual_attributes": {
+        "morphology": "metal objects with intricate decorative surfaces",
+        "distinctive_features": [
+            "compartments separated by metal strips or wires",
+            "use of vitreous enamel, gemstones, or glass inlays",
+            "visible metal strips in finished pieces"
+        ],
+        "color_palette": [
+            "gold",
+            "red",
+            "blue",
+            "green",
+            "white"
+        ],
+        "texture": "smooth and glossy with raised metal outlines",
+        "size_and_scale": "varies from small jewelry pieces to large vessels",
+        "structural_arrangement": "compartments arranged in geometric or pictorial designs",
+        "domain_specific_visual": {
+            "METAL_TYPE": "gold, silver, or copper base",
+            "ENAMEL_TYPE": "vitreous enamel or glass-paste"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "decorative art for metal objects",
+        "secondary_functions": [
+            "symbolic representation",
+            "status symbol"
+        ],
+        "domain_specific_functional": {
+            "CULTURAL_ROLE": "used in religious and ceremonial objects",
+            "HISTORICAL_USE": "jewelry, small fittings, and large vessels"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "INFLUENCED_BY",
+                "target": "Byzantine Empire",
+                "description": "Byzantine techniques influenced the development of cloisonné enamel."
+            },
+            {
+                "type": "USED_IN",
+                "target": "Chinese Art",
+                "description": "Cloisonné enamel was widely used in Chinese art for large vessels."
+            }
+        ],
+        "associated_entities": [
+            "Byzantine icons",
+            "Chinese vases"
+        ],
+        "symbolic_items": [
+            "garnet",
+            "gold"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "ancient Near East",
+        "historical_period": "3rd millennium BC to present",
+        "geographic_range": "Europe, China, Near East",
+        "cultural_significance": "represents artistic and technical achievement in metalwork",
+        "primary_sources": [
+            "archaeological findings",
+            "historical texts"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT generic enamelware",
+        "NOT plain metal objects without compartments",
+        "NOT limited to a single cultural context"
+    ]
+}

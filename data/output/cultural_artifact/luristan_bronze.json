@@ -1,0 +1,82 @@
+{
+    "name": "Luristan Bronze",
+    "domain": "cultural_artifact",
+    "entity_type": "Bronze Sculpture",
+    "alternative_names": [
+        "Lorestān",
+        "Lorestāni"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "archaeological reports",
+        "art market records"
+    ],
+    "visual_attributes": {
+        "morphology": "Small cast objects with intricate designs",
+        "distinctive_features": [
+            "Openwork designs",
+            "Animal motifs, especially goats or sheep with large horns",
+            "Master of Animals motif"
+        ],
+        "color_palette": [
+            "Bronze",
+            "Patina green",
+            "Dark brown"
+        ],
+        "texture": "Smooth with intricate carvings",
+        "size_and_scale": "Small, portable objects",
+        "structural_arrangement": "Flat with openwork and detailed surface decoration",
+        "domain_specific_visual": {
+            "decoration_type": "Highly stylized animal and human figures",
+            "object_types": "Ornaments, tools, weapons, horse-fittings, vessels"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Decorative and ceremonial use",
+        "secondary_functions": [
+            "Portable utility objects",
+            "Status symbols"
+        ],
+        "domain_specific_functional": {
+            "cultural_role": "Used by nomadic or transhumant people",
+            "burial_context": "Often found in burial sites"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ASSOCIATED_WITH",
+                "target": "Lur people",
+                "description": "Possibly created by ancestors of the modern Lur people"
+            },
+            {
+                "type": "FOUND_IN",
+                "target": "Lorestān Province",
+                "description": "Primarily discovered in Lorestān Province, Iran"
+            }
+        ],
+        "associated_entities": [
+            "Scythian art",
+            "Neo-Assyrian Empire"
+        ],
+        "symbolic_items": [
+            "Master of Animals motif",
+            "Animal finials"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Western Iran",
+        "historical_period": "Early Iron Age (1000-650 BC)",
+        "geographic_range": "Lorestān and Kermanshah provinces",
+        "cultural_significance": "Represents the art of nomadic or transhumant people",
+        "primary_sources": [
+            "Wikipedia",
+            "archaeological reports"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT generic bronze artifacts",
+        "NOT smooth, undecorated surfaces",
+        "NOT associated with settled urban cultures"
+    ]
+}
