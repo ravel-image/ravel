@@ -1,0 +1,81 @@
+{
+    "name": "Nessus",
+    "domain": "greek_mythology",
+    "entity_type": "centaur",
+    "alternative_names": [
+        "Nessos"
+    ],
+    "primary_sources": [
+        "Homer's Iliad",
+        "Sophocles' Trachiniae",
+        "Ovid's Metamorphoses"
+    ],
+    "visual_attributes": {
+        "morphology": "half-human, half-horse",
+        "distinctive_features": [
+            "human torso and head",
+            "equine body and legs",
+            "muscular build"
+        ],
+        "color_palette": [
+            "brown",
+            "tan",
+            "black"
+        ],
+        "texture": "smooth human skin on upper body, coarse horse hair on lower body",
+        "size_and_scale": "approximately 8 feet tall",
+        "structural_arrangement": "human upper body seamlessly connected to horse body at the waist",
+        "domain_specific_visual": {
+            "mythological_creature": "centaur",
+            "weapon": "bow and arrows"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "mythological creature known for strength and wild nature",
+        "secondary_functions": [
+            "attempted abduction",
+            "symbol of betrayal"
+        ],
+        "domain_specific_functional": {
+            "role_in_myth": "attempted to abduct Deianeira, leading to his death by Heracles",
+            "symbolic_role": "represents the dangers of unchecked desire"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ENEMY_OF",
+                "target": "Heracles",
+                "description": "Nessus attempted to abduct Heracles' wife, Deianeira, leading to his death."
+            },
+            {
+                "type": "VICTIM_OF",
+                "target": "Heracles",
+                "description": "Killed by Heracles after attempting to abduct Deianeira."
+            }
+        ],
+        "associated_entities": [
+            "Deianeira",
+            "Heracles"
+        ],
+        "symbolic_items": [
+            "poisoned tunic"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Greek mythology",
+        "historical_period": "Ancient Greece",
+        "geographic_range": "Thrace",
+        "cultural_significance": "Represents the duality of human nature and the consequences of betrayal",
+        "primary_sources": [
+            "Homer's Iliad",
+            "Sophocles' Trachiniae",
+            "Ovid's Metamorphoses"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic horse",
+        "NOT a fully human warrior",
+        "NOT a peaceful or benevolent creature"
+    ]
+}

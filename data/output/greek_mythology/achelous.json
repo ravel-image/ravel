@@ -1,0 +1,104 @@
+{
+    "name": "Achelous",
+    "domain": "greek_mythology",
+    "entity_type": "river god",
+    "alternative_names": [
+        "Acheloos",
+        "Acheloios",
+        "Akhelôios"
+    ],
+    "primary_sources": [
+        "Hesiod",
+        "Ovid's Metamorphoses",
+        "Sophocles' Women of Trachis",
+        "Apollodorus",
+        "Strabo"
+    ],
+    "visual_attributes": {
+        "morphology": "shape-shifting entity",
+        "distinctive_features": [
+            "can transform into a bull",
+            "can transform into a serpent",
+            "can appear as a half-man/half-bull"
+        ],
+        "color_palette": [
+            "earthy brown",
+            "river blue",
+            "green"
+        ],
+        "texture": "fluid and smooth when in water form, rough and earthy when in bull form",
+        "size_and_scale": "varies with form; large as a bull, expansive as a river",
+        "structural_arrangement": "fluid and adaptable, changing forms seamlessly",
+        "domain_specific_visual": {
+            "river_association": "often depicted with water flowing from his beard",
+            "horn_of_plenty": "missing a horn when in bull form, symbolizing the cornucopia"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "god of the largest river in Greece",
+        "secondary_functions": [
+            "father of the Sirens and various nymphs",
+            "symbol of fertility and abundance"
+        ],
+        "domain_specific_functional": {
+            "shape_shifting": "can change form to suit different needs or challenges",
+            "conflict_with_heracles": "engaged in combat with Heracles over Deianeira"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_PARENT",
+                "target": "Oceanus",
+                "description": "Achelous is the son of the Titan Oceanus."
+            },
+            {
+                "type": "HAS_PARENT",
+                "target": "Tethys",
+                "description": "Achelous is the son of the Titaness Tethys."
+            },
+            {
+                "type": "HAS_OFFSPRING",
+                "target": "Sirens",
+                "description": "Achelous is the father of the Sirens."
+            },
+            {
+                "type": "HAS_OFFSPRING",
+                "target": "Callirrhoe",
+                "description": "Achelous is the father of Callirrhoe, wife of Alcmaeon."
+            },
+            {
+                "type": "ENEMY_OF",
+                "target": "Heracles",
+                "description": "Achelous fought Heracles for the hand of Deianeira."
+            }
+        ],
+        "associated_entities": [
+            "Deianeira",
+            "Heracles",
+            "Alcmaeon"
+        ],
+        "symbolic_items": [
+            "Horn of Plenty",
+            "river silt islands"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Greek mythology, associated with the Achelous River",
+        "historical_period": "Ancient Greece",
+        "geographic_range": "Greece, particularly the region around the Achelous River",
+        "cultural_significance": "represents the power and fertility of rivers, involved in myths of transformation and abundance",
+        "primary_sources": [
+            "Hesiod",
+            "Ovid's Metamorphoses",
+            "Sophocles' Women of Trachis",
+            "Apollodorus",
+            "Strabo"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic river",
+        "NOT a simple bull without divine attributes",
+        "NOT a non-transforming entity"
+    ]
+}

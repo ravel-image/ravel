@@ -1,0 +1,96 @@
+{
+    "name": "Ladon",
+    "domain": "greek_mythology",
+    "entity_type": "dragon",
+    "alternative_names": [
+        "Λάδων",
+        "Ladonos"
+    ],
+    "primary_sources": [
+        "Hesiod's Theogony",
+        "Apollonius of Rhodes' Argonautica",
+        "Apollodorus' Bibliotheca",
+        "Hyginus' Astronomy",
+        "Pausanias' Description of Greece"
+    ],
+    "visual_attributes": {
+        "morphology": "serpent-like dragon",
+        "distinctive_features": [
+            "coiled around a tree",
+            "hundred heads",
+            "speaks with many diverse voices"
+        ],
+        "color_palette": [
+            "green",
+            "gold",
+            "brown"
+        ],
+        "texture": "scaly",
+        "size_and_scale": "massive, capable of encircling a large tree",
+        "structural_arrangement": "twined and twisted around the tree",
+        "domain_specific_visual": {
+            "GUARDIAN_OF": "golden apples in the Garden of the Hesperides",
+            "CONSTELLATION": "Draco"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "guardian of the golden apples",
+        "secondary_functions": [
+            "symbol of vigilance",
+            "constellation representation"
+        ],
+        "domain_specific_functional": {
+            "KILLED_BY": "Heracles",
+            "REPRESENTED_AS": "constellation Draco by Zeus"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_PARENT",
+                "target": "Typhon",
+                "description": "Ladon is often cited as the offspring of Typhon."
+            },
+            {
+                "type": "HAS_PARENT",
+                "target": "Echidna",
+                "description": "Ladon is often cited as the offspring of Echidna."
+            },
+            {
+                "type": "GUARDED_BY",
+                "target": "Hesperides",
+                "description": "Ladon guarded the golden apples in the Garden of the Hesperides."
+            },
+            {
+                "type": "KILLED_BY",
+                "target": "Heracles",
+                "description": "Heracles killed Ladon as part of his eleventh labor."
+            }
+        ],
+        "associated_entities": [
+            "Heracles",
+            "Hesperides",
+            "Typhon",
+            "Echidna"
+        ],
+        "symbolic_items": [
+            "golden apples",
+            "apple tree"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Greek mythology",
+        "historical_period": "Ancient Greece",
+        "geographic_range": "Garden of the Hesperides",
+        "cultural_significance": "Symbol of vigilance and guardian of divine treasures",
+        "primary_sources": [
+            "Hesiod's Theogony",
+            "Apollonius of Rhodes' Argonautica"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic dragon",
+        "NOT a single-headed creature",
+        "NOT unrelated to the Garden of the Hesperides"
+    ]
+}

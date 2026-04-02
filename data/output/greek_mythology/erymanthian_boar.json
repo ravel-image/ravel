@@ -1,0 +1,117 @@
+{
+    "name": "Erymanthian Boar",
+    "domain": "greek_mythology",
+    "entity_type": "mythical_creature",
+    "alternative_names": [
+        "ὁ Ἐρυμάνθιος κάπρος",
+        "aper Erymanthius"
+    ],
+    "primary_sources": [
+        "Sophocles, Trachiniae",
+        "Apollonius Rhodius, Argonautica",
+        "Callimachus, Epigrams",
+        "Diodorus of Sicily, Library of History",
+        "Virgil, Aeneid",
+        "Lucretius, Of The Nature of Things",
+        "Ovid, Metamorphoses",
+        "Ovid, Heroides",
+        "Philippus of Thessalonica, The Twelve Labors of Hercules",
+        "Seneca, Hercules Furens",
+        "Seneca, Hercules Oetaeus",
+        "Statius, Thebaid",
+        "Plutarch, Moralia, On the Fortune of Alexander",
+        "Pseudo-Apollodorus, The Library",
+        "Pseudo-Hyginus, Fabulae",
+        "Pausanias, Description of Greece",
+        "Quintus Smyrnaeus, Fall of Troy",
+        "Nonnus, Dionysiaca",
+        "Boethius, The Consolation of Philosophy",
+        "Suidas s.v. Dryopes",
+        "Tzetzes, Chiliades or Book of Histories"
+    ],
+    "visual_attributes": {
+        "morphology": "large, robust boar with a massive body",
+        "distinctive_features": [
+            "shaggy and wild appearance",
+            "foaming jaws",
+            "vast weight"
+        ],
+        "color_palette": [
+            "dark brown",
+            "black",
+            "gray"
+        ],
+        "texture": "shaggy and coarse fur",
+        "size_and_scale": "gigantic, larger than a typical boar",
+        "structural_arrangement": "massive head with prominent tusks, sturdy legs",
+        "domain_specific_visual": {
+            "habitat": "thick-wooded, cypress-bearing heights",
+            "environment": "glens of Lampeia, marsh of Erymanthus"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "to be captured as part of Heracles' fourth labor",
+        "secondary_functions": [
+            "symbol of wildness and untamed nature"
+        ],
+        "domain_specific_functional": {
+            "role_in_myth": "test of Heracles' strength and cunning",
+            "cultural_role": "fear-inspiring creature of the wilds"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "CAPTURED_BY",
+                "target": "Heracles",
+                "description": "Heracles captured the Erymanthian Boar as part of his fourth labor."
+            },
+            {
+                "type": "FEARED_BY",
+                "target": "Eurystheus",
+                "description": "Eurystheus was terrified of the boar and hid himself upon seeing it."
+            }
+        ],
+        "associated_entities": [
+            "Heracles",
+            "Eurystheus"
+        ],
+        "symbolic_items": [
+            "tusks preserved in the sanctuary of Apollo at Cumae"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Mount Erymanthos, Arcadia",
+        "historical_period": "Classical Antiquity",
+        "geographic_range": "Arcadia, Greece",
+        "cultural_significance": "represents the untamed and dangerous aspects of nature",
+        "primary_sources": [
+            "Sophocles, Trachiniae",
+            "Apollonius Rhodius, Argonautica",
+            "Callimachus, Epigrams",
+            "Diodorus of Sicily, Library of History",
+            "Virgil, Aeneid",
+            "Lucretius, Of The Nature of Things",
+            "Ovid, Metamorphoses",
+            "Ovid, Heroides",
+            "Philippus of Thessalonica, The Twelve Labors of Hercules",
+            "Seneca, Hercules Furens",
+            "Seneca, Hercules Oetaeus",
+            "Statius, Thebaid",
+            "Plutarch, Moralia, On the Fortune of Alexander",
+            "Pseudo-Apollodorus, The Library",
+            "Pseudo-Hyginus, Fabulae",
+            "Pausanias, Description of Greece",
+            "Quintus Smyrnaeus, Fall of Troy",
+            "Nonnus, Dionysiaca",
+            "Boethius, The Consolation of Philosophy",
+            "Suidas s.v. Dryopes",
+            "Tzetzes, Chiliades or Book of Histories"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a common wild boar",
+        "NOT smooth or sleek fur",
+        "NOT a domesticated or tame animal"
+    ]
+}

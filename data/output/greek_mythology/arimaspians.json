@@ -1,0 +1,80 @@
+{
+    "name": "Arimaspians",
+    "domain": "greek_mythology",
+    "entity_type": "legendary_tribe",
+    "alternative_names": [
+        "Arimaspi",
+        "Arimaspos",
+        "Arimaspoi"
+    ],
+    "primary_sources": [
+        "Arimaspea by Aristeas",
+        "Herodotus' Histories",
+        "Strabo's Geographica",
+        "Pliny's Natural History"
+    ],
+    "visual_attributes": {
+        "morphology": "humanoid with a single eye in the center of the forehead",
+        "distinctive_features": [
+            "one-eyed",
+            "warrior-like attire",
+            "northern tribal clothing"
+        ],
+        "color_palette": [
+            "earthy tones",
+            "metallic accents",
+            "dark leather"
+        ],
+        "texture": "rough, weathered skin",
+        "size_and_scale": "average human size",
+        "structural_arrangement": "symmetrical humanoid form with a central eye",
+        "domain_specific_visual": {
+            "CULTURAL_ATTIRE": "Scythian-inspired clothing",
+            "WEAPONRY": "primitive weapons like spears and shields"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "warriors engaged in conflict with griffins",
+        "secondary_functions": [
+            "gold seekers",
+            "tribal defenders"
+        ],
+        "domain_specific_functional": {
+            "MYTHOLOGICAL_ROLE": "guardians of the northern frontier",
+            "CULTURAL_SYMBOLISM": "embodiment of northern mystery and danger"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ENEMY_OF",
+                "target": "Griffins",
+                "description": "Engaged in battles over gold with griffins"
+            }
+        ],
+        "associated_entities": [
+            "Griffins",
+            "Issedones",
+            "Hyperboreans"
+        ],
+        "symbolic_items": [
+            "gold",
+            "griffin feathers"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "northern Scythia",
+        "historical_period": "archaic period",
+        "geographic_range": "Riphean Mountains, possibly Ural or Carpathians",
+        "cultural_significance": "symbolizes the mysterious and dangerous northern lands",
+        "primary_sources": [
+            "Arimaspea by Aristeas",
+            "Herodotus' Histories"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT Cyclops",
+        "NOT modern human attire",
+        "NOT Mediterranean setting"
+    ]
+}

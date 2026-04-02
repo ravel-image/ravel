@@ -1,0 +1,92 @@
+{
+    "name": "Scylla",
+    "domain": "greek_mythology",
+    "entity_type": "monster",
+    "alternative_names": [
+        "Skýlla"
+    ],
+    "primary_sources": [
+        "Homer's Odyssey",
+        "Virgil's Aeneid",
+        "Ovid's Metamorphoses",
+        "Byzantine encyclopedia Suda"
+    ],
+    "visual_attributes": {
+        "morphology": "Hybrid creature with a woman's upper body and monstrous lower body",
+        "distinctive_features": [
+            "Six dog heads on each side",
+            "Serpent body below the waist",
+            "Beautiful woman's face up to the eyes"
+        ],
+        "color_palette": [
+            "Gray",
+            "Green",
+            "Blue"
+        ],
+        "texture": "Scaly and smooth",
+        "size_and_scale": "Gigantic, towering over ships",
+        "structural_arrangement": "Upper body of a woman with multiple dog heads and a serpentine lower body",
+        "domain_specific_visual": {
+            "MYTHOLOGICAL_CREATURE": "Combination of human and animal features"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Devour sailors who pass too close",
+        "secondary_functions": [
+            "Guard the strait",
+            "Symbolize danger and unavoidable peril"
+        ],
+        "domain_specific_functional": {
+            "MYTHOLOGICAL_ROLE": "Embodiment of a natural hazard in the sea"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ENEMY_OF",
+                "target": "Odysseus",
+                "description": "Attacked Odysseus' ship and devoured six of his men"
+            },
+            {
+                "type": "COUNTERPART_OF",
+                "target": "Charybdis",
+                "description": "Opposite monster across the strait"
+            },
+            {
+                "type": "HAS_PARENT",
+                "target": "Crataeis",
+                "description": "Mother of Scylla according to some sources"
+            },
+            {
+                "type": "HAS_PARENT",
+                "target": "Phorcys",
+                "description": "Father of Scylla according to some sources"
+            }
+        ],
+        "associated_entities": [
+            "Charybdis",
+            "Odysseus",
+            "Crataeis",
+            "Phorcys"
+        ],
+        "symbolic_items": [
+            "Strait of Messina"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Greek mythology",
+        "historical_period": "Ancient Greece",
+        "geographic_range": "Strait of Messina, between Calabria and Sicily",
+        "cultural_significance": "Represents unavoidable danger and perilous choices",
+        "primary_sources": [
+            "Homer's Odyssey",
+            "Virgil's Aeneid",
+            "Ovid's Metamorphoses"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic sea monster",
+        "NOT a single-headed creature",
+        "NOT a purely human or purely animal form"
+    ]
+}

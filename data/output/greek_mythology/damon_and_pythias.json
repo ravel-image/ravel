@@ -1,0 +1,78 @@
+{
+    "name": "Damon and Pythias",
+    "domain": "greek_mythology",
+    "entity_type": "legendary figures",
+    "alternative_names": [
+        "Δάμων και Πυθίας",
+        "Phintias"
+    ],
+    "primary_sources": [
+        "Aristoxenus",
+        "Cicero's De Officiis",
+        "Diodorus Siculus"
+    ],
+    "visual_attributes": {
+        "morphology": "human figures",
+        "distinctive_features": [
+            "Damon and Pythias are often depicted together, symbolizing their friendship",
+            "Classical Greek attire typical of the period",
+            "Expressions of trust and loyalty"
+        ],
+        "color_palette": [
+            "white",
+            "gold",
+            "blue"
+        ],
+        "texture": "smooth, typical of classical Greek sculpture",
+        "size_and_scale": "life-sized human figures",
+        "structural_arrangement": "often shown standing side by side or in a gesture of camaraderie",
+        "domain_specific_visual": {
+            "CLOTHING_STYLE": "Ancient Greek tunics",
+            "HAIRSTYLE": "Classical Greek hairstyles"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "symbolize true friendship and loyalty",
+        "secondary_functions": [
+            "illustrate Pythagorean ideals",
+            "serve as moral exemplars"
+        ],
+        "domain_specific_functional": {
+            "REPRESENTS_IDEAL": "Pythagorean friendship",
+            "MORAL_LESSON": "trust and sacrifice"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "FRIEND_OF",
+                "target": "Dionysius I of Syracuse",
+                "description": "Dionysius was the tyrant who tested their friendship"
+            }
+        ],
+        "associated_entities": [
+            "Dionysius I of Syracuse",
+            "Pythagoras"
+        ],
+        "symbolic_items": [
+            "chains (representing the hostage situation)",
+            "scrolls (representing Pythagorean philosophy)"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Greek mythology",
+        "historical_period": "4th century BC",
+        "geographic_range": "Syracuse, Sicily",
+        "cultural_significance": "an idiomatic expression for true friendship",
+        "primary_sources": [
+            "Aristoxenus",
+            "Cicero's De Officiis",
+            "Diodorus Siculus"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT generic Greek warriors",
+        "NOT mythological gods or demigods",
+        "NOT unrelated to Pythagorean philosophy"
+    ]
+}

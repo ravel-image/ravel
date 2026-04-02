@@ -1,0 +1,106 @@
+{
+    "name": "Harpies",
+    "domain": "greek_mythology",
+    "entity_type": "mythical_creature",
+    "alternative_names": [
+        "ἅρπυια",
+        "hárpyia",
+        "harpȳia"
+    ],
+    "primary_sources": [
+        "Homeric poems",
+        "Hesiod",
+        "Aeschylus",
+        "Virgil",
+        "Hyginus",
+        "Ovid"
+    ],
+    "visual_attributes": {
+        "morphology": "half-human, half-bird",
+        "distinctive_features": [
+            "bird bodies with maiden heads",
+            "long claws on legs",
+            "faces pale with hunger"
+        ],
+        "color_palette": [
+            "pale",
+            "dark",
+            "feathered"
+        ],
+        "texture": "feathered",
+        "size_and_scale": "human-sized",
+        "structural_arrangement": "bird-like body with human head and arms",
+        "domain_specific_visual": {
+            "wing_type": "feathered wings",
+            "head_type": "maiden-like with bird features"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "personification of storm winds",
+        "secondary_functions": [
+            "snatchers of food",
+            "agents of punishment"
+        ],
+        "domain_specific_functional": {
+            "role_in_myth": "carried evildoers to the Erinyes",
+            "association_with_zeus": "hounds of mighty Zeus"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_PARENT",
+                "target": "Thaumas",
+                "description": "Harpies are daughters of Thaumas."
+            },
+            {
+                "type": "HAS_PARENT",
+                "target": "Electra",
+                "description": "Harpies are daughters of Electra."
+            },
+            {
+                "type": "SIBLING_OF",
+                "target": "Iris",
+                "description": "Harpies are sisters of Iris."
+            },
+            {
+                "type": "ENEMY_OF",
+                "target": "Boreades",
+                "description": "Boreades drove off the harpies to free Phineus."
+            }
+        ],
+        "associated_entities": [
+            "Zeus",
+            "Erinyes",
+            "Phineus",
+            "Boreades"
+        ],
+        "symbolic_items": [
+            "food",
+            "wind"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Greek and Roman mythology",
+        "historical_period": "Ancient Greece and Rome",
+        "geographic_range": [
+            "Strophades",
+            "Crete",
+            "Thrace"
+        ],
+        "cultural_significance": "symbolize destructive nature of wind and punishment",
+        "primary_sources": [
+            "Homeric poems",
+            "Hesiod",
+            "Aeschylus",
+            "Virgil",
+            "Hyginus",
+            "Ovid"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT generic bird",
+        "NOT angelic or benevolent",
+        "NOT purely human"
+    ]
+}

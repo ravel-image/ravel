@@ -1,0 +1,108 @@
+{
+    "name": "Theia",
+    "domain": "greek_mythology",
+    "entity_type": "Titaness",
+    "alternative_names": [
+        "Thea",
+        "Thia",
+        "Euryphaessa",
+        "Aethra",
+        "Basileia"
+    ],
+    "primary_sources": [
+        "Homeric Hymn to Helios",
+        "Pindar's Fifth Isthmian Ode",
+        "Diodorus's account",
+        "Plutarch's fables"
+    ],
+    "visual_attributes": {
+        "morphology": "Humanoid form typical of Greek deities",
+        "distinctive_features": [
+            "Cow-eyed appearance",
+            "Radiant and luminous presence",
+            "Often depicted with a crown or halo of light"
+        ],
+        "color_palette": [
+            "Gold",
+            "Silver",
+            "White"
+        ],
+        "texture": "Smooth and radiant",
+        "size_and_scale": "Goddess-sized, larger than mortal humans",
+        "structural_arrangement": "Elegant and regal posture",
+        "domain_specific_visual": {
+            "SYMBOL_OF_LIGHT": "Associated with brilliance and light",
+            "GOLDEN_AURA": "Often depicted with a golden aura or glow"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Goddess of sight and brilliance",
+        "secondary_functions": [
+            "Mother of celestial deities",
+            "Symbol of glory and light"
+        ],
+        "domain_specific_functional": {
+            "ASSOCIATED_WITH_GOLD": "Connection to gold through her son Helios",
+            "SYMBOLIZES_DIVINE_LIGHT": "Represents the divine light from which all light proceeds"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_PARENT",
+                "target": "Uranus",
+                "description": "Daughter of Uranus, the Sky"
+            },
+            {
+                "type": "HAS_PARENT",
+                "target": "Gaia",
+                "description": "Daughter of Gaia, the Earth"
+            },
+            {
+                "type": "HAS_SIBLING",
+                "target": "Hyperion",
+                "description": "Sister and wife of Hyperion"
+            },
+            {
+                "type": "HAS_CHILD",
+                "target": "Helios",
+                "description": "Mother of Helios, the Sun"
+            },
+            {
+                "type": "HAS_CHILD",
+                "target": "Selene",
+                "description": "Mother of Selene, the Moon"
+            },
+            {
+                "type": "HAS_CHILD",
+                "target": "Eos",
+                "description": "Mother of Eos, the Dawn"
+            }
+        ],
+        "associated_entities": [
+            "Hyperion",
+            "Helios",
+            "Selene",
+            "Eos"
+        ],
+        "symbolic_items": [
+            "Crown of light",
+            "Golden aura"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Greek mythology",
+        "historical_period": "Classical antiquity",
+        "geographic_range": "Ancient Greece",
+        "cultural_significance": "Represents divine light and brilliance, mother of celestial deities",
+        "primary_sources": [
+            "Homeric Hymn to Helios",
+            "Pindar's Fifth Isthmian Ode"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic goddess without specific attributes",
+        "NOT depicted without her radiant or luminous features",
+        "NOT framed outside the context of Greek mythology"
+    ]
+}

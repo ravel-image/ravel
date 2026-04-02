@@ -1,0 +1,100 @@
+{
+    "name": "Geryon",
+    "domain": "greek_mythology",
+    "entity_type": "mythological giant",
+    "alternative_names": [
+        "Geryone",
+        "Gēryónēs",
+        "Gēryoneús"
+    ],
+    "primary_sources": [
+        "Bibliotheke of Pseudo-Apollodorus",
+        "Geryoneis by Stesichorus",
+        "Description of Greece by Pausanias"
+    ],
+    "visual_attributes": {
+        "morphology": "humanoid giant with multiple bodies or heads",
+        "distinctive_features": [
+            "three bodies and three heads",
+            "six arms and six legs",
+            "winged"
+        ],
+        "color_palette": [
+            "red",
+            "bronze",
+            "gold"
+        ],
+        "texture": "smooth skin with warrior armor",
+        "size_and_scale": "giant-sized, towering over humans",
+        "structural_arrangement": "three bodies joined at the waist, each with its own head and limbs",
+        "domain_specific_visual": {
+            "WARRIOR_ARMOR": "wears three helmets and carries three shields and spears",
+            "WINGED": "possesses wings as depicted in some accounts"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "guardian of cattle",
+        "secondary_functions": [
+            "warrior",
+            "symbol of strength"
+        ],
+        "domain_specific_functional": {
+            "GUARDIAN_OF_CATTLE": "owned a herd of magnificent red cattle",
+            "ENEMY_OF_HERACLES": "defeated by Heracles during his tenth labor"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_PARENT",
+                "target": "Chrysaor",
+                "description": "Geryon is the son of Chrysaor"
+            },
+            {
+                "type": "HAS_PARENT",
+                "target": "Callirrhoe",
+                "description": "Geryon is the son of Callirrhoe"
+            },
+            {
+                "type": "HAS_GRANDPARENT",
+                "target": "Medusa",
+                "description": "Geryon is the grandson of Medusa"
+            },
+            {
+                "type": "HAS_UNCLE",
+                "target": "Pegasus",
+                "description": "Geryon is the nephew of Pegasus"
+            },
+            {
+                "type": "ENEMY_OF",
+                "target": "Heracles",
+                "description": "Geryon was defeated by Heracles during his tenth labor"
+            }
+        ],
+        "associated_entities": [
+            "Orthrus",
+            "Eurytion",
+            "Heracles"
+        ],
+        "symbolic_items": [
+            "red cattle",
+            "three shields",
+            "three spears"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "island of Erytheia, mythic Hesperides",
+        "historical_period": "ancient Greek mythology",
+        "geographic_range": "far west of the Mediterranean, associated with Tartessos in southern Iberia",
+        "cultural_significance": "represents a formidable challenge in Heracles' labors, symbolizing strength and guardianship",
+        "primary_sources": [
+            "Bibliotheke of Pseudo-Apollodorus",
+            "Geryoneis by Stesichorus"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a single-bodied giant",
+        "NOT without wings",
+        "NOT a generic warrior without multiple heads or bodies"
+    ]
+}

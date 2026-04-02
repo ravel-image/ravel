@@ -1,0 +1,95 @@
+{
+    "name": "Chrysaor",
+    "domain": "greek_mythology",
+    "entity_type": "mythological_figure",
+    "alternative_names": [
+        "Khrusáōr"
+    ],
+    "primary_sources": [
+        "Hesiod's Theogony",
+        "Stephanus of Byzantium's Ethnica"
+    ],
+    "visual_attributes": {
+        "morphology": "humanoid",
+        "distinctive_features": [
+            "golden sword",
+            "depicted as a young man"
+        ],
+        "color_palette": [
+            "gold",
+            "bronze",
+            "white"
+        ],
+        "texture": "smooth",
+        "size_and_scale": "human-sized",
+        "structural_arrangement": "humanoid form with a sword in hand",
+        "domain_specific_visual": {
+            "WEAPON": "golden sword",
+            "ASSOCIATED_CREATURE": "winged horse Pegasus"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "symbol of strength and valor",
+        "secondary_functions": [
+            "progenitor of Geryon",
+            "associated with Medusa's myth"
+        ],
+        "domain_specific_functional": {
+            "MYTHOLOGICAL_ROLE": "born from Medusa's blood",
+            "FAMILY_ROLE": "father of Geryon"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_PARENT",
+                "target": "Poseidon",
+                "description": "Chrysaor is the son of Poseidon."
+            },
+            {
+                "type": "HAS_PARENT",
+                "target": "Medusa",
+                "description": "Chrysaor is the son of Medusa."
+            },
+            {
+                "type": "HAS_SIBLING",
+                "target": "Pegasus",
+                "description": "Chrysaor is the brother of Pegasus."
+            },
+            {
+                "type": "HAS_SPOUSE",
+                "target": "Callirrhoe",
+                "description": "Chrysaor is married to Callirrhoe."
+            },
+            {
+                "type": "HAS_CHILD",
+                "target": "Geryon",
+                "description": "Chrysaor is the father of Geryon."
+            }
+        ],
+        "associated_entities": [
+            "Medusa",
+            "Pegasus",
+            "Callirrhoe",
+            "Geryon"
+        ],
+        "symbolic_items": [
+            "golden sword"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Greek mythology",
+        "historical_period": "Ancient Greece",
+        "geographic_range": "mythological Greece",
+        "cultural_significance": "represents the emergence of life from death",
+        "primary_sources": [
+            "Hesiod's Theogony",
+            "Stephanus of Byzantium's Ethnica"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic warrior",
+        "NOT without a golden sword",
+        "NOT unrelated to Medusa or Pegasus"
+    ]
+}

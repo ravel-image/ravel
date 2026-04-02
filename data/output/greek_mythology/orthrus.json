@@ -1,0 +1,97 @@
+{
+    "name": "Orthrus",
+    "domain": "greek_mythology",
+    "entity_type": "mythological creature",
+    "alternative_names": [
+        "Orthus"
+    ],
+    "primary_sources": [
+        "Hesiod",
+        "Apollodorus",
+        "Pindar"
+    ],
+    "visual_attributes": {
+        "morphology": "two-headed dog",
+        "distinctive_features": [
+            "two heads",
+            "snake tail",
+            "dog tail"
+        ],
+        "color_palette": [
+            "brown",
+            "black",
+            "red"
+        ],
+        "texture": "furry with scaly tail",
+        "size_and_scale": "large dog size",
+        "structural_arrangement": "two heads on a single body, tail resembling a snake",
+        "domain_specific_visual": {
+            "HEAD_COUNT": "two",
+            "TAIL_TYPE": "snake-like"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "guarding Geryon's cattle",
+        "secondary_functions": [
+            "symbol of vigilance",
+            "obstacle in Heracles' labor"
+        ],
+        "domain_specific_functional": {
+            "GUARDIAN_ROLE": "protects cattle",
+            "DEFEATED_BY": "Heracles"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_PARENT",
+                "target": "Echidna",
+                "description": "Orthrus is the offspring of Echidna."
+            },
+            {
+                "type": "HAS_PARENT",
+                "target": "Typhon",
+                "description": "Orthrus is the offspring of Typhon."
+            },
+            {
+                "type": "HAS_SIBLING",
+                "target": "Cerberus",
+                "description": "Orthrus is the brother of Cerberus."
+            },
+            {
+                "type": "GUARDS",
+                "target": "Geryon's cattle",
+                "description": "Orthrus guards the cattle of Geryon."
+            },
+            {
+                "type": "KILLED_BY",
+                "target": "Heracles",
+                "description": "Orthrus was killed by Heracles."
+            }
+        ],
+        "associated_entities": [
+            "Geryon",
+            "Eurytion"
+        ],
+        "symbolic_items": [
+            "club of Heracles",
+            "arrows"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Greek mythology",
+        "historical_period": "Ancient Greece",
+        "geographic_range": "Erytheia, far west of the Mediterranean",
+        "cultural_significance": "Represents a formidable obstacle in Heracles' labors",
+        "primary_sources": [
+            "Hesiod",
+            "Apollodorus",
+            "Pindar"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a single-headed dog",
+        "NOT without a snake tail",
+        "NOT unrelated to Heracles' labors"
+    ]
+}

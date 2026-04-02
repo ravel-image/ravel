@@ -1,0 +1,83 @@
+{
+    "name": "Python",
+    "domain": "greek_mythology",
+    "entity_type": "Chthonic Serpent",
+    "alternative_names": [
+        "Pytho",
+        "Drakaina"
+    ],
+    "primary_sources": [
+        "Homeric Hymn to Apollo",
+        "The Greek Myths by Robert Graves",
+        "Epigram from 159 BC"
+    ],
+    "visual_attributes": {
+        "morphology": "Serpentine body with dragon-like features",
+        "distinctive_features": [
+            "Large, coiling body",
+            "Dragon-like head with sharp features",
+            "Guarding the omphalos stone"
+        ],
+        "color_palette": [
+            "Dark green",
+            "Brown",
+            "Black"
+        ],
+        "texture": "Scaly",
+        "size_and_scale": "Massive, capable of encircling the omphalos stone",
+        "structural_arrangement": "Coiled around the omphalos stone at Delphi",
+        "domain_specific_visual": {
+            "GUARDIAN_OF": "Omphalos stone",
+            "ASSOCIATED_WITH": "Delphic Oracle"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Guardian of the Delphic Oracle",
+        "secondary_functions": [
+            "Chthonic enemy of Apollo",
+            "Symbol of earth and fog"
+        ],
+        "domain_specific_functional": {
+            "REPRESENTS": "Earth spirit",
+            "SYMBOLIZES": "Fogs and clouds of vapor"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ENEMY_OF",
+                "target": "Apollo",
+                "description": "Apollo slew Python to take over the Delphic Oracle."
+            },
+            {
+                "type": "CHILD_OF",
+                "target": "Gaia",
+                "description": "Python is considered the offspring of Gaia, the Earth."
+            }
+        ],
+        "associated_entities": [
+            "Apollo",
+            "Gaia",
+            "Leto"
+        ],
+        "symbolic_items": [
+            "Omphalos stone",
+            "Pythian Games"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Delphi, Greece",
+        "historical_period": "Archaic to Classical Greek period",
+        "geographic_range": "Delphi, center of the Earth in Greek mythology",
+        "cultural_significance": "Represents the ancient earth spirit and the transition of power to Apollo",
+        "primary_sources": [
+            "Homeric Hymn to Apollo",
+            "The Greek Myths by Robert Graves"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic snake",
+        "NOT a modern dragon with wings",
+        "NOT a non-mythological creature"
+    ]
+}

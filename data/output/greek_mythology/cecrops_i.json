@@ -1,0 +1,113 @@
+{
+    "name": "Cecrops I",
+    "domain": "greek_mythology",
+    "entity_type": "Legendary King",
+    "alternative_names": [
+        "Kekrops",
+        "Κέκροψ"
+    ],
+    "primary_sources": [
+        "Parian Chronicle",
+        "Strabo",
+        "Diodorus",
+        "Pausanias"
+    ],
+    "visual_attributes": {
+        "morphology": "Upper half human, lower half serpent or fish-tail",
+        "distinctive_features": [
+            "Human upper body",
+            "Serpent or fish-tail lower body",
+            "Diphuḗs (of two natures)"
+        ],
+        "color_palette": [
+            "Earthy brown",
+            "Green",
+            "Bronze"
+        ],
+        "texture": "Smooth human skin transitioning to scaly serpent skin",
+        "size_and_scale": "Human-sized upper body with a long, coiled tail",
+        "structural_arrangement": "Human torso and arms with a coiled serpent tail",
+        "domain_specific_visual": {
+            "AUTOCHTHONOUS": "Born from the earth",
+            "CULTURE_HERO": "Symbolizes civilization and cultural advancements"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Founder and first king of Athens",
+        "secondary_functions": [
+            "Introduced marriage and writing",
+            "Established political divisions and worship practices"
+        ],
+        "domain_specific_functional": {
+            "JUDGE_OF_DIVINE_CONTEST": "Judged the contest between Athena and Poseidon",
+            "CULTURAL_ADVANCEMENTS": "Taught navigation and ceremonial burial"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_SPOUSE",
+                "target": "Aglaurus",
+                "description": "Married to Aglaurus, daughter of Actaeus"
+            },
+            {
+                "type": "HAS_CHILD",
+                "target": "Erysichthon",
+                "description": "Father of Erysichthon, who predeceased him"
+            },
+            {
+                "type": "HAS_CHILD",
+                "target": "Herse",
+                "description": "Father of Herse"
+            },
+            {
+                "type": "HAS_CHILD",
+                "target": "Pandrosus",
+                "description": "Father of Pandrosus"
+            },
+            {
+                "type": "HAS_CHILD",
+                "target": "Aglaurus",
+                "description": "Father of Aglaurus"
+            },
+            {
+                "type": "WITNESSED_CONTEST",
+                "target": "Athena",
+                "description": "Witnessed Athena planting the olive tree"
+            },
+            {
+                "type": "WITNESSED_CONTEST",
+                "target": "Poseidon",
+                "description": "Witnessed Poseidon striking the Acropolis with his trident"
+            }
+        ],
+        "associated_entities": [
+            "Athena",
+            "Poseidon",
+            "Zeus",
+            "Cranaus"
+        ],
+        "symbolic_items": [
+            "Olive tree",
+            "Trident",
+            "Pelanous cakes"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Attica, Greece",
+        "historical_period": "Mythological era",
+        "geographic_range": "Primarily Attica, but also associated with Boeotia and Euboea",
+        "cultural_significance": "Symbol of civilization and cultural heroism in Athens",
+        "primary_sources": [
+            "Parian Chronicle",
+            "Strabo",
+            "Diodorus",
+            "Pausanias"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic human king",
+        "NOT a fully human figure",
+        "NOT a purely Greek origin"
+    ]
+}

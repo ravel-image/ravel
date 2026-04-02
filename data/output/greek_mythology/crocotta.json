@@ -1,0 +1,90 @@
+{
+    "name": "Crocotta",
+    "domain": "greek_mythology",
+    "entity_type": "mythical_creature",
+    "alternative_names": [
+        "Corocotta",
+        "Crocuta",
+        "Leucrocotta",
+        "Leucrotta"
+    ],
+    "primary_sources": [
+        "Geographica by Strabo",
+        "Natural History by Pliny",
+        "Indica by Ctesias",
+        "On the Characteristics of Animals by Aelian",
+        "On Abstinence from Animal Food by Porphyry",
+        "Augustan History",
+        "Cassius Dio's Roman History"
+    ],
+    "visual_attributes": {
+        "morphology": "hybrid of a dog, wolf, hyena, and lion",
+        "distinctive_features": [
+            "unbroken ridge of bone in each jaw forming a continuous tooth",
+            "ability to mimic human voices",
+            "cloven hoof",
+            "mouth opening right back to the ears"
+        ],
+        "color_palette": [
+            "lioness color",
+            "tiger color"
+        ],
+        "texture": "smooth with fur",
+        "size_and_scale": "about the size of an ass",
+        "structural_arrangement": "stag's haunches, lion's neck, tail and breast, badger's head",
+        "domain_specific_visual": {
+            "MYTHICAL_HYBRID": "combination of multiple animal features",
+            "ORACULAR_EYES": "striped gems that provide oracular powers"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "deadly enemy of men and dogs",
+        "secondary_functions": [
+            "mimics human voices",
+            "calls men by name to devour them"
+        ],
+        "domain_specific_functional": {
+            "MIMICRY": "imitates voices of men and cattle",
+            "INVINCIBILITY": "cannot be overcome by any weapon of steel"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ENEMY_OF",
+                "target": "humans",
+                "description": "The crocotta is a deadly enemy of men."
+            },
+            {
+                "type": "ENEMY_OF",
+                "target": "dogs",
+                "description": "The crocotta is a deadly enemy of dogs."
+            }
+        ],
+        "associated_entities": [
+            "hyena",
+            "lion",
+            "wolf",
+            "dog"
+        ],
+        "symbolic_items": [
+            "oracular eyes"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "India or Aethiopia",
+        "historical_period": "Ancient and Medieval times",
+        "geographic_range": "India, Aethiopia, and later Rome",
+        "cultural_significance": "Represents fearsome and deceptive qualities, linked to hyena folklore",
+        "primary_sources": [
+            "Geographica by Strabo",
+            "Natural History by Pliny",
+            "Indica by Ctesias"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a common hyena",
+        "NOT a simple wolf or dog",
+        "NOT a creature without mythical hybrid features"
+    ]
+}

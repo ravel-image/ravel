@@ -1,0 +1,89 @@
+{
+    "name": "Stymphalian Birds",
+    "domain": "greek_mythology",
+    "entity_type": "mythological_creature",
+    "alternative_names": [
+        "Stymphalídes órnithes"
+    ],
+    "primary_sources": [
+        "Sophocles, The Philoctetes",
+        "Apollonius Rhodius, Argonautica",
+        "Diodorus Siculus, Library of History",
+        "Ovid, Metamorphoses",
+        "Pseudo-Apollodorus, The Library"
+    ],
+    "visual_attributes": {
+        "morphology": "bird-like with crane-sized body",
+        "distinctive_features": [
+            "bronze beaks",
+            "sharp metallic feathers",
+            "poisonous dung"
+        ],
+        "color_palette": [
+            "metallic bronze",
+            "dark grey",
+            "black"
+        ],
+        "texture": "metallic and smooth",
+        "size_and_scale": "approximately the size of a crane",
+        "structural_arrangement": "bird-like with powerful beaks and sharp feathers",
+        "domain_specific_visual": {
+            "BEAK_TYPE": "straight and powerful",
+            "FEATHER_TYPE": "metallic and sharp"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "predatory and destructive",
+        "secondary_functions": [
+            "pets of Artemis",
+            "brought up by Ares"
+        ],
+        "domain_specific_functional": {
+            "ROLE_IN_MYTH": "obstacle in Heracles' sixth labour",
+            "ECOLOGICAL_IMPACT": "destroyed crops and towns"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "DEFEATED_BY",
+                "target": "Heracles",
+                "description": "Heracles defeated the Stymphalian birds in his sixth labour."
+            },
+            {
+                "type": "PETS_OF",
+                "target": "Artemis",
+                "description": "The birds were considered pets of Artemis."
+            },
+            {
+                "type": "RAISED_BY",
+                "target": "Ares",
+                "description": "The birds were brought up by Ares."
+            }
+        ],
+        "associated_entities": [
+            "Heracles",
+            "Artemis",
+            "Ares"
+        ],
+        "symbolic_items": [
+            "krotala",
+            "poisonous arrows"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Greek mythology",
+        "historical_period": "Classical Antiquity",
+        "geographic_range": "Stymphalia, Arcadia, later Euxine Sea",
+        "cultural_significance": "Symbol of chaos and destruction, part of Heracles' labours",
+        "primary_sources": [
+            "Sophocles, The Philoctetes",
+            "Apollonius Rhodius, Argonautica"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT generic birds",
+        "NOT non-metallic feathers",
+        "NOT unrelated to Heracles' labours"
+    ]
+}

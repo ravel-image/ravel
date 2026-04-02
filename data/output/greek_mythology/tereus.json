@@ -1,0 +1,111 @@
+{
+    "name": "Tereus",
+    "domain": "greek_mythology",
+    "entity_type": "mythological_king",
+    "alternative_names": [
+        "Τηρεύς",
+        "Tēreús"
+    ],
+    "primary_sources": [
+        "Hyginus, Fabulae",
+        "Sophocles' Tereus",
+        "Philocles' Tereus",
+        "Aristophanes' The Birds",
+        "John Gower's The Lover's Confession",
+        "Shakespeare's Titus Andronicus",
+        "Shakespeare's Cymbeline"
+    ],
+    "visual_attributes": {
+        "morphology": "avian",
+        "distinctive_features": [
+            "transformed into a hoopoe or a hawk",
+            "associated with Thracian royal attire"
+        ],
+        "color_palette": [
+            "brown",
+            "white",
+            "black"
+        ],
+        "texture": "feathery",
+        "size_and_scale": "medium-sized bird",
+        "structural_arrangement": "bird-like with wings and beak",
+        "domain_specific_visual": {
+            "transformation": "bird form with regal elements"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "symbol of betrayal and revenge",
+        "secondary_functions": [
+            "representation of Thracian royalty",
+            "mythological transformation"
+        ],
+        "domain_specific_functional": {
+            "narrative_role": "antagonist in myth involving Philomela and Procne"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_PARENT",
+                "target": "Ares",
+                "description": "Tereus is the son of Ares, the god of war."
+            },
+            {
+                "type": "HAS_PARENT",
+                "target": "Bistonis",
+                "description": "Tereus is the son of the naiad Bistonis."
+            },
+            {
+                "type": "HAS_SIBLING",
+                "target": "Dryas",
+                "description": "Tereus is the brother of Dryas."
+            },
+            {
+                "type": "HAS_SPOUSE",
+                "target": "Procne",
+                "description": "Tereus is married to Procne, an Athenian princess."
+            },
+            {
+                "type": "HAS_CHILD",
+                "target": "Itys",
+                "description": "Tereus is the father of Itys."
+            },
+            {
+                "type": "HAS_VICTIM",
+                "target": "Philomela",
+                "description": "Tereus assaulted Philomela and cut out her tongue."
+            }
+        ],
+        "associated_entities": [
+            "Procne",
+            "Philomela",
+            "Itys",
+            "Ares",
+            "Bistonis",
+            "Dryas"
+        ],
+        "symbolic_items": [
+            "tapestry depicting Tereus's crime"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Thrace",
+        "historical_period": "Ancient Greek mythology",
+        "geographic_range": "Greece, particularly Thrace and Athens",
+        "cultural_significance": "Represents themes of betrayal, revenge, and transformation in Greek mythology",
+        "primary_sources": [
+            "Hyginus, Fabulae",
+            "Sophocles' Tereus",
+            "Philocles' Tereus",
+            "Aristophanes' The Birds",
+            "John Gower's The Lover's Confession",
+            "Shakespeare's Titus Andronicus",
+            "Shakespeare's Cymbeline"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic bird",
+        "NOT a peaceful or benevolent figure",
+        "NOT unrelated to Thracian or Greek mythology"
+    ]
+}

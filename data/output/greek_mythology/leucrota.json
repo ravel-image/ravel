@@ -1,0 +1,88 @@
+{
+    "name": "Leucrota",
+    "domain": "greek_mythology",
+    "entity_type": "mythical_creature",
+    "alternative_names": [
+        "crocotta",
+        "corocotta",
+        "crocuta",
+        "leucrocotta"
+    ],
+    "primary_sources": [
+        "Geographica by Strabo",
+        "Natural History by Pliny",
+        "Indica by Ctesias",
+        "On the Characteristics of Animals by Claudius Aelianus",
+        "Aberdeen Bestiary"
+    ],
+    "visual_attributes": {
+        "morphology": "hybrid creature with features of multiple animals",
+        "distinctive_features": [
+            "size of an ass",
+            "stag's haunches",
+            "lion's neck, tail, and breast",
+            "badger's head",
+            "cloven hoof",
+            "mouth opening right back to the ears",
+            "ridges of bone in place of rows of teeth"
+        ],
+        "color_palette": [
+            "lioness color",
+            "tiger color"
+        ],
+        "texture": "smooth with some fur",
+        "size_and_scale": "about the size of an ass",
+        "structural_arrangement": "body parts of various animals blended together",
+        "domain_specific_visual": {
+            "MYTHICAL_HYBRID": "combination of dog, wolf, lion, stag, and badger features",
+            "MIMICRY": "ability to mimic human voices"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "mimic human voices to lure prey",
+        "secondary_functions": [
+            "swift movement",
+            "strong predator"
+        ],
+        "domain_specific_functional": {
+            "MYTHICAL_ROLE": "deadly enemy of men and dogs",
+            "CULTURAL_SYMBOLISM": "fearsome creature with oracular powers"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_PROGENITOR",
+                "target": "hyena",
+                "description": "Believed to be a hybrid between a hyena and a lion"
+            },
+            {
+                "type": "HAS_PROGENITOR",
+                "target": "lion",
+                "description": "Believed to be a hybrid between a hyena and a lion"
+            }
+        ],
+        "associated_entities": [
+            "hyena",
+            "lion"
+        ],
+        "symbolic_items": [
+            "striped gems with oracular powers"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "India or Aethiopia",
+        "historical_period": "Ancient Greek and Roman times",
+        "geographic_range": "mythically located in India and Aethiopia",
+        "cultural_significance": "represents fear and deception, linked to oracular powers",
+        "primary_sources": [
+            "Geographica by Strabo",
+            "Natural History by Pliny"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a common hyena",
+        "NOT a simple wolf or dog",
+        "NOT a purely fictional creature without historical context"
+    ]
+}

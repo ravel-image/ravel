@@ -1,0 +1,81 @@
+{
+    "name": "Euryale",
+    "domain": "greek_mythology",
+    "entity_type": "Gorgon",
+    "alternative_names": [
+        "Εὐρυάλη",
+        "Far-roaming"
+    ],
+    "primary_sources": [
+        "Hesiod's Theogony",
+        "Ovid's Metamorphoses"
+    ],
+    "visual_attributes": {
+        "morphology": "Humanoid with serpentine hair",
+        "distinctive_features": [
+            "Serpentine hair",
+            "Petrifying gaze",
+            "Wings"
+        ],
+        "color_palette": [
+            "Green",
+            "Bronze",
+            "Gold"
+        ],
+        "texture": "Scaly",
+        "size_and_scale": "Tall, larger than average human",
+        "structural_arrangement": "Serpents replace hair, wings on back",
+        "domain_specific_visual": {
+            "GORGON_FEATURES": "Petrifying gaze",
+            "WINGED_CREATURE": "Possesses wings"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Guardian",
+        "secondary_functions": [
+            "Symbol of terror",
+            "Protector"
+        ],
+        "domain_specific_functional": {
+            "GORGON_ROLE": "Turn onlookers to stone",
+            "MYTHOLOGICAL_SYMBOL": "Represents danger and protection"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_SIBLING",
+                "target": "Medusa",
+                "description": "One of the three Gorgon sisters"
+            },
+            {
+                "type": "HAS_SIBLING",
+                "target": "Stheno",
+                "description": "One of the three Gorgon sisters"
+            }
+        ],
+        "associated_entities": [
+            "Medusa",
+            "Stheno"
+        ],
+        "symbolic_items": [
+            "Gorgon head",
+            "Wings"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Greek mythology",
+        "historical_period": "Ancient Greece",
+        "geographic_range": "Mythological locations in Greece",
+        "cultural_significance": "Represents the power to petrify and protect",
+        "primary_sources": [
+            "Hesiod's Theogony",
+            "Ovid's Metamorphoses"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic human",
+        "NOT without serpentine hair",
+        "NOT a non-mythological creature"
+    ]
+}

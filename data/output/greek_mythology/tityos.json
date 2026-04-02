@@ -1,0 +1,104 @@
+{
+    "name": "Tityos",
+    "domain": "greek_mythology",
+    "entity_type": "giant",
+    "alternative_names": [
+        "Tityus"
+    ],
+    "primary_sources": [
+        "Homer's Odyssey",
+        "Virgil's Aeneid",
+        "Lucretius' De rerum natura",
+        "Pausanias' Description of Greece",
+        "Dante's Inferno"
+    ],
+    "visual_attributes": {
+        "morphology": "gigantic humanoid",
+        "distinctive_features": [
+            "stretched out in Tartarus",
+            "tormented by vultures feeding on his liver"
+        ],
+        "color_palette": [
+            "pale",
+            "earthy tones",
+            "dark shadows"
+        ],
+        "texture": "rough, weathered skin",
+        "size_and_scale": "colossal, towering over regular humans",
+        "structural_arrangement": "prone position, arms and legs spread out",
+        "domain_specific_visual": {
+            "UNDERWORLD_TORMENT": "eternal punishment with vultures"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "symbol of eternal punishment",
+        "secondary_functions": [
+            "warning against hubris",
+            "example of divine retribution"
+        ],
+        "domain_specific_functional": {
+            "MYTHOLOGICAL_PARALLEL": "similar punishment to Prometheus"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_PARENT",
+                "target": "Zeus",
+                "description": "Tityos is the son of Zeus and Elara."
+            },
+            {
+                "type": "HAS_PARENT",
+                "target": "Elara",
+                "description": "Tityos is the son of the mortal princess Elara."
+            },
+            {
+                "type": "HAS_CHILD",
+                "target": "Europa",
+                "description": "Tityos is the father of Europa."
+            },
+            {
+                "type": "ENEMY_OF",
+                "target": "Leto",
+                "description": "Tityos attempted to assault Leto."
+            },
+            {
+                "type": "PUNISHED_BY",
+                "target": "Artemis",
+                "description": "Artemis punished Tityos for his crime against Leto."
+            },
+            {
+                "type": "PUNISHED_BY",
+                "target": "Apollo",
+                "description": "Apollo punished Tityos for his crime against Leto."
+            }
+        ],
+        "associated_entities": [
+            "Gaia",
+            "Hera",
+            "Poseidon"
+        ],
+        "symbolic_items": [
+            "vultures",
+            "liver"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Greek mythology",
+        "historical_period": "Ancient Greece",
+        "geographic_range": "Underworld, Tartarus",
+        "cultural_significance": "represents the consequences of offending the gods",
+        "primary_sources": [
+            "Homer's Odyssey",
+            "Virgil's Aeneid",
+            "Lucretius' De rerum natura",
+            "Pausanias' Description of Greece",
+            "Dante's Inferno"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a regular human",
+        "NOT a benevolent giant",
+        "NOT free from punishment"
+    ]
+}

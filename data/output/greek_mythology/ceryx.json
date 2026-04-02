@@ -1,0 +1,86 @@
+{
+    "name": "Ceryx",
+    "domain": "greek_mythology",
+    "entity_type": "demigod",
+    "alternative_names": [
+        "Kērux",
+        "Herald"
+    ],
+    "primary_sources": [
+        "Homeric Hymn to Hermes",
+        "Pausanias' writings"
+    ],
+    "visual_attributes": {
+        "morphology": "humanoid with divine features",
+        "distinctive_features": [
+            "herald's staff (caduceus)",
+            "Athenian royal attire"
+        ],
+        "color_palette": [
+            "gold",
+            "white",
+            "blue"
+        ],
+        "texture": "smooth skin with ornate clothing",
+        "size_and_scale": "average human size",
+        "structural_arrangement": "upright, regal posture",
+        "domain_specific_visual": {
+            "divine_aura": "subtle glow indicating divine heritage",
+            "heraldic_symbols": "symbols of Hermes and Eleusinian Mysteries"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "messenger",
+        "secondary_functions": [
+            "priest",
+            "herald"
+        ],
+        "domain_specific_functional": {
+            "role_in_mysteries": "founder of priestly families in Eleusis",
+            "diplomatic_role": "inviolable messenger between states"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_PARENT",
+                "target": "Hermes",
+                "description": "Ceryx is the son of Hermes."
+            },
+            {
+                "type": "HAS_PARENT",
+                "target": "Pandrosus or Agraulus",
+                "description": "Ceryx is the son of either Pandrosus or Agraulus."
+            },
+            {
+                "type": "FOUNDER_OF",
+                "target": "Ceryces",
+                "description": "Ceryx founded the family of priests known as the Ceryces."
+            }
+        ],
+        "associated_entities": [
+            "Hermes",
+            "Eumolpus",
+            "Demeter"
+        ],
+        "symbolic_items": [
+            "caduceus",
+            "twelve steaks on altar"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Athenian royal family",
+        "historical_period": "Classical Greece",
+        "geographic_range": "Athens, Eleusis",
+        "cultural_significance": "Symbol of communication and religious rites",
+        "primary_sources": [
+            "Homeric Hymn to Hermes",
+            "Pausanias' writings"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT generic messenger",
+        "NOT without herald's staff",
+        "NOT unrelated to Eleusinian Mysteries"
+    ]
+}

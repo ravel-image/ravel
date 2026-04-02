@@ -1,0 +1,92 @@
+{
+    "name": "Melinoë",
+    "domain": "greek_mythology",
+    "entity_type": "Chthonic Goddess",
+    "alternative_names": [
+        "Mēlinóē"
+    ],
+    "primary_sources": [
+        "Orphic Hymns",
+        "Bronze Tablet from Pergamon"
+    ],
+    "visual_attributes": {
+        "morphology": "Humanoid with ethereal and spectral qualities",
+        "distinctive_features": [
+            "Saffron-cloaked",
+            "Appears in strange forms, sometimes shadowy, sometimes shining",
+            "Two-bodied specter"
+        ],
+        "color_palette": [
+            "Yellowish-green",
+            "Saffron",
+            "Darkness"
+        ],
+        "texture": "Ethereal and shifting",
+        "size_and_scale": "Human-sized",
+        "structural_arrangement": "Cloaked figure with shifting forms",
+        "domain_specific_visual": {
+            "CHTHONIC_ASSOCIATION": "Underworld setting",
+            "NIGHTMARE_BRINGER": "Appears in the gloom of night"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Bringer of nightmares and madness",
+        "secondary_functions": [
+            "Guide of souls",
+            "Underworld queen"
+        ],
+        "domain_specific_functional": {
+            "SOUL_PASSAGE": "Influences the realm of the soul's passage",
+            "NIGHT_TERRORS": "Manifests in strange forms to induce fear"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_PARENT",
+                "target": "Persephone",
+                "description": "Melinoë is the daughter of Persephone."
+            },
+            {
+                "type": "HAS_PARENT",
+                "target": "Zeus",
+                "description": "Melinoë is fathered by Zeus, who tricked Persephone."
+            },
+            {
+                "type": "ASSOCIATED_WITH",
+                "target": "Hecate",
+                "description": "Melinoë shares characteristics with Hecate."
+            },
+            {
+                "type": "ASSOCIATED_WITH",
+                "target": "Erinyes",
+                "description": "Melinoë has similarities with the Erinyes."
+            }
+        ],
+        "associated_entities": [
+            "Persephone",
+            "Zeus",
+            "Hecate",
+            "Erinyes"
+        ],
+        "symbolic_items": [
+            "Bronze tablet",
+            "Saffron cloak"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Greek mythology",
+        "historical_period": "2nd or 3rd centuries AD",
+        "geographic_range": "Ancient Greece",
+        "cultural_significance": "Represents the darker aspects of the underworld and the psyche",
+        "primary_sources": [
+            "Orphic Hymns",
+            "Bronze Tablet from Pergamon"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic goddess",
+        "NOT purely benevolent or nurturing",
+        "NOT a daylight deity"
+    ]
+}

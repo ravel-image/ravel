@@ -1,0 +1,89 @@
+{
+    "name": "Cacus",
+    "domain": "greek_mythology",
+    "entity_type": "fire-breathing giant",
+    "alternative_names": [
+        "Κάκος"
+    ],
+    "primary_sources": [
+        "Virgil's Aeneid",
+        "Dante's Inferno",
+        "Gargantua and Pantagruel",
+        "Don Quixote",
+        "The Demigod Diaries"
+    ],
+    "visual_attributes": {
+        "morphology": "giant humanoid form",
+        "distinctive_features": [
+            "fire-breathing ability",
+            "eyes that can pop out",
+            "deformed appearance"
+        ],
+        "color_palette": [
+            "dark",
+            "fiery red",
+            "smoky gray"
+        ],
+        "texture": "rough and rugged",
+        "size_and_scale": "gigantic, towering over humans",
+        "structural_arrangement": "humanoid with exaggerated features",
+        "domain_specific_visual": {
+            "fire_breathing": "flames emanating from mouth",
+            "cave_dweller": "often depicted near or in a cave"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "antagonist to Hercules",
+        "secondary_functions": [
+            "terrorizing local inhabitants",
+            "thievery"
+        ],
+        "domain_specific_functional": {
+            "symbol_of": "chaos and disorder",
+            "role_in_myth": "obstacle for Hercules"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_PARENT",
+                "target": "Vulcan",
+                "description": "Cacus is the son of Vulcan, the Roman god of fire."
+            },
+            {
+                "type": "ENEMY_OF",
+                "target": "Hercules",
+                "description": "Cacus was killed by Hercules after stealing cattle."
+            },
+            {
+                "type": "SIBLING_OF",
+                "target": "Caca",
+                "description": "Caca is Cacus' sister who revealed his location to Hercules."
+            }
+        ],
+        "associated_entities": [
+            "Hercules",
+            "Vulcan",
+            "Caca"
+        ],
+        "symbolic_items": [
+            "cattle",
+            "boulder"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Roman mythology",
+        "historical_period": "pre-Roman era",
+        "geographic_range": "Aventine Hill, Italy",
+        "cultural_significance": "represents chaos and disorder, defeated by heroism",
+        "primary_sources": [
+            "Virgil's Aeneid",
+            "Dante's Inferno"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic giant",
+        "NOT a dragon",
+        "NOT a Greek god"
+    ]
+}

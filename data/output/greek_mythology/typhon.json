@@ -1,0 +1,98 @@
+{
+    "name": "Typhon",
+    "domain": "greek_mythology",
+    "entity_type": "monstrous serpentine giant",
+    "alternative_names": [
+        "Typhoeus",
+        "Typhaon",
+        "Typhos"
+    ],
+    "primary_sources": [
+        "Hesiod's Theogony",
+        "Homeric Hymn to Apollo",
+        "Apollodorus",
+        "Nonnus's Dionysiaca"
+    ],
+    "visual_attributes": {
+        "morphology": "serpentine giant with humanoid upper body and snake-like lower body",
+        "distinctive_features": [
+            "hundred snake heads on shoulders",
+            "fire-emitting eyes",
+            "winged body",
+            "snake tails for legs"
+        ],
+        "color_palette": [
+            "dark",
+            "fiery red",
+            "earthy tones"
+        ],
+        "texture": "scaly and rough",
+        "size_and_scale": "gigantic, surpassing mountains, head brushing the stars",
+        "structural_arrangement": "humanoid form above waist, snake coils below",
+        "domain_specific_visual": {
+            "HEAD_COUNT": "hundred heads",
+            "ANIMAL_HEADS": "leopards, lions, bulls, boars, bears, cattle, wolves, dogs"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "attempted to overthrow Zeus",
+        "secondary_functions": [
+            "progenitor of monsters",
+            "symbol of chaos and destruction"
+        ],
+        "domain_specific_functional": {
+            "MYTHOLOGICAL_ROLE": "part of Greek succession myth",
+            "SYMBOLISM": "associated with destruction and chaos"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_PARENT",
+                "target": "Gaia",
+                "description": "Mother of Typhon according to Hesiod"
+            },
+            {
+                "type": "HAS_PARENT",
+                "target": "Tartarus",
+                "description": "Father of Typhon according to Hesiod"
+            },
+            {
+                "type": "HAS_MATE",
+                "target": "Echidna",
+                "description": "Mate of Typhon and mother of many monsters"
+            },
+            {
+                "type": "ENEMY_OF",
+                "target": "Zeus",
+                "description": "Attempted to overthrow Zeus"
+            }
+        ],
+        "associated_entities": [
+            "Echidna",
+            "Zeus",
+            "Gaia",
+            "Tartarus"
+        ],
+        "symbolic_items": [
+            "thunderbolts of Zeus"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Cilicia, near Corycus (modern Kızkalesi, Turkey)",
+        "historical_period": "Ancient Greek mythology",
+        "geographic_range": "Greek mythology, with connections to Near Eastern myths",
+        "cultural_significance": "Represents chaos and the struggle for cosmic order",
+        "primary_sources": [
+            "Hesiod's Theogony",
+            "Homeric Hymn to Apollo",
+            "Apollodorus",
+            "Nonnus's Dionysiaca"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic dragon",
+        "NOT a single-headed creature",
+        "NOT a non-mythological entity"
+    ]
+}

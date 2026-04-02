@@ -1,0 +1,80 @@
+{
+    "name": "Talos",
+    "domain": "greek_mythology",
+    "entity_type": "automaton",
+    "alternative_names": [
+        "Talus"
+    ],
+    "primary_sources": [
+        "Argonautica",
+        "Bibliotheca",
+        "Fabulae"
+    ],
+    "visual_attributes": {
+        "morphology": "humanoid",
+        "distinctive_features": [
+            "made entirely of bronze",
+            "giant stature",
+            "single vein running from neck to ankle"
+        ],
+        "color_palette": [
+            "bronze",
+            "metallic grey",
+            "copper"
+        ],
+        "texture": "smooth and metallic",
+        "size_and_scale": "giant, towering over humans",
+        "structural_arrangement": "humanoid form with articulated joints",
+        "domain_specific_visual": {
+            "material": "bronze",
+            "vein": "visible single vein sealed with a nail"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "guardian of Crete",
+        "secondary_functions": [
+            "deterrent to invaders",
+            "protector of Europa"
+        ],
+        "domain_specific_functional": {
+            "method_of_protection": "throws stones at ships",
+            "mobility": "circles the island thrice daily"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "CREATED_BY",
+                "target": "Hephaestus",
+                "description": "Talos was created by Hephaestus, the god of blacksmiths and craftsmen."
+            },
+            {
+                "type": "GUARDS",
+                "target": "Crete",
+                "description": "Talos was tasked with guarding the island of Crete."
+            }
+        ],
+        "associated_entities": [
+            "Hephaestus",
+            "Europa"
+        ],
+        "symbolic_items": [
+            "bronze nail"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Crete",
+        "historical_period": "Mythological era",
+        "geographic_range": "Island of Crete",
+        "cultural_significance": "Symbol of protection and technological marvel",
+        "primary_sources": [
+            "Argonautica",
+            "Bibliotheca"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a human soldier",
+        "NOT made of flesh",
+        "NOT a mythological god"
+    ]
+}

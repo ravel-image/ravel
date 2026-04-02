@@ -1,0 +1,92 @@
+{
+    "name": "Alcyoneus",
+    "domain": "greek_mythology",
+    "entity_type": "Giant",
+    "alternative_names": [
+        "Alkyoneus"
+    ],
+    "primary_sources": [
+        "Apollodorus",
+        "Pindar",
+        "Nonnus",
+        "Claudian",
+        "Philostratus",
+        "Suda"
+    ],
+    "visual_attributes": {
+        "morphology": "humanoid giant",
+        "distinctive_features": [
+            "immense size, described as 'huge as a mountain'",
+            "often depicted with a rock as a weapon",
+            "sometimes shown sleeping or reclining"
+        ],
+        "color_palette": [
+            "earthy tones",
+            "stone gray",
+            "dark brown"
+        ],
+        "texture": "rocky, rugged",
+        "size_and_scale": "nine cubits high",
+        "structural_arrangement": "massive, muscular build",
+        "domain_specific_visual": {
+            "GIGANTOMACHY_SCENE": "depicted battling Heracles or Athena",
+            "WINGED": "sometimes shown with wings in battle scenes"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "opponent of Heracles",
+        "secondary_functions": [
+            "caused the Gigantomachy by stealing cattle",
+            "immortal in native land"
+        ],
+        "domain_specific_functional": {
+            "IMMORTALITY_CONDITION": "immortal as long as in native land",
+            "ROLE_IN_GIGANTOMACHY": "one of the greatest Giants"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ENEMY_OF",
+                "target": "Heracles",
+                "description": "Alcyoneus was a traditional opponent of Heracles."
+            },
+            {
+                "type": "HAS_PARENT",
+                "target": "Gaia",
+                "description": "Alcyoneus was born from the blood of Uranus, making Gaia his mother."
+            },
+            {
+                "type": "HAS_SIBLING",
+                "target": "Porphyrion",
+                "description": "Porphyrion was another of the greatest Giants alongside Alcyoneus."
+            }
+        ],
+        "associated_entities": [
+            "Heracles",
+            "Athena",
+            "Gaia",
+            "Porphyrion"
+        ],
+        "symbolic_items": [
+            "rock",
+            "cattle"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Greek mythology",
+        "historical_period": "Ancient Greece",
+        "geographic_range": "Phlegra, Thrace, Isthmus of Corinth",
+        "cultural_significance": "symbolizes the cosmic battle between Giants and Olympian gods",
+        "primary_sources": [
+            "Apollodorus",
+            "Pindar",
+            "Nonnus"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a regular human-sized warrior",
+        "NOT without a rock or mountain as a weapon",
+        "NOT depicted without a connection to the Gigantomachy"
+    ]
+}

@@ -1,0 +1,88 @@
+{
+    "name": "Cabeiri",
+    "domain": "greek_mythology",
+    "entity_type": "chthonic deities",
+    "alternative_names": [
+        "Cabiri",
+        "Kabeiri",
+        "Kabiri"
+    ],
+    "primary_sources": [
+        "Strabo's Geographica",
+        "Aeschylus' The Kabeiroi",
+        "Encyclopædia Britannica",
+        "Hugh Bowden's works on mystery cults"
+    ],
+    "visual_attributes": {
+        "morphology": "humanoid figures often depicted as pairs or groups",
+        "distinctive_features": [
+            "depicted as an old man and his son",
+            "sometimes shown as twin youths",
+            "associated with volcanic fire"
+        ],
+        "color_palette": [
+            "bronze",
+            "dark earth tones",
+            "fiery red"
+        ],
+        "texture": "metallic and fiery",
+        "size_and_scale": "human-sized",
+        "structural_arrangement": "often depicted in pairs or small groups",
+        "domain_specific_visual": {
+            "associated_with": "volcanic fire and craftsmanship",
+            "worship_sites": "Lemnos and Samothrace"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "protectors of sailors",
+        "secondary_functions": [
+            "divine craftsmen",
+            "associated with mystery cults"
+        ],
+        "domain_specific_functional": {
+            "linked_to": "Hephaestus",
+            "role_in_cults": "initiation and mystery rites"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_PARENT",
+                "target": "Hephaestus",
+                "description": "Cabeiri are considered sons of Hephaestus."
+            },
+            {
+                "type": "HAS_PARENT",
+                "target": "Cabeiro",
+                "description": "Cabeiro is considered their mother in some accounts."
+            }
+        ],
+        "associated_entities": [
+            "Hephaestus",
+            "Cabeiro",
+            "Axieros",
+            "Axiokersa",
+            "Axiokersos",
+            "Cadmilus"
+        ],
+        "symbolic_items": [
+            "wine jars",
+            "fire from Delos"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "North Aegean Islands, particularly Lemnos and Samothrace",
+        "historical_period": "Hellenistic period",
+        "geographic_range": "Aegean region, spread throughout Greek world",
+        "cultural_significance": "important in mystery cults, protectors of sailors",
+        "primary_sources": [
+            "Strabo's Geographica",
+            "Aeschylus' The Kabeiroi"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT generic Greek gods like Zeus or Apollo",
+        "NOT Olympic pantheon deities",
+        "NOT purely Greek origin; includes pre-Greek elements"
+    ]
+}

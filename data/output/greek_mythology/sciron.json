@@ -1,0 +1,95 @@
+{
+    "name": "Sciron",
+    "domain": "greek_mythology",
+    "entity_type": "mythological_figure",
+    "alternative_names": [
+        "Sceiron",
+        "Skeirôn",
+        "Scyron"
+    ],
+    "primary_sources": [
+        "Plutarch",
+        "Ovid",
+        "Ancient Greek texts"
+    ],
+    "visual_attributes": {
+        "morphology": "human male",
+        "distinctive_features": [
+            "often depicted near a cliff",
+            "associated with a large sea turtle",
+            "depicted in the act of kicking or pushing"
+        ],
+        "color_palette": [
+            "earth tones",
+            "sea blue",
+            "stone gray"
+        ],
+        "texture": "rugged and weathered",
+        "size_and_scale": "average human male size",
+        "structural_arrangement": "standing or sitting near a cliff edge",
+        "domain_specific_visual": {
+            "associated_animal": "large sea turtle",
+            "location": "Sceironian Rocks"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "bandit or warlord",
+        "secondary_functions": [
+            "chastiser of robbers",
+            "military leader"
+        ],
+        "domain_specific_functional": {
+            "mythological_role": "killed by Theseus",
+            "cultural_role": "subject of aetiological myths"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_PARENT",
+                "target": "Pelops or Poseidon",
+                "description": "Sciron is said to be the son of either Pelops or Poseidon."
+            },
+            {
+                "type": "HAS_CHILD",
+                "target": "Endeis",
+                "description": "Sciron is the father of Endeis."
+            },
+            {
+                "type": "ENEMY_OF",
+                "target": "Theseus",
+                "description": "Sciron was killed by Theseus."
+            },
+            {
+                "type": "HAS_GRANDCHILD",
+                "target": "Telamon and Peleus",
+                "description": "Sciron is the grandfather of Telamon and Peleus."
+            }
+        ],
+        "associated_entities": [
+            "Theseus",
+            "Endeis",
+            "Telamon",
+            "Peleus"
+        ],
+        "symbolic_items": [
+            "cliff",
+            "sea turtle"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Greek mythology",
+        "historical_period": "Ancient Greece",
+        "geographic_range": "Isthmus of Corinth, Megarian territory",
+        "cultural_significance": "Represents the dangers faced by travelers; subject of moral and aetiological tales",
+        "primary_sources": [
+            "Plutarch",
+            "Ovid"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic bandit",
+        "NOT without a sea turtle",
+        "NOT a peaceful figure"
+    ]
+}

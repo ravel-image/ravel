@@ -1,0 +1,101 @@
+{
+    "name": "Hekatonkheires",
+    "domain": "greek_mythology",
+    "entity_type": "monstrous giant",
+    "alternative_names": [
+        "Hundred-Handers",
+        "Centimanes",
+        "Cottus",
+        "Briareus",
+        "Aegaeon",
+        "Gyges",
+        "Gyes"
+    ],
+    "primary_sources": [
+        "Hesiod's Theogony",
+        "Homer's Iliad",
+        "Apollodorus",
+        "Titanomachy",
+        "Virgil's Aeneid",
+        "Ovid's Fasti"
+    ],
+    "visual_attributes": {
+        "morphology": "giant humanoid with multiple heads and arms",
+        "distinctive_features": [
+            "fifty heads",
+            "one hundred arms",
+            "enormous size"
+        ],
+        "color_palette": [
+            "stone gray",
+            "earth brown",
+            "sea blue"
+        ],
+        "texture": "rocky and rugged",
+        "size_and_scale": "colossal, towering over regular giants",
+        "structural_arrangement": "heads and arms distributed evenly around the torso",
+        "domain_specific_visual": {
+            "mythological_origin": "offspring of Uranus and Gaia",
+            "battle_role": "warrior in Titanomachy"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "warrior in the Titanomachy",
+        "secondary_functions": [
+            "guardians of Tartarus",
+            "symbols of overwhelming force"
+        ],
+        "domain_specific_functional": {
+            "role_in_myth": "helped Zeus overthrow the Titans",
+            "association_with_sea": "Briareus/Aegaeon linked to the sea"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_PARENT",
+                "target": "Uranus",
+                "description": "Father of the Hekatonkheires"
+            },
+            {
+                "type": "HAS_PARENT",
+                "target": "Gaia",
+                "description": "Mother of the Hekatonkheires"
+            },
+            {
+                "type": "ALLY_OF",
+                "target": "Zeus",
+                "description": "Fought alongside Zeus in the Titanomachy"
+            },
+            {
+                "type": "GUARDIAN_OF",
+                "target": "Tartarus",
+                "description": "Guardians of the imprisoned Titans"
+            }
+        ],
+        "associated_entities": [
+            "Cyclopes",
+            "Titans",
+            "Olympians"
+        ],
+        "symbolic_items": [
+            "fifty shields",
+            "fifty swords"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Greek mythology",
+        "historical_period": "Ancient Greece",
+        "geographic_range": "mythological cosmos",
+        "cultural_significance": "symbols of immense strength and power",
+        "primary_sources": [
+            "Hesiod's Theogony",
+            "Homer's Iliad"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a single-headed giant",
+        "NOT lacking multiple arms",
+        "NOT unrelated to Greek mythology"
+    ]
+}

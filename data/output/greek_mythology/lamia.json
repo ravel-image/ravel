@@ -1,0 +1,91 @@
+{
+    "name": "Lamia",
+    "domain": "greek_mythology",
+    "entity_type": "mythological creature",
+    "alternative_names": [
+        "Lámia",
+        "lamiai",
+        "Mormo",
+        "Gello"
+    ],
+    "primary_sources": [
+        "Aristotle's Nicomachean Ethics",
+        "Diodorus Siculus",
+        "Philostratus's Life of Apollonius of Tyana",
+        "Apuleius's The Golden Ass"
+    ],
+    "visual_attributes": {
+        "morphology": "half-woman, half-snake",
+        "distinctive_features": [
+            "serpentine lower body",
+            "removable eyes",
+            "sharp teeth"
+        ],
+        "color_palette": [
+            "pale skin",
+            "dark scales",
+            "red eyes"
+        ],
+        "texture": "scaly and smooth",
+        "size_and_scale": "human-sized upper body, elongated serpentine lower body",
+        "structural_arrangement": "upper body of a woman with a snake-like lower body",
+        "domain_specific_visual": {
+            "serpentine_qualities": "part-snake beings",
+            "phantom_like": "night-haunting spirit"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "child-devourer",
+        "secondary_functions": [
+            "seductress",
+            "prophetess"
+        ],
+        "domain_specific_functional": {
+            "shapeshifting_ability": "can change form",
+            "prophecy": "gifted by Zeus"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_PARENT",
+                "target": "King Belus",
+                "description": "Lamia is the daughter of King Belus of Egypt."
+            },
+            {
+                "type": "HAS_AFFAIR_WITH",
+                "target": "Zeus",
+                "description": "Lamia had an affair with Zeus and bore his children."
+            },
+            {
+                "type": "ENEMY_OF",
+                "target": "Hera",
+                "description": "Hera caused Lamia's suffering by taking her children."
+            }
+        ],
+        "associated_entities": [
+            "Zeus",
+            "Hera",
+            "Apollonius of Tyana"
+        ],
+        "symbolic_items": [
+            "removable eyes",
+            "snake-like body"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Libya",
+        "historical_period": "Ancient Greek mythology",
+        "geographic_range": "Greece, Libya, Italy",
+        "cultural_significance": "Represents the dangers of jealousy and vengeance; used as a bogeyman to frighten children.",
+        "primary_sources": [
+            "Aristotle's Nicomachean Ethics",
+            "Diodorus Siculus"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic snake",
+        "NOT a typical vampire",
+        "NOT a purely human figure"
+    ]
+}

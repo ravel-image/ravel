@@ -1,0 +1,94 @@
+{
+    "name": "Briareus",
+    "domain": "greek_mythology",
+    "entity_type": "Hecatoncheires",
+    "alternative_names": [
+        "Aegaeon",
+        "Obriareus"
+    ],
+    "primary_sources": [
+        "Hesiod's Theogony",
+        "Homer's Iliad",
+        "Apollodorus",
+        "Titanomachy",
+        "Virgil's Aeneid",
+        "Ovid's Fasti"
+    ],
+    "visual_attributes": {
+        "morphology": "monstrous giant with fifty heads and one hundred arms",
+        "distinctive_features": [
+            "fifty heads",
+            "one hundred arms",
+            "enormous size"
+        ],
+        "color_palette": [
+            "gray",
+            "blue",
+            "green"
+        ],
+        "texture": "rough and rocky",
+        "size_and_scale": "gigantic, towering over other mythological beings",
+        "structural_arrangement": "arms and heads distributed evenly around the torso",
+        "domain_specific_visual": {
+            "sea_association": "often depicted with elements of the sea, such as waves or sea creatures"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "guardian and warrior in the Titanomachy",
+        "secondary_functions": [
+            "ally of Zeus",
+            "husband of Cymopolea"
+        ],
+        "domain_specific_functional": {
+            "role_in_myth": "instrumental in the defeat of the Titans"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_PARENT",
+                "target": "Uranus",
+                "description": "Briareus is the offspring of Uranus (Sky)."
+            },
+            {
+                "type": "HAS_PARENT",
+                "target": "Gaia",
+                "description": "Briareus is the offspring of Gaia (Earth)."
+            },
+            {
+                "type": "ALLY_OF",
+                "target": "Zeus",
+                "description": "Briareus fought alongside Zeus in the Titanomachy."
+            },
+            {
+                "type": "HAS_SPOUSE",
+                "target": "Cymopolea",
+                "description": "Briareus was given Cymopolea as a wife by Poseidon."
+            }
+        ],
+        "associated_entities": [
+            "Cottus",
+            "Gyges",
+            "Poseidon"
+        ],
+        "symbolic_items": [
+            "shields",
+            "swords"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Greek mythology",
+        "historical_period": "Ancient Greece",
+        "geographic_range": "Aegean Sea region",
+        "cultural_significance": "symbolizes strength and loyalty to the Olympian gods",
+        "primary_sources": [
+            "Hesiod's Theogony",
+            "Homer's Iliad"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a Cyclops",
+        "NOT a Titan",
+        "NOT a single-headed giant"
+    ]
+}

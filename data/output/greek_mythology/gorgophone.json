@@ -1,0 +1,83 @@
+{
+    "name": "Gorgophone",
+    "domain": "greek_mythology",
+    "entity_type": "mythological_figure",
+    "alternative_names": [
+        "Gorgon-slayer"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "Greek Mythological Texts"
+    ],
+    "visual_attributes": {
+        "morphology": "human female form",
+        "distinctive_features": [
+            "Ancient Greek attire",
+            "Regal bearing typical of a princess"
+        ],
+        "color_palette": [
+            "white",
+            "gold",
+            "blue"
+        ],
+        "texture": "smooth skin",
+        "size_and_scale": "average human female size",
+        "structural_arrangement": "typical human anatomy",
+        "domain_specific_visual": {
+            "attire": "Ancient Greek dress",
+            "accessories": "possibly a dagger or symbolic weapon"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "mythological narrative role",
+        "secondary_functions": [
+            "symbol of obedience to paternal command",
+            "part of the Danaïdes myth"
+        ],
+        "domain_specific_functional": {
+            "role_in_myth": "murdered her husband on her wedding night",
+            "cultural_impact": "part of the story of the Danaïdes"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_PARENT",
+                "target": "King Danaus",
+                "description": "Gorgophone is the daughter of King Danaus."
+            },
+            {
+                "type": "HAS_SIBLING",
+                "target": "Hypermnestra",
+                "description": "Gorgophone is the full sister of Hypermnestra."
+            },
+            {
+                "type": "MARRIED_TO",
+                "target": "Proteus",
+                "description": "Gorgophone married Proteus and murdered him on their wedding night."
+            }
+        ],
+        "associated_entities": [
+            "Perseus",
+            "King Aegyptus",
+            "Elephantis"
+        ],
+        "symbolic_items": [
+            "dagger"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Greek mythology",
+        "historical_period": "Ancient Greece",
+        "geographic_range": "Libya, Egypt",
+        "cultural_significance": "Represents themes of obedience and familial duty",
+        "primary_sources": [
+            "Greek Mythological Texts"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a Gorgon",
+        "NOT a warrior",
+        "NOT a modern figure"
+    ]
+}

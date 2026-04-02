@@ -1,0 +1,86 @@
+{
+    "name": "Argus Panoptes",
+    "domain": "greek_mythology",
+    "entity_type": "giant",
+    "alternative_names": [
+        "Argos Panoptes",
+        "All-seeing Argos"
+    ],
+    "primary_sources": [
+        "Hesiod's Aigimios",
+        "Ovid's Metamorphoses",
+        "Apollodorus' Bibliotheca"
+    ],
+    "visual_attributes": {
+        "morphology": "humanoid giant with multiple eyes",
+        "distinctive_features": [
+            "many eyes distributed across the body",
+            "eyes that remain open even during sleep"
+        ],
+        "color_palette": [
+            "flesh tone",
+            "dark brown",
+            "black"
+        ],
+        "texture": "smooth skin with eye spots",
+        "size_and_scale": "giant-sized, approximately 10-15 feet tall",
+        "structural_arrangement": "eyes are scattered across the body, with some on the forehead and limbs",
+        "domain_specific_visual": {
+            "EYES_COUNT": "approximately one hundred eyes",
+            "EYES_FUNCTION": "some eyes always remain open"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "watchman for Hera",
+        "secondary_functions": [
+            "guardian of Io",
+            "slayer of Echidna"
+        ],
+        "domain_specific_functional": {
+            "VIGILANCE": "perpetual vigilance with eyes always open",
+            "GUARDIAN_ROLE": "tasked with guarding Io, a transformed heifer"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "SERVANT_OF",
+                "target": "Hera",
+                "description": "Served as a watchman for the goddess Hera"
+            },
+            {
+                "type": "GUARDIAN_OF",
+                "target": "Io",
+                "description": "Tasked with guarding Io, whom Zeus transformed into a heifer"
+            },
+            {
+                "type": "SLAIN_BY",
+                "target": "Hermes",
+                "description": "Killed by Hermes on Zeus's orders"
+            }
+        ],
+        "associated_entities": [
+            "Hera",
+            "Io",
+            "Hermes"
+        ],
+        "symbolic_items": [
+            "peacock's tail"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Greek mythology",
+        "historical_period": "Ancient Greece",
+        "geographic_range": "Argos, Greece",
+        "cultural_significance": "Symbol of vigilance and loyalty to Hera",
+        "primary_sources": [
+            "Hesiod's Aigimios",
+            "Ovid's Metamorphoses"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic giant",
+        "NOT without multiple eyes",
+        "NOT a modern or non-mythological context"
+    ]
+}

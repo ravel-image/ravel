@@ -1,0 +1,103 @@
+{
+    "name": "Ceto",
+    "domain": "greek_mythology",
+    "entity_type": "primordial sea goddess",
+    "alternative_names": [
+        "Crataeis",
+        "Trienus"
+    ],
+    "primary_sources": [
+        "Hesiod's Theogony",
+        "Apollodorus",
+        "Hyginus",
+        "Pliny the Elder"
+    ],
+    "visual_attributes": {
+        "morphology": "amorphous sea creature with goddess-like features",
+        "distinctive_features": [
+            "amorphous sea monster form",
+            "goddess-like visage",
+            "ancient and primordial appearance"
+        ],
+        "color_palette": [
+            "deep blue",
+            "sea green",
+            "dark gray"
+        ],
+        "texture": "scaly and smooth",
+        "size_and_scale": "gigantic, spanning several meters",
+        "structural_arrangement": "fluid and shifting form, blending sea creature and divine aspects",
+        "domain_specific_visual": {
+            "SEA_MONSTER": "features of a monstrous sea creature",
+            "GODDESS": "divine and majestic presence"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "embodiment of the dangers of the sea",
+        "secondary_functions": [
+            "mother of sea monsters",
+            "symbol of primordial chaos"
+        ],
+        "domain_specific_functional": {
+            "CREATOR_OF_MONSTERS": "bore monstrous children with Phorcys",
+            "SYMBOL_OF_SEA_DANGERS": "represents the perilous aspects of the ocean"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_PARENT",
+                "target": "Pontus",
+                "description": "Ceto is the daughter of Pontus."
+            },
+            {
+                "type": "HAS_PARENT",
+                "target": "Gaia",
+                "description": "Ceto is the daughter of Gaia."
+            },
+            {
+                "type": "HAS_SPOUSE",
+                "target": "Phorcys",
+                "description": "Ceto is the consort of Phorcys."
+            },
+            {
+                "type": "HAS_CHILD",
+                "target": "Graiae",
+                "description": "Ceto is the mother of the Graiae."
+            },
+            {
+                "type": "HAS_CHILD",
+                "target": "Gorgons",
+                "description": "Ceto is the mother of the Gorgons."
+            }
+        ],
+        "associated_entities": [
+            "Phorcys",
+            "Graiae",
+            "Gorgons",
+            "Echidna",
+            "Ladon"
+        ],
+        "symbolic_items": [
+            "sea monsters",
+            "primordial chaos"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Greek mythology",
+        "historical_period": "ancient Greek era",
+        "geographic_range": "Mediterranean region",
+        "cultural_significance": "represents the chaotic and dangerous aspects of the sea",
+        "primary_sources": [
+            "Hesiod's Theogony",
+            "Apollodorus",
+            "Hyginus",
+            "Pliny the Elder"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a minor Oceanid named Ceto",
+        "NOT a generic sea monster without divine attributes",
+        "NOT a modern interpretation of a sea creature"
+    ]
+}

@@ -1,0 +1,98 @@
+{
+    "name": "Ceryneian Hind",
+    "domain": "greek_mythology",
+    "entity_type": "mythical_creature",
+    "alternative_names": [
+        "Kerynitis elaphos",
+        "Elaphus Cerynitis",
+        "Doe with the Golden Horns",
+        "Golden-Horned Hind",
+        "Ceryneia Hind",
+        "Cerynitian Hind",
+        "Beast with Golden Antlers",
+        "Parrhasian Hind",
+        "Nimble Hind of Maenalus",
+        "Beast of Maenalus"
+    ],
+    "primary_sources": [
+        "Pindar",
+        "Euripides",
+        "Callimachus' Hymn to Artemis"
+    ],
+    "visual_attributes": {
+        "morphology": "Enormous hind larger than a bull",
+        "distinctive_features": [
+            "Golden antlers like a stag",
+            "Hooves of bronze or brass",
+            "Dappled hide",
+            "Snorts fire"
+        ],
+        "color_palette": [
+            "Golden",
+            "Bronze",
+            "Dappled brown"
+        ],
+        "texture": "Smooth with dappled patterns",
+        "size_and_scale": "Larger than a bull",
+        "structural_arrangement": "Stag-like antlers on a female deer body",
+        "domain_specific_visual": {
+            "SACRED_TO": "Artemis",
+            "INSCRIPTION": "Taygete dedicated [me] to Artemis"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Sacred creature of Artemis",
+        "secondary_functions": [
+            "Chased farmers from vineyards",
+            "Part of Heracles' third labor"
+        ],
+        "domain_specific_functional": {
+            "LABOR_FOR": "Heracles",
+            "ESCAPED_FROM": "Artemis' chariot"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "SACRED_TO",
+                "target": "Artemis",
+                "description": "The Ceryneian Hind was sacred to the goddess Artemis."
+            },
+            {
+                "type": "LABOR_FOR",
+                "target": "Heracles",
+                "description": "Capturing the Ceryneian Hind was Heracles' third labor."
+            },
+            {
+                "type": "ESCAPED_FROM",
+                "target": "Artemis",
+                "description": "One of the hinds escaped from Artemis' chariot to become Heracles' labor."
+            }
+        ],
+        "associated_entities": [
+            "Artemis",
+            "Heracles",
+            "Eurystheus"
+        ],
+        "symbolic_items": [
+            "Golden antlers",
+            "Bronze hooves"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Ceryneia, Arcadia",
+        "historical_period": "Greek Mythological Era",
+        "geographic_range": "From Oenoe to Hyperborea, to a mountain called Artemisius",
+        "cultural_significance": "Represents a sacred and elusive creature tied to Artemis and Heracles' labors",
+        "primary_sources": [
+            "Pindar",
+            "Euripides",
+            "Callimachus' Hymn to Artemis"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a common deer",
+        "NOT without antlers",
+        "NOT unrelated to Artemis"
+    ]
+}

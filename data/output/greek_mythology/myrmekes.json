@@ -1,0 +1,71 @@
+{
+    "name": "Myrmekes",
+    "domain": "greek_mythology",
+    "entity_type": "mythological creature",
+    "alternative_names": [
+        "Gold-digging Ants",
+        "Indian Ants"
+    ],
+    "primary_sources": [
+        "Herodotus",
+        "Aelian"
+    ],
+    "visual_attributes": {
+        "morphology": "ant-like creature with a large body",
+        "distinctive_features": [
+            "Larger than foxes but smaller than dogs",
+            "Guardians of gold"
+        ],
+        "color_palette": [
+            "golden",
+            "brown",
+            "black"
+        ],
+        "texture": "smooth and shiny",
+        "size_and_scale": "approximately the size between a dog and a fox",
+        "structural_arrangement": "six-legged with a segmented body typical of ants",
+        "domain_specific_visual": {
+            "mythological_context": "depicted as guarding gold in Indian mythology"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "guarding gold",
+        "secondary_functions": [
+            "digging for gold"
+        ],
+        "domain_specific_functional": {
+            "mythological_role": "symbolizes wealth and protection"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "GUARDS",
+                "target": "Gold",
+                "description": "Myrmekes are known to guard gold deposits."
+            }
+        ],
+        "associated_entities": [
+            "Herodotus",
+            "Aelian"
+        ],
+        "symbolic_items": [
+            "Gold"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Greek mythology",
+        "historical_period": "Classical Antiquity",
+        "geographic_range": "India",
+        "cultural_significance": "Represents the allure and danger of wealth",
+        "primary_sources": [
+            "Herodotus",
+            "Aelian"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT regular ants",
+        "NOT small in size",
+        "NOT unrelated to gold"
+    ]
+}

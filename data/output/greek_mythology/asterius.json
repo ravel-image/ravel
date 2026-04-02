@@ -1,0 +1,76 @@
+{
+    "name": "Asterius",
+    "domain": "greek_mythology",
+    "entity_type": "Giant",
+    "alternative_names": [
+        "Asterion"
+    ],
+    "primary_sources": [
+        "Hyginus",
+        "Pausanias",
+        "Fowler"
+    ],
+    "visual_attributes": {
+        "morphology": "Humanoid with exaggerated proportions",
+        "distinctive_features": [
+            "Gigantic stature",
+            "Star-like or celestial motifs on skin or armor"
+        ],
+        "color_palette": [
+            "Bronze",
+            "Gold",
+            "Silver"
+        ],
+        "texture": "Rough, stone-like skin",
+        "size_and_scale": "Towering over humans, approximately 20 feet tall",
+        "structural_arrangement": "Broad shoulders, muscular build",
+        "domain_specific_visual": {
+            "CELESTIAL_MOTIFS": "Star patterns on armor or skin",
+            "WEAPONRY": "Carries a massive club or spear"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Combatant in mythological battles",
+        "secondary_functions": [
+            "Symbol of strength",
+            "Guardian figure"
+        ],
+        "domain_specific_functional": {
+            "ROLE_IN_MYTH": "Participated in battles against gods or heroes",
+            "SYMBOLISM": "Represents the power of nature or the cosmos"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ENEMY_OF",
+                "target": "Heracles",
+                "description": "Slain by Heracles in revenge for his father Neleus"
+            }
+        ],
+        "associated_entities": [
+            "Heracles",
+            "Neleus"
+        ],
+        "symbolic_items": [
+            "Massive club",
+            "Starry armor"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Greek mythology",
+        "historical_period": "Mythological era",
+        "geographic_range": "Ancient Greece",
+        "cultural_significance": "Represents the formidable power of giants in Greek myths",
+        "primary_sources": [
+            "Hyginus",
+            "Pausanias",
+            "Fowler"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a regular human",
+        "NOT a god or deity",
+        "NOT a peaceful or benign figure"
+    ]
+}

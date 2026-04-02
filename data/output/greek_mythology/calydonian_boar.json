@@ -1,0 +1,91 @@
+{
+    "name": "Calydonian Boar",
+    "domain": "greek_mythology",
+    "entity_type": "mythological_creature",
+    "alternative_names": [
+        "Aetolian Boar"
+    ],
+    "primary_sources": [
+        "Homer",
+        "Hesiod",
+        "Ovid's Metamorphoses",
+        "Bibliotheke",
+        "Stesichorus' fragments"
+    ],
+    "visual_attributes": {
+        "morphology": "massive wild boar",
+        "distinctive_features": [
+            "burning, bloodshot eyes",
+            "thick-set bristles like sharp spikes",
+            "large, sharp tusks"
+        ],
+        "color_palette": [
+            "dark brown",
+            "black",
+            "red (eyes)"
+        ],
+        "texture": "rough and bristly",
+        "size_and_scale": "gigantic, larger than a typical wild boar",
+        "structural_arrangement": "muscular neck and body, with prominent tusks",
+        "domain_specific_visual": {
+            "mythological_aura": "emanates a fiery and fearsome presence",
+            "environmental_impact": "scorched earth and destroyed vegetation in its path"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "punishment sent by Artemis",
+        "secondary_functions": [
+            "symbol of divine retribution",
+            "catalyst for heroic gathering"
+        ],
+        "domain_specific_functional": {
+            "role_in_myth": "central figure in the Calydonian Boar Hunt",
+            "impact_on_heroes": "caused division and conflict among hunters"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "SENT_BY",
+                "target": "Artemis",
+                "description": "Sent by Artemis to punish King Oeneus for neglecting her in his offerings."
+            },
+            {
+                "type": "HUNTED_BY",
+                "target": "Meleager",
+                "description": "Meleager led the hunt that ultimately killed the boar."
+            },
+            {
+                "type": "WOUNDED_BY",
+                "target": "Atalanta",
+                "description": "Atalanta was the first to wound the boar, leading to its eventual death."
+            }
+        ],
+        "associated_entities": [
+            "Meleager",
+            "Atalanta",
+            "King Oeneus"
+        ],
+        "symbolic_items": [
+            "boar's hide",
+            "boar's tusks"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Calydon, Aetolia, Greece",
+        "historical_period": "generation before the Trojan War",
+        "geographic_range": "region of Calydon in Aetolia",
+        "cultural_significance": "represents divine punishment and the gathering of heroes",
+        "primary_sources": [
+            "Homer",
+            "Hesiod",
+            "Ovid's Metamorphoses",
+            "Bibliotheke"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a regular wild boar",
+        "NOT a domesticated pig",
+        "NOT a creature of benign or neutral intent"
+    ]
+}

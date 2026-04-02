@@ -1,0 +1,92 @@
+{
+    "name": "Echidna",
+    "domain": "greek_mythology",
+    "entity_type": "monster",
+    "alternative_names": [
+        "Ékhidna",
+        "she-viper"
+    ],
+    "primary_sources": [
+        "Hesiod's Theogony",
+        "Apollodorus",
+        "Nonnus' Dionysiaca"
+    ],
+    "visual_attributes": {
+        "morphology": "half-woman, half-snake",
+        "distinctive_features": [
+            "beautiful maiden's head with long hair",
+            "serpent's body from the neck down",
+            "hundred snake heads in some accounts"
+        ],
+        "color_palette": [
+            "flesh-toned",
+            "green",
+            "speckled"
+        ],
+        "texture": "scaly",
+        "size_and_scale": "huge",
+        "structural_arrangement": "upper body of a woman, lower body of a snake",
+        "domain_specific_visual": {
+            "mythological_creature": "hybrid form combining human and serpent features"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "mother of monsters",
+        "secondary_functions": [
+            "guardian of a cave",
+            "mate of Typhon"
+        ],
+        "domain_specific_functional": {
+            "symbol_of": "chaos and primal fear",
+            "role_in_myth": "progenitor of many Greek mythological monsters"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "MATE_OF",
+                "target": "Typhon",
+                "description": "Echidna was the mate of Typhon, another fearsome monster."
+            },
+            {
+                "type": "PARENT_OF",
+                "target": "Cerberus",
+                "description": "Echidna is the mother of Cerberus, the multiheaded dog."
+            },
+            {
+                "type": "PARENT_OF",
+                "target": "Lernaean Hydra",
+                "description": "Echidna is the mother of the Lernaean Hydra, a many-headed serpent."
+            }
+        ],
+        "associated_entities": [
+            "Typhon",
+            "Cerberus",
+            "Lernaean Hydra",
+            "Orthrus",
+            "Chimera",
+            "Sphinx",
+            "Nemean Lion"
+        ],
+        "symbolic_items": [
+            "cave",
+            "snake heads"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Greek mythology",
+        "historical_period": "Ancient Greece",
+        "geographic_range": "mythical locations such as Arima",
+        "cultural_significance": "represents the chaotic and monstrous aspects of nature",
+        "primary_sources": [
+            "Hesiod's Theogony",
+            "Apollodorus",
+            "Nonnus' Dionysiaca"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic snake",
+        "NOT a full human",
+        "NOT a purely benevolent creature"
+    ]
+}

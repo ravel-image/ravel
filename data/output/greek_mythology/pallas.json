@@ -1,0 +1,90 @@
+{
+    "name": "Pallas",
+    "domain": "greek_mythology",
+    "entity_type": "Giant",
+    "alternative_names": [
+        "Πάλλας"
+    ],
+    "primary_sources": [
+        "Apollodorus",
+        "Epicharmus",
+        "Euripides",
+        "Claudian",
+        "Pausanias"
+    ],
+    "visual_attributes": {
+        "morphology": "Humanoid giant with exaggerated proportions",
+        "distinctive_features": [
+            "Gigantic stature",
+            "Petrified body parts"
+        ],
+        "color_palette": [
+            "Stone gray",
+            "Earthy brown",
+            "Blood red"
+        ],
+        "texture": "Rough, stone-like surface",
+        "size_and_scale": "Colossal, towering over regular humans",
+        "structural_arrangement": "Humanoid form with muscular build",
+        "domain_specific_visual": {
+            "GIGANTIC_FEATURES": "Exaggerated limbs and facial features",
+            "PETRIFICATION_EFFECT": "Parts of the body appear as if turned to stone"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Antagonist in the Gigantomachy",
+        "secondary_functions": [
+            "Symbol of chaos",
+            "Representation of pre-Olympian forces"
+        ],
+        "domain_specific_functional": {
+            "ROLE_IN_MYTH": "Flayed by Athena, skin used as aegis",
+            "CULTIC_ASSOCIATION": "Linked to ritual dances and martial displays"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "OFFSPRING_OF",
+                "target": "Gaia",
+                "description": "Born from the blood of the castrated Uranus"
+            },
+            {
+                "type": "ENEMY_OF",
+                "target": "Athena",
+                "description": "Killed and flayed by Athena during the Gigantomachy"
+            },
+            {
+                "type": "BROTHER_OF",
+                "target": "Damastor",
+                "description": "Used Pallas's petrified body as a weapon"
+            }
+        ],
+        "associated_entities": [
+            "Gaia",
+            "Athena",
+            "Damastor"
+        ],
+        "symbolic_items": [
+            "Aegis made from Pallas's skin"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Greek mythology, associated with Attic myth",
+        "historical_period": "Ancient Greece",
+        "geographic_range": "Region of Pallene, Attica",
+        "cultural_significance": "Represents the chaotic forces opposed to the Olympian order",
+        "primary_sources": [
+            "Apollodorus",
+            "Epicharmus",
+            "Euripides",
+            "Claudian",
+            "Pausanias"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT Titan Pallas",
+        "NOT a regular-sized human",
+        "NOT a non-mythological giant"
+    ]
+}

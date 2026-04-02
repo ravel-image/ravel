@@ -1,0 +1,75 @@
+{
+    "name": "Ophiotaurus",
+    "domain": "greek_mythology",
+    "entity_type": "mythological creature",
+    "alternative_names": [
+        "Ὀφιόταυρος"
+    ],
+    "primary_sources": [
+        "Ovid's Fasti"
+    ],
+    "visual_attributes": {
+        "morphology": "creature with the front half of a bull and the back half of a serpent",
+        "distinctive_features": [
+            "front half resembling a bull",
+            "back half resembling a serpent"
+        ],
+        "color_palette": [
+            "brown",
+            "green",
+            "black"
+        ],
+        "texture": "scaly on the serpent half, smooth on the bull half",
+        "size_and_scale": "large, comparable to a bull in size",
+        "structural_arrangement": "bull's head and forelimbs transitioning into a serpent's body and tail",
+        "domain_specific_visual": {
+            "mythological_context": "depicted in a dark, wooded setting surrounded by triple walls"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "subject of a prophecy with the power to defeat the gods if its innards are burned",
+        "secondary_functions": [
+            "symbol of hybrid creatures",
+            "representation of mythological challenges to divine power"
+        ],
+        "domain_specific_functional": {
+            "role_in_titanomachy": "played a part in the conflict between gods and Titans"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "TARGET_OF",
+                "target": "Briareus",
+                "description": "Briareus attempted to burn the Ophiotaurus' innards to fulfill the prophecy"
+            },
+            {
+                "type": "OPPOSED_BY",
+                "target": "Zeus",
+                "description": "Zeus sent birds to prevent the burning of the Ophiotaurus' innards"
+            }
+        ],
+        "associated_entities": [
+            "Briareus",
+            "Zeus"
+        ],
+        "symbolic_items": [
+            "adamantine axe",
+            "innards"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Greek mythology",
+        "historical_period": "Ancient Greece",
+        "geographic_range": "mythological settings, possibly Greece",
+        "cultural_significance": "represents the vulnerability of gods and the power of prophecy",
+        "primary_sources": [
+            "Ovid's Fasti"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a regular bull",
+        "NOT a regular snake",
+        "NOT a creature with separate bull and snake forms"
+    ]
+}

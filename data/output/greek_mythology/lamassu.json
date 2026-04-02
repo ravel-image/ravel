@@ -1,0 +1,89 @@
+{
+    "name": "Lamassu",
+    "domain": "greek_mythology",
+    "entity_type": "protective deity",
+    "alternative_names": [
+        "Lama",
+        "Lamma",
+        "Lamassuse",
+        "Shedu",
+        "Aladlammu",
+        "Apsasû"
+    ],
+    "primary_sources": [
+        "Epic of Gilgamesh",
+        "Kassite stele at Uruk",
+        "Assyrian sculpture",
+        "Neo-Assyrian Empire records"
+    ],
+    "visual_attributes": {
+        "morphology": "hybrid of human, bird, and either bull or lion",
+        "distinctive_features": [
+            "human head",
+            "body of a bull or lion",
+            "bird wings",
+            "horned tiara",
+            "five legs in earlier versions"
+        ],
+        "color_palette": [
+            "stone gray",
+            "earthy brown",
+            "gold accents"
+        ],
+        "texture": "smooth stone",
+        "size_and_scale": "colossal, often larger than life",
+        "structural_arrangement": "double-aspect figures, standing from the front and walking from the side",
+        "domain_specific_visual": {
+            "ASSYRIAN_ICONOGRAPHY": "winged-man-bull",
+            "MESOPOTAMIAN_SYMBOLISM": "celestial being with intelligence, strength, and freedom"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "protective deity",
+        "secondary_functions": [
+            "symbol of power",
+            "guardian of entrances"
+        ],
+        "domain_specific_functional": {
+            "CELESTIAL_ASSOCIATION": "represents zodiacs, parent-stars, or constellations",
+            "HOUSEHOLD_PROTECTION": "engraved in clay tablets buried under thresholds"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ASSOCIATED_WITH",
+                "target": "Papsukkal",
+                "description": "The god Papsukkal is associated with a lamassu."
+            },
+            {
+                "type": "ASSOCIATED_WITH",
+                "target": "Išum",
+                "description": "The god Išum is associated with shedu."
+            }
+        ],
+        "associated_entities": [
+            "Papsukkal",
+            "Išum"
+        ],
+        "symbolic_items": [
+            "horned tiara",
+            "clay tablets"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Mesopotamian",
+        "historical_period": "Assyrian times, Neo-Assyrian Empire",
+        "geographic_range": "Ancient Mesopotamia, particularly Assyria",
+        "cultural_significance": "Symbol of protection and power, representing celestial origins",
+        "primary_sources": [
+            "Epic of Gilgamesh",
+            "Kassite stele at Uruk"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT generic winged creature",
+        "NOT purely animal form",
+        "NOT Greek mythological context"
+    ]
+}

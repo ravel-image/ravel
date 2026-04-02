@@ -1,0 +1,91 @@
+{
+    "name": "Keres",
+    "domain": "greek_mythology",
+    "entity_type": "death_spirit",
+    "alternative_names": [
+        "Tenebrae",
+        "Telchines"
+    ],
+    "primary_sources": [
+        "Iliad",
+        "Shield of Heracles",
+        "Hesiod's Theogony",
+        "Homer's Odyssey"
+    ],
+    "visual_attributes": {
+        "morphology": "female humanoid with wings",
+        "distinctive_features": [
+            "gnashing white teeth",
+            "great claws",
+            "dark, fierce eyes"
+        ],
+        "color_palette": [
+            "dark",
+            "black",
+            "red"
+        ],
+        "texture": "shadowy and ethereal",
+        "size_and_scale": "human-sized or smaller",
+        "structural_arrangement": "hovering over battlefields",
+        "domain_specific_visual": {
+            "wing_type": "small, bat-like wings",
+            "expression": "grim and terrifying"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "personification of violent death",
+        "secondary_functions": [
+            "feasting on the dead",
+            "hovering over battlefields"
+        ],
+        "domain_specific_functional": {
+            "role_in_battle": "search for dying and wounded men",
+            "cultural_impact": "associated with doom and destruction"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_PARENT",
+                "target": "Nyx",
+                "description": "Keres are daughters of Nyx, the goddess of night."
+            },
+            {
+                "type": "HAS_SIBLING",
+                "target": "Thanatos",
+                "description": "Thanatos is the god of peaceful death and a sibling of the Keres."
+            },
+            {
+                "type": "HAS_SIBLING",
+                "target": "Moirai",
+                "description": "Moirai are the Fates, sisters of the Keres."
+            }
+        ],
+        "associated_entities": [
+            "Nyx",
+            "Thanatos",
+            "Moirai"
+        ],
+        "symbolic_items": [
+            "Shield of Heracles",
+            "Shield of Achilles"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Greek mythology",
+        "historical_period": "Ancient Greece",
+        "geographic_range": "Greece",
+        "cultural_significance": "symbolizes violent death and doom",
+        "primary_sources": [
+            "Iliad",
+            "Shield of Heracles",
+            "Hesiod's Theogony",
+            "Homer's Odyssey"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT Valkyries",
+        "NOT benevolent spirits",
+        "NOT peaceful death entities"
+    ]
+}

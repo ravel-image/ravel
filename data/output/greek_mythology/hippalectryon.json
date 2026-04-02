@@ -1,0 +1,75 @@
+{
+    "name": "Hippalectryon",
+    "domain": "greek_mythology",
+    "entity_type": "fantastic_hybrid_creature",
+    "alternative_names": [
+        "hippalektryon"
+    ],
+    "primary_sources": [
+        "Aeschylus' Myrmidons",
+        "Aristophanes' The Birds",
+        "Aristophanes' The Frogs"
+    ],
+    "visual_attributes": {
+        "morphology": "hybrid creature with the front half of a horse and the hind half of a rooster",
+        "distinctive_features": [
+            "horse head and front legs",
+            "rooster wings, tail, and hind legs",
+            "yellow and reddish coloration"
+        ],
+        "color_palette": [
+            "yellow",
+            "reddish"
+        ],
+        "texture": "feathered and smooth",
+        "size_and_scale": "horse-sized",
+        "structural_arrangement": "horse front part with rooster hind part",
+        "domain_specific_visual": {
+            "depicted_with": "unarmed rider, typically a young boy",
+            "common_medium": "black-figure vases from Attica"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "apotropaic and prophylactic symbol",
+        "secondary_functions": [
+            "decorative element",
+            "amusement for children"
+        ],
+        "domain_specific_functional": {
+            "dedicated_to": "Poseidon",
+            "protective_role": "protect ships"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "DEDICATED_TO",
+                "target": "Poseidon",
+                "description": "Possibly dedicated to Poseidon for protection of ships."
+            }
+        ],
+        "associated_entities": [
+            "Poseidon"
+        ],
+        "symbolic_items": [
+            "shields",
+            "galleys"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Ancient Greek folklore",
+        "historical_period": "9th to 5th century BCE",
+        "geographic_range": "Ancient Greece, possibly influenced by Middle Eastern motifs",
+        "cultural_significance": "Symbol of protection and humor, used in art and literature",
+        "primary_sources": [
+            "Aeschylus' Myrmidons",
+            "Aristophanes' The Birds",
+            "Aristophanes' The Frogs"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT Pegasus",
+        "NOT plain horse",
+        "NOT sea monster"
+    ]
+}

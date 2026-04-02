@@ -1,0 +1,85 @@
+{
+    "name": "Iris",
+    "domain": "greek_mythology",
+    "entity_type": "Goddess",
+    "alternative_names": [
+        "ἶρις",
+        "Goddess of the Rainbow"
+    ],
+    "primary_sources": [
+        "Iliad",
+        "Homeric Hymns"
+    ],
+    "visual_attributes": {
+        "morphology": "Humanoid with divine features",
+        "distinctive_features": [
+            "Wings symbolizing the rainbow",
+            "Colorful attire reflecting the spectrum of a rainbow"
+        ],
+        "color_palette": [
+            "Multicolored",
+            "Gold",
+            "White"
+        ],
+        "texture": "Smooth and ethereal",
+        "size_and_scale": "Human-sized, but with an ethereal presence",
+        "structural_arrangement": "Wings extending from the back, flowing robes",
+        "domain_specific_visual": {
+            "WINGS": "Rainbow-colored",
+            "AURA": "Radiant and colorful"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Messenger of the gods",
+        "secondary_functions": [
+            "Symbol of communication",
+            "Bridge between gods and humans"
+        ],
+        "domain_specific_functional": {
+            "REPRESENTS": "Rainbow",
+            "CONNECTS": "Heaven and Earth"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_PARENT",
+                "target": "Thaumas",
+                "description": "Iris is the daughter of Thaumas."
+            },
+            {
+                "type": "HAS_PARENT",
+                "target": "Electra",
+                "description": "Iris is the daughter of Electra."
+            },
+            {
+                "type": "SIBLING_OF",
+                "target": "Harpies",
+                "description": "Iris is the sister of the Harpies."
+            }
+        ],
+        "associated_entities": [
+            "Zeus",
+            "Hera"
+        ],
+        "symbolic_items": [
+            "Caduceus",
+            "Water pitcher"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Greek mythology",
+        "historical_period": "Ancient Greece",
+        "geographic_range": "Olympus, Greece",
+        "cultural_significance": "Symbol of communication and divine messenger",
+        "primary_sources": [
+            "Iliad",
+            "Homeric Hymns"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a common bird",
+        "NOT a simple rainbow without humanoid form",
+        "NOT a generic angelic figure"
+    ]
+}

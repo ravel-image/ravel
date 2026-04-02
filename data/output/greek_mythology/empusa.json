@@ -1,0 +1,89 @@
+{
+    "name": "Empusa",
+    "domain": "greek_mythology",
+    "entity_type": "shape-shifting phantom",
+    "alternative_names": [
+        "Empousa",
+        "Empusai",
+        "Onokole",
+        "Onoskelis",
+        "Lamia",
+        "Mormolyke"
+    ],
+    "primary_sources": [
+        "Aristophanes's The Frogs",
+        "Aristophanes's Ecclesiazusae",
+        "Philostratus's Life of Apollonius of Tyana"
+    ],
+    "visual_attributes": {
+        "morphology": "shape-shifting female phantom",
+        "distinctive_features": [
+            "one leg of copper",
+            "ability to transform into various beasts",
+            "one leg resembling a donkey's foot"
+        ],
+        "color_palette": [
+            "copper",
+            "bronze",
+            "varied based on transformation"
+        ],
+        "texture": "metallic and organic",
+        "size_and_scale": "human-sized",
+        "structural_arrangement": "asymmetrical with one metallic leg",
+        "domain_specific_visual": {
+            "SHAPE_SHIFTING": "can transform into a bull, mule, woman, or dog",
+            "LEG_VARIATION": "one leg of copper, other leg varies (e.g., cow dung, donkey's foot)"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "seduce and feed on young men",
+        "secondary_functions": [
+            "shape-shifting",
+            "phantom appearance"
+        ],
+        "domain_specific_functional": {
+            "COMMAND_BY": "Hecate",
+            "PREY_ON": "young men for seduction and sustenance"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "COMMANDED_BY",
+                "target": "Hecate",
+                "description": "Empusa is commanded by or associated with Hecate."
+            },
+            {
+                "type": "RELATED_TO",
+                "target": "Lamia",
+                "description": "Empusa is equated with Lamia in some texts."
+            },
+            {
+                "type": "RELATED_TO",
+                "target": "Mormolyke",
+                "description": "Empusa is equated with Mormolyke in some texts."
+            }
+        ],
+        "associated_entities": [
+            "Hecate",
+            "Lamia",
+            "Mormolyke"
+        ],
+        "symbolic_items": []
+    },
+    "contextual_attributes": {
+        "origin": "Greek mythology",
+        "historical_period": "Antiquity",
+        "geographic_range": "Ancient Greece",
+        "cultural_significance": "Represents fear of seduction and predation on young men",
+        "primary_sources": [
+            "Aristophanes's The Frogs",
+            "Philostratus's Life of Apollonius of Tyana"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic ghost",
+        "NOT a typical vampire",
+        "NOT a purely human form"
+    ]
+}

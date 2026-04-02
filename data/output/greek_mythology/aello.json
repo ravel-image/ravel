@@ -1,1 +1,107 @@
-
+{
+    "name": "Aello",
+    "domain": "greek_mythology",
+    "entity_type": "Harpy",
+    "alternative_names": [
+        "Aellopus",
+        "Aellope",
+        "Podarge",
+        "Podarce",
+        "Nicothoë"
+    ],
+    "primary_sources": [
+        "Ovid's Metamorphoses"
+    ],
+    "visual_attributes": {
+        "morphology": "Hybrid creature with the body of a bird and the head of a woman",
+        "distinctive_features": [
+            "Wings of a bird",
+            "Face of a woman",
+            "Talons of a bird"
+        ],
+        "color_palette": [
+            "Gray",
+            "Brown",
+            "White"
+        ],
+        "texture": "Feathery and smooth",
+        "size_and_scale": "Human-sized with large wingspan",
+        "structural_arrangement": "Bird-like body with human head and arms",
+        "domain_specific_visual": {
+            "wing_shape": "Large and powerful",
+            "facial_expression": "Fierce and intimidating"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Servant of the gods, often as a bringer of storms or winds",
+        "secondary_functions": [
+            "Messenger",
+            "Punisher"
+        ],
+        "domain_specific_functional": {
+            "role_in_myths": "Encountered by Aeneas' company",
+            "offspring": "Mother of immortal steeds Balius and Xanthus"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_PARENT",
+                "target": "Thaumas",
+                "description": "Aello is the daughter of the sea god Thaumas."
+            },
+            {
+                "type": "HAS_PARENT",
+                "target": "Electra",
+                "description": "Aello is the daughter of the Oceanid Electra."
+            },
+            {
+                "type": "HAS_SIBLING",
+                "target": "Ocypete",
+                "description": "Aello's harpy sister."
+            },
+            {
+                "type": "HAS_SIBLING",
+                "target": "Celaeno",
+                "description": "Aello's harpy sister."
+            },
+            {
+                "type": "HAS_SIBLING",
+                "target": "Iris",
+                "description": "Aello's sibling, the goddess of the rainbow."
+            },
+            {
+                "type": "HAS_OFFSPRING",
+                "target": "Balius",
+                "description": "Aello is the mother of the immortal steed Balius."
+            },
+            {
+                "type": "HAS_OFFSPRING",
+                "target": "Xanthus",
+                "description": "Aello is the mother of the immortal steed Xanthus."
+            }
+        ],
+        "associated_entities": [
+            "Zephyrus",
+            "Aeneas"
+        ],
+        "symbolic_items": [
+            "Winds",
+            "Storms"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Greek mythology",
+        "historical_period": "Ancient Greece",
+        "geographic_range": "Mediterranean region",
+        "cultural_significance": "Symbolizes the destructive power of storms and winds",
+        "primary_sources": [
+            "Ovid's Metamorphoses"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic bird",
+        "NOT a human without wings",
+        "NOT a benevolent or gentle creature"
+    ]
+}

@@ -1,0 +1,81 @@
+{
+    "name": "Ourea",
+    "domain": "greek_mythology",
+    "entity_type": "Primordial Deity",
+    "alternative_names": [
+        "Mountains",
+        "Oúrea"
+    ],
+    "primary_sources": [
+        "Theogony by Hesiod"
+    ],
+    "visual_attributes": {
+        "morphology": "Mountainous formations",
+        "distinctive_features": [
+            "Rugged peaks",
+            "Graceful slopes",
+            "Glen-filled valleys"
+        ],
+        "color_palette": [
+            "Earthy brown",
+            "Forest green",
+            "Stone gray"
+        ],
+        "texture": "Rocky and uneven",
+        "size_and_scale": "Vast and towering",
+        "structural_arrangement": "Clustered peaks and valleys",
+        "domain_specific_visual": {
+            "NATURAL_FORM": "Mountain",
+            "ASSOCIATED_WITH": "Nymphs dwelling in glens"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Embodiment of mountains",
+        "secondary_functions": [
+            "Habitat for Nymphs"
+        ],
+        "domain_specific_functional": {
+            "SYMBOLIZES": "Stability and permanence",
+            "REPRESENTS": "Natural landscape"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_PARENT",
+                "target": "Gaia",
+                "description": "Ourea are the offspring of Gaia, representing the Earth's mountains."
+            },
+            {
+                "type": "SIBLING_OF",
+                "target": "Uranus",
+                "description": "Ourea were produced alongside Uranus, the Sky."
+            },
+            {
+                "type": "SIBLING_OF",
+                "target": "Pontus",
+                "description": "Ourea were produced alongside Pontus, the Sea."
+            }
+        ],
+        "associated_entities": [
+            "Gaia",
+            "Uranus",
+            "Pontus"
+        ],
+        "symbolic_items": []
+    },
+    "contextual_attributes": {
+        "origin": "Greek mythology",
+        "historical_period": "Ancient Greece",
+        "geographic_range": "Mythological representation of all mountains",
+        "cultural_significance": "Represents the natural and divine aspect of mountains in Greek mythology",
+        "primary_sources": [
+            "Theogony by Hesiod"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT Human-like deity",
+        "NOT Smooth or flat terrain",
+        "NOT Modern geographical context"
+    ]
+}

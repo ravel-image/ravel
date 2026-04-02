@@ -1,0 +1,91 @@
+{
+    "name": "Antaeus",
+    "domain": "greek_mythology",
+    "entity_type": "mythological figure",
+    "alternative_names": [
+        "Anti"
+    ],
+    "primary_sources": [
+        "Pharsalia by Marcus Annaeus Lucanus",
+        "Life of Sertorius by Plutarch",
+        "Roman geographer Pomponius Mela"
+    ],
+    "visual_attributes": {
+        "morphology": "humanoid with exaggerated muscular build",
+        "distinctive_features": [
+            "lengthy beard",
+            "hairy body",
+            "large size"
+        ],
+        "color_palette": [
+            "earthy brown",
+            "olive green",
+            "sand yellow"
+        ],
+        "texture": "hairy and rugged",
+        "size_and_scale": "gigantic, larger than average human",
+        "structural_arrangement": "upright, often depicted in wrestling stance",
+        "domain_specific_visual": {
+            "BEARD_STYLE": "lengthy and unkempt",
+            "BODY_HAIR": "prominent and covering most of the body"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "invincible wrestler",
+        "secondary_functions": [
+            "guardian of the Libyan desert",
+            "builder of skull temple"
+        ],
+        "domain_specific_functional": {
+            "POWER_SOURCE": "contact with the earth",
+            "DEFEAT_METHOD": "lifted off the ground"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_PARENT",
+                "target": "Poseidon",
+                "description": "Antaeus is the son of Poseidon."
+            },
+            {
+                "type": "HAS_PARENT",
+                "target": "Gaia",
+                "description": "Antaeus is the son of Gaia."
+            },
+            {
+                "type": "DEFEATED_BY",
+                "target": "Heracles",
+                "description": "Antaeus was defeated by Heracles during his 11th Labour."
+            },
+            {
+                "type": "HAS_SPOUSE",
+                "target": "Tinjis",
+                "description": "Antaeus was married to the goddess Tinjis."
+            }
+        ],
+        "associated_entities": [
+            "Heracles",
+            "Tinjis",
+            "Iphinoe"
+        ],
+        "symbolic_items": [
+            "temple of skulls"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Libyan desert",
+        "historical_period": "6th century BC",
+        "geographic_range": "Libya, North Africa",
+        "cultural_significance": "symbol of invincibility and connection to the earth",
+        "primary_sources": [
+            "Pharsalia by Marcus Annaeus Lucanus",
+            "Life of Sertorius by Plutarch"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic giant",
+        "NOT without a beard",
+        "NOT disconnected from the earth"
+    ]
+}

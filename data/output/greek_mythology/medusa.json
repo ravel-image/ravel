@@ -1,0 +1,115 @@
+{
+    "name": "Medusa",
+    "domain": "greek_mythology",
+    "entity_type": "Gorgon",
+    "alternative_names": [
+        "Gorgo",
+        "The Gorgon"
+    ],
+    "primary_sources": [
+        "Hesiod",
+        "Aeschylus",
+        "Ovid",
+        "Homer",
+        "Apollodorus",
+        "Hyginus"
+    ],
+    "visual_attributes": {
+        "morphology": "Humanoid with serpentine hair",
+        "distinctive_features": [
+            "Snakes for hair",
+            "Petrifying gaze",
+            "Monstrous visage"
+        ],
+        "color_palette": [
+            "Green",
+            "Bronze",
+            "Black"
+        ],
+        "texture": "Scaly",
+        "size_and_scale": "Human-sized",
+        "structural_arrangement": "Snakes arranged as hair, humanoid body",
+        "domain_specific_visual": {
+            "GORGON_MASK": "A mask-like face with wide eyes and a grimace",
+            "WINGED": "Occasionally depicted with wings"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Petrification",
+        "secondary_functions": [
+            "Symbol of protection",
+            "Weapon"
+        ],
+        "domain_specific_functional": {
+            "GORGONEION": "Used as an apotropaic symbol to ward off evil",
+            "HEAD_AS_WEAPON": "Used by Perseus to turn enemies to stone"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_SIBLING",
+                "target": "Stheno",
+                "description": "One of Medusa's Gorgon sisters"
+            },
+            {
+                "type": "HAS_SIBLING",
+                "target": "Euryale",
+                "description": "One of Medusa's Gorgon sisters"
+            },
+            {
+                "type": "HAS_PARENT",
+                "target": "Phorcys",
+                "description": "Father of Medusa"
+            },
+            {
+                "type": "HAS_PARENT",
+                "target": "Ceto",
+                "description": "Mother of Medusa"
+            },
+            {
+                "type": "BEHEADED_BY",
+                "target": "Perseus",
+                "description": "Hero who beheaded Medusa"
+            },
+            {
+                "type": "MOTHER_OF",
+                "target": "Pegasus",
+                "description": "Winged horse born from Medusa's blood"
+            },
+            {
+                "type": "MOTHER_OF",
+                "target": "Chrysaor",
+                "description": "Giant born from Medusa's blood"
+            }
+        ],
+        "associated_entities": [
+            "Athena",
+            "Poseidon",
+            "Perseus"
+        ],
+        "symbolic_items": [
+            "Gorgoneion",
+            "Aegis"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Greek mythology",
+        "historical_period": "Classical Antiquity",
+        "geographic_range": "Greece, Libya",
+        "cultural_significance": "Symbol of protection and terror",
+        "primary_sources": [
+            "Hesiod",
+            "Aeschylus",
+            "Ovid",
+            "Homer",
+            "Apollodorus",
+            "Hyginus"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic snake-haired monster",
+        "NOT a beautiful maiden without snakes",
+        "NOT a non-Greek mythological creature"
+    ]
+}

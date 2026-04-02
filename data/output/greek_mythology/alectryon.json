@@ -1,0 +1,84 @@
+{
+    "name": "Alectryon",
+    "domain": "greek_mythology",
+    "entity_type": "mythological figure",
+    "alternative_names": [
+        "Alektruṓn"
+    ],
+    "primary_sources": [
+        "Lucian",
+        "Pausanias",
+        "Vendidad",
+        "Bundahishn"
+    ],
+    "visual_attributes": {
+        "morphology": "avian form resembling a rooster",
+        "distinctive_features": [
+            "comb on top of the head",
+            "wattles hanging below the beak",
+            "feathers with iridescent sheen"
+        ],
+        "color_palette": [
+            "red",
+            "brown",
+            "gold"
+        ],
+        "texture": "feathery",
+        "size_and_scale": "medium-sized bird, approximately 50 cm in height",
+        "structural_arrangement": "bipedal with wings and tail feathers",
+        "domain_specific_visual": {
+            "transformation_origin": "human to rooster",
+            "symbolic_feature": "crowing at dawn"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "to announce the arrival of the sun",
+        "secondary_functions": [
+            "symbol of vigilance",
+            "reminder of Ares' punishment"
+        ],
+        "domain_specific_functional": {
+            "mythological_role": "guardian turned into a rooster",
+            "etiological_explanation": "origin of roosters and their crowing"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "TRANSFORMED_BY",
+                "target": "Ares",
+                "description": "Ares transformed Alectryon into a rooster as punishment."
+            },
+            {
+                "type": "DISCOVERED_BY",
+                "target": "Helios",
+                "description": "Helios discovered Ares and Aphrodite's affair due to Alectryon's failure."
+            }
+        ],
+        "associated_entities": [
+            "Ares",
+            "Aphrodite",
+            "Helios",
+            "Hephaestus"
+        ],
+        "symbolic_items": [
+            "rooster",
+            "sunrise"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Greek mythology",
+        "historical_period": "Ancient Greece",
+        "geographic_range": "Greece",
+        "cultural_significance": "explains the behavior of roosters and their association with dawn",
+        "primary_sources": [
+            "Lucian",
+            "Pausanias"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic rooster",
+        "NOT a modern farm animal",
+        "NOT devoid of mythological context"
+    ]
+}

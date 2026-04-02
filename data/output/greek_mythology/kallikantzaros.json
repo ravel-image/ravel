@@ -1,0 +1,107 @@
+{
+    "name": "Kallikantzaros",
+    "domain": "greek_mythology",
+    "entity_type": "malevolent creature",
+    "alternative_names": [
+        "kalikántzaros",
+        "skalikántzaros",
+        "kalkántaros",
+        "kalikáttaros",
+        "karakondžul",
+        "karakondžula",
+        "karkanxholl",
+        "karakoncolos"
+    ],
+    "primary_sources": [
+        "Greek folklore",
+        "Bulgarian folklore",
+        "Serbian folklore",
+        "Bosnian folklore",
+        "Albanian folklore",
+        "Cypriot folklore",
+        "Turkish folklore"
+    ],
+    "visual_attributes": {
+        "morphology": "goblin-like creature",
+        "distinctive_features": [
+            "black and hairy",
+            "burning red eyes",
+            "goats' or donkeys' ears",
+            "long black tail",
+            "horns",
+            "prominent sexual organs"
+        ],
+        "color_palette": [
+            "black",
+            "red",
+            "dark brown"
+        ],
+        "texture": "hairy and rough",
+        "size_and_scale": "varies from diminutive to enormous",
+        "structural_arrangement": "beastly limbs with monkey-like arms and donkey-like feet",
+        "domain_specific_visual": {
+            "ANATOMICAL_FEATURES": "squint-eyed or one-eyed, sometimes blind",
+            "MOVEMENT": "lame-legged, knock-kneed, or reverse-footed"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "cause mischief and chaos during the twelve days of Christmas",
+        "secondary_functions": [
+            "saw down the world tree",
+            "terrorize people"
+        ],
+        "domain_specific_functional": {
+            "SEASONAL_ACTIVITY": "emerge during Christmas to Epiphany",
+            "FOOD_PREFERENCE": "pork, frogs, worms, snakes"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "EQUIVALENT_TO",
+                "target": "karakondžul",
+                "description": "Similar creatures in Bulgarian folklore"
+            },
+            {
+                "type": "EQUIVALENT_TO",
+                "target": "karakondžula",
+                "description": "Similar creatures in Serbian folklore"
+            },
+            {
+                "type": "EQUIVALENT_TO",
+                "target": "karakoncolos",
+                "description": "Similar creatures in Turkish folklore"
+            }
+        ],
+        "associated_entities": [
+            "Dionysos",
+            "Persephone"
+        ],
+        "symbolic_items": [
+            "sieve",
+            "colander",
+            "garlic",
+            "straw"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Greek folklore",
+        "historical_period": "modern folklore with ancient roots",
+        "geographic_range": "Greece, Cyprus, Balkans, Turkey",
+        "cultural_significance": "symbolizes chaos and mischief during the Christmas season",
+        "primary_sources": [
+            "Greek folklore",
+            "Bulgarian folklore",
+            "Serbian folklore",
+            "Bosnian folklore",
+            "Albanian folklore",
+            "Cypriot folklore",
+            "Turkish folklore"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT generic goblin",
+        "NOT purely demonic",
+        "NOT unrelated to Christmas folklore"
+    ]
+}

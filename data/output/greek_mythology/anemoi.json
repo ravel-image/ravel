@@ -1,0 +1,92 @@
+{
+    "name": "Anemoi",
+    "domain": "greek_mythology",
+    "entity_type": "wind gods",
+    "alternative_names": [
+        "Winds",
+        "Venti (Roman equivalent)"
+    ],
+    "primary_sources": [
+        "Hesiod's Theogony",
+        "Orphic Hymns",
+        "Homer's Odyssey",
+        "Tower of the Winds in Athens"
+    ],
+    "visual_attributes": {
+        "morphology": "personified as winged men or gusts of wind",
+        "distinctive_features": [
+            "winged men",
+            "sometimes depicted as horses",
+            "associated with cardinal directions"
+        ],
+        "color_palette": [
+            "white",
+            "blue",
+            "gray"
+        ],
+        "texture": "ethereal and airy",
+        "size_and_scale": "variable, often human-sized when personified",
+        "structural_arrangement": "wings attached to human-like figures",
+        "domain_specific_visual": {
+            "CARDINAL_DIRECTION": "each Anemoi is associated with a specific cardinal direction",
+            "SEASONAL_ASSOCIATION": "each Anemoi is linked to specific weather conditions and seasons"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "control and personification of winds",
+        "secondary_functions": [
+            "bring weather changes",
+            "influence seasons"
+        ],
+        "domain_specific_functional": {
+            "WEATHER_CONTROL": "each Anemoi brings specific weather conditions",
+            "SEASONAL_INFLUENCE": "each Anemoi is associated with a particular season"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_PARENT",
+                "target": "Eos",
+                "description": "Eos is the mother of the Anemoi"
+            },
+            {
+                "type": "HAS_PARENT",
+                "target": "Astraeus",
+                "description": "Astraeus is the father of the Anemoi"
+            },
+            {
+                "type": "SUBJECT_TO",
+                "target": "Aeolus",
+                "description": "The Anemoi are subject to Aeolus, the keeper of the winds"
+            }
+        ],
+        "associated_entities": [
+            "Boreas",
+            "Zephyrus",
+            "Notus",
+            "Eurus"
+        ],
+        "symbolic_items": [
+            "horses",
+            "wings"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Greek mythology",
+        "historical_period": "Ancient Greece",
+        "geographic_range": "Mediterranean region",
+        "cultural_significance": "symbolize the natural forces of wind and weather",
+        "primary_sources": [
+            "Hesiod's Theogony",
+            "Orphic Hymns",
+            "Homer's Odyssey",
+            "Tower of the Winds in Athens"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT generic angels",
+        "NOT modern weather phenomena",
+        "NOT purely human figures without wings"
+    ]
+}

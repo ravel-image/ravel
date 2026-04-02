@@ -1,0 +1,97 @@
+{
+    "name": "Telchines",
+    "domain": "greek_mythology",
+    "entity_type": "mythological creatures",
+    "alternative_names": [
+        "Fish Children",
+        "Ialysii",
+        "Alastores",
+        "Palamnaioi"
+    ],
+    "primary_sources": [
+        "Diodorus Siculus",
+        "Ovid's Ibis",
+        "Callimachus",
+        "Nonnus",
+        "Bacchylides",
+        "Pindar"
+    ],
+    "visual_attributes": {
+        "morphology": "humanoid with flippers instead of hands and heads of dogs",
+        "distinctive_features": [
+            "flippers instead of hands",
+            "heads resembling dogs",
+            "stings and rough texture like an echinoid"
+        ],
+        "color_palette": [
+            "gray",
+            "blue",
+            "green"
+        ],
+        "texture": "rough and scaly",
+        "size_and_scale": "human-sized",
+        "structural_arrangement": "bipedal with canine heads and flipper-like appendages",
+        "domain_specific_visual": {
+            "ANIMALISTIC_TRAITS": "dog-like heads",
+            "AQUATIC_FEATURES": "flippers and scaly texture"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "sorcerers and metallurgists",
+        "secondary_functions": [
+            "cultivators of the soil",
+            "ministers of the gods"
+        ],
+        "domain_specific_functional": {
+            "MAGICAL_ABILITIES": "ability to bring on hail, rain, and snow",
+            "ARTISTIC_SKILLS": "created ceremonial weapons for gods"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "PARENT_OF",
+                "target": "Poseidon",
+                "description": "In some accounts, Poseidon is described as the father of the Telchines."
+            },
+            {
+                "type": "RAISED_BY",
+                "target": "Rhea",
+                "description": "Rhea entrusted the Telchines with the upbringing of Poseidon."
+            },
+            {
+                "type": "ENEMY_OF",
+                "target": "Zeus",
+                "description": "Zeus was hostile to the Telchines and eventually destroyed them."
+            }
+        ],
+        "associated_entities": [
+            "Cyclopes",
+            "Dactyls",
+            "Curetes"
+        ],
+        "symbolic_items": [
+            "trident of Poseidon",
+            "sickle of Cronus"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "island of Rhodes",
+        "historical_period": "ancient Greek mythology",
+        "geographic_range": "Rhodes, Crete, Cyprus, Boeotia",
+        "cultural_significance": "regarded as wizards and skilled metal workers, associated with gods and magic",
+        "primary_sources": [
+            "Diodorus Siculus",
+            "Ovid's Ibis",
+            "Callimachus",
+            "Nonnus",
+            "Bacchylides",
+            "Pindar"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT generic sea creatures",
+        "NOT human with normal hands",
+        "NOT unrelated to Greek mythology"
+    ]
+}

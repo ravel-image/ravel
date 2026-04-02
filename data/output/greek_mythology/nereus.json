@@ -1,0 +1,98 @@
+{
+    "name": "Nereus",
+    "domain": "greek_mythology",
+    "entity_type": "Sea God",
+    "alternative_names": [
+        "Old Man of the Sea"
+    ],
+    "primary_sources": [
+        "Hesiod's Theogony",
+        "Iliad",
+        "Odyssey",
+        "Apollonius of Rhodes"
+    ],
+    "visual_attributes": {
+        "morphology": "Upper body of a bearded man with a long coiling scaly fishlike tail",
+        "distinctive_features": [
+            "Bearded face",
+            "Draped torso",
+            "Fishlike tail"
+        ],
+        "color_palette": [
+            "Sea green",
+            "Blue",
+            "Silver"
+        ],
+        "texture": "Scaly and smooth",
+        "size_and_scale": "Human-sized upper body with a long tail",
+        "structural_arrangement": "Upper human torso transitioning into a fish tail",
+        "domain_specific_visual": {
+            "STAFF_OF_AUTHORITY": "Wields a staff symbolizing his power",
+            "BEARDED": "Represents wisdom and age"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Prophecy and shapeshifting",
+        "secondary_functions": [
+            "Aid to heroes",
+            "Father of Nereids"
+        ],
+        "domain_specific_functional": {
+            "TRUTHFULNESS": "Known for his truthfulness and virtue",
+            "GENTLE_NATURE": "Mild and righteous thoughts"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_PARENT",
+                "target": "Pontus",
+                "description": "Nereus is the eldest son of Pontus"
+            },
+            {
+                "type": "HAS_PARENT",
+                "target": "Gaia",
+                "description": "Nereus is the son of Gaia"
+            },
+            {
+                "type": "HAS_SPOUSE",
+                "target": "Doris",
+                "description": "Nereus is married to Doris"
+            },
+            {
+                "type": "HAS_CHILD",
+                "target": "Nereids",
+                "description": "Nereus is the father of the Nereids"
+            },
+            {
+                "type": "HAS_CHILD",
+                "target": "Nerites",
+                "description": "Nereus is the father of Nerites"
+            }
+        ],
+        "associated_entities": [
+            "Proteus",
+            "Triton",
+            "Poseidon"
+        ],
+        "symbolic_items": [
+            "Staff of authority"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Greek mythology",
+        "historical_period": "Ancient Greece",
+        "geographic_range": "Aegean Sea",
+        "cultural_significance": "Represents the wisdom and truthfulness of the sea",
+        "primary_sources": [
+            "Hesiod's Theogony",
+            "Iliad",
+            "Odyssey"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT Poseidon",
+        "NOT a generic mermaid",
+        "NOT a young, clean-shaven figure"
+    ]
+}

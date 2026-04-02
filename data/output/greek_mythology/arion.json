@@ -1,0 +1,97 @@
+{
+    "name": "Arion",
+    "domain": "greek_mythology",
+    "entity_type": "divinely-bred horse",
+    "alternative_names": [
+        "Areion"
+    ],
+    "primary_sources": [
+        "Iliad by Homer",
+        "Cyclic Thebaid",
+        "Shield of Heracles by Hesiod",
+        "Thebaid by Statius",
+        "Works by Apollodorus",
+        "Works by Pausanias"
+    ],
+    "visual_attributes": {
+        "morphology": "horse",
+        "distinctive_features": [
+            "black mane",
+            "ruddy mane with fiery appearance",
+            "divinely-bred speed"
+        ],
+        "color_palette": [
+            "black",
+            "ruddy",
+            "caerulean"
+        ],
+        "texture": "smooth",
+        "size_and_scale": "large horse",
+        "structural_arrangement": "equine structure with a prominent mane",
+        "domain_specific_visual": {
+            "divine_origin": "son of Poseidon and Demeter",
+            "race_winner": "first in the Nemean Games"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "swift transportation",
+        "secondary_functions": [
+            "battle companion",
+            "life-saving escape"
+        ],
+        "domain_specific_functional": {
+            "divine_speed": "outstrips winds and clouds",
+            "battle_hero": "carried Heracles and Adrastus in battles"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_PARENT",
+                "target": "Poseidon",
+                "description": "Arion is the offspring of Poseidon."
+            },
+            {
+                "type": "HAS_PARENT",
+                "target": "Demeter",
+                "description": "Arion is the offspring of Demeter."
+            },
+            {
+                "type": "OWNED_BY",
+                "target": "Adrastus",
+                "description": "Arion was given to Adrastus and saved his life."
+            },
+            {
+                "type": "OWNED_BY",
+                "target": "Heracles",
+                "description": "Arion was ridden by Heracles in battles."
+            }
+        ],
+        "associated_entities": [
+            "Adrastus",
+            "Heracles",
+            "Poseidon",
+            "Demeter"
+        ],
+        "symbolic_items": [
+            "Nemean Games victory"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Greek mythology",
+        "historical_period": "Ancient Greece",
+        "geographic_range": "Arcadia, Thebes, Argos",
+        "cultural_significance": "Symbol of divine speed and protection",
+        "primary_sources": [
+            "Iliad by Homer",
+            "Cyclic Thebaid",
+            "Shield of Heracles by Hesiod",
+            "Thebaid by Statius"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a regular horse",
+        "NOT without a black or ruddy mane",
+        "NOT a non-divine creature"
+    ]
+}

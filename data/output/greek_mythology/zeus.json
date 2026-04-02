@@ -1,0 +1,108 @@
+{
+    "name": "Zeus",
+    "domain": "greek_mythology",
+    "entity_type": "deity",
+    "alternative_names": [
+        "Ζεύς",
+        "Zeû",
+        "Día",
+        "Diós",
+        "Dií",
+        "Ζάς",
+        "Zen"
+    ],
+    "primary_sources": [
+        "Theogony by Hesiod",
+        "Iliad by Homer",
+        "Fabulae by Hyginus",
+        "Metamorphoses by Antoninus Liberalis"
+    ],
+    "visual_attributes": {
+        "morphology": "Anthropomorphic with regal and muscular build",
+        "distinctive_features": [
+            "Thunderbolt",
+            "Eagle",
+            "Scepter",
+            "Bearded face"
+        ],
+        "color_palette": [
+            "Sky blue",
+            "Gold",
+            "White"
+        ],
+        "texture": "Smooth skin with flowing hair and beard",
+        "size_and_scale": "Larger than life, towering presence",
+        "structural_arrangement": "Seated on a throne or standing with a commanding posture",
+        "domain_specific_visual": {
+            "SYMBOLS": "Thunderbolt, Eagle",
+            "ATTIRE": "Flowing robes, often depicted with a crown or laurel"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "King of the gods, ruler of Mount Olympus",
+        "secondary_functions": [
+            "God of the sky",
+            "God of thunder"
+        ],
+        "domain_specific_functional": {
+            "ROLE_ASSIGNMENT": "Assigns roles to other gods",
+            "WEATHER_CONTROL": "Controls weather phenomena"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_PARENT",
+                "target": "Cronus",
+                "description": "Zeus is the son of Cronus."
+            },
+            {
+                "type": "HAS_PARENT",
+                "target": "Rhea",
+                "description": "Zeus is the son of Rhea."
+            },
+            {
+                "type": "HAS_SPOUSE",
+                "target": "Hera",
+                "description": "Zeus is married to Hera."
+            },
+            {
+                "type": "HAS_CHILD",
+                "target": "Ares",
+                "description": "Zeus is the father of Ares."
+            },
+            {
+                "type": "HAS_CHILD",
+                "target": "Athena",
+                "description": "Zeus is the father of Athena."
+            }
+        ],
+        "associated_entities": [
+            "Hera",
+            "Cronus",
+            "Rhea",
+            "Ares",
+            "Athena"
+        ],
+        "symbolic_items": [
+            "Thunderbolt",
+            "Eagle",
+            "Scepter"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Greek mythology",
+        "historical_period": "Ancient Greece",
+        "geographic_range": "Mount Olympus, Greece",
+        "cultural_significance": "Chief deity, symbol of authority and power",
+        "primary_sources": [
+            "Theogony by Hesiod",
+            "Iliad by Homer"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic king",
+        "NOT without a thunderbolt",
+        "NOT depicted without a beard"
+    ]
+}

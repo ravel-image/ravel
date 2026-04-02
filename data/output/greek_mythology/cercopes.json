@@ -1,0 +1,93 @@
+{
+    "name": "Cercopes",
+    "domain": "greek_mythology",
+    "entity_type": "mischievous forest creatures",
+    "alternative_names": [
+        "Passalus and Acmon",
+        "Basalas and Achemon",
+        "Olus and Eurybatus",
+        "Candolus and Atlantus",
+        "Sillus and Triballus"
+    ],
+    "primary_sources": [
+        "Pherecydes",
+        "Temple C at Selinus",
+        "Minoan frescoes",
+        "O. Keller, Thiere des classischen Alterthums"
+    ],
+    "visual_attributes": {
+        "morphology": "humanoid with monkey-like features",
+        "distinctive_features": [
+            "tail",
+            "mischievous expression",
+            "bound to a shoulder pole"
+        ],
+        "color_palette": [
+            "bluish fur",
+            "green skin"
+        ],
+        "texture": "furry",
+        "size_and_scale": "human-sized",
+        "structural_arrangement": "two brothers often depicted together",
+        "domain_specific_visual": {
+            "depicted_on": "Greek vases",
+            "transformed_into": "monkeys by Zeus"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "mischief-makers",
+        "secondary_functions": [
+            "liars",
+            "cheats",
+            "knaves"
+        ],
+        "domain_specific_functional": {
+            "stole_from": "Heracles",
+            "punished_by": "being tied to a pole"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "SONS_OF",
+                "target": "Theia and Oceanus",
+                "description": "They are usually known as sons of Theia and Oceanus."
+            },
+            {
+                "type": "ENEMY_OF",
+                "target": "Heracles",
+                "description": "They stole Heracles' weapons and were punished by him."
+            },
+            {
+                "type": "TRANSFORMED_BY",
+                "target": "Zeus",
+                "description": "Zeus transformed them into monkeys."
+            }
+        ],
+        "associated_entities": [
+            "Heracles",
+            "Zeus",
+            "Theia",
+            "Oceanus"
+        ],
+        "symbolic_items": [
+            "shoulder pole"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Greek mythology",
+        "historical_period": "Ancient Greece",
+        "geographic_range": "Thermopylae, Euboea, Lydia, Ephesus",
+        "cultural_significance": "Symbolize mischief and deceit; connected to the transformation into monkeys.",
+        "primary_sources": [
+            "Pherecydes",
+            "Temple C at Selinus",
+            "Minoan frescoes"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT generic monkeys",
+        "NOT without tails",
+        "NOT purely human figures"
+    ]
+}

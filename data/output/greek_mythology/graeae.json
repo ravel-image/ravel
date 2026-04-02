@@ -1,0 +1,96 @@
+{
+    "name": "Graeae",
+    "domain": "greek_mythology",
+    "entity_type": "mythological beings",
+    "alternative_names": [
+        "Graiai",
+        "Grey Sisters",
+        "Phorcides"
+    ],
+    "primary_sources": [
+        "Theogony by Hesiod",
+        "Prometheus Bound",
+        "Apollodorus",
+        "Hyginus"
+    ],
+    "visual_attributes": {
+        "morphology": "humanoid",
+        "distinctive_features": [
+            "gray hair from birth",
+            "shared one eye",
+            "shared one tooth",
+            "swan-like aspect"
+        ],
+        "color_palette": [
+            "gray",
+            "white",
+            "saffron"
+        ],
+        "texture": "aged and wrinkled skin",
+        "size_and_scale": "average human size",
+        "structural_arrangement": "three sisters often depicted together",
+        "domain_specific_visual": {
+            "clothing": "well-clad, saffron-robed"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "guardians of secret knowledge",
+        "secondary_functions": [
+            "intermediaries for Perseus"
+        ],
+        "domain_specific_functional": {
+            "role_in_myth": "provided information about the Gorgons"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_PARENT",
+                "target": "Phorcys",
+                "description": "Phorcys is their father, a primordial sea god."
+            },
+            {
+                "type": "HAS_PARENT",
+                "target": "Ceto",
+                "description": "Ceto is their mother, a primordial sea goddess."
+            },
+            {
+                "type": "SIBLING_OF",
+                "target": "Gorgons",
+                "description": "The Graeae are sisters to the Gorgons."
+            },
+            {
+                "type": "ENCOUNTERED_BY",
+                "target": "Perseus",
+                "description": "Perseus encountered them to gain information about Medusa."
+            }
+        ],
+        "associated_entities": [
+            "Phorcys",
+            "Ceto",
+            "Gorgons",
+            "Perseus"
+        ],
+        "symbolic_items": [
+            "shared eye",
+            "shared tooth"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Greek mythology",
+        "historical_period": "Ancient Greece",
+        "geographic_range": "mythological locations",
+        "cultural_significance": "symbolize the sharing of wisdom and the inevitability of aging",
+        "primary_sources": [
+            "Theogony by Hesiod",
+            "Prometheus Bound",
+            "Apollodorus",
+            "Hyginus"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT generic old women",
+        "NOT individual entities with separate eyes and teeth",
+        "NOT modern cultural depictions of witches"
+    ]
+}

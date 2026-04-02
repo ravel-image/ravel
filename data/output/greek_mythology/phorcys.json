@@ -1,0 +1,129 @@
+{
+    "name": "Phorcys",
+    "domain": "greek_mythology",
+    "entity_type": "primordial sea god",
+    "alternative_names": [
+        "Phorcus",
+        "Phorkys"
+    ],
+    "primary_sources": [
+        "Hesiod's Theogony",
+        "Apollodorus",
+        "Apollonius of Rhodes",
+        "Sophocles",
+        "Homer",
+        "Servius' commentary on the Aeneid"
+    ],
+    "visual_attributes": {
+        "morphology": "fish-tailed merman",
+        "distinctive_features": [
+            "crab-claw legs",
+            "red, spiky skin"
+        ],
+        "color_palette": [
+            "red",
+            "blue",
+            "green"
+        ],
+        "texture": "spiky",
+        "size_and_scale": "large, imposing figure",
+        "structural_arrangement": "upper body of a man with a fish tail and crab-like legs",
+        "domain_specific_visual": {
+            "SEA_GOD_FEATURE": "half man and half sea ram"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "primordial sea deity",
+        "secondary_functions": [
+            "father of monstrous children",
+            "symbol of marine transformation"
+        ],
+        "domain_specific_functional": {
+            "REPRESENTS_SEA": "embodiment of the dangers and mysteries of the sea"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_PARENT",
+                "target": "Pontus",
+                "description": "Phorcys is the son of Pontus."
+            },
+            {
+                "type": "HAS_PARENT",
+                "target": "Gaia",
+                "description": "Phorcys is the son of Gaia."
+            },
+            {
+                "type": "HAS_SPOUSE",
+                "target": "Ceto",
+                "description": "Phorcys is married to Ceto."
+            },
+            {
+                "type": "HAS_CHILD",
+                "target": "Graeae",
+                "description": "Phorcys is the father of the Graeae."
+            },
+            {
+                "type": "HAS_CHILD",
+                "target": "Gorgons",
+                "description": "Phorcys is the father of the Gorgons."
+            },
+            {
+                "type": "HAS_CHILD",
+                "target": "Echidna",
+                "description": "Phorcys is possibly the father of Echidna."
+            },
+            {
+                "type": "HAS_CHILD",
+                "target": "Ladon",
+                "description": "Phorcys is the father of Ladon."
+            },
+            {
+                "type": "HAS_CHILD",
+                "target": "Scylla",
+                "description": "Phorcys is possibly the father of Scylla."
+            },
+            {
+                "type": "HAS_CHILD",
+                "target": "Sirens",
+                "description": "Phorcys is possibly the father of the Sirens."
+            },
+            {
+                "type": "HAS_CHILD",
+                "target": "Thoosa",
+                "description": "Phorcys is the father of Thoosa."
+            }
+        ],
+        "associated_entities": [
+            "Nereus",
+            "Proteus",
+            "Ceto",
+            "Pontus",
+            "Gaia"
+        ],
+        "symbolic_items": [
+            "trident",
+            "sea creatures"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Greek mythology",
+        "historical_period": "Ancient Greece",
+        "geographic_range": "Mediterranean Sea",
+        "cultural_significance": "represents the primordial and chaotic aspects of the sea",
+        "primary_sources": [
+            "Hesiod's Theogony",
+            "Apollodorus",
+            "Apollonius of Rhodes",
+            "Sophocles",
+            "Homer",
+            "Servius' commentary on the Aeneid"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic merman",
+        "NOT smooth-skinned",
+        "NOT a benevolent sea deity"
+    ]
+}

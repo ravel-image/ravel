@@ -1,0 +1,87 @@
+{
+    "name": "Ichthyocentaur",
+    "domain": "greek_mythology",
+    "entity_type": "Mythological Creature",
+    "alternative_names": [
+        "Sea-Centaur",
+        "Centaur-Triton",
+        "Ichthyokentaur",
+        "Ichthyocentaure"
+    ],
+    "primary_sources": [
+        "Pergamon Altar",
+        "Zeugma Mosaics",
+        "Apamea Mosaics",
+        "Paphos Mosaics",
+        "Suda Lexicon"
+    ],
+    "visual_attributes": {
+        "morphology": "Upper body of a human, lower anterior half and forelegs of a horse, posterior half of a fish with a tail.",
+        "distinctive_features": [
+            "Wings lined with seaweed or sea creature parts",
+            "Lobster-like appendages or pincers emerging from the head",
+            "Hair made of seaweed"
+        ],
+        "color_palette": [
+            "Sea green",
+            "Blue",
+            "Silver"
+        ],
+        "texture": "Scaly and smooth",
+        "size_and_scale": "Large, comparable to a horse in size",
+        "structural_arrangement": "Human torso seamlessly transitions into horse forelegs and fish tail",
+        "domain_specific_visual": {
+            "WINGS": "Seaweed-lined",
+            "HEAD_APPENDAGES": "Lobster-like pincers"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Personification of sea elements",
+        "secondary_functions": [
+            "Companion to sea deities",
+            "Participant in marine processions"
+        ],
+        "domain_specific_functional": {
+            "SYMBOLIZES": "Sea foam and abyss",
+            "ROLE_IN_MYTH": "Supporter of Aphrodite"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_SIBLING",
+                "target": "Chiron",
+                "description": "Both are sons of Cronos and Philyra."
+            },
+            {
+                "type": "SUPPORTS",
+                "target": "Aphrodite",
+                "description": "Depicted supporting Aphrodite in mosaics."
+            }
+        ],
+        "associated_entities": [
+            "Aphros",
+            "Bythos",
+            "Triton"
+        ],
+        "symbolic_items": [
+            "Trident",
+            "Seaweed"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Greek mythology",
+        "historical_period": "Late Classical Greek period",
+        "geographic_range": "Mediterranean region",
+        "cultural_significance": "Represents the duality of land and sea, often associated with marine deities.",
+        "primary_sources": [
+            "Pergamon Altar",
+            "Zeugma Mosaics"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT Merfolk",
+        "NOT Centaur without fish tail",
+        "NOT Triton without horse forelegs"
+    ]
+}

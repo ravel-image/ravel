@@ -1,0 +1,90 @@
+{
+    "name": "Aegipan",
+    "domain": "greek_mythology",
+    "entity_type": "mythological being",
+    "alternative_names": [
+        "Goat-Pan",
+        "Aegipanes",
+        "Aegipans",
+        "Oegipans"
+    ],
+    "primary_sources": [
+        "Hyginus",
+        "Plutarch",
+        "Pliny the Elder",
+        "Edgar Allan Poe",
+        "Arthur Machen"
+    ],
+    "visual_attributes": {
+        "morphology": "half goat and half fish",
+        "distinctive_features": [
+            "goat-like upper body",
+            "fish-like lower body",
+            "horns on the head"
+        ],
+        "color_palette": [
+            "brown",
+            "green",
+            "blue"
+        ],
+        "texture": "scaly and furry",
+        "size_and_scale": "human-sized",
+        "structural_arrangement": "upper body of a goat with a fish tail",
+        "domain_specific_visual": {
+            "constellation_representation": "Capricornus"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "mythological figure associated with the constellation Capricornus",
+        "secondary_functions": [
+            "restorer of Zeus's sinews",
+            "symbol of sea-goat"
+        ],
+        "domain_specific_functional": {
+            "role_in_myth": "helped Zeus in his contest with Typhon"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_PARENT",
+                "target": "Zeus",
+                "description": "Aegipan is considered a son of Zeus in some myths."
+            },
+            {
+                "type": "HAS_PARENT",
+                "target": "Aega",
+                "description": "Aegipan is considered a son of Aega in some myths."
+            },
+            {
+                "type": "HAS_CHILD",
+                "target": "Pan",
+                "description": "Aegipan is sometimes considered the father of Pan."
+            }
+        ],
+        "associated_entities": [
+            "Zeus",
+            "Pan",
+            "Hermes"
+        ],
+        "symbolic_items": [
+            "constellation Capricornus"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Greek mythology",
+        "historical_period": "Ancient Greece",
+        "geographic_range": "Mediterranean region",
+        "cultural_significance": "Represents the sea-goat and is associated with the constellation Capricornus",
+        "primary_sources": [
+            "Hyginus",
+            "Plutarch",
+            "Pliny the Elder"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic satyr",
+        "NOT a full goat or full fish",
+        "NOT a modern depiction of Capricorn without mythological context"
+    ]
+}
