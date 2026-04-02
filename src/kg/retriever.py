@@ -3,13 +3,16 @@ src/kg/retriever.py
 ────────────────────
 Retrieves a context-rich subgraph from Neo4j for a given user prompt.
 
-Matching strategy (three-tier, no regex):
+Matching strategy (three-tier):
     Tier 1 — Exact / case-insensitive / alternative_names match in Neo4j
-    Tier 2 — Token overlap: any word in extracted name matches any word in KG name
-    Tier 3 — LLM semantic resolution: GPT-4o picks best KG node for the name
+    Tier 2 — Token overlap (word-level)
+    Tier 3 — LLM semantic resolution against full KG name list
 
-This ensures that prompts written in any case, phrasing, or partial form
-always resolve to the correct KG node.
+Relational query handling:
+    "Ram's wife"        → anchor=Rama, traverse HAS_SPOUSE → fetch Sita
+    "Yama's mount"      → anchor=Yama, traverse RIDES → fetch Nandi/etc
+    "Rama and Sita"     → fetch both nodes directly
+    "show me two headed bird" → semantic resolve → Ganda Bherunda
 """
 
 import os
@@ -27,10 +30,6 @@ logger = logging.getLogger(__name__)
 
 @dataclass
 class ContextPacket:
-    """
-    Everything the prompt synthesizer and SRD module need.
-    Cached after retrieval — no repeat graph queries during SRD.
-    """
     query:                   str
     domain:                  str
     primary_entities:        list[dict] = field(default_factory=list)
@@ -57,33 +56,48 @@ class ContextPacket:
 
 class EntityExtractor:
     """
-    GPT-4o extracts entity names from any free-text prompt.
-    Handles: any case, any phrasing, possessives, partial names,
-    descriptive references ("the Hindu god of death" → "Yama").
+    GPT-4o extracts entity names AND relational intent from any prompt.
+
+    Handles:
+        - Any case, phrasing, possessives, partial names
+        - Descriptive references ("the Hindu god of death" → "Yama")
+        - Relational queries ("Ram's wife" → anchor=Rama, relation=HAS_SPOUSE)
+        - Multi-entity ("Rama and Sita" → ["Rama", "Sita"])
     """
 
     _SYSTEM = """\
-You extract the primary named rare entity from a text-to-image prompt.
+You extract entity names and optional relational intent from a text-to-image prompt.
 The entity could be a mythological figure, rare animal, plant, artifact, or phenomenon.
 
 Rules:
-- Extract the most specific proper name mentioned
+- Extract the most specific proper name(s) mentioned
 - Handle any capitalization (YAMA, yama, Yama → "Yama")
-- For descriptive references without a name ("the Hindu god of death"),
-  resolve to the most likely proper name
-- For possessives ("Yama's buffalo"), return the possessor ("Yama")
-- If the prompt is very long, focus only on the FIRST sentence or clause
-  to find the primary subject — ignore trailing style/quality descriptors
-- Return ONLY a JSON array of name strings, e.g. ["Yama"]
-- Return [] only if no entity can be identified at all
-No explanation, no markdown, just the JSON array."""
+- For descriptive references ("the Hindu god of death") resolve to the proper name
+- For relational queries ("Ram's wife", "Yama's mount", "Krishna's enemy")
+  extract BOTH the anchor entity AND a relationship type in UPPERCASE_SNAKE_CASE
+- If the prompt is very long, focus only on the first sentence
+
+Return ONLY valid JSON:
+{
+  "entities": ["EntityName1", "EntityName2"],
+  "relational_intent": {
+    "anchor": "AnchorEntityName",
+    "relation": "RELATIONSHIP_TYPE"
+  }
+}
+Set relational_intent to null if no relational query detected.
+Relationship type examples: HAS_SPOUSE, RIDES, HAS_CHILD, HAS_PARENT,
+HAS_SIBLING, ENEMY_OF, ALLY_OF, WIELDS, RULES_OVER, TEACHER_OF, STUDENT_OF
+No explanation, no markdown, just the JSON."""
 
     def __init__(self, client: OpenAI):
         self.client = client
 
-    def extract(self, prompt: str) -> list[str]:
-        # For very long prompts only send the first 200 chars
-        # Entity name is always at the start; trailing text is style/quality
+    def extract(self, prompt: str) -> tuple[list[str], dict | None]:
+        """
+        Returns (entity_names, relational_intent).
+        relational_intent = {"anchor": str, "relation": str} or None
+        """
         extract_from = prompt[:200] if len(prompt) > 200 else prompt
 
         response = self.client.chat.completions.create(
@@ -93,52 +107,50 @@ No explanation, no markdown, just the JSON array."""
                 {"role": "user",   "content": extract_from},
             ],
             temperature=0,
-            max_tokens=100,
+            max_tokens=150,
         )
-        raw = response.choices[0].message.content or "[]"
+        raw = (response.choices[0].message.content or "{}").strip()
+
+        # Handle both old format (array) and new format (object)
+        import re
+        cleaned = re.sub(r"```json|```", "", raw).strip()
         try:
-            names = json.loads(raw)
-            return [n.strip() for n in names if isinstance(n, str) and n.strip()]
+            result = json.loads(cleaned)
+            if isinstance(result, list):
+                # Old format fallback
+                return [n.strip() for n in result if isinstance(n, str)], None
+            entities = [n.strip() for n in result.get("entities", [])
+                       if isinstance(n, str) and n.strip()]
+            relational = result.get("relational_intent")
+            if relational and (not relational.get("anchor") or not relational.get("relation")):
+                relational = None
+            return entities, relational
         except json.JSONDecodeError:
             logger.warning(f"  Extractor returned non-JSON: {raw}")
-            return []
+            return [], None
 
 
 # ── LLM Semantic Resolver ─────────────────────────────────────────────────────
 
 class SemanticResolver:
     """
-    When string matching fails, uses GPT-4o to pick the best KG node
-    for a given extracted name from the full candidate list.
-
-    This handles cases like:
-        "lord yama"     → "Yama"
-        "the saola"     → "Saola"
-        "aye aye lemur" → "Aye-aye"
-        "ganda bird"    → "Ganda Bherunda"
+    When string matching fails, uses GPT-4o to pick the best KG node.
     """
 
     _SYSTEM = """\
 You match a user-provided entity name to the best entry in a knowledge graph.
-
-Given:
-  - A name extracted from a user prompt (may be partial, descriptive, or informal)
-  - A list of entity names in a knowledge graph
-
-Return the single best matching KG entity name, or "NONE" if nothing fits.
+Given a name extracted from a user prompt and a list of KG entity names,
+return the single best matching KG entity name, or "NONE" if nothing fits.
 Return ONLY the entity name string — no explanation, no JSON wrapper."""
 
     def __init__(self, client: OpenAI):
         self.client = client
 
     def resolve(self, extracted_name: str, kg_names: list[str]) -> str | None:
-        """
-        Returns the best matching KG name, or None if no good match found.
-        """
         if not kg_names:
             return None
 
-        kg_list = "\n".join(f"  - {n}" for n in kg_names)
+        kg_list  = "\n".join(f"  - {n}" for n in kg_names)
         user_msg = (
             f"Extracted name: \"{extracted_name}\"\n\n"
             f"Knowledge graph entities:\n{kg_list}\n\n"
@@ -157,12 +169,10 @@ Return ONLY the entity name string — no explanation, no JSON wrapper."""
         result = (response.choices[0].message.content or "").strip()
         if result == "NONE" or not result:
             return None
-        # Verify the returned name actually exists in the list
         result_lower = result.lower()
         for name in kg_names:
             if name.lower() == result_lower:
                 return name
-        # Fuzzy fallback — returned name might have slight formatting diff
         for name in kg_names:
             if result_lower in name.lower() or name.lower() in result_lower:
                 return name
@@ -173,11 +183,12 @@ Return ONLY the entity name string — no explanation, no JSON wrapper."""
 
 class KGRetriever:
     """
-    Three-tier entity matching — never uses regex or character-level ops.
+    Three-tier entity matching + relational graph traversal.
 
-    Tier 1: Cypher exact/case-insensitive/alternative_names lookup
-    Tier 2: Token overlap (word-level, not character)
-    Tier 3: LLM semantic resolution against full KG name list
+    When a relational query is detected (e.g. "Ram's wife"):
+        1. Match the anchor entity (Rama)
+        2. Traverse the KG via the relationship type (HAS_SPOUSE)
+        3. Fetch the target node (Sita) and return both
     """
 
     def __init__(self, client: Neo4jClient, k: int = 1, max_neighbours: int = 10):
@@ -185,11 +196,10 @@ class KGRetriever:
         self.k              = k
         self.max_neighbours = max_neighbours
 
-        llm_client        = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
-        self.extractor    = EntityExtractor(llm_client)
-        self.resolver     = SemanticResolver(llm_client)
-
-        # Cache all KG entity names at init — used for semantic resolution
+        llm_client           = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+        self._llm_client     = llm_client  # shared for traversal LLM calls
+        self.extractor       = EntityExtractor(llm_client)
+        self.resolver        = SemanticResolver(llm_client)
         self._kg_names: list[str] = self._load_all_kg_names()
         logger.info(f"  KG name cache: {len(self._kg_names)} enriched entities loaded")
 
@@ -198,27 +208,28 @@ class KGRetriever:
     def retrieve(self, prompt: str) -> ContextPacket:
         logger.info(f"Retrieving context for: '{prompt}'")
 
-        # Step 1 — extract entity names
-        entity_names = self.extractor.extract(prompt)
-        logger.info(f"  Extracted: {entity_names}")
+        # Step 1 — extract entity names + relational intent
+        entity_names, relational_intent = self.extractor.extract(prompt)
+        logger.info(f"  Extracted: {entity_names}, relational: {relational_intent}")
 
-        if not entity_names:
+        if not entity_names and not relational_intent:
             logger.warning("  No entities extracted.")
             return ContextPacket(query=prompt, domain="")
 
-        # Step 2 — match each name to a KG node (3 tiers)
-        primary = self._match_nodes(entity_names)
+        # Step 2 — match nodes (with optional relational traversal)
+        primary = self._match_with_relations(entity_names, relational_intent)
+
         if not primary:
-            logger.warning(f"  No KG nodes matched for {entity_names}")
+            logger.warning(f"  No KG nodes matched.")
             return ContextPacket(query=prompt, domain="")
 
         # Step 3 — k-hop neighbours
         neighbours = self._expand_khop(primary)
 
-        # Step 4 — relationships
+        # Step 4 — relationships between primary nodes
         relationships = self._fetch_relationships(primary)
 
-        # Step 5 — build attribute + contrastive lists
+        # Step 5 — attributes + contrastive
         attrs       = self._build_attribute_list(primary)
         contrastive = self._build_contrastive(primary)
         domain      = primary[0].get("domain", "")
@@ -236,14 +247,29 @@ class KGRetriever:
         logger.info(
             f"  ContextPacket: {len(primary)} primary, "
             f"{len(neighbours)} neighbours, "
-            f"{len(attrs)} attributes"
+            f"{len(attrs)} attributes, "
+            f"{len(relationships)} relationships"
         )
         return ctx
 
-    # ── Three-tier node matching ───────────────────────────────────────────────
+    # ── Relational matching ───────────────────────────────────────────────────
 
-    def _match_nodes(self, entity_names: list[str]) -> list[dict]:
+    def _match_with_relations(
+        self,
+        entity_names: list[str],
+        relational_intent: dict | None,
+    ) -> list[dict]:
+        """
+        Match entities, optionally traversing relational edges.
+
+        If relational_intent is given (e.g. anchor=Rama, relation=HAS_SPOUSE):
+            1. Match the anchor
+            2. Traverse the edge to find the target
+            3. Return both anchor + target nodes
+        """
         matched, seen = [], set()
+
+        # Direct entity matches
         for name in entity_names:
             node = self._resolve_node(name)
             if node:
@@ -254,37 +280,146 @@ class KGRetriever:
                     logger.info(f"  Matched '{name}' → '{node_name}'")
             else:
                 logger.warning(f"  No match found for '{name}'")
+
+        # Relational traversal
+        if relational_intent:
+            anchor_name = relational_intent.get("anchor", "")
+            relation    = relational_intent.get("relation", "")
+
+            if anchor_name and relation:
+                # Resolve anchor
+                anchor_node = self._resolve_node(anchor_name)
+                if anchor_node:
+                    anchor_kgname = anchor_node.get("name", "")
+                    if anchor_kgname not in seen:
+                        matched.append(anchor_node)
+                        seen.add(anchor_kgname)
+                        logger.info(f"  Matched anchor '{anchor_name}' → '{anchor_kgname}'")
+
+                    # Traverse the relationship edge
+                    targets = self._traverse_relation(anchor_kgname, relation)
+                    for target in targets:
+                        t_name = target.get("name", "")
+                        if t_name and t_name not in seen:
+                            matched.append(target)
+                            seen.add(t_name)
+                            logger.info(f"  Traversed {relation} → '{t_name}'")
+
         return matched
 
+    def _traverse_relation(self, anchor_name: str, relation_type: str) -> list[dict]:
+        """
+        Traverse a typed relationship edge from anchor node.
+
+        Strategy:
+            1. Get all actual edges for this entity from Neo4j
+            2. Use LLM to pick the best matching edge type for the intent
+            3. Traverse that edge
+        This handles any edge type naming without hardcoded variants.
+        """
+        # Get all outgoing and incoming edge types + targets for this entity
+        # Return individual properties — returning whole node (b AS node)
+        # causes serialization issues with the Neo4j driver
+        cypher = """
+        MATCH (a:Entity {name: $name})-[r]->(b:Entity)
+        RETURN type(r) AS rel_type, b.name AS target,
+               b.domain AS domain, b.morphology AS morphology,
+               b.entity_type AS entity_type,
+               b.distinctive_features AS distinctive_features,
+               b.color_palette AS color_palette,
+               b.contrastive_constraints AS contrastive_constraints
+        LIMIT 30
+        """
+        out_results = self.client.run(cypher, {"name": anchor_name})
+
+        cypher = """
+        MATCH (b:Entity)-[r]->(a:Entity {name: $name})
+        RETURN type(r) AS rel_type, b.name AS target,
+               b.domain AS domain, b.morphology AS morphology,
+               b.entity_type AS entity_type,
+               b.distinctive_features AS distinctive_features,
+               b.color_palette AS color_palette,
+               b.contrastive_constraints AS contrastive_constraints
+        LIMIT 30
+        """
+        in_results = self.client.run(cypher, {"name": anchor_name})
+
+        all_edges = []
+        node_map  = {}
+        for row in out_results + in_results:
+            rel = row.get("rel_type", "")
+            tgt = row.get("target", "")
+            if rel and tgt:
+                all_edges.append((rel, tgt))
+                # Build a node dict from the returned properties
+                node_map[tgt] = {
+                    "name":                   tgt,
+                    "domain":                 row.get("domain", ""),
+                    "entity_type":            row.get("entity_type", ""),
+                    "morphology":             row.get("morphology", ""),
+                    "distinctive_features":   row.get("distinctive_features", []),
+                    "color_palette":          row.get("color_palette", []),
+                    "contrastive_constraints":row.get("contrastive_constraints", []),
+                }
+
+        if not all_edges:
+            logger.warning(f"  No edges found for '{anchor_name}'")
+            return []
+
+        logger.info(f"  All edges for '{anchor_name}': {all_edges[:10]}")
+
+        # Ask LLM to pick the best matching edge for the intent
+        edge_list = "\n".join(f"  [{r}] -> {t}" for r, t in all_edges)
+        prompt = (
+            f"Given these graph edges for entity '{anchor_name}':\n{edge_list}\n\n"
+            f"Which edge best matches the relationship intent: '{relation_type}'?\n"
+            f"Return ONLY the target entity name (exactly as shown), or NONE."
+        )
+        response = self._llm_client.chat.completions.create(
+            model="gpt-4o",
+            messages=[
+                {"role": "system", "content": "You select the best matching graph edge for a relationship intent. Return only the target entity name or NONE."},
+                {"role": "user",   "content": prompt},
+            ],
+            temperature=0,
+            max_tokens=30,
+        )
+        best_target = (response.choices[0].message.content or "").strip()
+
+        if best_target == "NONE" or not best_target:
+            logger.warning(f"  LLM found no matching edge for '{relation_type}' from '{anchor_name}'")
+            return []
+
+        # Match against known targets (handle minor formatting differences)
+        for tgt_name, node in node_map.items():
+            if tgt_name.lower() == best_target.lower() or best_target.lower() in tgt_name.lower():
+                logger.info(f"    LLM matched '{relation_type}' → '{tgt_name}'")
+                return [node]
+
+        logger.warning(f"  LLM returned '{best_target}' but not found in node map")
+        return []
+
+    # ── Three-tier node matching ───────────────────────────────────────────────
+
     def _resolve_node(self, name: str) -> dict | None:
-        """
-        Try all three tiers in order until a match is found.
-        """
-        # ── Tier 1: Neo4j string match ────────────────────────────────────────
+        """Tier 1 → Tier 2 → Tier 3."""
         node = self._neo4j_match(name)
         if node:
             return node
 
-        # ── Tier 2: Token overlap ─────────────────────────────────────────────
         node = self._token_overlap_match(name)
         if node:
             logger.info(f"    Tier 2 (token overlap) matched '{name}'")
             return node
 
-        # ── Tier 3: LLM semantic resolution ──────────────────────────────────
         best_name = self.resolver.resolve(name, self._kg_names)
         if best_name:
             logger.info(f"    Tier 3 (LLM semantic) matched '{name}' → '{best_name}'")
-            node = self._neo4j_match(best_name)
-            return node
+            return self._neo4j_match(best_name)
 
         return None
 
     def _neo4j_match(self, name: str) -> dict | None:
-        """
-        Tier 1: exact name, alternative_names, or any token in name matches.
-        No character-level substring matching.
-        """
         cypher = """
         MATCH (e:Entity)
         WHERE e.domain IS NOT NULL
@@ -301,13 +436,8 @@ class KGRetriever:
         return None
 
     def _token_overlap_match(self, name: str) -> dict | None:
-        """
-        Tier 2: check if any word in the extracted name matches
-        any word in a KG entity name (word-level, not character-level).
-        """
         name_tokens = set(name.lower().split())
-        best_node   = None
-        best_score  = 0
+        best_node, best_score = None, 0
 
         cypher = "MATCH (e:Entity) WHERE e.domain IS NOT NULL RETURN e.name AS name LIMIT 500"
         results = self.client.run(cypher)
@@ -327,10 +457,10 @@ class KGRetriever:
     # ── KG name cache ─────────────────────────────────────────────────────────
 
     def _load_all_kg_names(self) -> list[str]:
-        """Load all enriched entity names from Neo4j at startup."""
         try:
-            cypher = "MATCH (e:Entity) WHERE e.domain IS NOT NULL RETURN e.name AS name"
-            results = self.client.run(cypher)
+            results = self.client.run(
+                "MATCH (e:Entity) WHERE e.domain IS NOT NULL RETURN e.name AS name"
+            )
             return [r["name"] for r in results if r.get("name")]
         except Exception as exc:
             logger.warning(f"  Could not load KG names: {exc}")
@@ -339,7 +469,7 @@ class KGRetriever:
     # ── k-hop expansion ───────────────────────────────────────────────────────
 
     def _expand_khop(self, primary_nodes: list[dict]) -> list[dict]:
-        neighbours   = []
+        neighbours    = []
         primary_names = {n.get("name") for n in primary_nodes}
 
         for node in primary_nodes:
@@ -367,9 +497,9 @@ class KGRetriever:
         names = [n.get("name") for n in primary_nodes if n.get("name")]
         cypher = """
         MATCH (a:Entity)-[r]->(b:Entity)
-        WHERE a.name IN $names
+        WHERE a.name IN $names OR b.name IN $names
         RETURN a.name AS from_node, type(r) AS rel_type, b.name AS to_node
-        LIMIT 30
+        LIMIT 50
         """
         results = self.client.run(cypher, {"names": names})
         return [{"from": r["from_node"], "type": r["rel_type"], "to": r["to_node"]}
