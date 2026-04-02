@@ -1,1 +1,531 @@
 
+[
+  {
+    "name": "Axolotl",
+    "wiki_search": "Axolotl",
+    "source_urls": [
+      "https://www.iucnredlist.org",
+      "https://eol.org",
+      "https://www.gbif.org",
+      "https://animaldiversity.org",
+      "https://www.inaturalist.org"
+    ]
+  },
+  {
+    "name": "Saiga Antelope",
+    "wiki_search": "Saiga antelope",
+    "source_urls": [
+      "https://www.iucnredlist.org",
+      "https://eol.org",
+      "https://www.gbif.org",
+      "https://animaldiversity.org",
+      "https://www.inaturalist.org"
+    ]
+  },
+  {
+    "name": "Shoebill",
+    "wiki_search": "Shoebill",
+    "source_urls": [
+      "https://www.iucnredlist.org",
+      "https://eol.org",
+      "https://www.gbif.org",
+      "https://animaldiversity.org",
+      "https://www.inaturalist.org"
+    ]
+  },
+  {
+    "name": "Okapi",
+    "wiki_search": "Okapi",
+    "source_urls": [
+      "https://www.iucnredlist.org",
+      "https://eol.org",
+      "https://www.gbif.org",
+      "https://animaldiversity.org",
+      "https://www.inaturalist.org"
+    ]
+  },
+  {
+    "name": "Narwhal",
+    "wiki_search": "Narwhal",
+    "source_urls": [
+      "https://www.iucnredlist.org",
+      "https://eol.org",
+      "https://www.gbif.org",
+      "https://animaldiversity.org",
+      "https://www.inaturalist.org"
+    ]
+  },
+  {
+    "name": "Proboscis Monkey",
+    "wiki_search": "Proboscis monkey",
+    "source_urls": [
+      "https://www.iucnredlist.org",
+      "https://eol.org",
+      "https://www.gbif.org",
+      "https://animaldiversity.org",
+      "https://www.inaturalist.org"
+    ]
+  },
+  {
+    "name": "Leafy Sea Dragon",
+    "wiki_search": "Leafy sea dragon",
+    "source_urls": [
+      "https://www.iucnredlist.org",
+      "https://eol.org",
+      "https://www.gbif.org",
+      "https://animaldiversity.org",
+      "https://www.inaturalist.org"
+    ]
+  },
+  {
+    "name": "Komodo Dragon",
+    "wiki_search": "Komodo dragon",
+    "source_urls": [
+      "https://www.iucnredlist.org",
+      "https://eol.org",
+      "https://www.gbif.org",
+      "https://animaldiversity.org",
+      "https://www.inaturalist.org"
+    ]
+  },
+  {
+    "name": "Fossa",
+    "wiki_search": "Fossa (animal)",
+    "source_urls": [
+      "https://www.iucnredlist.org",
+      "https://eol.org",
+      "https://www.gbif.org",
+      "https://animaldiversity.org",
+      "https://www.inaturalist.org"
+    ]
+  },
+  {
+    "name": "Gelada",
+    "wiki_search": "Gelada",
+    "source_urls": [
+      "https://www.iucnredlist.org",
+      "https://eol.org",
+      "https://www.gbif.org",
+      "https://animaldiversity.org",
+      "https://www.inaturalist.org"
+    ]
+  },
+  {
+    "name": "Thorny Devil",
+    "wiki_search": "Thorny devil",
+    "source_urls": [
+      "https://www.iucnredlist.org",
+      "https://eol.org",
+      "https://www.gbif.org",
+      "https://animaldiversity.org",
+      "https://www.inaturalist.org"
+    ]
+  },
+  {
+    "name": "Gharial",
+    "wiki_search": "Gharial",
+    "source_urls": [
+      "https://www.iucnredlist.org",
+      "https://eol.org",
+      "https://www.gbif.org",
+      "https://animaldiversity.org",
+      "https://www.inaturalist.org"
+    ]
+  },
+  {
+    "name": "Pangolin",
+    "wiki_search": "Pangolin",
+    "source_urls": [
+      "https://www.iucnredlist.org",
+      "https://eol.org",
+      "https://www.gbif.org",
+      "https://animaldiversity.org",
+      "https://www.inaturalist.org"
+    ]
+  },
+  {
+    "name": "Aye-Aye",
+    "wiki_search": "Aye-aye",
+    "source_urls": [
+      "https://www.iucnredlist.org",
+      "https://eol.org",
+      "https://www.gbif.org",
+      "https://animaldiversity.org",
+      "https://www.inaturalist.org"
+    ]
+  },
+  {
+    "name": "Red-lipped Batfish",
+    "wiki_search": "Red-lipped batfish",
+    "source_urls": [
+      "https://www.iucnredlist.org",
+      "https://eol.org",
+      "https://www.gbif.org",
+      "https://animaldiversity.org",
+      "https://www.inaturalist.org"
+    ]
+  },
+  {
+    "name": "Vampire Squid",
+    "wiki_search": "Vampire squid",
+    "source_urls": [
+      "https://www.iucnredlist.org",
+      "https://eol.org",
+      "https://www.gbif.org",
+      "https://animaldiversity.org",
+      "https://www.inaturalist.org"
+    ]
+  },
+  {
+    "name": "Tarsier",
+    "wiki_search": "Tarsier",
+    "source_urls": [
+      "https://www.iucnredlist.org",
+      "https://eol.org",
+      "https://www.gbif.org",
+      "https://animaldiversity.org",
+      "https://www.inaturalist.org"
+    ]
+  },
+  {
+    "name": "Markhor",
+    "wiki_search": "Markhor",
+    "source_urls": [
+      "https://www.iucnredlist.org",
+      "https://eol.org",
+      "https://www.gbif.org",
+      "https://animaldiversity.org",
+      "https://www.inaturalist.org"
+    ]
+  },
+  {
+    "name": "Indian Purple Frog",
+    "wiki_search": "Indian purple frog",
+    "source_urls": [
+      "https://www.iucnredlist.org",
+      "https://eol.org",
+      "https://www.gbif.org",
+      "https://animaldiversity.org",
+      "https://www.inaturalist.org"
+    ]
+  },
+  {
+    "name": "Kea",
+    "wiki_search": "Kea",
+    "source_urls": [
+      "https://www.iucnredlist.org",
+      "https://eol.org",
+      "https://www.gbif.org",
+      "https://animaldiversity.org",
+      "https://www.inaturalist.org"
+    ]
+  },
+  {
+    "name": "Blobfish",
+    "wiki_search": "Blobfish",
+    "source_urls": [
+      "https://www.iucnredlist.org",
+      "https://eol.org",
+      "https://www.gbif.org",
+      "https://animaldiversity.org",
+      "https://www.inaturalist.org"
+    ]
+  },
+  {
+    "name": "Japanese Spider Crab",
+    "wiki_search": "Japanese spider crab",
+    "source_urls": [
+      "https://www.iucnredlist.org",
+      "https://eol.org",
+      "https://www.gbif.org",
+      "https://animaldiversity.org",
+      "https://www.inaturalist.org"
+    ]
+  },
+  {
+    "name": "Sunda Colugo",
+    "wiki_search": "Sunda colugo",
+    "source_urls": [
+      "https://www.iucnredlist.org",
+      "https://eol.org",
+      "https://www.gbif.org",
+      "https://animaldiversity.org",
+      "https://www.inaturalist.org"
+    ]
+  },
+  {
+    "name": "Kakapo",
+    "wiki_search": "Kakapo",
+    "source_urls": [
+      "https://www.iucnredlist.org",
+      "https://eol.org",
+      "https://www.gbif.org",
+      "https://animaldiversity.org",
+      "https://www.inaturalist.org"
+    ]
+  },
+  {
+    "name": "Gerenuk",
+    "wiki_search": "Gerenuk",
+    "source_urls": [
+      "https://www.iucnredlist.org",
+      "https://eol.org",
+      "https://www.gbif.org",
+      "https://animaldiversity.org",
+      "https://www.inaturalist.org"
+    ]
+  },
+  {
+    "name": "Aye-aye",
+    "wiki_search": "Aye-aye",
+    "source_urls": [
+      "https://www.iucnredlist.org",
+      "https://eol.org",
+      "https://www.gbif.org",
+      "https://animaldiversity.org",
+      "https://www.inaturalist.org"
+    ]
+  },
+  {
+    "name": "Dumbo Octopus",
+    "wiki_search": "Dumbo octopus",
+    "source_urls": [
+      "https://www.iucnredlist.org",
+      "https://eol.org",
+      "https://www.gbif.org",
+      "https://animaldiversity.org",
+      "https://www.inaturalist.org"
+    ]
+  },
+  {
+    "name": "Tardigrade",
+    "wiki_search": "Tardigrade",
+    "source_urls": [
+      "https://www.iucnredlist.org",
+      "https://eol.org",
+      "https://www.gbif.org",
+      "https://animaldiversity.org",
+      "https://www.inaturalist.org"
+    ]
+  },
+  {
+    "name": "Glass Frog",
+    "wiki_search": "Glass frog",
+    "source_urls": [
+      "https://www.iucnredlist.org",
+      "https://eol.org",
+      "https://www.gbif.org",
+      "https://animaldiversity.org",
+      "https://www.inaturalist.org"
+    ]
+  },
+  {
+    "name": "Tufted Deer",
+    "wiki_search": "Tufted deer",
+    "source_urls": [
+      "https://www.iucnredlist.org",
+      "https://eol.org",
+      "https://www.gbif.org",
+      "https://animaldiversity.org",
+      "https://www.inaturalist.org"
+    ]
+  },
+  {
+    "name": "Pink Fairy Armadillo",
+    "wiki_search": "Pink Fairy Armadillo",
+    "source_urls": [
+      "https://www.iucnredlist.org",
+      "https://eol.org",
+      "https://www.gbif.org",
+      "https://animaldiversity.org",
+      "https://www.inaturalist.org"
+    ]
+  },
+  {
+    "name": "Star-nosed Mole",
+    "wiki_search": "Star-nosed mole",
+    "source_urls": [
+      "https://www.iucnredlist.org",
+      "https://eol.org",
+      "https://www.gbif.org",
+      "https://animaldiversity.org",
+      "https://www.inaturalist.org"
+    ]
+  },
+  {
+    "name": "Zebra Duiker",
+    "wiki_search": "Zebra duiker",
+    "source_urls": [
+      "https://www.iucnredlist.org",
+      "https://eol.org",
+      "https://www.gbif.org",
+      "https://animaldiversity.org",
+      "https://www.inaturalist.org"
+    ]
+  },
+  {
+    "name": "Quokka",
+    "wiki_search": "Quokka",
+    "source_urls": [
+      "https://www.iucnredlist.org",
+      "https://eol.org",
+      "https://www.gbif.org",
+      "https://animaldiversity.org",
+      "https://www.inaturalist.org"
+    ]
+  },
+  {
+    "name": "Sunda Pangolin",
+    "wiki_search": "Sunda Pangolin",
+    "source_urls": [
+      "https://www.iucnredlist.org",
+      "https://eol.org",
+      "https://www.gbif.org",
+      "https://animaldiversity.org",
+      "https://www.inaturalist.org"
+    ]
+  },
+  {
+    "name": "Saola",
+    "wiki_search": "Saola",
+    "source_urls": [
+      "https://www.iucnredlist.org",
+      "https://eol.org",
+      "https://www.gbif.org",
+      "https://animaldiversity.org",
+      "https://www.inaturalist.org"
+    ]
+  },
+  {
+    "name": "Olm",
+    "wiki_search": "Olm",
+    "source_urls": [
+      "https://www.iucnredlist.org",
+      "https://eol.org",
+      "https://www.gbif.org",
+      "https://animaldiversity.org",
+      "https://www.inaturalist.org"
+    ]
+  },
+  {
+    "name": "Blue Dragon Sea Slug",
+    "wiki_search": "Glaucus atlanticus",
+    "source_urls": [
+      "https://www.iucnredlist.org",
+      "https://eol.org",
+      "https://www.gbif.org",
+      "https://animaldiversity.org",
+      "https://www.inaturalist.org"
+    ]
+  },
+  {
+    "name": "Naked Mole-Rat",
+    "wiki_search": "Naked mole-rat",
+    "source_urls": [
+      "https://www.iucnredlist.org",
+      "https://eol.org",
+      "https://www.gbif.org",
+      "https://animaldiversity.org",
+      "https://www.inaturalist.org"
+    ]
+  },
+  {
+    "name": "Satanic Leaf-Tailed Gecko",
+    "wiki_search": "Uroplatus phantasticus",
+    "source_urls": [
+      "https://www.iucnredlist.org",
+      "https://eol.org",
+      "https://www.gbif.org",
+      "https://animaldiversity.org",
+      "https://www.inaturalist.org"
+    ]
+  },
+  {
+    "name": "Platypus",
+    "wiki_search": "Platypus",
+    "source_urls": [
+      "https://www.iucnredlist.org",
+      "https://eol.org",
+      "https://www.gbif.org",
+      "https://animaldiversity.org",
+      "https://www.inaturalist.org"
+    ]
+  },
+  {
+    "name": "Star-Nosed Mole",
+    "wiki_search": "Star-nosed mole",
+    "source_urls": [
+      "https://www.iucnredlist.org",
+      "https://eol.org",
+      "https://www.gbif.org",
+      "https://animaldiversity.org",
+      "https://www.inaturalist.org"
+    ]
+  },
+  {
+    "name": "Horseshoe Crab",
+    "wiki_search": "Horseshoe crab",
+    "source_urls": [
+      "https://www.iucnredlist.org",
+      "https://eol.org",
+      "https://www.gbif.org",
+      "https://animaldiversity.org",
+      "https://www.inaturalist.org"
+    ]
+  },
+  {
+    "name": "Red-Lipped Batfish",
+    "wiki_search": "Red-lipped batfish",
+    "source_urls": [
+      "https://www.iucnredlist.org",
+      "https://eol.org",
+      "https://www.gbif.org",
+      "https://animaldiversity.org",
+      "https://www.inaturalist.org"
+    ]
+  },
+  {
+    "name": "Marine Iguana",
+    "wiki_search": "Marine Iguana",
+    "source_urls": [
+      "https://www.iucnredlist.org",
+      "https://eol.org",
+      "https://www.gbif.org",
+      "https://animaldiversity.org",
+      "https://www.inaturalist.org"
+    ]
+  },
+  {
+    "name": "Leafy Seadragon",
+    "wiki_search": "Leafy Seadragon",
+    "source_urls": [
+      "https://www.iucnredlist.org",
+      "https://eol.org",
+      "https://www.gbif.org",
+      "https://animaldiversity.org",
+      "https://www.inaturalist.org"
+    ]
+  },
+  {
+    "name": "Pangasius Catfish",
+    "wiki_search": "Pangasius Catfish",
+    "source_urls": [
+      "https://www.iucnredlist.org",
+      "https://eol.org",
+      "https://www.gbif.org",
+      "https://animaldiversity.org",
+      "https://www.inaturalist.org"
+    ]
+  },
+  {
+    "name": "Maned Wolf",
+    "wiki_search": "Maned Wolf",
+    "source_urls": [
+      "https://www.iucnredlist.org",
+      "https://eol.org",
+      "https://www.gbif.org",
+      "https://animaldiversity.org",
+      "https://www.inaturalist.org"
+    ]
+  }
+]
