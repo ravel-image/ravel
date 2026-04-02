@@ -1,0 +1,84 @@
+{
+    "name": "Shoebill",
+    "domain": "biology",
+    "entity_type": "bird",
+    "alternative_names": [
+        "whale-headed stork",
+        "whalebill",
+        "shoe-billed stork"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "John Gould's description",
+        "DNA studies on Pelecaniformes"
+    ],
+    "visual_attributes": {
+        "morphology": "large, long-legged wading bird with a stork-like form",
+        "distinctive_features": [
+            "enormous, shoe-shaped bill",
+            "blue-grey plumage with darker slaty-grey flight feathers",
+            "broad wings adapted for soaring"
+        ],
+        "color_palette": [
+            "grey",
+            "blue-grey",
+            "pinkish"
+        ],
+        "texture": "smooth feathers with elongated dark-shafted feathers on the breast",
+        "size_and_scale": "height 110 to 152 cm, wingspan 230 to 260 cm, weight 4 to 7 kg",
+        "structural_arrangement": "shorter, thicker neck compared to other wading birds, large feet with long middle toe",
+        "domain_specific_visual": {
+            "bill_shape": "bulbous, pinkish with greyish markings",
+            "leg_color": "dark-colored"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "predator of fish and amphibians in swamps",
+        "secondary_functions": [
+            "indicator of wetland health",
+            "ecological role in controlling fish populations"
+        ],
+        "domain_specific_functional": {
+            "hunting_method": "stands still for long periods, ambushes prey",
+            "communication": "bill-clattering displays, cattle-like moo, high-pitched whines"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "CLASSIFIED_AS",
+                "target": "Pelecaniformes",
+                "description": "Genetic evidence places it with pelicans and herons"
+            },
+            {
+                "type": "ENDEMIC_TO",
+                "target": "East Africa",
+                "description": "Found in swamps from South Sudan to Zambia"
+            }
+        ],
+        "associated_entities": [
+            "pelicans",
+            "herons",
+            "storks"
+        ],
+        "symbolic_items": [
+            "papyrus",
+            "lungfish"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "tropical East Africa",
+        "historical_period": "known to Ancient Egyptians, classified in 19th century",
+        "geographic_range": "from southern Sudan to northern Zambia",
+        "cultural_significance": "considered a rare and unique bird, symbol of wetland ecosystems",
+        "primary_sources": [
+            "John Gould's 1850 description",
+            "DNA studies on bird taxonomy"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a common stork",
+        "NOT a pelican",
+        "NOT a heron"
+    ]
+}

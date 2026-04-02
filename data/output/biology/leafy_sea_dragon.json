@@ -1,0 +1,81 @@
+{
+    "name": "Leafy Sea Dragon",
+    "domain": "biology",
+    "entity_type": "marine fish",
+    "alternative_names": [
+        "Phycodurus eques",
+        "Glauert's seadragon",
+        "leafies"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "Australian Government Environment Protection and Biodiversity Conservation Act 1999"
+    ],
+    "visual_attributes": {
+        "morphology": "elongated body with leaf-like appendages",
+        "distinctive_features": [
+            "leaf-like protrusions for camouflage",
+            "transparent pectoral and dorsal fins",
+            "small circular gill openings"
+        ],
+        "color_palette": [
+            "green",
+            "brown",
+            "yellow"
+        ],
+        "texture": "smooth with leaf-like lobes",
+        "size_and_scale": "20–24 cm (8–9.5 in) in length",
+        "structural_arrangement": "leaf-like appendages distributed along the body",
+        "domain_specific_visual": {
+            "CAMOUFLAGE_MECHANISM": "resembles floating seaweed",
+            "FIN_PLACEMENT": "pectoral fins on neck, dorsal fin near tail"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "camouflage in marine environment",
+        "secondary_functions": [
+            "feeding on plankton and small crustaceans",
+            "breeding"
+        ],
+        "domain_specific_functional": {
+            "REPRODUCTION": "male carries eggs on tail",
+            "MOVEMENT": "sedate propulsion using transparent fins"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "RELATED_TO",
+                "target": "Weedy Sea Dragon",
+                "description": "Both are members of the family Syngnathidae"
+            },
+            {
+                "type": "ENDEMIC_TO",
+                "target": "Southern Australian Waters",
+                "description": "Found only in southern Australian waters"
+            }
+        ],
+        "associated_entities": [
+            "Seahorse",
+            "Pipefish"
+        ],
+        "symbolic_items": [
+            "Marine emblem of South Australia"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Southern Australia",
+        "historical_period": "Contemporary",
+        "geographic_range": "Southern and western coasts of Australia",
+        "cultural_significance": "Marine emblem of South Australia, focus of marine conservation",
+        "primary_sources": [
+            "Wikipedia",
+            "Australian Government Environment Protection and Biodiversity Conservation Act 1999"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT Seahorse",
+        "NOT Weedy Sea Dragon",
+        "NOT Generic Fish"
+    ]
+}

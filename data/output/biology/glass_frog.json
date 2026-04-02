@@ -1,0 +1,83 @@
+{
+    "name": "Glass Frog",
+    "domain": "biology",
+    "entity_type": "Amphibian",
+    "alternative_names": [
+        "Centrolenidae",
+        "True Glass Frogs"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "Guayasamin et al. (2008)",
+        "Santiago (2009)"
+    ],
+    "visual_attributes": {
+        "morphology": "Small, arboreal frog with a transparent or translucent abdomen.",
+        "distinctive_features": [
+            "Transparent abdominal skin revealing internal organs",
+            "Lime green dorsal coloration",
+            "Translucent legs that aid in camouflage"
+        ],
+        "color_palette": [
+            "lime green",
+            "transparent",
+            "light green"
+        ],
+        "texture": "Smooth",
+        "size_and_scale": "Approximately 3 to 7.5 cm in length",
+        "structural_arrangement": "Compact body with limbs positioned for climbing",
+        "domain_specific_visual": {
+            "TRANSPARENCY": "Visible internal organs through the skin",
+            "EDGE_DIFFUSION": "Softened body outline due to translucent legs"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Camouflage and concealment in rainforest foliage",
+        "secondary_functions": [
+            "Insect predation",
+            "Reproduction during mating season"
+        ],
+        "domain_specific_functional": {
+            "ARBOREAL_LIFESTYLE": "Lives primarily in trees",
+            "EDGE_DIFFUSION_CAMOUFLAGE": "Reduces visibility to predators"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ENDEMIC_TO",
+                "target": "Central American and Colombian rainforests",
+                "description": "Native habitat of the glass frog species"
+            },
+            {
+                "type": "HAS_PARENT",
+                "target": "Centrolenidae",
+                "description": "Family classification of the glass frog"
+            }
+        ],
+        "associated_entities": [
+            "Centrolene",
+            "Hyalinobatrachium",
+            "Nymphargus"
+        ],
+        "symbolic_items": [
+            "Transparency",
+            "Camouflage"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Central and South America",
+        "historical_period": "Described in 1872",
+        "geographic_range": "Central America, Colombia, Ecuador, Venezuela, Peru",
+        "cultural_significance": "Represents adaptation and camouflage in rainforest ecosystems",
+        "primary_sources": [
+            "Wikipedia",
+            "Guayasamin et al. (2008)"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT Tree Frog",
+        "NOT Opaque Skin",
+        "NOT Non-Arboreal Habitat"
+    ]
+}

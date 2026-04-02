@@ -1,0 +1,81 @@
+{
+    "name": "Dumbo Octopus",
+    "domain": "biology",
+    "entity_type": "pelagic cirrate octopod",
+    "alternative_names": [
+        "Grimpoteuthis",
+        "finned octopus"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "Challenger expedition records",
+        "deep-sea observation reports"
+    ],
+    "visual_attributes": {
+        "morphology": "gelatinous body with ear-like fins extending from the mantle above each eye",
+        "distinctive_features": [
+            "ear-like fins",
+            "gelatinous body",
+            "lack of ink sac"
+        ],
+        "color_palette": [
+            "pale pink",
+            "white",
+            "light orange"
+        ],
+        "texture": "smooth and gelatinous",
+        "size_and_scale": "20 to 30 cm in length",
+        "structural_arrangement": "fins extend from the mantle above each eye, arms and web spread out when resting",
+        "domain_specific_visual": {
+            "FIN_POSITION": "above each eye",
+            "BODY_SHAPE": "rounded and gelatinous"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "deep-sea predator",
+        "secondary_functions": [
+            "energy conservation through fin propulsion",
+            "egg attachment to deep sea corals"
+        ],
+        "domain_specific_functional": {
+            "REPRODUCTION": "continuous spawner with large eggs",
+            "LOCOMOTION": "fin propulsion and slow crawling"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "PREYS_ON",
+                "target": "benthic polychaetes",
+                "description": "Feeds on benthic polychaetes and other small marine organisms."
+            },
+            {
+                "type": "ENDEMIC_TO",
+                "target": "abyssal and hadal depths",
+                "description": "Inhabits deep-sea environments worldwide."
+            }
+        ],
+        "associated_entities": [
+            "Opisthoteuthis",
+            "Cirroteuthis"
+        ],
+        "symbolic_items": [
+            "deep sea corals"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "deep-sea environments worldwide",
+        "historical_period": "observed since the Challenger expedition",
+        "geographic_range": "worldwide distribution in abyssal and hadal depths",
+        "cultural_significance": "symbolizes adaptation to extreme environments",
+        "primary_sources": [
+            "Challenger expedition records",
+            "deep-sea observation reports"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT common octopus",
+        "NOT jet propulsion",
+        "NOT color-changing ability"
+    ]
+}

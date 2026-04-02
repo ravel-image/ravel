@@ -1,0 +1,83 @@
+{
+    "name": "Japanese Spider Crab",
+    "domain": "biology",
+    "entity_type": "marine crab",
+    "alternative_names": [
+        "Macrocheira kaempferi",
+        "taka-ashi-gani",
+        "tall-legged crab"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "Marine Biology Texts",
+        "Crustacean Databases"
+    ],
+    "visual_attributes": {
+        "morphology": "elongated legs with a relatively small body",
+        "distinctive_features": [
+            "largest leg-span of any arthropod",
+            "orange color with white spots along the legs",
+            "armored exoskeleton with bumpy carapace"
+        ],
+        "color_palette": [
+            "orange",
+            "white",
+            "brown"
+        ],
+        "texture": "bumpy and armored",
+        "size_and_scale": "leg span up to 3.7 meters (12.1 ft), carapace width up to 40 cm (16 in)",
+        "structural_arrangement": "long legs radiating from a central body",
+        "domain_specific_visual": {
+            "CHELIPEDS": "males have longer chelipeds than females",
+            "CAMOUFLAGE": "adorns shell with sponges and other organisms"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "scavenger and omnivore",
+        "secondary_functions": [
+            "camouflage for predator avoidance",
+            "decorative behavior for protection"
+        ],
+        "domain_specific_functional": {
+            "LARVAL_DEVELOPMENT": "undergoes four stages of development",
+            "MOLTING_BEHAVIOR": "unique molting process lasting about 100 minutes"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ENDEMIC_TO",
+                "target": "waters around Japan",
+                "description": "native to the southern coasts of Honshū, Japan"
+            },
+            {
+                "type": "HAS_PREDATOR",
+                "target": "octopus",
+                "description": "octopuses are known predators of the Japanese spider crab"
+            }
+        ],
+        "associated_entities": [
+            "European spider crab",
+            "American lobster"
+        ],
+        "symbolic_items": [
+            "sponges",
+            "worm tubes"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Japanese waters",
+        "historical_period": "described in 1836",
+        "geographic_range": "southern coasts of Honshū, Japan, and parts of Taiwan",
+        "cultural_significance": "considered a delicacy in Japan",
+        "primary_sources": [
+            "Wikipedia",
+            "Marine Biology Texts"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT European spider crab",
+        "NOT smooth carapace",
+        "NOT tropical or warm water habitat"
+    ]
+}

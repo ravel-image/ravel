@@ -1,0 +1,86 @@
+{
+    "name": "Sunda Pangolin",
+    "domain": "biology",
+    "entity_type": "species of pangolin",
+    "alternative_names": [
+        "Malayan pangolin",
+        "Javan pangolin",
+        "Manis javanica"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "CITES",
+        "Conservation studies"
+    ],
+    "visual_attributes": {
+        "morphology": "elongated body with a long tail, covered in large, overlapping scales",
+        "distinctive_features": [
+            "brown keratin scales covering the body",
+            "long, sticky tongue for collecting ants and termites",
+            "granular skin on feet with pads on front feet"
+        ],
+        "color_palette": [
+            "brown",
+            "white (occasionally on tail scales)"
+        ],
+        "texture": "scaly and fibrous",
+        "size_and_scale": "head-body length 40–65 cm, tail length 35–56 cm, weight up to 10 kg",
+        "structural_arrangement": "scales arranged in rows covering the body, fibrous hair underneath",
+        "domain_specific_visual": {
+            "SCALE_COMPOSITION": "keratin",
+            "EYE_ADAPTATION": "nocturnal vision"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "insectivore, primarily feeding on ants and termites",
+        "secondary_functions": [
+            "digging burrows",
+            "rolling into a ball for defense"
+        ],
+        "domain_specific_functional": {
+            "SENSE_OF_SMELL": "highly developed for locating prey",
+            "REPRODUCTION": "annual birth of one or two offspring"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "CLOSELY_RELATED_TO",
+                "target": "Palawan pangolin",
+                "description": "Both are in the subgenus Paramanis"
+            },
+            {
+                "type": "PREDATED_BY",
+                "target": "tigers",
+                "description": "Tigers are one of the natural predators of the Sunda pangolin"
+            },
+            {
+                "type": "ENDEMIC_TO",
+                "target": "Southeast Asia",
+                "description": "Native to regions including Myanmar, Thailand, and Malaysia"
+            }
+        ],
+        "associated_entities": [
+            "Chinese pangolin",
+            "clouded leopard"
+        ],
+        "symbolic_items": [
+            "scales used in traditional armor"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Southeast Asia",
+        "historical_period": "Pilo-Pleistocene shaping phylogeographic patterns",
+        "geographic_range": "Myanmar, Thailand, Cambodia, Laos, Malaysia, Singapore, Vietnam, Borneo, Java, Sumatra, Lesser Sunda Islands",
+        "cultural_significance": "Used in traditional armor by indigenous peoples",
+        "primary_sources": [
+            "Wikipedia",
+            "CITES"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT generic anteater",
+        "NOT smooth skin",
+        "NOT native to Africa"
+    ]
+}

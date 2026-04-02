@@ -1,0 +1,85 @@
+{
+    "name": "Satanic Leaf-Tailed Gecko",
+    "domain": "biology",
+    "entity_type": "species of gecko",
+    "alternative_names": [
+        "Uroplatus phantasticus",
+        "eyelash leaf-tailed gecko",
+        "phantastic leaf-tailed gecko"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "CITES",
+        "World Wide Fund for Nature (WWF)"
+    ],
+    "visual_attributes": {
+        "morphology": "small, flattened body with a leaf-like tail",
+        "distinctive_features": [
+            "leaf-like tail with notches",
+            "eyelash-like projection above each eye",
+            "spines on head, body, and trunk"
+        ],
+        "color_palette": [
+            "mottled brown",
+            "purple",
+            "orange",
+            "tan",
+            "yellow"
+        ],
+        "texture": "scaly",
+        "size_and_scale": "up to 90mm in total length",
+        "structural_arrangement": "flattened tail and body to mimic a leaf",
+        "domain_specific_visual": {
+            "CAMOUFLAGE": "mimics decaying leaves",
+            "SEXUAL_DIMORPHISM": "notched tails more common in males"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "camouflage for predator avoidance",
+        "secondary_functions": [
+            "insect hunting",
+            "egg-laying"
+        ],
+        "domain_specific_functional": {
+            "NOCTURNAL": "active at night",
+            "ARBOREAL": "lives in trees"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ENDEMIC_TO",
+                "target": "Madagascar",
+                "description": "The gecko is found only in Madagascar."
+            },
+            {
+                "type": "HAS_RELATIVE",
+                "target": "Uroplatus ebenaui",
+                "description": "A closely related species with a similar appearance."
+            }
+        ],
+        "associated_entities": [
+            "Uroplatus ebenaui",
+            "Uroplatus malama"
+        ],
+        "symbolic_items": [
+            "decaying leaf"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Madagascar",
+        "historical_period": "Described in 1888",
+        "geographic_range": "northern and central tropical forests of Madagascar",
+        "cultural_significance": "represents unique biodiversity of Madagascar",
+        "primary_sources": [
+            "Wikipedia",
+            "CITES",
+            "World Wide Fund for Nature (WWF)"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a common gecko",
+        "NOT smooth-skinned",
+        "NOT found outside Madagascar"
+    ]
+}

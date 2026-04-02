@@ -1,0 +1,87 @@
+{
+    "name": "Blue Dragon Sea Slug",
+    "domain": "biology",
+    "entity_type": "sea slug",
+    "alternative_names": [
+        "Glaucus atlanticus",
+        "blue sea dragon",
+        "sea swallow",
+        "blue angel",
+        "blue glaucus",
+        "dragon slug",
+        "blue sea slug",
+        "blue ocean slug"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "marine biology databases",
+        "scientific journals on marine life"
+    ],
+    "visual_attributes": {
+        "morphology": "flat, tapering body with six appendages branching into rayed, finger-like cerata",
+        "distinctive_features": [
+            "countershading with blue ventral side and silver-grey dorsal side",
+            "dark blue stripes on the head",
+            "cerata arranged in a single row"
+        ],
+        "color_palette": [
+            "dark blue",
+            "silver-grey",
+            "pale blue"
+        ],
+        "texture": "smooth",
+        "size_and_scale": "approximately 3 cm (1.2 in) long",
+        "structural_arrangement": "cerata extend laterally from peduncles with a short stalk, arranged in a uniseriate row",
+        "domain_specific_visual": {
+            "CERATA_ARRANGEMENT": "uniseriate",
+            "COUNTERSHADING": "blue ventral side, silver-grey dorsal side"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "predator of pelagic organisms",
+        "secondary_functions": [
+            "defense using stored nematocysts",
+            "buoyancy through gas-filled sac"
+        ],
+        "domain_specific_functional": {
+            "KLEPTOCNIDY": "stores nematocysts from prey for defense",
+            "HERMAPHRODITIC_REPRODUCTION": "both individuals can lay eggs after mating"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "PREDATOR_OF",
+                "target": "Portuguese man o' war",
+                "description": "feeds on and stores nematocysts from this organism"
+            },
+            {
+                "type": "RELATED_TO",
+                "target": "G. marginatus",
+                "description": "closely related species within the same family"
+            }
+        ],
+        "associated_entities": [
+            "Portuguese man o' war",
+            "Velella velella",
+            "Porpita porpita",
+            "Janthina janthina"
+        ],
+        "symbolic_items": []
+    },
+    "contextual_attributes": {
+        "origin": "pelagic zones of the world's oceans",
+        "historical_period": "documented since the 19th century",
+        "geographic_range": "temperate and tropical waters worldwide",
+        "cultural_significance": "known for its striking appearance and unique predatory behavior",
+        "primary_sources": [
+            "marine biology studies",
+            "oceanographic surveys"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a common nudibranch",
+        "NOT lacking countershading",
+        "NOT terrestrial or freshwater"
+    ]
+}

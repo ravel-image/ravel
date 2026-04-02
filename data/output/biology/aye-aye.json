@@ -1,1 +1,82 @@
-
+{
+    "name": "Aye-aye",
+    "domain": "biology",
+    "entity_type": "strepsirrhine primate",
+    "alternative_names": [
+        "Daubentonia madagascariensis",
+        "long-fingered lemur"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "IUCN Red List",
+        "Dunkel et al. (2012)",
+        "Simons and Meyers (2001)"
+    ],
+    "visual_attributes": {
+        "morphology": "Aye-ayes have a slender body with a long bushy tail, large ears, and rodent-like incisors.",
+        "distinctive_features": [
+            "Thin, elongated middle finger used for foraging",
+            "Large, sensitive ears with complex ridges",
+            "Continuously growing incisors"
+        ],
+        "color_palette": [
+            "brown",
+            "yellow",
+            "white"
+        ],
+        "texture": "Thick fur with a coarse texture",
+        "size_and_scale": "Approximately 60 cm in length with a tail longer than its body, weighing around 2 kg",
+        "structural_arrangement": "The body is covered in thick fur with a bushy tail, and the head features large ears and prominent eyes.",
+        "domain_specific_visual": {
+            "FINGER_STRUCTURE": "Ball-and-socket joint in the third finger",
+            "EAR_GEOMETRY": "Ridges on the inner surface for sound focusing"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Nocturnal foraging for grubs and larvae using percussive foraging",
+        "secondary_functions": [
+            "Arboreal lifestyle",
+            "Solitary behavior"
+        ],
+        "domain_specific_functional": {
+            "ECOLOGICAL_NICHE": "Fills the niche of a woodpecker by extracting invertebrates from wood",
+            "REPRODUCTION": "Females give birth every two to three years"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ENDEMIC_TO",
+                "target": "Madagascar",
+                "description": "The aye-aye is native to Madagascar."
+            },
+            {
+                "type": "HAS_EXTINCT_RELATIVE",
+                "target": "Daubentonia robusta",
+                "description": "A related species that became extinct within the last 1000 years."
+            }
+        ],
+        "associated_entities": [
+            "striped possum",
+            "trioks"
+        ],
+        "symbolic_items": [
+            "Fresnel lens-like ear ridges"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Madagascar",
+        "historical_period": "Discovered in the 18th century",
+        "geographic_range": "Endemic to Madagascar",
+        "cultural_significance": "Considered a magical animal in Malagasy culture",
+        "primary_sources": [
+            "Wikipedia",
+            "IUCN Red List"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a common lemur",
+        "NOT a rodent",
+        "NOT a diurnal animal"
+    ]
+}

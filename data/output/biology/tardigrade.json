@@ -1,0 +1,88 @@
+{
+    "name": "Tardigrade",
+    "domain": "biology",
+    "entity_type": "micro-animal",
+    "alternative_names": [
+        "water bear",
+        "moss piglet",
+        "Kleiner Wasserbär"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "scientific journals on Tardigrada",
+        "zoological databases"
+    ],
+    "visual_attributes": {
+        "morphology": "short, plump body with four pairs of hollow unjointed legs",
+        "distinctive_features": [
+            "eight legs ending in claws or sticky pads",
+            "telescopic legs in marine species",
+            "cuticle covering with sclerotised proteins and chitin"
+        ],
+        "color_palette": [
+            "transparent",
+            "colorless"
+        ],
+        "texture": "smooth cuticle surface",
+        "size_and_scale": "0.05 to 0.5 mm in length, up to 1.3 mm for largest species",
+        "structural_arrangement": "body cavity is a haemocoel with open circulatory system",
+        "domain_specific_visual": {
+            "LEGS": "four pairs, each ending in claws or pads",
+            "EYESPOTS": "two located in the brain"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "survival in extreme conditions",
+        "secondary_functions": [
+            "feeding on plant or animal cell fluids",
+            "reproduction through various methods"
+        ],
+        "domain_specific_functional": {
+            "GAS_EXCHANGE": "diffusion through cuticle and body cavity",
+            "LOCOMOTION": "antagonistic muscle pairs for leg movement"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "PREYED_UPON_BY",
+                "target": "soil arthropods",
+                "description": "Tardigrades are preyed upon by mites, spiders, and beetle larvae."
+            },
+            {
+                "type": "PREDATOR_OF",
+                "target": "nematodes",
+                "description": "Tardigrades consume nematodes and other small organisms."
+            },
+            {
+                "type": "HOST_TO",
+                "target": "microbial symbionts",
+                "description": "Tardigrades host various microbial symbionts in their microbiomes."
+            }
+        ],
+        "associated_entities": [
+            "Macrobiotus acadianus",
+            "Milnesium lagniappe"
+        ],
+        "symbolic_items": [
+            "statues",
+            "soft toys",
+            "crochet patterns"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Earth's biosphere",
+        "historical_period": "Cambrian period, 500 million years ago",
+        "geographic_range": "cosmopolitan, including mountaintops, deep sea, rainforests, and Antarctic",
+        "cultural_significance": "symbol of resilience and survival in extreme conditions",
+        "primary_sources": [
+            "Wikipedia",
+            "scientific journals on Tardigrada"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT insect",
+        "NOT crustacean",
+        "NOT visible to the naked eye"
+    ]
+}

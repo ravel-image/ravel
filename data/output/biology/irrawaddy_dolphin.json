@@ -1,0 +1,83 @@
+{
+    "name": "Irrawaddy Dolphin",
+    "domain": "biology",
+    "entity_type": "oceanic dolphin",
+    "alternative_names": [
+        "Orcaella brevirostris",
+        "short-beaked dolphin"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "IUCN Red List",
+        "Marine Mammal Science Journal"
+    ],
+    "visual_attributes": {
+        "morphology": "robust, rounded body with a high, rounded forehead and no distinct beak",
+        "distinctive_features": [
+            "small, rounded dorsal fin located two-thirds along the back",
+            "U-shaped blowhole on the left of the midline",
+            "broad, rounded flippers"
+        ],
+        "color_palette": [
+            "slate blue",
+            "slate gray",
+            "pale gray"
+        ],
+        "texture": "smooth",
+        "size_and_scale": "2.3 to 2.75 meters in length, weighing 90 to 200 kg",
+        "structural_arrangement": "rounded head with a blunt snout, small dorsal fin, and broad flippers",
+        "domain_specific_visual": {
+            "DORSAL_FIN_SHAPE": "short, blunt, and triangular",
+            "BLOWHOLE_POSITION": "U-shaped, left of midline"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "echolocation and communication",
+        "secondary_functions": [
+            "herding fish",
+            "social bonding"
+        ],
+        "domain_specific_functional": {
+            "FEEDING_METHOD": "suction feeding",
+            "WATER_SQUIRTING": "used for herding fish"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "RELATED_TO",
+                "target": "Australian snubfin dolphin",
+                "description": "Closely resembles and shares the same genus, Orcaella"
+            },
+            {
+                "type": "ENDEMIC_TO",
+                "target": "Bay of Bengal and Southeast Asia",
+                "description": "Found in scattered subpopulations in these regions"
+            }
+        ],
+        "associated_entities": [
+            "Australian snubfin dolphin",
+            "finless porpoise",
+            "humpback dolphin"
+        ],
+        "symbolic_items": [
+            "water",
+            "coastal ecosystems"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Bay of Bengal and Southeast Asia",
+        "historical_period": "Described in 1866 by Sir Richard Owen",
+        "geographic_range": "Bay of Bengal to New Guinea and the Philippines",
+        "cultural_significance": "Important for local fisheries and ecosystems",
+        "primary_sources": [
+            "Wikipedia",
+            "IUCN Red List"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a common bottlenose dolphin",
+        "NOT with a long beak",
+        "NOT in open ocean environments"
+    ]
+}

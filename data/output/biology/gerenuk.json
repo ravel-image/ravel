@@ -1,0 +1,87 @@
+{
+    "name": "Gerenuk",
+    "domain": "biology",
+    "entity_type": "antelope",
+    "alternative_names": [
+        "Litocranius walleri",
+        "giraffe gazelle"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "IUCN Red List",
+        "White Oak Conservation records"
+    ],
+    "visual_attributes": {
+        "morphology": "tall, slender antelope with a long neck and limbs",
+        "distinctive_features": [
+            "long, slender neck",
+            "lyre-shaped horns in males",
+            "flat, wedge-like head",
+            "large, round eyes"
+        ],
+        "color_palette": [
+            "reddish brown",
+            "fawn",
+            "cream"
+        ],
+        "texture": "smooth coat",
+        "size_and_scale": "80–105 cm tall, 18–52 kg weight",
+        "structural_arrangement": "long neck and limbs with a flat head and lyre-shaped horns",
+        "domain_specific_visual": {
+            "HORN_SHAPE": "lyre-shaped, curving backward then slightly forward",
+            "TAIL_FEATURE": "ends in a black tuft"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "browser feeding on foliage of bushes and trees",
+        "secondary_functions": [
+            "standing erect on hindlegs to reach high branches",
+            "scent-marking territories"
+        ],
+        "domain_specific_functional": {
+            "FORAGING_STRATEGY": "standing on hindlegs to reach over 2 m above ground",
+            "SOCIAL_STRUCTURE": "small herds of single sex or solitary males"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ENDEMIC_TO",
+                "target": "East Africa",
+                "description": "The gerenuk is native to parts of East Africa."
+            },
+            {
+                "type": "PREDATED_BY",
+                "target": "African wild dogs",
+                "description": "Gerenuks are preyed upon by African wild dogs."
+            },
+            {
+                "type": "PREDATED_BY",
+                "target": "cheetahs",
+                "description": "Gerenuks are preyed upon by cheetahs."
+            }
+        ],
+        "associated_entities": [
+            "Dibatag",
+            "Springbok"
+        ],
+        "symbolic_items": [
+            "Acacia trees"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "East Africa",
+        "historical_period": "Described in 1879",
+        "geographic_range": "Northeastern Tanzania, Kenya, Somalia, Ethiopia, Djibouti",
+        "cultural_significance": "Known for its unique browsing technique and long neck",
+        "primary_sources": [
+            "Wikipedia",
+            "IUCN Red List"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a common gazelle",
+        "NOT short-necked",
+        "NOT found outside East Africa"
+    ]
+}

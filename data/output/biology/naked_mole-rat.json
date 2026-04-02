@@ -1,0 +1,79 @@
+{
+    "name": "Naked Mole-Rat",
+    "domain": "biology",
+    "entity_type": "burrowing rodent",
+    "alternative_names": [
+        "sand puppy",
+        "Heterocephalus glaber"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "Nature",
+        "Science"
+    ],
+    "visual_attributes": {
+        "morphology": "elongated, cylindrical body with short limbs",
+        "distinctive_features": [
+            "large, protruding teeth",
+            "wrinkled, hairless skin",
+            "small eyes with poor visual acuity"
+        ],
+        "color_palette": [
+            "pink",
+            "yellowish"
+        ],
+        "texture": "smooth and wrinkled",
+        "size_and_scale": "8 to 10 cm long, 30 to 35 grams",
+        "structural_arrangement": "teeth protrude outside the mouth, lips sealed behind teeth",
+        "domain_specific_visual": {
+            "EYE_SIZE": "small",
+            "LIMB_LENGTH": "short"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "burrowing and living in underground colonies",
+        "secondary_functions": [
+            "thermoconforming",
+            "eusocial behavior"
+        ],
+        "domain_specific_functional": {
+            "OXYGEN_EFFICIENCY": "high affinity hemoglobin",
+            "PAIN_INSENSITIVITY": "lacks neurotransmitters in skin"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "CLOSELY_RELATED_TO",
+                "target": "Damaraland mole-rat",
+                "description": "Both are eusocial mammals."
+            },
+            {
+                "type": "ENDEMIC_TO",
+                "target": "Horn of Africa",
+                "description": "Native to this geographic region."
+            }
+        ],
+        "associated_entities": [
+            "Damaraland mole-rat",
+            "Blesmols"
+        ],
+        "symbolic_items": []
+    },
+    "contextual_attributes": {
+        "origin": "Horn of Africa",
+        "historical_period": "Not applicable",
+        "geographic_range": "Horn of Africa, parts of Kenya",
+        "cultural_significance": "Known for unique physiological traits and longevity",
+        "primary_sources": [
+            "Wikipedia",
+            "Nature",
+            "Science"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT common mole",
+        "NOT furry or hairy",
+        "NOT typical rodent social structure"
+    ]
+}

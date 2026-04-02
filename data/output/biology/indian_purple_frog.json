@@ -1,0 +1,78 @@
+{
+    "name": "Indian Purple Frog",
+    "domain": "biology",
+    "entity_type": "Amphibian",
+    "alternative_names": [
+        "Nasikabatrachus sahyadrensis",
+        "Mahabali frog",
+        "Pignose frog"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "Tropical Botanic Garden and Research Institute",
+        "Vrije Universiteit Brussel"
+    ],
+    "visual_attributes": {
+        "morphology": "robust and bloated body with a relatively rounded shape",
+        "distinctive_features": [
+            "elongated, pointed snout",
+            "small head compared to body",
+            "dark purplish-grey color"
+        ],
+        "color_palette": [
+            "dark purplish-grey"
+        ],
+        "texture": "smooth",
+        "size_and_scale": "7.0 cm (2.8 inches) long from snout to vent",
+        "structural_arrangement": "arms and legs splay out in standard anuran form",
+        "domain_specific_visual": {
+            "snout_shape": "elongated and pointed",
+            "body_shape": "rounded and robust"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "subterranean foraging and reproduction",
+        "secondary_functions": [
+            "termite predation",
+            "burrowing"
+        ],
+        "domain_specific_functional": {
+            "mating_behavior": "emerges during monsoon for mating",
+            "egg_laying": "lays eggs in crevices along fast-flowing streams"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ENDEMIC_TO",
+                "target": "Western Ghats",
+                "description": "The Indian Purple Frog is endemic to the Western Ghats in India."
+            },
+            {
+                "type": "CLOSEST_RELATIVE",
+                "target": "Sooglossidae family",
+                "description": "Its closest living relatives are frogs of the Sooglossidae family."
+            }
+        ],
+        "associated_entities": [
+            "Sooglossidae family",
+            "Western Ghats"
+        ],
+        "symbolic_items": []
+    },
+    "contextual_attributes": {
+        "origin": "Western Ghats, India",
+        "historical_period": "Described in 2003, juvenile form described in 1917",
+        "geographic_range": "Camel's Hump Hill Range to Agasthyamalai Hill Range",
+        "cultural_significance": "Traditionally consumed by tribal communities; threatened by habitat alteration",
+        "primary_sources": [
+            "Wikipedia",
+            "Tropical Botanic Garden and Research Institute"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a common frog",
+        "NOT green or brown in color",
+        "NOT found outside the Western Ghats"
+    ]
+}

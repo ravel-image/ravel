@@ -1,0 +1,81 @@
+{
+    "name": "Tufted Deer",
+    "domain": "biology",
+    "entity_type": "species of deer",
+    "alternative_names": [
+        "Elaphodus cephalophus"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "IUCN Red List",
+        "Association of Zoos and Aquariums"
+    ],
+    "visual_attributes": {
+        "morphology": "small deer with a leaner appearance than muntjac, longer necks and legs",
+        "distinctive_features": [
+            "prominent tuft of black hair on forehead",
+            "fang-like canines in males",
+            "short antlers hidden by tuft of hair"
+        ],
+        "color_palette": [
+            "chocolate brown",
+            "black",
+            "white"
+        ],
+        "texture": "coarse with short and stiff hairs",
+        "size_and_scale": "50–70 cm at the shoulder, 17 to 30 kg in weight",
+        "structural_arrangement": "tuft of hair on forehead, short tail, white lips and ear tips",
+        "domain_specific_visual": {
+            "CANINE_LENGTH": "up to 2.6 cm",
+            "TUFT_LENGTH": "up to 17 cm"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "herbivore, feeding on leaves, twigs, and fruit",
+        "secondary_functions": [
+            "territorial defense",
+            "camouflage"
+        ],
+        "domain_specific_functional": {
+            "MATING_SYSTEM": "polygynous",
+            "BEHAVIOR": "crepuscular, solitary or in pairs"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "CLOSE_RELATIVE_OF",
+                "target": "Muntjac",
+                "description": "Tufted deer is closely related to the muntjac species."
+            },
+            {
+                "type": "ENDEMIC_TO",
+                "target": "Central China and northeastern Myanmar",
+                "description": "Tufted deer is native to these regions."
+            }
+        ],
+        "associated_entities": [
+            "Sambar",
+            "Gongga Mountain National Nature Reserve"
+        ],
+        "symbolic_items": [
+            "fang-like canines",
+            "tuft of hair"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Central China and northeastern Myanmar",
+        "historical_period": "Current",
+        "geographic_range": "Central China, northeastern Myanmar",
+        "cultural_significance": "Part of conservation efforts due to near-threatened status",
+        "primary_sources": [
+            "Wikipedia",
+            "IUCN Red List"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT Muntjac",
+        "NOT without tuft of hair",
+        "NOT without fang-like canines"
+    ]
+}

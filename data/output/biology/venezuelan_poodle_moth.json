@@ -1,0 +1,73 @@
+{
+    "name": "Venezuelan Poodle Moth",
+    "domain": "biology",
+    "entity_type": "moth",
+    "alternative_names": [
+        "Artace sp",
+        "Poodle Moth"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "Photograph by Dr. Arthur Anker",
+        "Carnegie Museum of Natural History"
+    ],
+    "visual_attributes": {
+        "morphology": "furry-bodied moth with large, fluffy wings",
+        "distinctive_features": [
+            "fluffy, poodle-like appearance",
+            "distinctive antennae",
+            "furry texture covering the entire body"
+        ],
+        "color_palette": [
+            "white",
+            "light gray"
+        ],
+        "texture": "furry",
+        "size_and_scale": "approximately 1 inch in wingspan",
+        "structural_arrangement": "compact body with large, rounded wings",
+        "domain_specific_visual": {
+            "ANTENNAE_TYPE": "feathered",
+            "WING_SHAPE": "rounded and fluffy"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "pollinator",
+        "secondary_functions": [
+            "part of the food web",
+            "indicator of biodiversity"
+        ],
+        "domain_specific_functional": {
+            "HABITAT": "tropical forests",
+            "ACTIVITY_PATTERN": "nocturnal"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "BELONGS_TO_GENUS",
+                "target": "Artace",
+                "description": "The Venezuelan Poodle Moth is tentatively classified under the genus Artace."
+            }
+        ],
+        "associated_entities": [
+            "Dr. Arthur Anker",
+            "Dr. John E. Rawlins"
+        ],
+        "symbolic_items": []
+    },
+    "contextual_attributes": {
+        "origin": "Canaima National Park, Gran Sabana, Venezuela",
+        "historical_period": "discovered in 2009",
+        "geographic_range": "Venezuela",
+        "cultural_significance": "viral internet sensation due to its unique appearance",
+        "primary_sources": [
+            "Wikipedia",
+            "Photograph by Dr. Arthur Anker"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a common moth",
+        "NOT smooth or scaly",
+        "NOT found outside of Venezuela"
+    ]
+}

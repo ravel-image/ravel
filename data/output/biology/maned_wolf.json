@@ -1,0 +1,89 @@
+{
+    "name": "Maned Wolf",
+    "domain": "biology",
+    "entity_type": "canine species",
+    "alternative_names": [
+        "Chrysocyon brachyurus",
+        "aguara guasu",
+        "kalak",
+        "lobo-guará",
+        "lobo de crín",
+        "lobo de los esteros",
+        "lobo colorado",
+        "borochi"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "International Union for Conservation of Nature",
+        "Brazilian Institute of Environment and Renewable Natural Resources"
+    ],
+    "visual_attributes": {
+        "morphology": "Tall, slender canine with long legs and a distinctive mane",
+        "distinctive_features": [
+            "Long, thin legs",
+            "Dense reddish coat",
+            "Erectile black mane",
+            "Large ears"
+        ],
+        "color_palette": [
+            "reddish-brown",
+            "golden orange",
+            "black"
+        ],
+        "texture": "Dense and smooth fur",
+        "size_and_scale": "Weighs 20–30 kg, up to 110 cm at the withers",
+        "structural_arrangement": "Long legs adapted for tall grasslands, large ears, and a mane on the nape",
+        "domain_specific_visual": {
+            "FOOTPRINT_SHAPE": "Triangular plantar pads with small digit marks",
+            "SKULL_FEATURES": "Reduced carnassials, long canine teeth, prominent sagittal crest"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Seed dispersal of fruits, especially the wolf apple",
+        "secondary_functions": [
+            "Territorial marking",
+            "Solitary hunting"
+        ],
+        "domain_specific_functional": {
+            "COMMUNICATION_METHOD": "Scent marking and roar-barking",
+            "ACTIVITY_PATTERN": "Crepuscular, active during twilight"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "CLOSEST_RELATIVE",
+                "target": "Bush Dog",
+                "description": "The bush dog is the closest living relative of the maned wolf."
+            },
+            {
+                "type": "ENDEMIC_TO",
+                "target": "South America",
+                "description": "The maned wolf is native to South American regions."
+            }
+        ],
+        "associated_entities": [
+            "Bush Dog",
+            "Wolf Apple"
+        ],
+        "symbolic_items": [
+            "Skunk Wolf",
+            "Golden Dog"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "South America",
+        "historical_period": "Late Pleistocene to Holocene",
+        "geographic_range": "Argentina, Brazil, Bolivia, Peru, Paraguay",
+        "cultural_significance": "Known for its unique appearance and role in seed dispersal",
+        "primary_sources": [
+            "Wikipedia",
+            "International Union for Conservation of Nature"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a red fox",
+        "NOT a common wolf",
+        "NOT a pack animal"
+    ]
+}

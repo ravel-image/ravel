@@ -1,0 +1,83 @@
+{
+    "name": "Gelada",
+    "domain": "biology",
+    "entity_type": "Old World monkey",
+    "alternative_names": [
+        "Theropithecus gelada",
+        "bleeding-heart monkey",
+        "gelada baboon"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "International Union for Conservation of Nature"
+    ],
+    "visual_attributes": {
+        "morphology": "large and robust primate with a short muzzle and hairless face",
+        "distinctive_features": [
+            "bright red hourglass-shaped patch of skin on the chest",
+            "long, heavy cape of hair on the back of adult males",
+            "pale eyelids and dark face"
+        ],
+        "color_palette": [
+            "buff",
+            "dark brown",
+            "black",
+            "red"
+        ],
+        "texture": "coarse hair",
+        "size_and_scale": "males average 18.5 kg (41 lb), females average 11 kg (24 lb), head-body length 50–75 cm (20–30 in), tail 30–50 cm (12–20 in)",
+        "structural_arrangement": "short tail ending in a tuft of hair, arms and feet nearly black",
+        "domain_specific_visual": {
+            "SEXUAL_DIMORPHISM": "males larger with more pronounced hair cape and chest patch",
+            "CHEST_PATCH": "hourglass-shaped, bright red in males, less pronounced in females except during estrus"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "graminivorous foraging",
+        "secondary_functions": [
+            "social interaction",
+            "vocal communication"
+        ],
+        "domain_specific_functional": {
+            "SOCIAL_STRUCTURE": "complex multilevel social structure with reproductive and male units",
+            "VOCALIZATION": "diverse repertoire of vocalizations"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ENDEMIC_TO",
+                "target": "Ethiopian Highlands",
+                "description": "Geladas are found only in the high grasslands of the Ethiopian plateau."
+            },
+            {
+                "type": "HAS_SUBSPECIES",
+                "target": "Northern gelada, Eastern gelada",
+                "description": "Two subspecies of gelada exist: Northern gelada and Eastern gelada."
+            }
+        ],
+        "associated_entities": [
+            "Papio (baboons)",
+            "Lophocebus (mangabeys)"
+        ],
+        "symbolic_items": [
+            "hourglass chest patch",
+            "shuffle gait"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Ethiopian Highlands",
+        "historical_period": "current species, with fossil records dating back to prehistoric times",
+        "geographic_range": "central Ethiopian plateau",
+        "cultural_significance": "unique primate species with complex social behaviors and vocalizations",
+        "primary_sources": [
+            "Wikipedia",
+            "International Union for Conservation of Nature"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a common baboon",
+        "NOT lacking the bright red chest patch",
+        "NOT found outside the Ethiopian Highlands"
+    ]
+}

@@ -1,0 +1,89 @@
+{
+    "name": "Tarsier",
+    "domain": "biology",
+    "entity_type": "Haplorhine Primate",
+    "alternative_names": [
+        "Tarsiidae",
+        "Tarsius",
+        "Carlito syrichta",
+        "Cephalopachus bancanus"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "Scientific Journals on Primatology",
+        "Taxonomic Databases"
+    ],
+    "visual_attributes": {
+        "morphology": "Small primate with elongated hind limbs and large eyes",
+        "distinctive_features": [
+            "Enormous eyes approximately 16 mm in diameter",
+            "Long hind limbs with elongated tarsus bones",
+            "Slender tail ranging from 20 to 25 cm",
+            "Soft, velvety fur"
+        ],
+        "color_palette": [
+            "Buff",
+            "Beige",
+            "Ochre"
+        ],
+        "texture": "Velvety",
+        "size_and_scale": "Head and body length 10 to 15 cm; hind limbs about twice this length",
+        "structural_arrangement": "Vertical clinging and leaping morphology with elongated fingers",
+        "domain_specific_visual": {
+            "EYE_SIZE": "As large as or larger than the brain",
+            "FINGER_LENGTH": "Third finger as long as the upper arm"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Nocturnal predator of insects and small vertebrates",
+        "secondary_functions": [
+            "Vertical clinging and leaping",
+            "Grooming with specialized claws"
+        ],
+        "domain_specific_functional": {
+            "AUDITORY_SENSE": "Strong auditory sense with distinct auditory cortex",
+            "VISION": "Unique cranial anatomy for balancing large eyes"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ENDEMIC_TO",
+                "target": "Maritime Southeast Asia",
+                "description": "Tarsiers are found primarily in forested habitats in Southeast Asia."
+            },
+            {
+                "type": "HAS_GENUS",
+                "target": "Carlito",
+                "description": "Philippine tarsiers belong to the genus Carlito."
+            },
+            {
+                "type": "HAS_GENUS",
+                "target": "Cephalopachus",
+                "description": "Western tarsiers belong to the genus Cephalopachus."
+            }
+        ],
+        "associated_entities": [
+            "Liana",
+            "Forested Habitats"
+        ],
+        "symbolic_items": [
+            "None"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Southeast Asia",
+        "historical_period": "45 million years of evolutionary history",
+        "geographic_range": "Brunei, Indonesia, Malaysia, Philippines",
+        "cultural_significance": "Unique evolutionary lineage within primates",
+        "primary_sources": [
+            "Wikipedia",
+            "Scientific Journals on Primatology"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT Lemur",
+        "NOT Small Monkey",
+        "NOT African Primate"
+    ]
+}

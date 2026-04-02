@@ -1,0 +1,99 @@
+{
+    "name": "Platypus",
+    "domain": "biology",
+    "entity_type": "Monotreme Mammal",
+    "alternative_names": [
+        "Ornithorhynchus anatinus",
+        "Duck-billed Platypus",
+        "Boondaburra",
+        "Mallingong",
+        "Tambreet",
+        "Watjarang",
+        "Tohunbuck",
+        "Dulaiwarrung",
+        "Djanbang",
+        "Djumulung",
+        "Malungaŋ",
+        "Biladurang",
+        "Wamul",
+        "Dyiimalung",
+        "Oornie",
+        "Dungidany",
+        "Oonah",
+        "Larila"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "Naturalist's Miscellany",
+        "IUCN Red List"
+    ],
+    "visual_attributes": {
+        "morphology": "Small, streamlined body with a duck-like bill and beaver-like tail",
+        "distinctive_features": [
+            "Duck-like bill",
+            "Beaver-like tail",
+            "Webbed feet",
+            "Biofluorescent fur"
+        ],
+        "color_palette": [
+            "Brown",
+            "Cyan",
+            "Green"
+        ],
+        "texture": "Dense, waterproof fur",
+        "size_and_scale": "Male: 50 cm (20 in) length, 1,700 g (3.7 lb) weight; Female: 43 cm (17 in) length, 900 g (2.0 lb) weight",
+        "structural_arrangement": "Short legs with webbing more significant on front feet; sprawling stance",
+        "domain_specific_visual": {
+            "ELECTRORECEPTORS": "Located on the bill",
+            "CLOACA": "Single opening for reproductive and waste systems"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Electrolocation for detecting prey",
+        "secondary_functions": [
+            "Swimming using webbed feet",
+            "Storing fat in tail"
+        ],
+        "domain_specific_functional": {
+            "VENOMOUS_SPUR": "Male platypus has venomous spurs on hind feet",
+            "EGG_LAYING": "Lays eggs instead of giving birth to live young"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ENDEMIC_TO",
+                "target": "Eastern Australia",
+                "description": "The platypus is native to eastern Australia, including Tasmania."
+            },
+            {
+                "type": "RELATED_TO",
+                "target": "Echidna",
+                "description": "Both are monotremes, the only egg-laying mammals."
+            }
+        ],
+        "associated_entities": [
+            "Echidna",
+            "Monotremes"
+        ],
+        "symbolic_items": [
+            "Australian stamps",
+            "Currency"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Eastern Australia, including Tasmania",
+        "historical_period": "Discovered by Europeans in 1798",
+        "geographic_range": "Eastern Australia, including Tasmania",
+        "cultural_significance": "Iconic symbol of Australia; culturally significant to Aboriginal peoples",
+        "primary_sources": [
+            "Wikipedia",
+            "Naturalist's Miscellany"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT Beaver",
+        "NOT Duck",
+        "NOT Generic Mammal"
+    ]
+}

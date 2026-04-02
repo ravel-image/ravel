@@ -1,0 +1,81 @@
+{
+    "name": "Star-Nosed Mole",
+    "domain": "biology",
+    "entity_type": "mammal",
+    "alternative_names": [
+        "Condylura cristata"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "Nature Journal",
+        "Guinness Book of World Records"
+    ],
+    "visual_attributes": {
+        "morphology": "small, semiaquatic mammal with a distinctive star-shaped nose",
+        "distinctive_features": [
+            "22 fleshy finger-like appendages on the nose",
+            "minute sensory receptors known as Eimer's organs",
+            "small eyes and tiny optic nerve"
+        ],
+        "color_palette": [
+            "dark brown",
+            "black",
+            "pink (nose appendages)"
+        ],
+        "texture": "velvety fur with smooth, fleshy nose appendages",
+        "size_and_scale": "approximately hamster-sized, nose diameter 1.5 cm (0.59 in)",
+        "structural_arrangement": "nose appendages arranged in a star pattern around nostrils",
+        "domain_specific_visual": {
+            "EIMER_ORGANS_COUNT": "25,000",
+            "NOSE_APPENDAGES_COUNT": "22"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "detecting and identifying prey using tactile sensory input",
+        "secondary_functions": [
+            "foraging in aquatic and terrestrial environments",
+            "thermoregulation in cold environments"
+        ],
+        "domain_specific_functional": {
+            "FASTEST_EATING_MAMMAL": "consumes prey in as little as 120 milliseconds",
+            "UNDERWATER_SMELLING": "exhales and inhales air bubbles to detect scents"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ENDEMIC_TO",
+                "target": "Northeastern North America",
+                "description": "The star-nosed mole is native to moist, low elevation areas in this region."
+            },
+            {
+                "type": "PREDATED_BY",
+                "target": "Red-tailed hawk",
+                "description": "The star-nosed mole is preyed upon by this bird of prey."
+            }
+        ],
+        "associated_entities": [
+            "Eimer's organs",
+            "Condylura genus"
+        ],
+        "symbolic_items": [
+            "fastest forager",
+            "tactile eye"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Northeastern North America",
+        "historical_period": "Current species",
+        "geographic_range": "Wet lowland areas, marshes, and sometimes dry meadows",
+        "cultural_significance": "Known for its unique sensory adaptations and speed in foraging",
+        "primary_sources": [
+            "Wikipedia",
+            "Nature Journal"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a common mole",
+        "NOT a rodent",
+        "NOT visually reliant"
+    ]
+}

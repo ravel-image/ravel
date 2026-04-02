@@ -1,0 +1,102 @@
+{
+    "name": "Zebra Duiker",
+    "domain": "biology",
+    "entity_type": "antelope",
+    "alternative_names": [
+        "Cephalophus zebra",
+        "banded duiker",
+        "striped-back duiker",
+        "marking deer"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "Annals of Natural History",
+        "IUCN Red List"
+    ],
+    "visual_attributes": {
+        "morphology": "small antelope with a compact body and short legs",
+        "distinctive_features": [
+            "12-16 zebra-like stripes on the back",
+            "gold or red-brown coat",
+            "dark markings on upper legs",
+            "russet face",
+            "short, round horns with sharp pointed tips"
+        ],
+        "color_palette": [
+            "gold",
+            "red-brown",
+            "black"
+        ],
+        "texture": "smooth coat",
+        "size_and_scale": "90 cm in length, 45 cm in height, 20 kg in weight",
+        "structural_arrangement": "stripes run horizontally across the back",
+        "domain_specific_visual": {
+            "HORN_LENGTH": "4.5–5.0 cm in males, half in females",
+            "STRIPE_PATTERN": "closer together in newborns"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "herbivore feeding on fruit, foliage, and seeds",
+        "secondary_functions": [
+            "occasionally eats rodents",
+            "prey for larger predators"
+        ],
+        "domain_specific_functional": {
+            "RUMINANT": "yes",
+            "REINFORCED_NASAL_BONES": "enable cracking open hard fruits"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ENDEMIC_TO",
+                "target": "West Africa",
+                "description": "Primarily found in Liberia, Ivory Coast, Sierra Leone, and Guinea"
+            },
+            {
+                "type": "PREY_OF",
+                "target": "African leopard",
+                "description": "Common prey for African leopards"
+            },
+            {
+                "type": "PREY_OF",
+                "target": "African golden cat",
+                "description": "Common prey for African golden cats"
+            },
+            {
+                "type": "PREY_OF",
+                "target": "rock python",
+                "description": "Common prey for rock pythons"
+            },
+            {
+                "type": "PREY_OF",
+                "target": "crowned eagle",
+                "description": "Common prey for crowned eagles"
+            }
+        ],
+        "associated_entities": [
+            "bay duiker",
+            "Jentink's duiker",
+            "Aders' duiker"
+        ],
+        "symbolic_items": [
+            "bush meat",
+            "hides"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "West Africa",
+        "historical_period": "Pleistocene evolution",
+        "geographic_range": "Liberia, Ivory Coast, Sierra Leone, Guinea",
+        "cultural_significance": "Hunted for bush meat and hides",
+        "primary_sources": [
+            "Wikipedia",
+            "IUCN Red List"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a common antelope",
+        "NOT without stripes",
+        "NOT found outside West Africa"
+    ]
+}

@@ -1,0 +1,87 @@
+{
+    "name": "Proboscis Monkey",
+    "domain": "biology",
+    "entity_type": "arboreal Old World monkey",
+    "alternative_names": [
+        "long-nosed monkey",
+        "Nasalis larvatus"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "scientific journals on primatology",
+        "field studies in Borneo"
+    ],
+    "visual_attributes": {
+        "morphology": "large-bodied monkey with a long tail and pronounced sexual dimorphism",
+        "distinctive_features": [
+            "unusually large nose in males",
+            "reddish-brown skin color",
+            "long coat with bright orange to brick-red fur on the back"
+        ],
+        "color_palette": [
+            "reddish-brown",
+            "bright orange",
+            "light-grey"
+        ],
+        "texture": "smooth fur with a long coat",
+        "size_and_scale": "males: 66 to 76.2 cm in length, 16 to 22.5 kg; females: 53.3 to 62 cm in length, 7 to 12 kg",
+        "structural_arrangement": "bulging stomachs resembling a pot belly, webbed toes",
+        "domain_specific_visual": {
+            "nose_length": "up to 10.2 cm in males",
+            "infant_face_color": "blue at birth, darkens to grey, then cream-colored"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "arboreal primate adapted to mangrove and riverine forests",
+        "secondary_functions": [
+            "good swimmer",
+            "social group living"
+        ],
+        "domain_specific_functional": {
+            "diet": "seasonal folivore and frugivore",
+            "social_structure": "fission-fusion society with one-male groups"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "COEXISTS_WITH",
+                "target": "Bornean orangutan",
+                "description": "Shares habitat in Borneo with the Bornean orangutan."
+            },
+            {
+                "type": "COEXISTS_WITH",
+                "target": "silvery lutung",
+                "description": "Observed in mixed-species groups with silvery lutungs."
+            },
+            {
+                "type": "ENDEMIC_TO",
+                "target": "Borneo",
+                "description": "Found only on the island of Borneo."
+            }
+        ],
+        "associated_entities": [
+            "Bornean orangutan",
+            "silvery lutung"
+        ],
+        "symbolic_items": [
+            "large nose",
+            "reddish-brown fur"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Southeast Asian island of Borneo",
+        "historical_period": "documented by Westerners since 1781",
+        "geographic_range": "Brunei, Indonesia, Malaysia",
+        "cultural_significance": "symbol of Borneo's unique biodiversity",
+        "primary_sources": [
+            "Wikipedia",
+            "scientific journals on primatology"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT generic monkey",
+        "NOT small nose",
+        "NOT found outside Borneo"
+    ]
+}

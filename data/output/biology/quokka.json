@@ -1,0 +1,85 @@
+{
+    "name": "Quokka",
+    "domain": "biology",
+    "entity_type": "marsupial",
+    "alternative_names": [
+        "Setonix brachyurus",
+        "gwaga",
+        "gawaga",
+        "ban-gup",
+        "bungeup"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "IUCN Red List",
+        "Australian Wildlife Conservancy"
+    ],
+    "visual_attributes": {
+        "morphology": "small macropod with a stocky build",
+        "distinctive_features": [
+            "rounded ears",
+            "short, broad head",
+            "short tail"
+        ],
+        "color_palette": [
+            "grizzled brown",
+            "buff"
+        ],
+        "texture": "coarse fur",
+        "size_and_scale": "40 to 54 cm long, 2.5 to 5.0 kg",
+        "structural_arrangement": "well-developed hind legs for hopping",
+        "domain_specific_visual": {
+            "TAIL_LENGTH": "25 to 30 cm",
+            "CLIMBING_ABILITY": "can climb small trees and shrubs up to 1.5 meters"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "herbivorous forager",
+        "secondary_functions": [
+            "nocturnal activity",
+            "climbing small trees"
+        ],
+        "domain_specific_functional": {
+            "REPRODUCTION": "promiscuous mating system with a single joey per birth",
+            "PREDATOR_AVOIDANCE": "uses dense vegetation for cover"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ENDEMIC_TO",
+                "target": "Southwestern Australia",
+                "description": "The quokka is native to a small area of southwestern Australia."
+            },
+            {
+                "type": "COEXISTS_WITH",
+                "target": "Gilbert's potoroo",
+                "description": "Coexists in Two Peoples Bay Nature Reserve."
+            }
+        ],
+        "associated_entities": [
+            "kangaroo",
+            "wallaby",
+            "Gilbert's potoroo"
+        ],
+        "symbolic_items": [
+            "Rottnest Island",
+            "Bald Island"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Southwestern Australia",
+        "historical_period": "discovered by Europeans in the 17th century",
+        "geographic_range": "Rottnest Island, Bald Island, mainland southwestern Australia",
+        "cultural_significance": "considered a symbol of Australian wildlife and conservation efforts",
+        "primary_sources": [
+            "Wikipedia",
+            "IUCN Red List"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a kangaroo",
+        "NOT a rat",
+        "NOT a common wallaby"
+    ]
+}

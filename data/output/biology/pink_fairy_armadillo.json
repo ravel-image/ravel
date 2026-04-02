@@ -1,0 +1,75 @@
+{
+    "name": "Pink Fairy Armadillo",
+    "domain": "biology",
+    "entity_type": "mammal",
+    "alternative_names": [
+        "Chlamyphorus truncatus"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "IUCN Red List of Threatened Species"
+    ],
+    "visual_attributes": {
+        "morphology": "small, elongated body with a flexible dorsal shell",
+        "distinctive_features": [
+            "silky yellowish white fur",
+            "flexible pink dorsal shell",
+            "spatula-shaped tail"
+        ],
+        "color_palette": [
+            "pink",
+            "yellowish white"
+        ],
+        "texture": "silky fur with a leathery shell",
+        "size_and_scale": "90–115 mm (3.5–4.5 in) long, 120 g (4.2 oz)",
+        "structural_arrangement": "shell attached by thin dorsal membranes, 24 bands on shell",
+        "domain_specific_visual": {
+            "dorsal_shell": "flexible and soft, attached by a thin membrane",
+            "claws": "enlarged for digging"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "burrowing and thermoregulation",
+        "secondary_functions": [
+            "insectivory",
+            "moisture conservation"
+        ],
+        "domain_specific_functional": {
+            "burrowing": "uses specialized claws to dig quickly",
+            "thermoregulation": "fur and shell help conserve heat"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "CLOSELY_RELATED_TO",
+                "target": "Greater Fairy Armadillo",
+                "description": "Both belong to the subfamily Chlamyphorinae and share morphological similarities."
+            },
+            {
+                "type": "ENDEMIC_TO",
+                "target": "Central Argentina",
+                "description": "The species is found exclusively in the deserts and scrublands of central Argentina."
+            }
+        ],
+        "associated_entities": [
+            "Greater Fairy Armadillo"
+        ],
+        "symbolic_items": []
+    },
+    "contextual_attributes": {
+        "origin": "Central Argentina",
+        "historical_period": "Described in 1825",
+        "geographic_range": "Deserts and scrublands of central Argentina",
+        "cultural_significance": "Represents unique evolutionary adaptations to desert environments",
+        "primary_sources": [
+            "Wikipedia",
+            "IUCN Red List of Threatened Species"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic armadillo",
+        "NOT a large armadillo",
+        "NOT found outside of Argentina"
+    ]
+}

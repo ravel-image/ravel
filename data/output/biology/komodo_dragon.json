@@ -1,0 +1,88 @@
+{
+    "name": "Komodo Dragon",
+    "domain": "biology",
+    "entity_type": "reptile",
+    "alternative_names": [
+        "Varanus komodoensis",
+        "Komodo monitor",
+        "Komodo Island monitor",
+        "ora",
+        "buaya darat",
+        "biawak raksasa",
+        "sebae",
+        "mbau"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "IUCN Red List",
+        "Zoological Museum of Bogor",
+        "American Museum of Natural History"
+    ],
+    "visual_attributes": {
+        "morphology": "Large, robust lizard with a long tail and powerful limbs.",
+        "distinctive_features": [
+            "Armored scales with osteoderms",
+            "Long, yellow, deeply forked tongue",
+            "Serrated teeth up to 2.5 cm in length"
+        ],
+        "color_palette": [
+            "gray",
+            "brown",
+            "green"
+        ],
+        "texture": "Scaly and rugged with armored scales",
+        "size_and_scale": "Males up to 3 m (10 ft) long and 150 kg (330 lb)",
+        "structural_arrangement": "Tail as long as the body, robust limbs, elongated head",
+        "domain_specific_visual": {
+            "OSTEODERMS": "Four types: rosette, platy, dendritic, and vermiform",
+            "PARIETAL_EYE": "Light-sensing organ on top of the head"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Apex predator",
+        "secondary_functions": [
+            "Scavenger",
+            "Ambush predator"
+        ],
+        "domain_specific_functional": {
+            "HUNTING_BEHAVIOR": "Group hunting and ambushing prey",
+            "DIET": "Invertebrates, birds, mammals, carrion"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ENDEMIC_TO",
+                "target": "Indonesian islands of Komodo, Rinca, Flores, Gili Dasami, and Gili Motang",
+                "description": "Native to specific Indonesian islands"
+            },
+            {
+                "type": "HAS_COMMON_ANCESTOR",
+                "target": "Australian lace monitor",
+                "description": "Shares a common ancestor with the Australian lace monitor"
+            }
+        ],
+        "associated_entities": [
+            "Javan rusa",
+            "Australian lace monitor"
+        ],
+        "symbolic_items": [
+            "Komodo National Park"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Indonesian islands",
+        "historical_period": "First recorded by Western scientists in 1910",
+        "geographic_range": "Komodo National Park, Eastern Indonesia",
+        "cultural_significance": "Considered spiritually significant by the Komodo people",
+        "primary_sources": [
+            "Wikipedia",
+            "IUCN Red List"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a crocodile",
+        "NOT smooth-skinned",
+        "NOT found outside its native Indonesian islands"
+    ]
+}

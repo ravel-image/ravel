@@ -1,0 +1,83 @@
+{
+    "name": "Gharial",
+    "domain": "biology",
+    "entity_type": "Crocodilian",
+    "alternative_names": [
+        "Gavialis gangeticus",
+        "Gavial",
+        "Fish-eating crocodile",
+        "Indian gharial"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "IUCN Red List",
+        "Natural History Museum, London"
+    ],
+    "visual_attributes": {
+        "morphology": "Long, narrow snout with a distinct boss at the end in males, elongated body with webbed feet",
+        "distinctive_features": [
+            "Long, narrow snout",
+            "Distinct boss on male snouts resembling an earthenware pot",
+            "110 sharp, interlocking teeth"
+        ],
+        "color_palette": [
+            "Olive",
+            "Dark brown",
+            "Yellowish-white"
+        ],
+        "texture": "Scaly with bony scutes on the back",
+        "size_and_scale": "Females: 2.6 to 4.5 m, Males: 3 to 6 m",
+        "structural_arrangement": "Four transverse rows of two scales on the neck, continuous plate of scutes on the back",
+        "domain_specific_visual": {
+            "SNOUT_LENGTH": "3.5 times longer than the width of the skull's base",
+            "TEETH_ARRANGEMENT": "27 to 29 upper teeth and 25 or 26 lower teeth on each side"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Fish-catching predator",
+        "secondary_functions": [
+            "Basking on sandbanks",
+            "Nesting on moist sandbanks"
+        ],
+        "domain_specific_functional": {
+            "REPRODUCTION": "Females lay 20–95 eggs and guard nests",
+            "HABITAT": "Inhabits rivers in the northern Indian subcontinent"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ENDEMIC_TO",
+                "target": "Northern Indian subcontinent",
+                "description": "The gharial is native to rivers in this region"
+            },
+            {
+                "type": "SISTER_TAXA",
+                "target": "False gharial (Tomistoma schlegelii)",
+                "description": "Shares a close evolutionary relationship"
+            }
+        ],
+        "associated_entities": [
+            "Gaṅgā (river deity)",
+            "False gharial"
+        ],
+        "symbolic_items": [
+            "Ghara (earthenware pot)"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Northern Indian subcontinent",
+        "historical_period": "Fossil records from Pliocene to Early Pleistocene",
+        "geographic_range": "Rivers in the plains of northern Indian subcontinent",
+        "cultural_significance": "Regarded as the vehicle of the river deity Gaṅgā in Hindu culture",
+        "primary_sources": [
+            "Indus Valley depictions",
+            "Local folklore"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT Common crocodile",
+        "NOT Short, broad snout",
+        "NOT Terrestrial habitat"
+    ]
+}

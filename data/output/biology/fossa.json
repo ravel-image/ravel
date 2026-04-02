@@ -1,0 +1,89 @@
+{
+    "name": "Fossa",
+    "domain": "biology",
+    "entity_type": "mammalian carnivore",
+    "alternative_names": [
+        "Cryptoprocta ferox",
+        "fosa",
+        "Malagasy civet"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "IUCN Red List",
+        "DNA hybridization studies",
+        "molecular phylogenetic studies"
+    ],
+    "visual_attributes": {
+        "morphology": "slender, long-tailed, cat-like mammal",
+        "distinctive_features": [
+            "mongoose-like head with broad and short muzzle",
+            "large, rounded ears",
+            "semi-retractable claws",
+            "flexible ankles"
+        ],
+        "color_palette": [
+            "reddish-brown",
+            "dirty cream",
+            "orange hue in eyes"
+        ],
+        "texture": "short, straight, dense fur",
+        "size_and_scale": "head-body length of 70–80 cm, tail length of 65–70 cm, weight between 5.5 and 8.6 kg",
+        "structural_arrangement": "muscular limbs, tail nearly as long as the body",
+        "domain_specific_visual": {
+            "eye_reflection": "orange hue",
+            "sexual_dimorphism": "males larger than females"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "carnivorous predator",
+        "secondary_functions": [
+            "arboreal climber",
+            "territorial animal"
+        ],
+        "domain_specific_functional": {
+            "diet": "primarily lemurs, also tenrecs, rodents, lizards, birds",
+            "hunting_behavior": "active both day and night"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ENDEMIC_TO",
+                "target": "Madagascar",
+                "description": "The fossa is found solely in Madagascar."
+            },
+            {
+                "type": "PREDATOR_OF",
+                "target": "lemurs",
+                "description": "Over 50% of its diet consists of lemurs."
+            },
+            {
+                "type": "MEMBER_OF",
+                "target": "Eupleridae",
+                "description": "The fossa is part of the carnivoran family Eupleridae."
+            }
+        ],
+        "associated_entities": [
+            "Cryptoprocta spelea",
+            "Eupleres goudoti"
+        ],
+        "symbolic_items": [
+            "fady taboo"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Madagascar",
+        "historical_period": "colonized Madagascar around 18–20 million years ago",
+        "geographic_range": "forested habitats of Madagascar",
+        "cultural_significance": "feared by Malagasy people, protected by fady taboo",
+        "primary_sources": [
+            "Wikipedia",
+            "IUCN Red List"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a common domestic cat",
+        "NOT a large cougar",
+        "NOT a non-endemic species"
+    ]
+}

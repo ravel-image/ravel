@@ -1,0 +1,83 @@
+{
+    "name": "Red-Lipped Batfish",
+    "domain": "biology",
+    "entity_type": "fish",
+    "alternative_names": [
+        "Galápagos batfish",
+        "Ogcocephalus darwini"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "Fishes of the World (Nelson, Grande, Wilson, 2016)"
+    ],
+    "visual_attributes": {
+        "morphology": "flattened body with a disk-like shape and a pointed rostrum on the snout",
+        "distinctive_features": [
+            "bright, almost fluorescent, red lips",
+            "spine-like dorsal fin projection",
+            "large lateral eyes positioned high on the head"
+        ],
+        "color_palette": [
+            "light brown",
+            "greyish",
+            "white",
+            "dark brown",
+            "red"
+        ],
+        "texture": "shagreen-like with a relatively smooth texture",
+        "size_and_scale": "up to 40 centimeters (16 inches) in length",
+        "structural_arrangement": "pectoral, pelvic, and anal fins adapted for walking; dorsal fin as a lure",
+        "domain_specific_visual": {
+            "FIN_ADAPTATION": "pectoral, pelvic, and anal fins function like limbs for walking",
+            "LIP_COLORATION": "bright red lips for species recognition"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "benthic predator using suction feeding",
+        "secondary_functions": [
+            "camouflage for ambushing prey",
+            "species recognition during spawning"
+        ],
+        "domain_specific_functional": {
+            "COURTSHIP_BEHAVIOR": "distinctive dance by males to attract females",
+            "EGG_GUARDING": "males guard and fan eggs to maintain oxygen flow"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "RELATED_TO",
+                "target": "Rosy-Lipped Batfish",
+                "description": "closely related species found near Cocos Island"
+            },
+            {
+                "type": "ENDEMIC_TO",
+                "target": "Galápagos Islands",
+                "description": "native habitat of the red-lipped batfish"
+            }
+        ],
+        "associated_entities": [
+            "Rosy-Lipped Batfish",
+            "Galápagos Islands"
+        ],
+        "symbolic_items": [
+            "bright red lips",
+            "spine-like dorsal fin"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Galápagos Islands",
+        "historical_period": "described in 1958",
+        "geographic_range": "Pacific Ocean around the Galápagos Islands and off Peru",
+        "cultural_significance": "symbol of unique marine biodiversity in the Galápagos",
+        "primary_sources": [
+            "Wikipedia",
+            "Fishes of the World (Nelson, Grande, Wilson, 2016)"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic anglerfish",
+        "NOT without bright red lips",
+        "NOT a deep-sea fish without walking fins"
+    ]
+}

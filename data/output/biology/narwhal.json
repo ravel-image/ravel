@@ -1,0 +1,87 @@
+{
+    "name": "Narwhal",
+    "domain": "biology",
+    "entity_type": "toothed whale",
+    "alternative_names": [
+        "Monodon monoceros",
+        "corpse-whale"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "IUCN",
+        "Systema Naturae by Carl Linnaeus"
+    ],
+    "visual_attributes": {
+        "morphology": "robust body with a short, blunt snout, small upcurved flippers, and convex to concave tail flukes",
+        "distinctive_features": [
+            "spiralled tusk in males",
+            "mottled skin pattern",
+            "shallow dorsal ridge"
+        ],
+        "color_palette": [
+            "white",
+            "blackish-brown",
+            "light grey"
+        ],
+        "texture": "smooth",
+        "size_and_scale": "3.0 to 5.5 m in length, 800 to 1,600 kg in weight",
+        "structural_arrangement": "tusk protrudes from the left side of the upper jaw, jointed neck vertebrae",
+        "domain_specific_visual": {
+            "TUSK_LENGTH": "1.5 to 3 m",
+            "BLUBBER_THICKNESS": "50 to 100 mm"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "deep-sea foraging",
+        "secondary_functions": [
+            "mate attraction",
+            "sensing water salinity"
+        ],
+        "domain_specific_functional": {
+            "DIVE_DEPTH": "up to 2,370 m",
+            "MIGRATION_PATTERN": "migrates to ice-free summering grounds"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "CLOSELY_RELATED_TO",
+                "target": "Beluga Whale",
+                "description": "Narwhals and belugas are the only extant members of the family Monodontidae."
+            },
+            {
+                "type": "INTERBREEDS_WITH",
+                "target": "Beluga Whale",
+                "description": "Evidence of hybridization between narwhals and belugas exists."
+            },
+            {
+                "type": "PREDATOR_OF",
+                "target": "Arctic Cod",
+                "description": "Narwhals feed on Arctic cod among other marine species."
+            }
+        ],
+        "associated_entities": [
+            "Beluga Whale",
+            "Arctic Cod"
+        ],
+        "symbolic_items": [
+            "tusk",
+            "blubber"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Arctic",
+        "historical_period": "Described in 1758",
+        "geographic_range": "Arctic waters of Canada, Greenland, and Russia",
+        "cultural_significance": "Hunted by Inuit for meat and ivory; tusk used in traditional crafts",
+        "primary_sources": [
+            "Wikipedia",
+            "IUCN"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT Beluga Whale",
+        "NOT having a dorsal fin",
+        "NOT tropical or warm water habitat"
+    ]
+}

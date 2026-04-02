@@ -1,0 +1,89 @@
+{
+    "name": "Marine Iguana",
+    "domain": "biology",
+    "entity_type": "marine reptile",
+    "alternative_names": [
+        "sea iguana",
+        "saltwater iguana",
+        "Galápagos marine iguana",
+        "Amblyrhynchus cristatus"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "Thomas Bell's description in 1825",
+        "Galápagos Islands studies"
+    ],
+    "visual_attributes": {
+        "morphology": "thickset body with relatively short, robust limbs",
+        "distinctive_features": [
+            "row of spines extending from the nape along the back to the tail",
+            "laterally flattened tail for swimming",
+            "conical and pointed scales on the top of the head"
+        ],
+        "color_palette": [
+            "sooty black",
+            "grey",
+            "lighter dorsal stripe in juveniles"
+        ],
+        "texture": "scaly",
+        "size_and_scale": "2–3 ft (0.6–0.9 m) in length",
+        "structural_arrangement": "spines are more elaborate on Fernandina Island",
+        "domain_specific_visual": {
+            "island_variation": "appearance varies between different islands",
+            "sexual_dimorphism": "males have longer spines and larger bony plates on the head"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "forages in the sea for algae",
+        "secondary_functions": [
+            "basking on rocky shores",
+            "defending territories"
+        ],
+        "domain_specific_functional": {
+            "breeding_strategy": "females dig nest holes in soil for egg laying",
+            "thermoregulation": "dark tones allow rapid heat absorption"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ENDEMIC_TO",
+                "target": "Galápagos Islands",
+                "description": "Marine iguanas are found only on the Galápagos Islands."
+            },
+            {
+                "type": "HAS_COMMON_ANCESTOR_WITH",
+                "target": "Galapagos land iguanas",
+                "description": "Marine iguanas and Galapagos land iguanas evolved from a common ancestor."
+            },
+            {
+                "type": "HYBRIDIZES_WITH",
+                "target": "Galápagos land iguana",
+                "description": "Rare hybridization occurs where their ranges overlap."
+            }
+        ],
+        "associated_entities": [
+            "Galápagos land iguana",
+            "Ctenosaura iguanas"
+        ],
+        "symbolic_items": [
+            "volcanic archipelago",
+            "El Niño cycles"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Galápagos Islands, Ecuador",
+        "historical_period": "diverged from land iguanas 4.5 million years ago",
+        "geographic_range": "Galápagos Islands",
+        "cultural_significance": "considered unique among modern lizards for marine foraging",
+        "primary_sources": [
+            "Wikipedia",
+            "Galápagos Islands studies"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT generic iguana",
+        "NOT terrestrial habitat",
+        "NOT mainland distribution"
+    ]
+}

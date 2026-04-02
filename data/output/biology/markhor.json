@@ -1,0 +1,100 @@
+{
+    "name": "Markhor",
+    "domain": "biology",
+    "entity_type": "Wild Capra species",
+    "alternative_names": [
+        "Capra falconeri",
+        "Screw-horn goat",
+        "Screw-horned goat"
+    ],
+    "primary_sources": [
+        "IUCN Red List",
+        "Wikipedia",
+        "Scientific journals on Capra species"
+    ],
+    "visual_attributes": {
+        "morphology": "Large wild goat with a robust body and long legs",
+        "distinctive_features": [
+            "Tightly curled, corkscrew-like horns",
+            "Sexual dimorphism with males having longer hair on chin, throat, chest, and shanks",
+            "Females are redder with shorter hair and a short black beard"
+        ],
+        "color_palette": [
+            "Grizzled light brown",
+            "Black",
+            "White"
+        ],
+        "texture": "Smooth and short in summer, longer and thicker in winter",
+        "size_and_scale": "65 to 115 cm at the shoulder, 132 to 186 cm long, weighing 32 to 110 kg",
+        "structural_arrangement": "Horns close together at the head, spreading upwards toward the tips",
+        "domain_specific_visual": {
+            "HORN_LENGTH": "Up to 160 cm in males, up to 25 cm in females",
+            "SEXUAL_DIMORPHISM": "Males have longer hair and larger horns"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Grazing and browsing herbivore",
+        "secondary_functions": [
+            "Symbol of national pride in Pakistan",
+            "Ecological role in mountainous ecosystems"
+        ],
+        "domain_specific_functional": {
+            "DIETARY_SHIFT": "Grazes in spring and summer, browses in winter",
+            "MATING_BEHAVIOR": "Males fight by lunging and locking horns during mating season"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "PREDATED_BY",
+                "target": "Snow Leopard",
+                "description": "Snow leopards are one of the main predators of the markhor."
+            },
+            {
+                "type": "PREDATED_BY",
+                "target": "Eurasian Lynx",
+                "description": "Eurasian lynx prey on markhor."
+            },
+            {
+                "type": "PREDATED_BY",
+                "target": "Himalayan Wolf",
+                "description": "Himalayan wolves are predators of the markhor."
+            },
+            {
+                "type": "PREDATED_BY",
+                "target": "Brown Bear",
+                "description": "Brown bears prey on markhor."
+            },
+            {
+                "type": "ANCESTOR_OF",
+                "target": "Domestic Goat",
+                "description": "Some breeds of domestic goats are believed to have descended from the markhor."
+            }
+        ],
+        "associated_entities": [
+            "Domestic Goat",
+            "Snow Leopard",
+            "Eurasian Lynx",
+            "Himalayan Wolf",
+            "Brown Bear"
+        ],
+        "symbolic_items": [
+            "National animal of Pakistan"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Mountain regions of Central and South Asia",
+        "historical_period": "Recognized since 1839",
+        "geographic_range": "Turkmenistan, Uzbekistan, Tajikistan, Afghanistan, Pakistan, India",
+        "cultural_significance": "National animal of Pakistan, symbolizing strength and resilience",
+        "primary_sources": [
+            "IUCN Red List",
+            "Wikipedia"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT Domestic Goat",
+        "NOT Short, straight horns",
+        "NOT Non-mountainous habitat"
+    ]
+}

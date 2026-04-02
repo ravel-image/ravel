@@ -1,0 +1,78 @@
+{
+    "name": "Sunda Colugo",
+    "domain": "biology",
+    "entity_type": "Mammal",
+    "alternative_names": [
+        "Galeopterus variegatus",
+        "Malayan flying lemur",
+        "Malayan colugo"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "IUCN Red List"
+    ],
+    "visual_attributes": {
+        "morphology": "Arboreal gliding mammal with a patagium extending from neck to limbs and tail",
+        "distinctive_features": [
+            "Patagium for gliding",
+            "Dorsiflexed and abducted foot",
+            "Abducted clawed grasp"
+        ],
+        "color_palette": [
+            "Gray",
+            "Brown",
+            "White"
+        ],
+        "texture": "Smooth with a velvety appearance",
+        "size_and_scale": "Head-body length 33 to 42 cm, tail length 18 to 27 cm, weight 0.9 to 1.3 kg",
+        "structural_arrangement": "Kite-shaped skin membrane connecting neck, limbs, and tail",
+        "domain_specific_visual": {
+            "GLIDING_MECHANISM": "Patagium",
+            "CLIMBING_ADAPTATION": "Abducted clawed grasp"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Gliding among trees",
+        "secondary_functions": [
+            "Nocturnal foraging",
+            "Arboreal navigation"
+        ],
+        "domain_specific_functional": {
+            "DIETARY_HABITS": "Feeds on leaves, buds, shoots, flowers, fruits, and sap",
+            "REPRODUCTIVE_BEHAVIOR": "Single offspring carried on mother's abdomen"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ENDEMIC_TO",
+                "target": "Southeast Asia",
+                "description": "Native to regions including southern Myanmar, Thailand, Vietnam, Malaysia, Singapore, and Indonesia"
+            },
+            {
+                "type": "HAS_SUBSPECIES",
+                "target": "G. v. variegatus, G. v. temminckii, G. v. borneanus, G. v. peninsulae",
+                "description": "Four subspecies based on geographic isolation and genetic divergence"
+            }
+        ],
+        "associated_entities": [
+            "Philippine flying lemur (C. volans)"
+        ],
+        "symbolic_items": []
+    },
+    "contextual_attributes": {
+        "origin": "Southeast Asia",
+        "historical_period": "Contemporary",
+        "geographic_range": "Sunda Shelf mainland, northern Laos, Cambodia, Vietnam, Thailand, Malaysia, Singapore, Brunei, Indonesia",
+        "cultural_significance": "Part of the forest ecosystem, hunted for food and fur",
+        "primary_sources": [
+            "Wikipedia",
+            "IUCN Red List"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a true flying animal",
+        "NOT a lemur",
+        "NOT a terrestrial mammal"
+    ]
+}

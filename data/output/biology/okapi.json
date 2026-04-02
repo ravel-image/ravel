@@ -1,0 +1,85 @@
+{
+    "name": "Okapi",
+    "domain": "biology",
+    "entity_type": "artiodactyl mammal",
+    "alternative_names": [
+        "forest giraffe",
+        "zebra giraffe",
+        "Congolese giraffe",
+        "Okapia johnstoni"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "International Union for the Conservation of Nature and Natural Resources",
+        "Zoological Society of London"
+    ],
+    "visual_attributes": {
+        "morphology": "medium-sized giraffid with a long neck and large, flexible ears",
+        "distinctive_features": [
+            "striped markings on legs resembling a zebra",
+            "chocolate to reddish brown coat",
+            "short, horn-like ossicones on males"
+        ],
+        "color_palette": [
+            "chocolate brown",
+            "white",
+            "reddish brown"
+        ],
+        "texture": "smooth coat",
+        "size_and_scale": "1.5 m tall at the shoulder, 2.5 m body length, 200 to 350 kg weight",
+        "structural_arrangement": "long neck, large ears, horizontal stripes on legs",
+        "domain_specific_visual": {
+            "OSSICONES": "short, less than 15 cm, hair-covered horn-like structures on males",
+            "SEXUAL_DIMORPHISM": "females are taller, slightly redder, and lack ossicones"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "herbivore feeding on tree leaves, buds, grasses, ferns, fruits, and fungi",
+        "secondary_functions": [
+            "camouflage in dense vegetation",
+            "solitary behavior except during breeding"
+        ],
+        "domain_specific_functional": {
+            "NOCTURNAL_ADAPTATION": "large number of rod cells for night vision",
+            "OLFACTORY_SYSTEM": "efficient for detecting scents"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "CLOSELY_RELATED_TO",
+                "target": "Giraffe",
+                "description": "The okapi and giraffe are the only living members of the family Giraffidae."
+            },
+            {
+                "type": "ENDEMIC_TO",
+                "target": "Democratic Republic of the Congo",
+                "description": "The okapi is endemic to the northeast Democratic Republic of the Congo."
+            }
+        ],
+        "associated_entities": [
+            "Giraffe",
+            "Pygmies",
+            "Sir Harry Johnston"
+        ],
+        "symbolic_items": [
+            "striped skin",
+            "ossicones"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Democratic Republic of the Congo",
+        "historical_period": "formally recognized in 1901",
+        "geographic_range": "northeast Democratic Republic of the Congo, possibly southwest of the Congo River",
+        "cultural_significance": "known as the African unicorn, symbol of mystery and discovery",
+        "primary_sources": [
+            "Wikipedia",
+            "Zoological Society of London"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a zebra",
+        "NOT a giraffe",
+        "NOT a horse"
+    ]
+}

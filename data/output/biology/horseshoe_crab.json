@@ -1,0 +1,85 @@
+{
+    "name": "Horseshoe Crab",
+    "domain": "biology",
+    "entity_type": "arthropod",
+    "alternative_names": [
+        "Limulidae",
+        "Xiphosura",
+        "Chelicerata"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "Bicknell et al. 2021",
+        "Lamsdell et al. 2020"
+    ],
+    "visual_attributes": {
+        "morphology": "The body is divided into three main parts: cephalothorax, abdomen, and telson.",
+        "distinctive_features": [
+            "Horseshoe-shaped cephalothorax",
+            "Long, pointed telson",
+            "Multiple eyes on the cephalothorax"
+        ],
+        "color_palette": [
+            "brown",
+            "green",
+            "gray"
+        ],
+        "texture": "smooth and hard exoskeleton",
+        "size_and_scale": "up to 60 cm in length",
+        "structural_arrangement": "Cephalothorax is the largest part, followed by the abdomen and the telson.",
+        "domain_specific_visual": {
+            "EYES": "Compound and simple eyes located on the cephalothorax",
+            "LIMBS": "Multiple pairs of legs attached to the cephalothorax"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Ecological role as a benthic organism",
+        "secondary_functions": [
+            "Source of Limulus amebocyte lysate",
+            "Used as fishing bait"
+        ],
+        "domain_specific_functional": {
+            "BLOOD": "Contains Limulus amebocyte lysate used to detect bacterial endotoxins",
+            "REPRODUCTION": "Females lay eggs on sandy beaches"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "RELATED_TO",
+                "target": "arachnids",
+                "description": "Horseshoe crabs are more closely related to arachnids than to crustaceans."
+            },
+            {
+                "type": "ENDEMIC_TO",
+                "target": "Atlantic coast of North and Central America",
+                "description": "The Atlantic horseshoe crab is native to this region."
+            }
+        ],
+        "associated_entities": [
+            "Limulus polyphemus",
+            "Carcinoscorpius rotundicauda",
+            "Tachypleus tridentatus",
+            "Tachypleus gigas"
+        ],
+        "symbolic_items": [
+            "living fossil"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Triassic period, approximately 250 million years ago",
+        "historical_period": "Ordovician to present",
+        "geographic_range": "Eastern coast of North and Central America, South, Southeast, and East Asia",
+        "cultural_significance": "Considered a living fossil due to minimal evolutionary change",
+        "primary_sources": [
+            "Wikipedia",
+            "Bicknell et al. 2021",
+            "Lamsdell et al. 2020"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a true crab",
+        "NOT a crustacean",
+        "NOT a modern evolutionary form"
+    ]
+}

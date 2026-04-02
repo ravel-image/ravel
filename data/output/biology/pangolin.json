@@ -1,0 +1,84 @@
+{
+    "name": "Pangolin",
+    "domain": "biology",
+    "entity_type": "Mammal",
+    "alternative_names": [
+        "Scaly Anteater",
+        "Pholidota",
+        "Manidae"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "IUCN Red List",
+        "Ancient Greek texts",
+        "Malay language sources"
+    ],
+    "visual_attributes": {
+        "morphology": "Mammal with elongated body covered in large, overlapping scales",
+        "distinctive_features": [
+            "Large keratin scales covering the body",
+            "Ability to curl into a ball for protection",
+            "Long, sticky tongue for capturing insects"
+        ],
+        "color_palette": [
+            "Brown",
+            "Yellow",
+            "Gray"
+        ],
+        "texture": "Scaly",
+        "size_and_scale": "30 to 100 cm in length",
+        "structural_arrangement": "Scales arranged in overlapping layers, similar to a pine cone",
+        "domain_specific_visual": {
+            "SCALE_MATERIAL": "Keratin",
+            "TONGUE_LENGTH": "Up to 40 cm"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Insectivore, primarily consuming ants and termites",
+        "secondary_functions": [
+            "Regulator of termite populations",
+            "Prey for larger predators"
+        ],
+        "domain_specific_functional": {
+            "DEFENSE_MECHANISM": "Curling into a ball and emitting a noxious chemical",
+            "HABITAT": "Hollow trees or burrows"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_SPECIES",
+                "target": "Manis, Phataginus, Smutsia",
+                "description": "Genera within the family Manidae"
+            },
+            {
+                "type": "ENDEMIC_TO",
+                "target": "Asia and sub-Saharan Africa",
+                "description": "Geographic distribution of pangolin species"
+            }
+        ],
+        "associated_entities": [
+            "Ants",
+            "Termites"
+        ],
+        "symbolic_items": [
+            "Scales",
+            "Tongue"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Asia and sub-Saharan Africa",
+        "historical_period": "Present, with references in ancient texts",
+        "geographic_range": "Asia and sub-Saharan Africa",
+        "cultural_significance": "Used in traditional medicine; symbol of conservation efforts",
+        "primary_sources": [
+            "Wikipedia",
+            "IUCN Red List"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT Armadillo",
+        "NOT Reptilian scales",
+        "NOT Found outside Asia and sub-Saharan Africa"
+    ]
+}

@@ -1,0 +1,85 @@
+{
+    "name": "Saiga Antelope",
+    "domain": "biology",
+    "entity_type": "Antelope",
+    "alternative_names": [
+        "Saiga tatarica",
+        "Saiga",
+        "Russian saiga",
+        "Mongolian saiga"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "IUCN Red List",
+        "Systema Naturae by Carl Linnaeus"
+    ],
+    "visual_attributes": {
+        "morphology": "Medium-sized antelope with a distinctive large, downward-facing proboscis.",
+        "distinctive_features": [
+            "Bloated nostrils directed downward",
+            "Thick, slightly translucent wax-colored horns with pronounced rings",
+            "Seasonal coat color changes"
+        ],
+        "color_palette": [
+            "Yellow",
+            "Red",
+            "Grayish-brown",
+            "White"
+        ],
+        "texture": "Smooth in summer, thicker and woolly in winter",
+        "size_and_scale": "Head-and-body length 100-140 cm, shoulder height 61-81 cm, weight 26-69 kg",
+        "structural_arrangement": "Compact body with short tail and long legs",
+        "domain_specific_visual": {
+            "HORN_LENGTH": "28-38 cm for Russian saiga, up to 22 cm for Mongolian saiga",
+            "MANE_LENGTH": "12 to 15 cm long mane on the neck in winter"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Grazing herbivore",
+        "secondary_functions": [
+            "Migration across steppes",
+            "Mating and reproduction"
+        ],
+        "domain_specific_functional": {
+            "MIGRATION_PATTERN": "Extensive migrations to escape natural calamities",
+            "PREDATOR_AVOIDANCE": "Vulnerable to wolves, juveniles targeted by foxes and eagles"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "SISTER_TO",
+                "target": "Springbok",
+                "description": "Phylogenetically related as sister species within Antilopinae"
+            },
+            {
+                "type": "ENDEMIC_TO",
+                "target": "Central Asia",
+                "description": "Current populations found in Kazakhstan, Russia, and Mongolia"
+            }
+        ],
+        "associated_entities": [
+            "Springbok",
+            "Gerenuk"
+        ],
+        "symbolic_items": [
+            "Horns",
+            "Proboscis"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Eurasian steppe",
+        "historical_period": "Late Pleistocene to present",
+        "geographic_range": "Kalmykia, Astrakhan Oblast, Ural Mountains, Ustyurt Plateau, Betpak-Dala, western Mongolia",
+        "cultural_significance": "Characteristic animal of Scythia, important to Andronovo culture",
+        "primary_sources": [
+            "Wikipedia",
+            "IUCN Red List"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT Common Antelope",
+        "NOT Smooth, featureless nose",
+        "NOT African Savannah Habitat"
+    ]
+}

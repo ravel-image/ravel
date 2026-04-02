@@ -1,0 +1,81 @@
+{
+    "name": "Vampire Squid",
+    "domain": "biology",
+    "entity_type": "cephalopod",
+    "alternative_names": [
+        "Vampyroteuthis infernalis",
+        "vampire squid from hell"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "Valdivia Expedition records",
+        "Carl Chun's descriptions"
+    ],
+    "visual_attributes": {
+        "morphology": "small cephalopod with a gelatinous body and webbed arms",
+        "distinctive_features": [
+            "bioluminescent organs",
+            "two long retractile filaments",
+            "large globular eyes"
+        ],
+        "color_palette": [
+            "velvety jet-black",
+            "pale reddish"
+        ],
+        "texture": "gelatinous",
+        "size_and_scale": "maximum total length around 30 cm (1 ft)",
+        "structural_arrangement": "eight arms connected by webbing, fins on lateral sides of the mantle",
+        "domain_specific_visual": {
+            "PHOTOPHORES": "light-producing organs covering the body",
+            "VELAR_FILAMENTS": "two long filaments between the first two pairs of arms"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "survival in low oxygen environments",
+        "secondary_functions": [
+            "detritus feeding",
+            "bioluminescent display"
+        ],
+        "domain_specific_functional": {
+            "OXYGEN_METABOLISM": "unique adaptation to low oxygen zones",
+            "PROPULSION": "fin flapping for movement"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "CLOSEST_RELATIVE",
+                "target": "octopods",
+                "description": "shares evolutionary lineage with octopods"
+            },
+            {
+                "type": "DISCOVERED_BY",
+                "target": "Carl Chun",
+                "description": "first described by Carl Chun during the Valdivia Expedition"
+            }
+        ],
+        "associated_entities": [
+            "octopods",
+            "Vampyromorphida"
+        ],
+        "symbolic_items": [
+            "deep sea",
+            "oxygen minimum zone"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "discovered during the Valdivia Expedition",
+        "historical_period": "described in 1903",
+        "geographic_range": "temperate and tropical oceans",
+        "cultural_significance": "represents adaptation to extreme deep-sea conditions",
+        "primary_sources": [
+            "Valdivia Expedition records",
+            "Carl Chun's descriptions"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT common squid",
+        "NOT octopus",
+        "NOT shallow water cephalopod"
+    ]
+}

@@ -1,0 +1,84 @@
+{
+    "name": "Olm",
+    "domain": "biology",
+    "entity_type": "aquatic salamander",
+    "alternative_names": [
+        "Proteus anguinus",
+        "human fish",
+        "cave salamander",
+        "white salamander",
+        "močeril"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "Glory of the Duchy of Carniola by Valvasor"
+    ],
+    "visual_attributes": {
+        "morphology": "snakelike body with a cylindrical trunk and a short, laterally flattened tail",
+        "distinctive_features": [
+            "undeveloped eyes covered by skin",
+            "external gills forming two branched tufts",
+            "three toes on forelimbs and two toes on hind limbs",
+            "yellowish-white or pink skin color"
+        ],
+        "color_palette": [
+            "yellowish-white",
+            "pink",
+            "red (gills)"
+        ],
+        "texture": "smooth skin with very little pigment",
+        "size_and_scale": "20–30 cm long, with some specimens up to 40 cm",
+        "structural_arrangement": "segmented trunk with regularly spaced furrows, small limbs with reduced digits",
+        "domain_specific_visual": {
+            "NEOTENY": "retains larval characteristics such as external gills into adulthood",
+            "PHOTOSENSITIVITY": "skin sensitive to light due to melanopsin"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "adapted to life in complete darkness in caves",
+        "secondary_functions": [
+            "detects low concentrations of organic compounds in water",
+            "uses mechano- and electroreceptors for orientation"
+        ],
+        "domain_specific_functional": {
+            "SENSORY_ADAPTATION": "enhanced smell and hearing for orientation in dark habitats",
+            "ELECTRORECEPTION": "registers weak electric fields and possibly uses Earth's magnetic field for orientation"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ENDEMIC_TO",
+                "target": "Dinaric Alps",
+                "description": "The olm is endemic to the waters flowing underground through the limestone bedrock of the karst of Central and Southeastern Europe."
+            },
+            {
+                "type": "HAS_RELATIVE",
+                "target": "Necturus",
+                "description": "The olm is related to the genus Necturus within the family Proteidae."
+            }
+        ],
+        "associated_entities": [
+            "Necturus",
+            "Dinaric Alps"
+        ],
+        "symbolic_items": [
+            "cave dragon's offspring"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Central and Southeastern Europe",
+        "historical_period": "First mentioned in 1689",
+        "geographic_range": "Soča River basin, southern Slovenia, southwestern Croatia, Bosnia and Herzegovina",
+        "cultural_significance": "Believed to be offspring of cave dragons by locals",
+        "primary_sources": [
+            "Wikipedia",
+            "Glory of the Duchy of Carniola by Valvasor"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT common surface-dwelling salamander",
+        "NOT brightly colored amphibian",
+        "NOT terrestrial habitat"
+    ]
+}

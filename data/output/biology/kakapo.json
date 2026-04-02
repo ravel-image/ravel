@@ -1,0 +1,89 @@
+{
+    "name": "Kākāpō",
+    "domain": "biology",
+    "entity_type": "parrot",
+    "alternative_names": [
+        "owl-parrot",
+        "Strigops habroptilus"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "International Ornithological Congress Checklist",
+        "eBird/Clements Checklist"
+    ],
+    "visual_attributes": {
+        "morphology": "large, rotund, flightless parrot",
+        "distinctive_features": [
+            "finely blotched yellow-green plumage",
+            "owl-like facial disc",
+            "large grey beak",
+            "short wings and tail",
+            "large blue feet"
+        ],
+        "color_palette": [
+            "yellow-green",
+            "dark brownish grey",
+            "bluish-grey"
+        ],
+        "texture": "soft feathers",
+        "size_and_scale": "up to 64 cm (25 in) long",
+        "structural_arrangement": "zygodactyl feet with two toes facing forward and two backward",
+        "domain_specific_visual": {
+            "sexual_dimorphism": "males are larger and heavier than females",
+            "facial_disc": "resembles the face of an owl"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "herbivorous diet",
+        "secondary_functions": [
+            "nocturnal behavior",
+            "lek breeding system"
+        ],
+        "domain_specific_functional": {
+            "flightlessness": "uses wings for balance and breaking falls",
+            "island_syndrome": "robust torso with reduced flight muscles"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ENDEMIC_TO",
+                "target": "New Zealand",
+                "description": "The kākāpō is native to New Zealand."
+            },
+            {
+                "type": "RELATED_TO",
+                "target": "kea",
+                "description": "Both belong to the family Strigopidae."
+            },
+            {
+                "type": "RELATED_TO",
+                "target": "kākā",
+                "description": "Both belong to the family Strigopidae."
+            }
+        ],
+        "associated_entities": [
+            "kea",
+            "kākā"
+        ],
+        "symbolic_items": [
+            "feathers used by Māori",
+            "appears in Māori mythology"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "New Zealand",
+        "historical_period": "described in 1845",
+        "geographic_range": "confined to predator-free islands in New Zealand",
+        "cultural_significance": "important to Māori culture and mythology",
+        "primary_sources": [
+            "Wikipedia",
+            "International Ornithological Congress Checklist"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a flying parrot",
+        "NOT a small or slender bird",
+        "NOT a bird with bright, uniform coloration"
+    ]
+}

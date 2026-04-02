@@ -1,0 +1,83 @@
+{
+    "name": "Blobfish",
+    "domain": "biology",
+    "entity_type": "Deep-sea fish",
+    "alternative_names": [
+        "Psychrolutes",
+        "Marine sculpin",
+        "Tadpole sculpin"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "Catalog of Fishes"
+    ],
+    "visual_attributes": {
+        "morphology": "Tadpole-shaped body with a large head and tapering body",
+        "distinctive_features": [
+            "Loose, gelatinous skin",
+            "High-set eyes focused forward",
+            "Large, leaf-like pectoral fins",
+            "Lack of scales"
+        ],
+        "color_palette": [
+            "Pale pink",
+            "Gray",
+            "Translucent"
+        ],
+        "texture": "Smooth and gelatinous",
+        "size_and_scale": "Approximately 30 cm in length",
+        "structural_arrangement": "Large head with a tapering body ending in a small, flat tail",
+        "domain_specific_visual": {
+            "EYE_POSITION": "High on the head",
+            "FIN_TYPE": "Leaf-like pectoral fins"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Ambush predator in deep-sea environments",
+        "secondary_functions": [
+            "Energy conservation",
+            "Opportunistic foraging"
+        ],
+        "domain_specific_functional": {
+            "REPRODUCTION": "Group synchronous maturation and extended batch spawning",
+            "DIET": "Small crustaceans, sea pens, sea worms"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ENDEMIC_TO",
+                "target": "Deep-sea environments",
+                "description": "Blobfish are found in deep-sea habitats, primarily in the Atlantic and Pacific Oceans."
+            },
+            {
+                "type": "HAS_PARENT",
+                "target": "Psychrolutidae",
+                "description": "Blobfish belong to the family Psychrolutidae."
+            }
+        ],
+        "associated_entities": [
+            "Psychrolutidae",
+            "Marine sculpins"
+        ],
+        "symbolic_items": [
+            "Egg nests",
+            "Pharyngeal teeth"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Deep-sea environments of the Atlantic and Pacific Oceans",
+        "historical_period": "Modern era",
+        "geographic_range": "Northern Hemisphere, with some species in the Southern Hemisphere",
+        "cultural_significance": "Symbol of deep-sea adaptation and energy conservation",
+        "primary_sources": [
+            "Wikipedia",
+            "Catalog of Fishes"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT Common fish",
+        "NOT Scaled body",
+        "NOT Warm-water habitat"
+    ]
+}

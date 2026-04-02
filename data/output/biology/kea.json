@@ -1,0 +1,87 @@
+{
+    "name": "Kea",
+    "domain": "biology",
+    "entity_type": "parrot species",
+    "alternative_names": [
+        "Nestor notabilis",
+        "Māori: kɛ.a"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "Wildlife Act 1986",
+        "John Gould's description 1856"
+    ],
+    "visual_attributes": {
+        "morphology": "large parrot with a robust body and long, narrow, curved beak",
+        "distinctive_features": [
+            "olive-green plumage",
+            "brilliant orange underwings",
+            "large, narrow, curved grey-brown upper beak"
+        ],
+        "color_palette": [
+            "olive-green",
+            "orange",
+            "grey-brown"
+        ],
+        "texture": "smooth feathers",
+        "size_and_scale": "46 to 50 cm (18 to 20 in) in length, weighing 750 to 1,000 g (1.65 to 2.20 lb)",
+        "structural_arrangement": "broad wings, short tail with black tip, feather shafts projecting at tail tip",
+        "domain_specific_visual": {
+            "beak_length": "male's upper beak is 12–14% longer than female's",
+            "juvenile_features": "yellow eye-rings and cere, orange-yellow lower beak"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "omnivorous feeding and ecological role in alpine regions",
+        "secondary_functions": [
+            "intelligent problem-solving",
+            "social interaction"
+        ],
+        "domain_specific_functional": {
+            "nesting_behavior": "nests in burrows or crevices among tree roots",
+            "cognitive_abilities": "tool use and problem-solving similar to primates"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ENDEMIC_TO",
+                "target": "South Island of New Zealand",
+                "description": "The kea is native to the forested and alpine regions of the South Island."
+            },
+            {
+                "type": "HAS_RELATIVE",
+                "target": "New Zealand kākā",
+                "description": "The kea is closely related to the New Zealand kākā within the genus Nestor."
+            },
+            {
+                "type": "HAS_RELATIVE",
+                "target": "kākāpō",
+                "description": "The kea is part of the parrot superfamily Strigopoidea, related to the flightless kākāpō."
+            }
+        ],
+        "associated_entities": [
+            "New Zealand kākā",
+            "kākāpō"
+        ],
+        "symbolic_items": [
+            "circus of kea",
+            "conspiracy of kea"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "South Island of New Zealand",
+        "historical_period": "described in 1856",
+        "geographic_range": "forested and alpine regions of the South Island",
+        "cultural_significance": "known for intelligence and curiosity, protected under Wildlife Act",
+        "primary_sources": [
+            "Wikipedia",
+            "Wildlife Act 1986"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT generic parrot",
+        "NOT tropical rainforest habitat",
+        "NOT bright multicolored plumage"
+    ]
+}

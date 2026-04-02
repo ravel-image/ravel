@@ -1,0 +1,83 @@
+{
+    "name": "Axolotl",
+    "domain": "biology",
+    "entity_type": "paedomorphic mole salamander",
+    "alternative_names": [
+        "Ambystoma mexicanum",
+        "Mexican axolotl"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "IUCN",
+        "CITES"
+    ],
+    "visual_attributes": {
+        "morphology": "elongated body with a wide head and external gills",
+        "distinctive_features": [
+            "external gills",
+            "caudal fin extending from behind the head to the vent",
+            "lidless eyes",
+            "underdeveloped limbs with long, thin digits"
+        ],
+        "color_palette": [
+            "brown",
+            "tan",
+            "olive"
+        ],
+        "texture": "smooth",
+        "size_and_scale": "15 to 45 cm in length, commonly around 23 cm",
+        "structural_arrangement": "three pairs of external gill stalks behind the head",
+        "domain_specific_visual": {
+            "neoteny": "retains larval features into adulthood",
+            "color_variants": "leucistic, xanthic, albinistic, melanistic"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "aquatic respiration and regeneration",
+        "secondary_functions": [
+            "model organism in scientific research",
+            "pet trade"
+        ],
+        "domain_specific_functional": {
+            "regeneration": "capable of regenerating limbs, gills, and parts of the brain",
+            "feeding": "suction feeding with interlocking gill rakers"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "CLOSEST_RELATIVE",
+                "target": "Eastern tiger salamander (A. tigrinum)",
+                "description": "Closest relative within the Ambystomatidae family"
+            },
+            {
+                "type": "ENDEMIC_TO",
+                "target": "Mexico",
+                "description": "Originally inhabited wetlands and lakes in the highlands of Mexico"
+            }
+        ],
+        "associated_entities": [
+            "Xolotl",
+            "Ambystomatidae family"
+        ],
+        "symbolic_items": [
+            "water sprite",
+            "water dog"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Mexico",
+        "historical_period": "Pre-Columbian to present",
+        "geographic_range": "Lakes of Xochimilco and Chalco, presumed Texcoco and Zumpango",
+        "cultural_significance": "Part of the diet of native Mexica; associated with Aztec mythology",
+        "primary_sources": [
+            "Wikipedia",
+            "IUCN"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a common salamander",
+        "NOT without external gills",
+        "NOT terrestrial"
+    ]
+}

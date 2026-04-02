@@ -1,0 +1,80 @@
+{
+    "name": "Leafy Seadragon",
+    "domain": "biology",
+    "entity_type": "marine fish",
+    "alternative_names": [
+        "Phycodurus eques",
+        "Glauert's seadragon"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "Australian government's Environment Protection and Biodiversity Conservation Act 1999"
+    ],
+    "visual_attributes": {
+        "morphology": "elongated body with leaf-like appendages",
+        "distinctive_features": [
+            "leaf-like protrusions for camouflage",
+            "transparent pectoral and dorsal fins",
+            "small, circular gill openings"
+        ],
+        "color_palette": [
+            "green",
+            "brown",
+            "yellow"
+        ],
+        "texture": "smooth with leaf-like lobes",
+        "size_and_scale": "20–24 cm (8–9.5 in) in length",
+        "structural_arrangement": "leaf-like appendages distributed along the body",
+        "domain_specific_visual": {
+            "CAMOUFLAGE_MECHANISM": "resembles floating seaweed",
+            "FIN_PLACEMENT": "pectoral fins on neck, dorsal fin near tail"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "camouflage in marine environments",
+        "secondary_functions": [
+            "sedate movement through water",
+            "feeding on small crustaceans"
+        ],
+        "domain_specific_functional": {
+            "REPRODUCTION": "male carries eggs on tail",
+            "FEEDING_MECHANISM": "sucks up prey through long snout"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "RELATED_TO",
+                "target": "Weedy Seadragon",
+                "description": "Both are members of the family Syngnathidae and share similar habitats."
+            },
+            {
+                "type": "RELATED_TO",
+                "target": "Seahorse",
+                "description": "Shares family Syngnathidae and similar reproductive traits."
+            }
+        ],
+        "associated_entities": [
+            "Weedy Seadragon",
+            "Seahorse"
+        ],
+        "symbolic_items": [
+            "marine emblem of South Australia"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "southern and western coasts of Australia",
+        "historical_period": "modern conservation efforts since 1987",
+        "geographic_range": "from Wilson's Promontory in Victoria to Jurien Bay in Western Australia",
+        "cultural_significance": "symbol of marine conservation and emblem of South Australia",
+        "primary_sources": [
+            "Wikipedia",
+            "Australian government's Environment Protection and Biodiversity Conservation Act 1999"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT Seahorse",
+        "NOT lacking leaf-like appendages",
+        "NOT found outside Australian waters"
+    ]
+}
