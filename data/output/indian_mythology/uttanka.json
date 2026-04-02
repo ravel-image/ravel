@@ -1,0 +1,90 @@
+{
+    "name": "Uttanka",
+    "domain": "indian_mythology",
+    "entity_type": "rishi",
+    "alternative_names": [
+        "Utanka"
+    ],
+    "primary_sources": [
+        "Mahabharata",
+        "Paushya Parva",
+        "Ashvamedhika Parva",
+        "Utankopakhyana"
+    ],
+    "visual_attributes": {
+        "morphology": "Human sage with traditional ascetic attire",
+        "distinctive_features": [
+            "Long beard",
+            "Traditional Indian sage attire",
+            "Carrying a staff"
+        ],
+        "color_palette": [
+            "Saffron",
+            "White",
+            "Brown"
+        ],
+        "texture": "Smooth skin with a slightly weathered appearance",
+        "size_and_scale": "Average human size",
+        "structural_arrangement": "Upright posture, often depicted in meditative or thoughtful poses",
+        "domain_specific_visual": {
+            "CULTURAL_ATTIRE": "Traditional dhoti and angavastram",
+            "SYMBOLIC_ITEMS": "Staff, prayer beads"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Sage and advisor",
+        "secondary_functions": [
+            "Seeker of divine earrings",
+            "Participant in Sarpa Satra yagna"
+        ],
+        "domain_specific_functional": {
+            "GURUDAKSHINA_TASK": "Procure celestial earrings",
+            "ADVISOR_ROLE": "Advised King Janamejaya on snake sacrifice"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "DISCIPLE_OF",
+                "target": "Veda",
+                "description": "Uttanka was a disciple of the sage Veda."
+            },
+            {
+                "type": "HELPED_BY",
+                "target": "Indra",
+                "description": "Indra assisted Uttanka in retrieving the earrings."
+            },
+            {
+                "type": "ENEMY_OF",
+                "target": "Takshaka",
+                "description": "Takshaka stole the earrings from Uttanka."
+            }
+        ],
+        "associated_entities": [
+            "Veda",
+            "Indra",
+            "Takshaka",
+            "Janamejaya"
+        ],
+        "symbolic_items": [
+            "Celestial earrings",
+            "Staff"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Maru desert",
+        "historical_period": "Ancient Hindu epic era",
+        "geographic_range": "Indian subcontinent",
+        "cultural_significance": "Represents perseverance and devotion to duty",
+        "primary_sources": [
+            "Mahabharata",
+            "Paushya Parva",
+            "Ashvamedhika Parva"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic Hindu deity",
+        "NOT a warrior or king",
+        "NOT depicted with weapons or armor"
+    ]
+}

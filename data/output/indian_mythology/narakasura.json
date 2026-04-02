@@ -1,0 +1,94 @@
+{
+    "name": "Narakasura",
+    "domain": "indian_mythology",
+    "entity_type": "Asura King",
+    "alternative_names": [
+        "Naraka"
+    ],
+    "primary_sources": [
+        "Mahabharata",
+        "Brahma Purana",
+        "Vishnu Purana",
+        "Kalika Purana",
+        "Bhagavata Purana"
+    ],
+    "visual_attributes": {
+        "morphology": "Humanoid with demonic features",
+        "distinctive_features": [
+            "Asura-like appearance with fierce expression",
+            "Possesses divine weapons",
+            "Regal attire indicative of a king"
+        ],
+        "color_palette": [
+            "Dark",
+            "Gold",
+            "Red"
+        ],
+        "texture": "Rough and rugged skin",
+        "size_and_scale": "Larger than average human, imposing stature",
+        "structural_arrangement": "Muscular build with a commanding presence",
+        "domain_specific_visual": {
+            "WEAPONRY": "Carries divine weapons like Brahmastra and Agneyastra",
+            "CROWN": "Wears a crown symbolizing his kingship"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Ruler and conqueror of kingdoms",
+        "secondary_functions": [
+            "Antagonist to divine beings",
+            "Progenitor of dynasties"
+        ],
+        "domain_specific_functional": {
+            "MYTHOLOGICAL_ROLE": "Symbolizes the struggle between good and evil",
+            "CULTURAL_IMPACT": "Associated with the festival of Naraka Chaturdashi"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_PARENT",
+                "target": "Bhudevi",
+                "description": "Narakasura is the son of Bhudevi, the earth goddess."
+            },
+            {
+                "type": "HAS_PARENT",
+                "target": "Varaha",
+                "description": "Fathered by the Varaha incarnation of Vishnu."
+            },
+            {
+                "type": "ENEMY_OF",
+                "target": "Krishna",
+                "description": "Killed by Krishna in battle."
+            },
+            {
+                "type": "HAS_CHILD",
+                "target": "Bhagadatta",
+                "description": "Father of Bhagadatta, who fought in the Mahabharata."
+            }
+        ],
+        "associated_entities": [
+            "Satyabhama",
+            "Indra",
+            "Aditi"
+        ],
+        "symbolic_items": [
+            "Sudarshana Chakra",
+            "Divine weapons"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Pragjyotisha-Kamarupa",
+        "historical_period": "Referenced in texts from 1st century onwards",
+        "geographic_range": "Assam, India",
+        "cultural_significance": "Progenitor of dynasties in Kamarupa; associated with the Kamakhya temple",
+        "primary_sources": [
+            "Mahabharata",
+            "Kalika Purana"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic demon",
+        "NOT lacking regal attire",
+        "NOT unrelated to Indian mythology"
+    ]
+}

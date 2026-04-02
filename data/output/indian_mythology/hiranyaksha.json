@@ -1,0 +1,93 @@
+{
+    "name": "Hiranyaksha",
+    "domain": "indian_mythology",
+    "entity_type": "Asura King",
+    "alternative_names": [
+        "Hiranyanetra"
+    ],
+    "primary_sources": [
+        "Puranas",
+        "Bhagavata Purana",
+        "Taittariya Samhita",
+        "Shatapatha Brahmana"
+    ],
+    "visual_attributes": {
+        "morphology": "Humanoid with demonic features",
+        "distinctive_features": [
+            "Golden eyes",
+            "Asura-like muscular build",
+            "Regal attire typical of a king"
+        ],
+        "color_palette": [
+            "Gold",
+            "Dark Brown",
+            "Red"
+        ],
+        "texture": "Smooth skin with a slight sheen",
+        "size_and_scale": "Larger than an average human, approximately 8-10 feet tall",
+        "structural_arrangement": "Broad shoulders, imposing stature",
+        "domain_specific_visual": {
+            "ASURA_TRAITS": "Fierce expression, adorned with jewelry and a crown",
+            "MYTHOLOGICAL_CONTEXT": "Often depicted with a weapon, such as a mace"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Antagonist to the divine order",
+        "secondary_functions": [
+            "Terrorizing the three worlds",
+            "Submerging the earth"
+        ],
+        "domain_specific_functional": {
+            "ROLE_IN_LEGEND": "Represents chaos and disruption",
+            "NARRATIVE_FUNCTION": "Catalyst for Vishnu's Varaha avatar"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_SIBLING",
+                "target": "Hiranyakashipu",
+                "description": "Elder brother who also sought vengeance against Vishnu"
+            },
+            {
+                "type": "HAS_SIBLING",
+                "target": "Holika",
+                "description": "Younger sister involved in the attempt to kill Prahlada"
+            },
+            {
+                "type": "SLAIN_BY",
+                "target": "Varaha",
+                "description": "Killed by the boar avatar of Vishnu"
+            },
+            {
+                "type": "INCARNATION_OF",
+                "target": "Vijaya",
+                "description": "One of Vishnu's gatekeepers cursed to be born as an enemy"
+            }
+        ],
+        "associated_entities": [
+            "Varaha",
+            "Bhumi",
+            "Vishnu"
+        ],
+        "symbolic_items": [
+            "Mace",
+            "Crown"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Hindu mythology",
+        "historical_period": "Vedic and post-Vedic era",
+        "geographic_range": "Indian subcontinent",
+        "cultural_significance": "Symbolizes the struggle between good and evil, and the restoration of cosmic order",
+        "primary_sources": [
+            "Puranas",
+            "Bhagavata Purana"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic demon",
+        "NOT lacking golden eyes",
+        "NOT a Western mythological context"
+    ]
+}

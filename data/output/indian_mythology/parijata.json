@@ -1,0 +1,100 @@
+{
+    "name": "Parijata",
+    "domain": "indian_mythology",
+    "entity_type": "divine tree",
+    "alternative_names": [
+        "Nyctanthes arbor-tristis",
+        "night-blooming jasmine",
+        "tree of sorrow",
+        "shiuli",
+        "sephalika",
+        "pavalamallikai",
+        "pavizamalli",
+        "siharu",
+        "seri gading",
+        "nai hua",
+        "hung mo li"
+    ],
+    "primary_sources": [
+        "Mahabharata",
+        "Puranas",
+        "Parijatapaharanamu",
+        "Ritu samhara"
+    ],
+    "visual_attributes": {
+        "morphology": "shrub or small tree",
+        "distinctive_features": [
+            "flaky grey bark",
+            "fragrant white flowers with orange-red center",
+            "bilobed, flat brown heart-shaped fruit"
+        ],
+        "color_palette": [
+            "white",
+            "orange-red",
+            "grey"
+        ],
+        "texture": "flaky bark, smooth flowers",
+        "size_and_scale": "up to 10 m (33 ft) tall",
+        "structural_arrangement": "flowers in clusters of two to seven, opposite leaves",
+        "domain_specific_visual": {
+            "flower_bloom_time": "dusk to dawn",
+            "flower_lobes": "five to eight-lobed corolla"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "divine representation and cultural symbol",
+        "secondary_functions": [
+            "used in Ayurvedic medicine",
+            "dye production",
+            "worship and garlands"
+        ],
+        "domain_specific_functional": {
+            "mythological_role": "emerged during Samudra Manthana",
+            "cultural_role": "offered during Durga Puja"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "EMERGED_FROM",
+                "target": "Samudra Manthana",
+                "description": "Parijata emerged during the churning of the ocean."
+            },
+            {
+                "type": "OWNED_BY",
+                "target": "Krishna",
+                "description": "Krishna planted the Parijata tree in Dvaraka."
+            },
+            {
+                "type": "CONFLICT_WITH",
+                "target": "Indra",
+                "description": "Krishna battled Indra to obtain the Parijata tree."
+            }
+        ],
+        "associated_entities": [
+            "Krishna",
+            "Indra",
+            "Satyabhama",
+            "Rukmini"
+        ],
+        "symbolic_items": [
+            "garlands",
+            "nyctanthin dye"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Indo-China, Himalaya, Sumatera to Jawa",
+        "historical_period": "ancient Hindu mythology",
+        "geographic_range": "South Asia and Southeast Asia",
+        "cultural_significance": "symbol of divine beauty and devotion",
+        "primary_sources": [
+            "Mahabharata",
+            "Puranas"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT true jasmine",
+        "NOT non-fragrant flowers",
+        "NOT unrelated to Hindu mythology"
+    ]
+}

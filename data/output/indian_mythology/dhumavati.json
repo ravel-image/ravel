@@ -1,0 +1,92 @@
+{
+    "name": "Dhumavati",
+    "domain": "indian_mythology",
+    "entity_type": "Mahavidya Goddess",
+    "alternative_names": [
+        "The Smoky One",
+        "Dhumavati Devi"
+    ],
+    "primary_sources": [
+        "Dhumavati Tantra",
+        "Shakta Maha-Bhagavata Purana",
+        "Pranatosini-Tantra",
+        "Devi Bhagavata Purana"
+    ],
+    "visual_attributes": {
+        "morphology": "Old and thin woman with a pale-grey or black complexion",
+        "distinctive_features": [
+            "Dishevelled hair",
+            "Long, crooked nose",
+            "Gap-toothed smile",
+            "Holds a winnowing basket",
+            "Rides a horseless chariot or crow"
+        ],
+        "color_palette": [
+            "Pale-grey",
+            "Black",
+            "Red"
+        ],
+        "texture": "Wrinkled and rough skin",
+        "size_and_scale": "Tall and thin",
+        "structural_arrangement": "Unadorned with jewelry, wearing old, dirty clothes",
+        "domain_specific_visual": {
+            "ICONOGRAPHY": "Carries a winnowing basket, sometimes a spear or sword, and a skull-cup",
+            "SYMBOLS": "Crow emblem and banner, garland of severed heads"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Represents the fearsome aspect of Mahadevi and cosmic dissolution",
+        "secondary_functions": [
+            "Bestower of boons and supernatural powers",
+            "Revealer of ultimate knowledge"
+        ],
+        "domain_specific_functional": {
+            "ROLE_IN_MAHAVIDYAS": "Seventh Mahavidya, associated with cosmic dissolution",
+            "WORSHIP_CONTEXT": "Ideal for unpaired members of society and Tantrikas"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "PART_OF",
+                "target": "Mahavidyas",
+                "description": "Dhumavati is one of the ten Mahavidyas"
+            },
+            {
+                "type": "ASSOCIATED_WITH",
+                "target": "Nirriti",
+                "description": "Shares attributes of inauspiciousness and hardship"
+            },
+            {
+                "type": "ASSOCIATED_WITH",
+                "target": "Jyestha",
+                "description": "Shares iconographic similarities and associations with crows"
+            }
+        ],
+        "associated_entities": [
+            "Nirriti",
+            "Jyestha",
+            "Alakshmi"
+        ],
+        "symbolic_items": [
+            "Winnowing basket",
+            "Crow emblem",
+            "Skull-cup"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Hindu mythology, specifically Shaktism",
+        "historical_period": "Post-12th century",
+        "geographic_range": "Primarily India",
+        "cultural_significance": "Represents the void and cosmic dissolution, teaches looking beyond superficial appearances",
+        "primary_sources": [
+            "Dhumavati Tantra",
+            "Shakta Maha-Bhagavata Purana"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a young or beautiful goddess",
+        "NOT adorned with jewelry or bright clothing",
+        "NOT associated with auspicious or prosperous symbols"
+    ]
+}

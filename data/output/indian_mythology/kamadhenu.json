@@ -1,0 +1,95 @@
+{
+    "name": "Kamadhenu",
+    "domain": "indian_mythology",
+    "entity_type": "divine bovine-goddess",
+    "alternative_names": [
+        "Surabhi",
+        "Sabala",
+        "Kapila"
+    ],
+    "primary_sources": [
+        "Mahabharata",
+        "Devi Bhagavata Purana",
+        "Ramayana",
+        "Vishnu Purana",
+        "Bhagavata Purana",
+        "Matsya Purana",
+        "Harivamsa"
+    ],
+    "visual_attributes": {
+        "morphology": "A white cow with a female head and breasts, bird wings, and a peacock's tail",
+        "distinctive_features": [
+            "Female head with a crown",
+            "Colorful eagle wings",
+            "Peacock's tail",
+            "Various deities depicted within her body"
+        ],
+        "color_palette": [
+            "white",
+            "colorful (for wings and tail)",
+            "golden (for deities within)"
+        ],
+        "texture": "smooth and velvety",
+        "size_and_scale": "life-sized cow",
+        "structural_arrangement": "Cow body with human head and bird-like appendages",
+        "domain_specific_visual": {
+            "DEITY_REPRESENTATION": "Various deities within her body",
+            "SYMBOLIC_ELEMENTS": "Horns representing Trimurti, eyes as sun and moon"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Provider of all desires and prosperity",
+        "secondary_functions": [
+            "Source of milk and milk products",
+            "Protector by producing warriors"
+        ],
+        "domain_specific_functional": {
+            "SYMBOL_OF_PROSPERITY": "Represents abundance and fertility",
+            "RITUAL_IMPORTANCE": "Provides milk and ghee for rituals"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_PARENT",
+                "target": "Daksha",
+                "description": "Kamadhenu is described as the daughter of Daksha in some texts."
+            },
+            {
+                "type": "HAS_SPOUSE",
+                "target": "Kashyapa",
+                "description": "Kamadhenu is described as the wife of the sage Kashyapa."
+            },
+            {
+                "type": "HAS_CHILD",
+                "target": "Nandini",
+                "description": "Nandini is described as the daughter of Kamadhenu."
+            }
+        ],
+        "associated_entities": [
+            "Jamadagni",
+            "Vashista",
+            "Krishna",
+            "Radha"
+        ],
+        "symbolic_items": [
+            "Amrita",
+            "Ghee"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Hindu mythology",
+        "historical_period": "Ancient Hindu texts",
+        "geographic_range": "Indian subcontinent",
+        "cultural_significance": "Symbol of abundance, fertility, and divine providence",
+        "primary_sources": [
+            "Mahabharata",
+            "Devi Bhagavata Purana"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a regular cow",
+        "NOT without human head or bird features",
+        "NOT solely a deity without bovine features"
+    ]
+}

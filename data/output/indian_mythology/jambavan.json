@@ -1,0 +1,106 @@
+{
+    "name": "Jambavan",
+    "domain": "indian_mythology",
+    "entity_type": "Divine Bear King",
+    "alternative_names": [
+        "Jambavanta",
+        "Jambavantan",
+        "Jambavanta (Assamese)",
+        "Jambavan (Kannada)",
+        "Jamvanta (Kannada)",
+        "Jāmbubān (Bangla)",
+        "Champu (Khmer)",
+        "Jembawan (Javanese)",
+        "Jambuwana (Malay)",
+        "Jāmbabān (Odia)",
+        "Jambuvaan (Marathi)",
+        "Jambavan (Malayalam)",
+        "Jāmbavantudu (Telugu)",
+        "Keeratuvan (Punjabi)",
+        "Zabaman (Burmese)",
+        "Sambuvan (Tamil)",
+        "Chomphuphan (Thai)"
+    ],
+    "primary_sources": [
+        "Ramayana",
+        "Mahabharata",
+        "Bhagavata Purana",
+        "Vishnu Purana"
+    ],
+    "visual_attributes": {
+        "morphology": "Anthropomorphic bear with divine features",
+        "distinctive_features": [
+            "Bear-like face with human-like expressions",
+            "Majestic and regal posture",
+            "Long, flowing mane"
+        ],
+        "color_palette": [
+            "Brown",
+            "Black",
+            "Golden"
+        ],
+        "texture": "Furry with a glossy sheen",
+        "size_and_scale": "Gigantic, towering over humans",
+        "structural_arrangement": "Bipedal stance with muscular build",
+        "domain_specific_visual": {
+            "CROWN": "Golden crown symbolizing royalty",
+            "WEAPON": "Carries a club or mace"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Advisor and warrior in epic battles",
+        "secondary_functions": [
+            "Mentor to Hanuman",
+            "Strategist in wars"
+        ],
+        "domain_specific_functional": {
+            "ROLE_IN_RAMAYANA": "Helped Rama in the quest to rescue Sita",
+            "ROLE_IN_MAHABHARATA": "Fought Krishna over the Syamantaka gem"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ALLY_OF",
+                "target": "Rama",
+                "description": "Assisted Rama in his quest to save Sita"
+            },
+            {
+                "type": "FATHER_OF",
+                "target": "Jambavati",
+                "description": "Jambavati was married to Krishna"
+            },
+            {
+                "type": "COMBATANT_WITH",
+                "target": "Krishna",
+                "description": "Fought Krishna over the Syamantaka gem"
+            }
+        ],
+        "associated_entities": [
+            "Hanuman",
+            "Rama",
+            "Krishna"
+        ],
+        "symbolic_items": [
+            "Syamantaka gem",
+            "Mace"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Hindu mythology",
+        "historical_period": "Ancient Indian epics",
+        "geographic_range": "Indian subcontinent",
+        "cultural_significance": "Symbol of wisdom, strength, and loyalty",
+        "primary_sources": [
+            "Ramayana",
+            "Mahabharata",
+            "Bhagavata Purana",
+            "Vishnu Purana"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic bear",
+        "NOT lacking divine or regal attributes",
+        "NOT a modern or non-mythological bear"
+    ]
+}

@@ -1,0 +1,98 @@
+{
+    "name": "Hiranyakashipu",
+    "domain": "indian_mythology",
+    "entity_type": "Daitya King",
+    "alternative_names": [
+        "Hiraṇyakaśipu"
+    ],
+    "primary_sources": [
+        "Bhagavata Purana",
+        "Harivamsha Purana",
+        "Shiva Purana",
+        "Skanda Purana",
+        "Kurma Purana"
+    ],
+    "visual_attributes": {
+        "morphology": "Humanoid with regal and imposing stature",
+        "distinctive_features": [
+            "Golden throne often associated with him",
+            "Anthill and vegetation enveloping his body during penance",
+            "Skeletal form due to extreme austerities"
+        ],
+        "color_palette": [
+            "Golden",
+            "Earthy brown",
+            "Dark green"
+        ],
+        "texture": "Rough and earthy due to anthill and vegetation",
+        "size_and_scale": "Larger than average human, towering presence",
+        "structural_arrangement": "Regal posture, often depicted seated on a throne",
+        "domain_specific_visual": {
+            "AURA": "Blazing fire emanating from his head during penance",
+            "SYMBOL": "Golden throne"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Ruler of the Asuras and antagonist to Vishnu",
+        "secondary_functions": [
+            "Seeker of invulnerability",
+            "Conqueror of the three worlds"
+        ],
+        "domain_specific_functional": {
+            "ROLE_IN_MYTH": "Symbol of arrogance and defiance against divine order",
+            "NARRATIVE_FUNCTION": "Catalyst for the appearance of Narasimha avatar"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_BROTHER",
+                "target": "Hiranyaksha",
+                "description": "Hiranyaksha was slain by the Varaha avatar of Vishnu, leading to Hiranyakashipu's enmity with Vishnu."
+            },
+            {
+                "type": "HAS_SON",
+                "target": "Prahlada",
+                "description": "Prahlada was a devout follower of Vishnu, much to Hiranyakashipu's dismay."
+            },
+            {
+                "type": "ENEMY_OF",
+                "target": "Vishnu",
+                "description": "Hiranyakashipu sought to kill Vishnu due to his brother's death."
+            },
+            {
+                "type": "SLAIN_BY",
+                "target": "Narasimha",
+                "description": "Hiranyakashipu was killed by the Narasimha avatar of Vishnu."
+            }
+        ],
+        "associated_entities": [
+            "Brahma",
+            "Indra",
+            "Narada",
+            "Lakshmi"
+        ],
+        "symbolic_items": [
+            "Golden throne",
+            "Anthill"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Hindu mythology, specifically the Puranas",
+        "historical_period": "Satya Yuga",
+        "geographic_range": "Mythological realms of the three worlds",
+        "cultural_significance": "Represents the dangers of unchecked ambition and defiance against divine will",
+        "primary_sources": [
+            "Bhagavata Purana",
+            "Harivamsha Purana",
+            "Shiva Purana",
+            "Skanda Purana",
+            "Kurma Purana"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic demon",
+        "NOT without the golden throne",
+        "NOT without the context of his penance and austerities"
+    ]
+}

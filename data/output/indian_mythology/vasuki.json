@@ -1,0 +1,92 @@
+{
+    "name": "Vasuki",
+    "domain": "indian_mythology",
+    "entity_type": "Naga King",
+    "alternative_names": [
+        "Vāsuki",
+        "八大龍王",
+        "Hachidai Ryūō"
+    ],
+    "primary_sources": [
+        "Mahabharata",
+        "Samudra Manthana",
+        "Buddhist texts"
+    ],
+    "visual_attributes": {
+        "morphology": "Serpentine body with a prominent head",
+        "distinctive_features": [
+            "Nagamani gem on the head",
+            "Coiled around Shiva's neck",
+            "Large, majestic scales"
+        ],
+        "color_palette": [
+            "Green",
+            "Gold",
+            "Blue"
+        ],
+        "texture": "Scaly",
+        "size_and_scale": "Massive, capable of encircling Mount Mandara",
+        "structural_arrangement": "Coiled body with a raised head",
+        "domain_specific_visual": {
+            "ICONOGRAPHY": "Depicted with Shiva, often as an ornament"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "King of the Nagas",
+        "secondary_functions": [
+            "Churning rope in Samudra Manthana",
+            "Protector and worshipper of Buddha"
+        ],
+        "domain_specific_functional": {
+            "ROLE_IN_MYTH": "Instrumental in obtaining amrita",
+            "PROTECTOR": "Protects other enlightened beings"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_SIBLING",
+                "target": "Shesha",
+                "description": "Elder brother and another king of the nagas"
+            },
+            {
+                "type": "HAS_SIBLING",
+                "target": "Manasa",
+                "description": "Sister and another naga"
+            },
+            {
+                "type": "PARTICIPATED_IN",
+                "target": "Samudra Manthana",
+                "description": "Used as the churning rope"
+            },
+            {
+                "type": "PROTECTED_BY",
+                "target": "Kartikeya",
+                "description": "Protected from Garuda at Kukke Subramanya temple"
+            }
+        ],
+        "associated_entities": [
+            "Shiva",
+            "Kartikeya",
+            "Buddha"
+        ],
+        "symbolic_items": [
+            "Nagamani"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Hindu and Buddhist mythology",
+        "historical_period": "Ancient",
+        "geographic_range": "India, China, Japan",
+        "cultural_significance": "Symbol of protection and power",
+        "primary_sources": [
+            "Mahabharata",
+            "Buddhist texts"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic snake",
+        "NOT without the Nagamani gem",
+        "NOT without association with Shiva or Buddha"
+    ]
+}

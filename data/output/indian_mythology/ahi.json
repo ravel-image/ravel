@@ -1,0 +1,75 @@
+{
+    "name": "Ahi",
+    "domain": "indian_mythology",
+    "entity_type": "mythological serpent",
+    "alternative_names": [
+        "Vritra"
+    ],
+    "primary_sources": [
+        "Rigveda",
+        "Mahabharata"
+    ],
+    "visual_attributes": {
+        "morphology": "serpentine dragon",
+        "distinctive_features": [
+            "multiple heads",
+            "large fangs",
+            "scales with a metallic sheen"
+        ],
+        "color_palette": [
+            "dark blue",
+            "black",
+            "silver"
+        ],
+        "texture": "scaly",
+        "size_and_scale": "gigantic, spanning several miles",
+        "structural_arrangement": "elongated body with coiled posture",
+        "domain_specific_visual": {
+            "mythological_aura": "emanates a dark, stormy aura",
+            "elemental_association": "associated with drought and storms"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "symbol of drought and obstruction",
+        "secondary_functions": [
+            "enemy of Indra",
+            "hoarder of waters"
+        ],
+        "domain_specific_functional": {
+            "mythological_role": "represents chaos and resistance to cosmic order",
+            "narrative_function": "defeated by Indra to release waters"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ENEMY_OF",
+                "target": "Indra",
+                "description": "Ahi is defeated by Indra to release the waters and restore order."
+            }
+        ],
+        "associated_entities": [
+            "Indra",
+            "Soma"
+        ],
+        "symbolic_items": [
+            "thunderbolt",
+            "clouds"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Vedic mythology",
+        "historical_period": "ancient Vedic period",
+        "geographic_range": "Indian subcontinent",
+        "cultural_significance": "represents the forces of chaos and obstruction in Vedic cosmology",
+        "primary_sources": [
+            "Rigveda",
+            "Mahabharata"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a common snake",
+        "NOT a benevolent dragon",
+        "NOT a modern fictional creature"
+    ]
+}

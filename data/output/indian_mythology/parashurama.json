@@ -1,0 +1,106 @@
+{
+    "name": "Parashurama",
+    "domain": "indian_mythology",
+    "entity_type": "Avatar of Vishnu",
+    "alternative_names": [
+        "Ram Jamadagnya",
+        "Ram Bhargav",
+        "Viraram"
+    ],
+    "primary_sources": [
+        "Ramayana",
+        "Mahabharata",
+        "Padma Purana",
+        "Keralolpathi"
+    ],
+    "visual_attributes": {
+        "morphology": "Human form with divine features",
+        "distinctive_features": [
+            "Carries an axe",
+            "Wears traditional Brahmin attire",
+            "Has a serene yet fierce expression"
+        ],
+        "color_palette": [
+            "Saffron",
+            "White",
+            "Gold"
+        ],
+        "texture": "Smooth skin with a divine glow",
+        "size_and_scale": "Average human size",
+        "structural_arrangement": "Typically depicted standing or in a dynamic pose with an axe",
+        "domain_specific_visual": {
+            "WEAPON": "Axe",
+            "ATTIRE": "Brahmin robes"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Destroyer of evil",
+        "secondary_functions": [
+            "Protector of Dharma",
+            "Teacher of warriors"
+        ],
+        "domain_specific_functional": {
+            "ROLE_IN_MYTHOLOGY": "Sixth avatar of Vishnu",
+            "CHIRANJIVI": "Immortal being"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_PARENT",
+                "target": "Jamadagni",
+                "description": "Parashurama is the son of the sage Jamadagni."
+            },
+            {
+                "type": "HAS_PARENT",
+                "target": "Renuka",
+                "description": "Parashurama is the son of Renuka."
+            },
+            {
+                "type": "HAS_SPOUSE",
+                "target": "Dharani",
+                "description": "Parashurama is married to Dharani, an incarnation of Lakshmi."
+            },
+            {
+                "type": "GURU_OF",
+                "target": "Bhisma",
+                "description": "Parashurama was the teacher of Bhisma."
+            },
+            {
+                "type": "GURU_OF",
+                "target": "Drona",
+                "description": "Parashurama was the teacher of Drona."
+            },
+            {
+                "type": "GURU_OF",
+                "target": "Karna",
+                "description": "Parashurama was the teacher of Karna."
+            }
+        ],
+        "associated_entities": [
+            "Vishnu",
+            "Kalki",
+            "Rama"
+        ],
+        "symbolic_items": [
+            "Axe",
+            "Bow Sharanga"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Hindu mythology",
+        "historical_period": "Ancient India",
+        "geographic_range": "Indian subcontinent",
+        "cultural_significance": "Symbol of justice and destruction of evil",
+        "primary_sources": [
+            "Ramayana",
+            "Mahabharata",
+            "Padma Purana"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic warrior",
+        "NOT without an axe",
+        "NOT a common Brahmin without divine attributes"
+    ]
+}

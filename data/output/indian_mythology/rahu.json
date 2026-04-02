@@ -1,0 +1,89 @@
+{
+    "name": "Rahu",
+    "domain": "indian_mythology",
+    "entity_type": "celestial body",
+    "alternative_names": [
+        "North Lunar Node",
+        "Shadow Planet"
+    ],
+    "primary_sources": [
+        "Puranic texts",
+        "Rig Veda",
+        "Samyutta Nikaya",
+        "Hindu astrology texts"
+    ],
+    "visual_attributes": {
+        "morphology": "Head of a serpent or dragon without a body",
+        "distinctive_features": [
+            "Serpent-like head",
+            "Absence of a body",
+            "Celestial or ethereal appearance"
+        ],
+        "color_palette": [
+            "Dark blue",
+            "Black",
+            "Silver"
+        ],
+        "texture": "Ethereal and shadowy",
+        "size_and_scale": "Astronomical scale, representing a celestial node",
+        "structural_arrangement": "Head positioned in the celestial sphere, often depicted in pursuit of the Sun and Moon",
+        "domain_specific_visual": {
+            "CELESTIAL_POSITION": "North Lunar Node",
+            "ECLIPSE_CAUSER": "Associated with solar and lunar eclipses"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Causes eclipses by swallowing the Sun and Moon",
+        "secondary_functions": [
+            "Influences astrology as a malefic planet",
+            "Represents deceit and delusion"
+        ],
+        "domain_specific_functional": {
+            "ASTROLOGICAL_INFLUENCE": "Rules Aquarius, exalted in Gemini",
+            "NAKSHATRA_RULER": "Ardra, Swati, Shatabhisha"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ENEMY_OF",
+                "target": "Surya",
+                "description": "Rahu attempts to consume the Sun, causing solar eclipses"
+            },
+            {
+                "type": "ENEMY_OF",
+                "target": "Chandra",
+                "description": "Rahu attempts to consume the Moon, causing lunar eclipses"
+            },
+            {
+                "type": "PAIRED_WITH",
+                "target": "Ketu",
+                "description": "Rahu and Ketu are two parts of the same entity, representing the north and south lunar nodes"
+            }
+        ],
+        "associated_entities": [
+            "Ketu",
+            "Surya",
+            "Chandra"
+        ],
+        "symbolic_items": [
+            "Sudarshana Chakra"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Hindu mythology",
+        "historical_period": "Ancient Vedic period",
+        "geographic_range": "Indian subcontinent",
+        "cultural_significance": "Represents eclipses and is a major influence in Hindu astrology",
+        "primary_sources": [
+            "Puranic texts",
+            "Rig Veda",
+            "Samyutta Nikaya"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a physical planet",
+        "NOT a complete serpent or dragon",
+        "NOT a benevolent celestial body"
+    ]
+}

@@ -1,0 +1,71 @@
+{
+    "name": "Narilatha",
+    "domain": "indian_mythology",
+    "entity_type": "mythological plant",
+    "alternative_names": [
+        "Habenaria crinifera",
+        "Doll Orchid"
+    ],
+    "primary_sources": [
+        "Wikipedia",
+        "Botanical texts on Asian orchids"
+    ],
+    "visual_attributes": {
+        "morphology": "tuberous orchid with both epiphytic and terrestrial habitats",
+        "distinctive_features": [
+            "white flowers with smooth edged petals",
+            "3-lobed lip with wedge-shaped side lobes",
+            "slender tail produced from the inner margin"
+        ],
+        "color_palette": [
+            "white"
+        ],
+        "texture": "smooth",
+        "size_and_scale": "flowers are approximately 3 times as long as sepals",
+        "structural_arrangement": "flowers bloom in whole groups",
+        "domain_specific_visual": {
+            "flower_structure": "3-lobed with long claw and slender incurved spur"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "mythological representation of beauty and femininity",
+        "secondary_functions": [
+            "symbol of rare beauty",
+            "cultural icon"
+        ],
+        "domain_specific_functional": {
+            "mythological_role": "represents divine beauty in Indian mythology"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "SYMBOLIZES",
+                "target": "beauty",
+                "description": "Narilatha symbolizes beauty and femininity in mythology."
+            }
+        ],
+        "associated_entities": [
+            "beauty",
+            "femininity"
+        ],
+        "symbolic_items": [
+            "orchid flowers"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Indian subcontinent",
+        "historical_period": "ancient mythology",
+        "geographic_range": "Asia",
+        "cultural_significance": "represents divine beauty and femininity in Indian culture",
+        "primary_sources": [
+            "Wikipedia",
+            "Botanical texts on Asian orchids"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic orchid",
+        "NOT a common garden plant",
+        "NOT a modern cultural symbol"
+    ]
+}

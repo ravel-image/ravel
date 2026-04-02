@@ -1,0 +1,105 @@
+{
+    "name": "Ardhanarishvara",
+    "domain": "indian_mythology",
+    "entity_type": "Composite Deity",
+    "alternative_names": [
+        "Ardhanaranari",
+        "Ardhanarisha",
+        "Ardhanarinateshvara",
+        "Parangada",
+        "Naranari",
+        "Ammaiyappan",
+        "Ardhayuvatishvara",
+        "Ardha-Gaurishvara",
+        "Gaurishvara"
+    ],
+    "primary_sources": [
+        "Puranas",
+        "Shilparatna",
+        "Matsya Purana",
+        "Amshumadbhedagama",
+        "Kamikagama",
+        "Supredagama",
+        "Karanagama",
+        "Brihadaranyaka Upanishad",
+        "Shvetashvatara Upanishad"
+    ],
+    "visual_attributes": {
+        "morphology": "Half-male, half-female form split vertically down the middle",
+        "distinctive_features": [
+            "Right half is male Shiva with jata-mukuta and crescent moon",
+            "Left half is female Parvati with well-combed hair and flowers",
+            "Common third eye on the forehead",
+            "Elliptical halo behind the head"
+        ],
+        "color_palette": [
+            "Blue",
+            "Gold",
+            "Red"
+        ],
+        "texture": "Smooth with intricate ornamentation",
+        "size_and_scale": "Life-size or larger, typical of temple sculptures",
+        "structural_arrangement": "Symmetrical division with male attributes on the right and female on the left",
+        "domain_specific_visual": {
+            "ARM_COUNT": "Two, three, or four arms",
+            "MALE_ATTRIBUTES": "Parashu, trishula, abhaya mudra",
+            "FEMALE_ATTRIBUTES": "Mirror, lotus, rounded breast"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Symbolizes the synthesis of masculine and feminine energies",
+        "secondary_functions": [
+            "Represents the inseparability of Shiva and Shakti",
+            "Embodies the root and womb of all creation"
+        ],
+        "domain_specific_functional": {
+            "SYMBOLIC_ROLE": "Syncretizes Shaivism and Shaktism",
+            "COSMIC_ROLE": "Illustrates Shiva's all-pervasive nature"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "COMPOSED_OF",
+                "target": "Shiva",
+                "description": "The right half of Ardhanarishvara is Shiva"
+            },
+            {
+                "type": "COMPOSED_OF",
+                "target": "Parvati",
+                "description": "The left half of Ardhanarishvara is Parvati"
+            }
+        ],
+        "associated_entities": [
+            "Nandi",
+            "Ganga"
+        ],
+        "symbolic_items": [
+            "Trishula",
+            "Mirror",
+            "Lotus"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Indian subcontinent",
+        "historical_period": "Kushan period to Gupta era",
+        "geographic_range": "Throughout India",
+        "cultural_significance": "Represents the unity of dualities and the balance of cosmic energies",
+        "primary_sources": [
+            "Puranas",
+            "Shilparatna",
+            "Matsya Purana",
+            "Amshumadbhedagama",
+            "Kamikagama",
+            "Supredagama",
+            "Karanagama",
+            "Brihadaranyaka Upanishad",
+            "Shvetashvatara Upanishad"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a single-gendered deity",
+        "NOT without a third eye",
+        "NOT without a clear division between male and female halves"
+    ]
+}

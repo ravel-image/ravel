@@ -1,0 +1,90 @@
+{
+    "name": "Shalabhanjika",
+    "domain": "indian_mythology",
+    "entity_type": "decorative_sculpture",
+    "alternative_names": [
+        "Salabhanjika",
+        "Madanakai",
+        "Madanika",
+        "Shilabalika",
+        "Putrilika",
+        "Stambhaputri",
+        "Stambhaputrika",
+        "Putrika"
+    ],
+    "primary_sources": [
+        "Buddhacarita",
+        "Natyashastra",
+        "An Encyclopedia of Hindu Architecture"
+    ],
+    "visual_attributes": {
+        "morphology": "stylized female figure often depicted in a graceful pose",
+        "distinctive_features": [
+            "holding or grasping a tree branch",
+            "tribhanga (S-shaped) pose",
+            "decorative elements like flowers or vines"
+        ],
+        "color_palette": [
+            "stone grey",
+            "earthy brown",
+            "natural wood tones"
+        ],
+        "texture": "smooth stone or wood surface",
+        "size_and_scale": "life-sized or slightly larger than life-sized",
+        "structural_arrangement": "often integrated into architectural elements like pillars or walls",
+        "domain_specific_visual": {
+            "TREE_ASSOCIATION": "often depicted with a sal or ashoka tree",
+            "POSE_SIMILARITY": "similar to Queen Maya's pose during Buddha's birth"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "decorative element in architecture",
+        "secondary_functions": [
+            "symbol of fertility",
+            "representation of tree deities"
+        ],
+        "domain_specific_functional": {
+            "CULTURAL_CELEBRATION": "associated with festivals celebrating tree blossoms",
+            "POETIC_METER": "synonymous with pathyā meter in poetry"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ASSOCIATED_WITH",
+                "target": "Maya",
+                "description": "The pose is similar to that of Queen Maya during the birth of Buddha."
+            },
+            {
+                "type": "FOUND_AT",
+                "target": "Sanchi Stupa",
+                "description": "Renowned shalabhanjika sculptures are found at the gateways of Sanchi Stupa."
+            }
+        ],
+        "associated_entities": [
+            "Buddha",
+            "Maya",
+            "Sal Tree"
+        ],
+        "symbolic_items": [
+            "tree branch",
+            "flower motifs"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Indian subcontinent",
+        "historical_period": "1st millennium CE",
+        "geographic_range": "India, Nepal, Cambodia, Vietnam, Indonesia",
+        "cultural_significance": "represents fertility and is a common decorative element in religious and secular architecture",
+        "primary_sources": [
+            "Buddhacarita",
+            "Natyashastra",
+            "An Encyclopedia of Hindu Architecture"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT generic female statue",
+        "NOT devoid of tree association",
+        "NOT unrelated to Indian cultural or religious contexts"
+    ]
+}

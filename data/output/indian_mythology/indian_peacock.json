@@ -1,0 +1,83 @@
+{
+    "name": "Indian Peacock",
+    "domain": "indian_mythology",
+    "entity_type": "Mythological Bird",
+    "alternative_names": [
+        "Pavo cristatus",
+        "Common Peafowl",
+        "Blue Peafowl"
+    ],
+    "primary_sources": [
+        "Systema Naturae by Carl Linnaeus",
+        "Hindu Mythology Texts",
+        "Greek Mythology References"
+    ],
+    "visual_attributes": {
+        "morphology": "Large bird with elongated train feathers extending from the rump",
+        "distinctive_features": [
+            "Fan-shaped crest with bluish-green webbing",
+            "Elongated upper tail covert feathers with colorful eyespots",
+            "Metallic blue crown and neck"
+        ],
+        "color_palette": [
+            "Metallic blue",
+            "Bronze-green",
+            "Chestnut"
+        ],
+        "texture": "Glossy and iridescent",
+        "size_and_scale": "200–230 cm (78–90 in) including train, 4.1–5.2 kg (9–11.5 lb)",
+        "structural_arrangement": "Train feathers arranged in a fan-like display during courtship",
+        "domain_specific_visual": {
+            "EYESPOT_PATTERN": "Purplish-black heart-shaped nucleus with blue and copper rim",
+            "CREST_SHAPE": "Fan-shaped with bare black shafts"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Courtship display",
+        "secondary_functions": [
+            "Predator alert",
+            "Symbol of beauty and grace"
+        ],
+        "domain_specific_functional": {
+            "SYMBOLIC_ROLE": "National bird of India, venerated in mythology",
+            "ECOLOGICAL_ROLE": "Forages for berries, grains, and small animals"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "SYMBOL_OF",
+                "target": "India",
+                "description": "The Indian Peacock is the national bird of India."
+            },
+            {
+                "type": "VENERATED_IN",
+                "target": "Hindu Mythology",
+                "description": "The Indian Peacock is revered in Hindu mythology."
+            }
+        ],
+        "associated_entities": [
+            "Peahen",
+            "Green Peafowl"
+        ],
+        "symbolic_items": [
+            "Eyespot feathers",
+            "Crest"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Indian subcontinent",
+        "historical_period": "Described in 1758 by Carl Linnaeus",
+        "geographic_range": "India, Sri Lanka, introduced globally",
+        "cultural_significance": "Represents beauty, grace, and is a symbol of national pride",
+        "primary_sources": [
+            "Systema Naturae by Carl Linnaeus",
+            "Hindu Mythology Texts"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT Generic Peafowl",
+        "NOT Without Eyespot Pattern",
+        "NOT Non-Mythological Context"
+    ]
+}

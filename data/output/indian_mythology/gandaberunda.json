@@ -1,0 +1,82 @@
+{
+    "name": "Gandaberunda",
+    "domain": "indian_mythology",
+    "entity_type": "mythological creature",
+    "alternative_names": [
+        "Gaṇḍabheruṇḍa"
+    ],
+    "primary_sources": [
+        "Hindu scriptures",
+        "Vaishnava and Shaiva texts"
+    ],
+    "visual_attributes": {
+        "morphology": "double-headed eagle",
+        "distinctive_features": [
+            "two heads",
+            "holding elephants in claws and beaks",
+            "long tail feathers like a peafowl"
+        ],
+        "color_palette": [
+            "gold",
+            "brown",
+            "green"
+        ],
+        "texture": "feathery",
+        "size_and_scale": "enormous, capable of holding elephants",
+        "structural_arrangement": "symmetrical with two heads and expansive wings",
+        "domain_specific_visual": {
+            "depiction_in_art": "often shown in a scene of destruction",
+            "temple_carvings": "found in Chennakeshava Temple, Beluru"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "subdue Sharabha and protect the universe",
+        "secondary_functions": [
+            "symbol of power",
+            "emblem of Mysore and Karnataka"
+        ],
+        "domain_specific_functional": {
+            "role_in_mythology": "form of Vishnu to control Narasimha's fury",
+            "symbolic_role": "represents strength and protection"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "FORM_OF",
+                "target": "Narasimha",
+                "description": "Gandaberunda is a form taken by Narasimha, an avatar of Vishnu."
+            },
+            {
+                "type": "ENEMY_OF",
+                "target": "Sharabha",
+                "description": "Gandaberunda fought and subdued Sharabha."
+            }
+        ],
+        "associated_entities": [
+            "Narasimha",
+            "Sharabha",
+            "Vishnu",
+            "Shiva"
+        ],
+        "symbolic_items": [
+            "elephants",
+            "snake"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Hindu mythology",
+        "historical_period": "ancient",
+        "geographic_range": "Indian subcontinent",
+        "cultural_significance": "emblem of power and protection, state symbol of Karnataka",
+        "primary_sources": [
+            "Hindu scriptures",
+            "Vaishnava and Shaiva texts"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a single-headed eagle",
+        "NOT without holding elephants",
+        "NOT a generic bird of prey"
+    ]
+}

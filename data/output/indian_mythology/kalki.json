@@ -1,0 +1,99 @@
+{
+    "name": "Kalki",
+    "domain": "indian_mythology",
+    "entity_type": "Avatar of Vishnu",
+    "alternative_names": [
+        "Kalkin",
+        "Karki"
+    ],
+    "primary_sources": [
+        "Mahabharata",
+        "Garuda Purana",
+        "Kalki Purana",
+        "Agni Purana",
+        "Devi Bhagavata Purana",
+        "Kalachakra Tantra",
+        "Dasam Granth"
+    ],
+    "visual_attributes": {
+        "morphology": "Humanoid warrior",
+        "distinctive_features": [
+            "Riding a white horse named Devadatta",
+            "Wielding a fiery sword",
+            "Brahmin warrior attire"
+        ],
+        "color_palette": [
+            "White",
+            "Gold",
+            "Red"
+        ],
+        "texture": "Smooth skin, metallic sword",
+        "size_and_scale": "Human-sized",
+        "structural_arrangement": "Mounted on a horse, sword in hand",
+        "domain_specific_visual": {
+            "HORSE_NAME": "Devadatta",
+            "SWORD_DESCRIPTION": "Fiery with jewel-bedecked handle"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "End the Kali Yuga and restore dharma",
+        "secondary_functions": [
+            "Rejuvenate existence",
+            "Usher in Satya Yuga"
+        ],
+        "domain_specific_functional": {
+            "ROLE_IN_MYTHOLOGY": "Final avatar of Vishnu",
+            "ASSISTED_BY": "Immortal Chiranjivis"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_PARENT",
+                "target": "Vishnuyashas",
+                "description": "Kalki is born into the family of Vishnuyashas."
+            },
+            {
+                "type": "HAS_PARENT",
+                "target": "Sumati",
+                "description": "Kalki is born into the family of Sumati."
+            },
+            {
+                "type": "ASSISTED_BY",
+                "target": "Parashurama",
+                "description": "Kalki receives military training from Parashurama."
+            },
+            {
+                "type": "RIDES",
+                "target": "Devadatta",
+                "description": "Kalki rides a divine white horse named Devadatta."
+            }
+        ],
+        "associated_entities": [
+            "Vishnu",
+            "Shiva",
+            "Parashurama"
+        ],
+        "symbolic_items": [
+            "Fiery sword",
+            "White horse Devadatta",
+            "Parrot Shuka"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Hindu mythology",
+        "historical_period": "End of Kali Yuga",
+        "geographic_range": "Indian subcontinent",
+        "cultural_significance": "Symbolizes the end of unrighteousness and the beginning of a new virtuous age",
+        "primary_sources": [
+            "Mahabharata",
+            "Puranas",
+            "Kalachakra Tantra"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic warrior",
+        "NOT without a horse",
+        "NOT without a fiery sword"
+    ]
+}

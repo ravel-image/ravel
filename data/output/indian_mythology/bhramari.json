@@ -1,0 +1,83 @@
+{
+    "name": "Bhramari",
+    "domain": "indian_mythology",
+    "entity_type": "Goddess",
+    "alternative_names": [
+        "Bhrāmarī",
+        "Goddess of Bees"
+    ],
+    "primary_sources": [
+        "Devi Bhagavata Purana",
+        "Lakshmi Tantra",
+        "Devi Mahatmya"
+    ],
+    "visual_attributes": {
+        "morphology": "Humanoid form with four arms",
+        "distinctive_features": [
+            "Emanates bees, hornets, and wasps from her hands",
+            "Three eyes representing the sun, moon, and Agni",
+            "Insects clinging to her body"
+        ],
+        "color_palette": [
+            "Black",
+            "Gold",
+            "Yellow"
+        ],
+        "texture": "Smooth with insect-like features",
+        "size_and_scale": "Massive size when in divine form",
+        "structural_arrangement": "Insects clinging and emanating from her body",
+        "domain_specific_visual": {
+            "ASSOCIATED_INSECTS": "Bees, hornets, wasps, flies, termites, mosquitos, spiders"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Protector of the deities and slayer of demons",
+        "secondary_functions": [
+            "Symbol of prosperity",
+            "Embodiment of divine power"
+        ],
+        "domain_specific_functional": {
+            "INCARNATION_OF": "Mahadevi",
+            "ASSOCIATED_WITH": "Lakshmi"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "INCARNATION_OF",
+                "target": "Mahadevi",
+                "description": "Bhramari is an incarnation of the goddess Mahadevi in Shaktism."
+            },
+            {
+                "type": "ENEMY_OF",
+                "target": "Arunasura",
+                "description": "Bhramari defeated the demon Arunasura using her divine form."
+            }
+        ],
+        "associated_entities": [
+            "Mahadevi",
+            "Lakshmi",
+            "Arunasura"
+        ],
+        "symbolic_items": [
+            "Bees",
+            "Hornets",
+            "Wasps"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Hindu mythology",
+        "historical_period": "Ancient",
+        "geographic_range": "Indian subcontinent",
+        "cultural_significance": "Represents divine intervention and protection against evil",
+        "primary_sources": [
+            "Devi Bhagavata Purana",
+            "Lakshmi Tantra"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic bee or insect",
+        "NOT a simple humanoid without insect features",
+        "NOT a non-divine entity"
+    ]
+}

@@ -1,0 +1,87 @@
+{
+    "name": "Ketu",
+    "domain": "indian_mythology",
+    "entity_type": "lunar node deity",
+    "alternative_names": [
+        "South Lunar Node",
+        "Descending Node"
+    ],
+    "primary_sources": [
+        "Brihat Parashara Hora Shastra",
+        "Vedic Astrology Texts"
+    ],
+    "visual_attributes": {
+        "morphology": "torso without a head",
+        "distinctive_features": [
+            "torso without a head",
+            "often depicted with a serpent-like body",
+            "associated with a smoky or shadowy appearance"
+        ],
+        "color_palette": [
+            "dark",
+            "smoky",
+            "shadowy"
+        ],
+        "texture": "ethereal, shadowy",
+        "size_and_scale": "variable, often depicted larger than life",
+        "structural_arrangement": "headless torso with a serpent-like lower body",
+        "domain_specific_visual": {
+            "associated_with": "eclipses and spiritual symbolism",
+            "depicted_with": "serpentine features"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "represents karmic collections and spirituality",
+        "secondary_functions": [
+            "causes material loss for spiritual gain",
+            "indicator of intelligence and wisdom"
+        ],
+        "domain_specific_functional": {
+            "associated_with": "moksha and self-realization",
+            "influences": "endocrine system and psychic abilities"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_COUNTERPART",
+                "target": "Rāhu",
+                "description": "Ketu is the descending node, while Rāhu is the ascending node; together they form the two halves of the asura Svarbhanu."
+            },
+            {
+                "type": "RULES_NAKSHATRAS",
+                "target": "Ashvini, Magha, Mula",
+                "description": "Ketu is the ruling deity of these lunar mansions in Vedic astrology."
+            },
+            {
+                "type": "FRIEND_OF",
+                "target": "Jupiter",
+                "description": "Ketu is considered friendly towards Jupiter in Vedic astrology."
+            }
+        ],
+        "associated_entities": [
+            "Rāhu",
+            "Jupiter",
+            "Saturn"
+        ],
+        "symbolic_items": [
+            "serpent",
+            "smoke"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Vedic astrology, Hindu mythology",
+        "historical_period": "ancient",
+        "geographic_range": "Indian subcontinent",
+        "cultural_significance": "symbolizes spiritual enlightenment and detachment from materialism",
+        "primary_sources": [
+            "Brihat Parashara Hora Shastra",
+            "Vedic Astrology Texts"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a physical planet",
+        "NOT a complete human figure",
+        "NOT a benevolent deity without malefic aspects"
+    ]
+}

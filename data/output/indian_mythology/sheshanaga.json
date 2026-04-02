@@ -1,0 +1,96 @@
+{
+    "name": "Sheshanaga",
+    "domain": "indian_mythology",
+    "entity_type": "serpentine demigod",
+    "alternative_names": [
+        "Shesha",
+        "Adishesha",
+        "Ananta",
+        "Ananta Shesha"
+    ],
+    "primary_sources": [
+        "Mahabharata",
+        "Bhagavata Purana",
+        "Brahma Purana",
+        "Brahmanda Purana"
+    ],
+    "visual_attributes": {
+        "morphology": "serpentine form with multiple heads",
+        "distinctive_features": [
+            "thousand-headed serpent",
+            "ornate crowns on each head",
+            "jewels on hoods"
+        ],
+        "color_palette": [
+            "white",
+            "blue",
+            "red"
+        ],
+        "texture": "scaly",
+        "size_and_scale": "massive, capable of coiling through space or forming a bed for Vishnu",
+        "structural_arrangement": "coiled body with heads raised",
+        "domain_specific_visual": {
+            "HEAD_COUNT": "up to one million",
+            "JEWELRY": "Svastika ornaments"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "supporting the universe",
+        "secondary_functions": [
+            "singing the glories of Vishnu",
+            "stabilizing the Earth"
+        ],
+        "domain_specific_functional": {
+            "ROLE_IN_CREATION": "primordial being of creation",
+            "ROLE_IN_DESTRUCTION": "creates Rudras to destroy the universe"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_PARENT",
+                "target": "Kashyapa",
+                "description": "Shesha is the son of the sage Kashyapa."
+            },
+            {
+                "type": "HAS_PARENT",
+                "target": "Kadru",
+                "description": "Shesha is the son of Kadru."
+            },
+            {
+                "type": "HAS_SPOUSE",
+                "target": "Nagalakshmi",
+                "description": "Shesha is married to Nagalakshmi."
+            },
+            {
+                "type": "SUPPORTS",
+                "target": "Vishnu",
+                "description": "Forms the bed for Vishnu to rest upon."
+            }
+        ],
+        "associated_entities": [
+            "Vishnu",
+            "Lakshmana",
+            "Balarama"
+        ],
+        "symbolic_items": [
+            "plough-share",
+            "iron club"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Hindu mythology",
+        "historical_period": "ancient",
+        "geographic_range": "Indian subcontinent",
+        "cultural_significance": "symbol of eternity and cosmic balance",
+        "primary_sources": [
+            "Mahabharata",
+            "Bhagavata Purana"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a common snake",
+        "NOT a single-headed serpent",
+        "NOT devoid of ornate crowns or jewels"
+    ]
+}

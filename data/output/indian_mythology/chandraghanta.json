@@ -1,0 +1,86 @@
+{
+    "name": "Chandraghanta",
+    "domain": "indian_mythology",
+    "entity_type": "Hindu Goddess",
+    "alternative_names": [
+        "Candraghaṇṭā",
+        "Navadurga"
+    ],
+    "primary_sources": [
+        "Shiva Purana",
+        "Navaratri texts"
+    ],
+    "visual_attributes": {
+        "morphology": "Humanoid with ten arms",
+        "distinctive_features": [
+            "Crescent moon shaped like a bell on forehead",
+            "Third eye in the middle of forehead",
+            "Rides a lion"
+        ],
+        "color_palette": [
+            "golden",
+            "silver",
+            "red"
+        ],
+        "texture": "Smooth and radiant",
+        "size_and_scale": "Human-sized deity",
+        "structural_arrangement": "Symmetrical arrangement of ten arms holding various weapons",
+        "domain_specific_visual": {
+            "WEAPONS_HELD": "Trident, mace, bow, arrow, sword, lotus, bell, waterpot",
+            "POSTURE": "One hand in abhayamudra (fear dispelling gesture)"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Destroyer of demons and protector of devotees",
+        "secondary_functions": [
+            "Symbol of bravery and courage",
+            "Embodiment of serenity"
+        ],
+        "domain_specific_functional": {
+            "ROLE_IN_NAVARATRI": "Worshipped on the third day",
+            "SYMBOLISM": "Represents fearlessness and divine splendor"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_FORM",
+                "target": "Mahadevi",
+                "description": "Chandraghanta is a form of the goddess Mahadevi."
+            },
+            {
+                "type": "HAS_SPOUSE",
+                "target": "Shiva",
+                "description": "Chandraghanta is the shakti of Shiva in the form of Chandrashekhara."
+            },
+            {
+                "type": "DEFEATED",
+                "target": "Jatukasura",
+                "description": "Chandraghanta defeated the demon Jatukasura."
+            }
+        ],
+        "associated_entities": [
+            "Shiva",
+            "Jatukasura"
+        ],
+        "symbolic_items": [
+            "Trident",
+            "Lion"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Hindu mythology",
+        "historical_period": "Ancient",
+        "geographic_range": "Indian subcontinent",
+        "cultural_significance": "Represents divine strength and protection during Navaratri",
+        "primary_sources": [
+            "Shiva Purana",
+            "Navaratri texts"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic goddess without specific attributes",
+        "NOT without the crescent moon on the forehead",
+        "NOT depicted without a lion as her vehicle"
+    ]
+}

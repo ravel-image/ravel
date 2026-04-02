@@ -1,0 +1,93 @@
+{
+    "name": "Hayagriva",
+    "domain": "indian_mythology",
+    "entity_type": "Avatar of Vishnu",
+    "alternative_names": [
+        "Horse-necked one",
+        "Hayagreeva"
+    ],
+    "primary_sources": [
+        "Bhagavata Purana",
+        "Mahabharata",
+        "Pancaratra Agama",
+        "Vedanta Desika's dhyāna-śloka"
+    ],
+    "visual_attributes": {
+        "morphology": "Human body with a horse's head",
+        "distinctive_features": [
+            "Horse head",
+            "Four arms",
+            "Seated on a white lotus",
+            "Holds a Conch and Discus"
+        ],
+        "color_palette": [
+            "Brilliant white",
+            "Crystal-like"
+        ],
+        "texture": "Smooth and brilliant like fresh cut crystal",
+        "size_and_scale": "Human-sized deity",
+        "structural_arrangement": "Seated with four arms, one hand in blessing or teaching pose, others holding symbolic items",
+        "domain_specific_visual": {
+            "POSE": "Seated, often in meditation or blessing posture",
+            "SYMBOLIC_ITEMS": "Conch, Discus, Book, Rosary"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "God of knowledge and wisdom",
+        "secondary_functions": [
+            "Protector of the Vedas",
+            "Slayer of demons"
+        ],
+        "domain_specific_functional": {
+            "ROLE_IN_MYTHOLOGY": "Avatar of Vishnu to recover the Vedas and defeat demons",
+            "WORSHIP_CONTEXT": "Invoked for blessings in education and wisdom"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "AVATAR_OF",
+                "target": "Vishnu",
+                "description": "Hayagriva is an avatar of the god Vishnu."
+            },
+            {
+                "type": "CONSORT_OF",
+                "target": "Lakshmi",
+                "description": "Often worshipped along with his consort Lakshmi as Lakshmi-Hayagriva."
+            },
+            {
+                "type": "ENEMY_OF",
+                "target": "Madhu and Kaitabha",
+                "description": "Defeated the demons Madhu and Kaitabha to recover the Vedas."
+            }
+        ],
+        "associated_entities": [
+            "Lakshmi",
+            "Vishnu",
+            "Madhu",
+            "Kaitabha"
+        ],
+        "symbolic_items": [
+            "Conch",
+            "Discus",
+            "Book",
+            "Rosary"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Hindu mythology",
+        "historical_period": "Ancient Hindu texts",
+        "geographic_range": "Primarily India, influence in Southeast Asia",
+        "cultural_significance": "Represents the triumph of knowledge over ignorance and chaos",
+        "primary_sources": [
+            "Bhagavata Purana",
+            "Mahabharata",
+            "Pancaratra Agama"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic horse deity",
+        "NOT depicted with a fearsome or demonic expression",
+        "NOT associated with non-Hindu contexts or deities"
+    ]
+}

@@ -1,0 +1,88 @@
+{
+    "name": "Aghori",
+    "domain": "indian_mythology",
+    "entity_type": "Ascetic Order",
+    "alternative_names": [
+        "Aghora",
+        "Aghor"
+    ],
+    "primary_sources": [
+        "Yoga: Immortality and Freedom by Mircea Eliade",
+        "Avadhuta Gita",
+        "Puranas"
+    ],
+    "visual_attributes": {
+        "morphology": "Human form with ascetic features",
+        "distinctive_features": [
+            "Smeared cremation ashes on body",
+            "Use of human skulls for decoration and bowls",
+            "Bone jewelry"
+        ],
+        "color_palette": [
+            "Ash gray",
+            "Bone white",
+            "Earthy brown"
+        ],
+        "texture": "Rough and ashen",
+        "size_and_scale": "Average human size",
+        "structural_arrangement": "Minimal clothing, often naked or in simple robes",
+        "domain_specific_visual": {
+            "RITUAL_ITEMS": "Kapāla (skull cups)",
+            "LOCATION": "Charnel grounds or cremation sites"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Seek liberation (mokṣa) through ascetic practices",
+        "secondary_functions": [
+            "Possess healing powers",
+            "Critique social norms"
+        ],
+        "domain_specific_functional": {
+            "RITUAL_PRACTICES": "Post-mortem rituals, shava sadhana",
+            "PHILOSOPHY": "Non-duality (advaita) and transcendence of social taboos"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "FOUNDED_BY",
+                "target": "Baba Keenaram",
+                "description": "Baba Keenaram is considered the founder of the Aghori tradition."
+            },
+            {
+                "type": "WORSHIPS",
+                "target": "Lord Dattatreya",
+                "description": "Lord Dattatreya is revered as a predecessor and spiritual guide."
+            },
+            {
+                "type": "ASSOCIATED_WITH",
+                "target": "Kāpālika",
+                "description": "Aghoris are successors to the Kāpālika tradition."
+            }
+        ],
+        "associated_entities": [
+            "Bhairava",
+            "Mahākāla",
+            "Smashan Tara"
+        ],
+        "symbolic_items": [
+            "Kapāla",
+            "Bone jewelry"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Uttar Pradesh, India",
+        "historical_period": "Medieval India, 4th to 8th century CE",
+        "geographic_range": "Primarily Northern India",
+        "cultural_significance": "Represents transcendence of duality and social norms",
+        "primary_sources": [
+            "Yoga: Immortality and Freedom by Mircea Eliade",
+            "Avadhuta Gita"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT Generic Hindu Sadhu",
+        "NOT Clean or well-groomed appearance",
+        "NOT Orthodox Hindu practices"
+    ]
+}

@@ -1,0 +1,89 @@
+{
+    "name": "Ravana's Pushpaka Vimana",
+    "domain": "indian_mythology",
+    "entity_type": "mythological_flying_chariot",
+    "alternative_names": [
+        "Pushpaka Vimana",
+        "Pushpak Viman"
+    ],
+    "primary_sources": [
+        "Ramayana",
+        "Vaimānika Shāstra",
+        "Akilattirattu Ammanai"
+    ],
+    "visual_attributes": {
+        "morphology": "aerial chariot resembling a bright cloud or a palace",
+        "distinctive_features": [
+            "resembles the Sun",
+            "self-moving and capable of flying",
+            "yoked with mule-like horses with ghost faces"
+        ],
+        "color_palette": [
+            "golden",
+            "bright white",
+            "sun-like radiance"
+        ],
+        "texture": "smooth and radiant",
+        "size_and_scale": "seven stories high",
+        "structural_arrangement": "multi-tiered structure with a central throne or seat",
+        "domain_specific_visual": {
+            "aerial_design": "resembles a palace or a house",
+            "mythological_elements": "incorporates divine and celestial motifs"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "transportation of divine beings and kings",
+        "secondary_functions": [
+            "symbol of power and divinity",
+            "aerial travel"
+        ],
+        "domain_specific_functional": {
+            "cultural_role": "used by Ravana, Rama, and other mythological figures",
+            "narrative_significance": "central to the story of Ramayana"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "OWNED_BY",
+                "target": "Ravana",
+                "description": "Ravana took the Pushpaka Vimana from Kubera"
+            },
+            {
+                "type": "RETURNED_TO",
+                "target": "Kubera",
+                "description": "Rama returned the Pushpaka Vimana to Kubera after defeating Ravana"
+            },
+            {
+                "type": "CREATED_BY",
+                "target": "Vishvakarma",
+                "description": "Originally made by Vishvakarma for Brahma"
+            }
+        ],
+        "associated_entities": [
+            "Ravana",
+            "Kubera",
+            "Rama",
+            "Vishvakarma"
+        ],
+        "symbolic_items": [
+            "throne",
+            "divine chariot"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Indian subcontinent",
+        "historical_period": "ancient Hindu epics era",
+        "geographic_range": "mythological regions of Lanka and Ayodhya",
+        "cultural_significance": "represents divine power and advanced technology in mythology",
+        "primary_sources": [
+            "Ramayana",
+            "Vaimānika Shāstra"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a modern aircraft",
+        "NOT a simple horse-drawn chariot",
+        "NOT a non-mythological vehicle"
+    ]
+}

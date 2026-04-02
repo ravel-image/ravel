@@ -1,0 +1,102 @@
+{
+    "name": "Kumbhakarna",
+    "domain": "indian_mythology",
+    "entity_type": "rakshasa",
+    "alternative_names": [
+        "Vijaya",
+        "Pot-eared"
+    ],
+    "primary_sources": [
+        "Ramayana",
+        "Bhagavata Purana",
+        "Kamba Ramayanam",
+        "Bharatavarshiya Prachin Charitrakosha"
+    ],
+    "visual_attributes": {
+        "morphology": "gigantic humanoid",
+        "distinctive_features": [
+            "pot-like ears",
+            "immense size",
+            "fearsome appearance"
+        ],
+        "color_palette": [
+            "dark brown",
+            "black",
+            "red"
+        ],
+        "texture": "rough and rugged skin",
+        "size_and_scale": "gigantic, towering over humans and vanaras",
+        "structural_arrangement": "muscular build with large limbs",
+        "domain_specific_visual": {
+            "rakshasa_feature": "sharp tusks",
+            "battle_gear": "traditional rakshasa armor"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "warrior",
+        "secondary_functions": [
+            "protector of Ravana",
+            "devourer"
+        ],
+        "domain_specific_functional": {
+            "curse_effect": "sleeps for six months",
+            "battle_role": "devastator of armies"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_BROTHER",
+                "target": "Ravana",
+                "description": "Kumbhakarna is the younger brother of Ravana."
+            },
+            {
+                "type": "HAS_BROTHER",
+                "target": "Vibhishana",
+                "description": "Kumbhakarna is the brother of Vibhishana."
+            },
+            {
+                "type": "HAS_SON",
+                "target": "Kumbha",
+                "description": "Kumbhakarna is the father of Kumbha."
+            },
+            {
+                "type": "HAS_SON",
+                "target": "Nikumbha",
+                "description": "Kumbhakarna is the father of Nikumbha."
+            },
+            {
+                "type": "HAS_WIFE",
+                "target": "Vajrajwala",
+                "description": "Kumbhakarna is married to Vajrajwala."
+            }
+        ],
+        "associated_entities": [
+            "Ravana",
+            "Vibhishana",
+            "Sugriva",
+            "Hanuman",
+            "Lakshmana",
+            "Rama"
+        ],
+        "symbolic_items": [
+            "broken tusk of Airavata",
+            "Indrastra"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "mythological Lanka",
+        "historical_period": "Treta Yuga",
+        "geographic_range": "Lanka, Indian subcontinent",
+        "cultural_significance": "symbol of loyalty and strength, despite being a rakshasa",
+        "primary_sources": [
+            "Ramayana",
+            "Bhagavata Purana"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic demon",
+        "NOT a small or human-sized figure",
+        "NOT a benevolent deity"
+    ]
+}

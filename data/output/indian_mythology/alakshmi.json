@@ -1,0 +1,88 @@
+{
+    "name": "Alakshmi",
+    "domain": "indian_mythology",
+    "entity_type": "Goddess of Misfortune",
+    "alternative_names": [
+        "Kalahapriya",
+        "Daridara",
+        "Jyestha",
+        "Nirṛti"
+    ],
+    "primary_sources": [
+        "Padma Purana",
+        "Rig Veda"
+    ],
+    "visual_attributes": {
+        "morphology": "Humanoid with distinctive animal features",
+        "distinctive_features": [
+            "Cow-repelling",
+            "Antelope-footed",
+            "Bull-toothed",
+            "Dry shriveled body",
+            "Sunken cheeks",
+            "Thick lips",
+            "Beady eyes",
+            "Rides a donkey"
+        ],
+        "color_palette": [
+            "Black",
+            "Dark brown",
+            "Gray"
+        ],
+        "texture": "Rough and shriveled",
+        "size_and_scale": "Human-sized",
+        "structural_arrangement": "Anthropomorphic with animalistic features",
+        "domain_specific_visual": {
+            "CLOTHING": "Blackest of clothes",
+            "ACCESSORIES": "None"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Bringer of misfortune and grief",
+        "secondary_functions": [
+            "Symbol of inauspiciousness",
+            "Catalyst for positive change"
+        ],
+        "domain_specific_functional": {
+            "ROLE_IN_COSMOLOGY": "Emerges first during Samudra Manthana",
+            "SOCIAL_IMPACT": "Causes jealousy and malice"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "SHADOW_OF",
+                "target": "Lakshmi",
+                "description": "Alakshmi is the opposite of Lakshmi, representing misfortune."
+            },
+            {
+                "type": "EMERGES_BEFORE",
+                "target": "Lakshmi",
+                "description": "Alakshmi appears before Lakshmi during the Samudra Manthana."
+            }
+        ],
+        "associated_entities": [
+            "Lakshmi",
+            "Mahadevi"
+        ],
+        "symbolic_items": [
+            "Lime",
+            "Green chilies"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Hindu mythology",
+        "historical_period": "Ancient",
+        "geographic_range": "Indian subcontinent",
+        "cultural_significance": "Represents the struggle before success and the consequences of negative actions.",
+        "primary_sources": [
+            "Padma Purana",
+            "Rig Veda"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT Lakshmi",
+        "NOT a benevolent or auspicious figure",
+        "NOT associated with wealth or prosperity"
+    ]
+}

@@ -1,0 +1,90 @@
+{
+    "name": "Vritra",
+    "domain": "indian_mythology",
+    "entity_type": "Danava",
+    "alternative_names": [
+        "Ahi"
+    ],
+    "primary_sources": [
+        "Rig Veda",
+        "Mahabharata",
+        "Srimad Bhagavatam"
+    ],
+    "visual_attributes": {
+        "morphology": "Human-like serpent",
+        "distinctive_features": [
+            "Gigantic size",
+            "Blackish complexion",
+            "Copper-colored hair, beard, and moustache",
+            "Piercing eyes like the midday sun",
+            "Long, sharp teeth"
+        ],
+        "color_palette": [
+            "Black",
+            "Copper",
+            "Bright array of clouds"
+        ],
+        "texture": "Scaly",
+        "size_and_scale": "Gigantic, as tall as a burnt hill",
+        "structural_arrangement": "Serpent-like body with human features",
+        "domain_specific_visual": {
+            "TRIDENT": "Blazing trident",
+            "MOUTH": "Deep as a cave, capable of swallowing the sky"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Personification of drought",
+        "secondary_functions": [
+            "Adversary of Indra",
+            "Head of the asuras"
+        ],
+        "domain_specific_functional": {
+            "OBSTACLE_CREATOR": "Held back the waters of the world",
+            "DEVOTEE_OF_VISHNU": "Recognized as a devotee of Vishnu in Vaishnavism"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ENEMY_OF",
+                "target": "Indra",
+                "description": "Vritra is the adversary of Indra, the king of the devas."
+            },
+            {
+                "type": "CHILD_OF",
+                "target": "Danu",
+                "description": "Vritra is the son of Danu, the mother of the danava race."
+            },
+            {
+                "type": "CREATED_BY",
+                "target": "Tvashtri",
+                "description": "Vritra was created by Tvashtri to avenge his son's death."
+            }
+        ],
+        "associated_entities": [
+            "Indra",
+            "Vishnu",
+            "Dadhichi"
+        ],
+        "symbolic_items": [
+            "Vajra",
+            "Sea foam"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Hindu mythology",
+        "historical_period": "Vedic period",
+        "geographic_range": "Indian subcontinent",
+        "cultural_significance": "Symbolizes obstacles and drought, and represents the struggle between devas and asuras.",
+        "primary_sources": [
+            "Rig Veda",
+            "Mahabharata",
+            "Srimad Bhagavatam"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic dragon",
+        "NOT a benevolent serpent",
+        "NOT a non-mythological snake"
+    ]
+}

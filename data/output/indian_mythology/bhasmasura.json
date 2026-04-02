@@ -1,0 +1,78 @@
+{
+    "name": "Bhasmasura",
+    "domain": "indian_mythology",
+    "entity_type": "asura",
+    "alternative_names": [
+        "Bhasmāsura"
+    ],
+    "primary_sources": [
+        "regional literature",
+        "Ramakien"
+    ],
+    "visual_attributes": {
+        "morphology": "humanoid with demonic features",
+        "distinctive_features": [
+            "one hand raised above the head",
+            "other hand behind the back",
+            "ashes or bhasma on the body"
+        ],
+        "color_palette": [
+            "dark grey",
+            "black",
+            "ash white"
+        ],
+        "texture": "ashy and rough",
+        "size_and_scale": "human-sized",
+        "structural_arrangement": "upright humanoid form with distinctive hand positions",
+        "domain_specific_visual": {
+            "dance_pose": "Bhasmasura-type pose with one hand atop the head"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "to burn to ashes anyone whose head he touches",
+        "secondary_functions": [
+            "symbol of arrogance",
+            "lesson in humility"
+        ],
+        "domain_specific_functional": {
+            "boon_granted_by": "Shiva",
+            "tricked_by": "Mohini"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "GRANTED_BOON_BY",
+                "target": "Shiva",
+                "description": "Bhasmasura received his power from Shiva."
+            },
+            {
+                "type": "TRICKED_BY",
+                "target": "Mohini",
+                "description": "Mohini tricked Bhasmasura into destroying himself."
+            }
+        ],
+        "associated_entities": [
+            "Shiva",
+            "Mohini"
+        ],
+        "symbolic_items": [
+            "ashes"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Hindu mythology",
+        "historical_period": "ancient",
+        "geographic_range": "Indian subcontinent",
+        "cultural_significance": "represents the dangers of unchecked power and arrogance",
+        "primary_sources": [
+            "regional literature",
+            "Ramakien"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT generic demon",
+        "NOT without distinctive hand pose",
+        "NOT unrelated to Hindu mythology"
+    ]
+}

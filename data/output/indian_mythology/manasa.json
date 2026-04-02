@@ -1,0 +1,102 @@
+{
+    "name": "Manasa",
+    "domain": "indian_mythology",
+    "entity_type": "Goddess",
+    "alternative_names": [
+        "Jaratkaru",
+        "Padmavati",
+        "Vishahari",
+        "Ayonisambhava",
+        "Nityā",
+        "Nagmati",
+        "Mare",
+        "Barmati"
+    ],
+    "primary_sources": [
+        "Mahabharata",
+        "Puranas",
+        "Mangalkavyas",
+        "Padmapurana"
+    ],
+    "visual_attributes": {
+        "morphology": "Humanoid with four arms",
+        "distinctive_features": [
+            "Golden complexion",
+            "Sheltered by the canopy of seven cobra hoods",
+            "Sitting on a lotus platform or standing upon a snake"
+        ],
+        "color_palette": [
+            "Golden",
+            "Red",
+            "Gold"
+        ],
+        "texture": "Smooth skin with snake scales",
+        "size_and_scale": "Human-sized",
+        "structural_arrangement": "Upper right hand holds a conch, left hand holds a lotus, lower left hand holds a snake, lower right hand displays Abhayamudra",
+        "domain_specific_visual": {
+            "Vahana": "Swan",
+            "Companion": "Neta"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Goddess of snakes and fertility",
+        "secondary_functions": [
+            "Prevention and cure of snakebite",
+            "Prosperity"
+        ],
+        "domain_specific_functional": {
+            "Role_in_Mythology": "Presiding deity of snakes and reptiles",
+            "Power": "Control over earth through mantras"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_PARENT",
+                "target": "Kashyapa",
+                "description": "Manasa is the daughter of sage Kashyapa."
+            },
+            {
+                "type": "HAS_SIBLING",
+                "target": "Vasuki",
+                "description": "Manasa is the sister of Vasuki, king of Nāgas."
+            },
+            {
+                "type": "HAS_SPOUSE",
+                "target": "Jaratkaru",
+                "description": "Manasa is married to sage Jaratkaru."
+            },
+            {
+                "type": "HAS_CHILD",
+                "target": "Astika",
+                "description": "Manasa is the mother of the sage Astika."
+            }
+        ],
+        "associated_entities": [
+            "Shiva",
+            "Chandi",
+            "Krishna"
+        ],
+        "symbolic_items": [
+            "Conch",
+            "Lotus",
+            "Snake"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "South India",
+        "historical_period": "14th century assimilation into Shaiva pantheon",
+        "geographic_range": "Bihar, Odisha, Bengal, Andhra Pradesh, Chhattisgarh, Jharkhand, Uttarakhand, Uttar Pradesh, Haryana, Punjab, Rajasthan, Assam, northeastern India",
+        "cultural_significance": "Represents fertility, prosperity, and protection from snakebites",
+        "primary_sources": [
+            "Mahabharata",
+            "Puranas",
+            "Mangalkavyas"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic snake deity",
+        "NOT without the canopy of cobra hoods",
+        "NOT without her golden complexion and red garments"
+    ]
+}

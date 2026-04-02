@@ -1,0 +1,96 @@
+{
+    "name": "Varaha",
+    "domain": "indian_mythology",
+    "entity_type": "Avatar of Vishnu",
+    "alternative_names": [
+        "Sukara",
+        "Emusha"
+    ],
+    "primary_sources": [
+        "Rigveda",
+        "Taittiriya Samhita",
+        "Shatapatha Brahmana",
+        "Ramayana",
+        "Mahabharata",
+        "Puranas"
+    ],
+    "visual_attributes": {
+        "morphology": "Anthropomorphic form with a boar's head and human body",
+        "distinctive_features": [
+            "Boar's head with prominent tusks",
+            "Human-like body",
+            "Often depicted lifting the earth goddess Bhumi"
+        ],
+        "color_palette": [
+            "Brown",
+            "Black",
+            "Gold"
+        ],
+        "texture": "Rough, bristly fur on the boar's head",
+        "size_and_scale": "Gigantic, capable of lifting the earth",
+        "structural_arrangement": "Boar's head seamlessly integrated with a muscular human torso",
+        "domain_specific_visual": {
+            "CROWN": "Often depicted wearing a crown symbolizing divinity",
+            "WEAPON": "Carries a mace or discus as a symbol of power"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Rescuer of the earth goddess Bhumi",
+        "secondary_functions": [
+            "Protector of the universe",
+            "Destroyer of demons"
+        ],
+        "domain_specific_functional": {
+            "SYMBOLIZES": "Strength and protection",
+            "ROLE_IN_MYTH": "Restores cosmic order by defeating the demon Hiranyaksha"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_CONSORT",
+                "target": "Bhumi",
+                "description": "Varaha lifts and rescues Bhumi, the earth goddess"
+            },
+            {
+                "type": "ENEMY_OF",
+                "target": "Hiranyaksha",
+                "description": "Varaha defeats the demon Hiranyaksha to rescue the earth"
+            },
+            {
+                "type": "AVATAR_OF",
+                "target": "Vishnu",
+                "description": "Varaha is the third avatar of the Hindu god Vishnu"
+            }
+        ],
+        "associated_entities": [
+            "Vishnu",
+            "Bhumi",
+            "Hiranyaksha"
+        ],
+        "symbolic_items": [
+            "Earth",
+            "Mace",
+            "Discus"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Hindu mythology",
+        "historical_period": "Vedic period to present",
+        "geographic_range": "Indian subcontinent",
+        "cultural_significance": "Represents the divine intervention to restore balance and order in the universe",
+        "primary_sources": [
+            "Rigveda",
+            "Taittiriya Samhita",
+            "Shatapatha Brahmana",
+            "Ramayana",
+            "Mahabharata",
+            "Puranas"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a common wild boar",
+        "NOT without human body features",
+        "NOT unrelated to Vishnu or Hindu mythology"
+    ]
+}

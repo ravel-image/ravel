@@ -1,0 +1,87 @@
+{
+    "name": "Jatayu",
+    "domain": "indian_mythology",
+    "entity_type": "Demigod Vulture",
+    "alternative_names": [
+        "Gṛdhrarāja",
+        "King of Vultures"
+    ],
+    "primary_sources": [
+        "Ramayana",
+        "Araṇya-Kāṇḍa"
+    ],
+    "visual_attributes": {
+        "morphology": "Vulture-like form with large wingspan",
+        "distinctive_features": [
+            "Majestic and aged appearance",
+            "Large, powerful wings",
+            "Regal bearing indicative of a king"
+        ],
+        "color_palette": [
+            "Brown",
+            "Black",
+            "Grey"
+        ],
+        "texture": "Feathery with a slightly rugged appearance",
+        "size_and_scale": "Large, comparable to a giant vulture",
+        "structural_arrangement": "Wings spread wide, poised for flight or battle",
+        "domain_specific_visual": {
+            "MYTHOLOGICAL_AURA": "Divine and heroic presence",
+            "AGE_INDICATOR": "Signs of age and wisdom in features"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Protector and warrior",
+        "secondary_functions": [
+            "Messenger",
+            "Symbol of loyalty"
+        ],
+        "domain_specific_functional": {
+            "SACRIFICIAL_ACT": "Attempted to save Sita from Ravana",
+            "GUIDANCE_ROLE": "Informed Rama and Lakshmana about Sita's abduction"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_BROTHER",
+                "target": "Sampati",
+                "description": "Jatayu's elder brother who sacrificed his wings to save Jatayu"
+            },
+            {
+                "type": "FRIEND_OF",
+                "target": "King Dasharatha",
+                "description": "Old friend of Rama's father"
+            },
+            {
+                "type": "ENEMY_OF",
+                "target": "Ravana",
+                "description": "Fought Ravana to save Sita"
+            }
+        ],
+        "associated_entities": [
+            "Rama",
+            "Lakshmana",
+            "Sita"
+        ],
+        "symbolic_items": [
+            "Jatayu Tirtham",
+            "Jatayu Earth's Center Nature Park"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Hindu mythology, Ramayana",
+        "historical_period": "Treta Yuga",
+        "geographic_range": "India, specifically Kerala and Andhra Pradesh",
+        "cultural_significance": "Symbol of bravery, sacrifice, and loyalty",
+        "primary_sources": [
+            "Ramayana",
+            "Local lore of Kerala and Andhra Pradesh"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic vulture",
+        "NOT a young or small bird",
+        "NOT devoid of mythological or divine attributes"
+    ]
+}

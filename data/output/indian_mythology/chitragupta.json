@@ -1,0 +1,100 @@
+{
+    "name": "Chitragupta",
+    "domain": "indian_mythology",
+    "entity_type": "Hindu Deity",
+    "alternative_names": [
+        "Citragupta",
+        "Kayastha"
+    ],
+    "primary_sources": [
+        "Garuda Purana",
+        "Yama Samhita",
+        "Padma Purana",
+        "Bhavishya Purana",
+        "Mahabharata"
+    ],
+    "visual_attributes": {
+        "morphology": "Humanoid figure with divine attributes",
+        "distinctive_features": [
+            "Holds an inkpot and a pen",
+            "Sword girdled to his waist",
+            "Imperial throne in Yamaloka"
+        ],
+        "color_palette": [
+            "Golden",
+            "White",
+            "Blue"
+        ],
+        "texture": "Smooth and divine aura",
+        "size_and_scale": "Human-sized deity",
+        "structural_arrangement": "Seated on a throne with writing tools in hand",
+        "domain_specific_visual": {
+            "DEITY_SYMBOLS": "Inkpot, pen, sword",
+            "THRONE": "Imperial throne in Yamaloka"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Registrar of the dead",
+        "secondary_functions": [
+            "Dispensing justice",
+            "Maintaining records of human deeds"
+        ],
+        "domain_specific_functional": {
+            "ROLE_IN_YAMALOKA": "Assists Yama in deciding the fate of souls",
+            "CULTURAL_ROLE": "Symbolizes justice and memory"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_PARENT",
+                "target": "Brahma",
+                "description": "Chitragupta is the seventeenth manasaputra of Brahma."
+            },
+            {
+                "type": "MARRIED_TO",
+                "target": "Iravati",
+                "description": "Yama's daughter married to Chitragupta."
+            },
+            {
+                "type": "MARRIED_TO",
+                "target": "Nandini",
+                "description": "Daughter of Sraddhadeva Manu married to Chitragupta."
+            },
+            {
+                "type": "ASSISTS",
+                "target": "Yama",
+                "description": "Assists Yama in determining the fate of souls."
+            }
+        ],
+        "associated_entities": [
+            "Yama",
+            "Brahma",
+            "Iravati",
+            "Nandini"
+        ],
+        "symbolic_items": [
+            "Inkpot",
+            "Pen",
+            "Sword"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Hindu mythology",
+        "historical_period": "Ancient Hindu texts",
+        "geographic_range": "Indian subcontinent",
+        "cultural_significance": "Represents justice, memory, and the recording of deeds",
+        "primary_sources": [
+            "Garuda Purana",
+            "Yama Samhita",
+            "Padma Purana",
+            "Bhavishya Purana",
+            "Mahabharata"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic scribe or clerk",
+        "NOT without divine attributes like the inkpot and pen",
+        "NOT a non-Hindu deity or figure"
+    ]
+}

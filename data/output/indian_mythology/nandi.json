@@ -1,0 +1,87 @@
+{
+    "name": "Nandi",
+    "domain": "indian_mythology",
+    "entity_type": "Divine Bull Vahana",
+    "alternative_names": [
+        "Nandikeshvara",
+        "Nandideva",
+        "Vṛṣabha"
+    ],
+    "primary_sources": [
+        "Shiva Purana",
+        "Tiruvilaiyadal Puranam",
+        "Agamas"
+    ],
+    "visual_attributes": {
+        "morphology": "Zoo-anthropomorphic form with the head of a bull and four hands",
+        "distinctive_features": [
+            "Head of a bull",
+            "Four hands holding antelope, axe, mace, and abhayamudra",
+            "Seated posture facing the sanctum"
+        ],
+        "color_palette": [
+            "White"
+        ],
+        "texture": "Smooth",
+        "size_and_scale": "Life-sized or larger stone sculptures",
+        "structural_arrangement": "Seated bull facing the main shrine",
+        "domain_specific_visual": {
+            "SYMBOLIC_POSITION": "Facing the sanctum in Shiva temples",
+            "ICONOGRAPHY": "Represents purity and justice"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Mount of Shiva",
+        "secondary_functions": [
+            "Guardian deity of Kailash",
+            "Symbol of purity and justice"
+        ],
+        "domain_specific_functional": {
+            "ROLE_IN_SHAIVISM": "Chief among the Siddhars",
+            "TEACHINGS": "Passed wisdom to eight disciples"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "MOUNT_OF",
+                "target": "Shiva",
+                "description": "Nandi serves as the mount of the Hindu god Shiva."
+            },
+            {
+                "type": "GUARDIAN_OF",
+                "target": "Kailash",
+                "description": "Nandi is the guardian deity of Shiva's abode, Kailash."
+            },
+            {
+                "type": "INITIATED_BY",
+                "target": "Parvati",
+                "description": "Nandi was initiated by Parvati and Shiva."
+            }
+        ],
+        "associated_entities": [
+            "Shiva",
+            "Parvati",
+            "Ravana",
+            "Hanuman"
+        ],
+        "symbolic_items": [
+            "Nandi Flag"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Indian subcontinent",
+        "historical_period": "Ancient to present",
+        "geographic_range": "India, Southeast Asia, Sri Lanka",
+        "cultural_significance": "Represents devotion and focus on the divine",
+        "primary_sources": [
+            "Shiva Purana",
+            "Tiruvilaiyadal Puranam"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic bull",
+        "NOT without four hands and specific items",
+        "NOT unrelated to Shiva or Shaivism"
+    ]
+}

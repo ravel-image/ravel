@@ -1,0 +1,88 @@
+{
+    "name": "Rakshasa",
+    "domain": "indian_mythology",
+    "entity_type": "supernatural being",
+    "alternative_names": [
+        "Rākṣasa",
+        "Rakkhasa",
+        "Rakshasi (female)"
+    ],
+    "primary_sources": [
+        "Ramayana",
+        "Mahabharata",
+        "Puranas",
+        "Lotus Sutra",
+        "Lankavatara Sutra"
+    ],
+    "visual_attributes": {
+        "morphology": "shape-shifting, monstrous humanoid",
+        "distinctive_features": [
+            "two fangs protruding from the top of the mouth",
+            "sharp, claw-like fingernails",
+            "flaming red eyes",
+            "ability to change size and form"
+        ],
+        "color_palette": [
+            "dark",
+            "red",
+            "black"
+        ],
+        "texture": "varied, often rough or scaly",
+        "size_and_scale": "enormous, variable due to shape-shifting abilities",
+        "structural_arrangement": "humanoid with exaggerated monstrous features",
+        "domain_specific_visual": {
+            "magical_abilities": "can fly, vanish, and use maya (illusion)"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "antagonist, disruptor of rituals",
+        "secondary_functions": [
+            "warrior",
+            "illusionist"
+        ],
+        "domain_specific_functional": {
+            "cannibalistic_tendencies": "often depicted as man-eaters",
+            "role_in_epics": "serve as both heroes and villains"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ENEMY_OF",
+                "target": "Devas",
+                "description": "Rakshasas often oppose the benevolent Devas."
+            },
+            {
+                "type": "HAS_LEADER",
+                "target": "Ravana",
+                "description": "Ravana is a prominent Rakshasa king in the Ramayana."
+            }
+        ],
+        "associated_entities": [
+            "Rama",
+            "Bhima",
+            "Ravana",
+            "Vibhishana"
+        ],
+        "symbolic_items": [
+            "human skulls",
+            "blood-filled cups"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Indian subcontinent",
+        "historical_period": "ancient",
+        "geographic_range": "forests south of the Gangetic plain, island of Lanka",
+        "cultural_significance": "symbolize chaos, fear, and the supernatural",
+        "primary_sources": [
+            "Ramayana",
+            "Mahabharata",
+            "Puranas"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT generic demon",
+        "NOT purely evil entity",
+        "NOT limited to Hindu mythology"
+    ]
+}

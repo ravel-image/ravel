@@ -1,0 +1,87 @@
+{
+    "name": "Matsya",
+    "domain": "indian_mythology",
+    "entity_type": "Avatar of Vishnu",
+    "alternative_names": [
+        "Fish Avatar",
+        "Matsya Avatar"
+    ],
+    "primary_sources": [
+        "Shatapatha Brahmana",
+        "Mahabharata",
+        "Matsya Purana"
+    ],
+    "visual_attributes": {
+        "morphology": "Anthropomorphic form with the upper body of Vishnu and the lower body of a fish",
+        "distinctive_features": [
+            "Golden scales",
+            "Horn on the fish head",
+            "Torso of Vishnu with traditional attire"
+        ],
+        "color_palette": [
+            "golden",
+            "blue",
+            "white"
+        ],
+        "texture": "Scaly on the fish part, smooth on the human part",
+        "size_and_scale": "Giant fish, large enough to carry a ship",
+        "structural_arrangement": "Upper body of a human connected to the rear half of a fish",
+        "domain_specific_visual": {
+            "VISHNU_ATTRIBUTES": "Crown, jewelry, and traditional attire typical of Vishnu"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Savior of Manu and humanity from the deluge",
+        "secondary_functions": [
+            "Protector of the Vedas",
+            "Symbol of divine intervention"
+        ],
+        "domain_specific_functional": {
+            "SYMBOLISM": "Represents the law of dharma and protection of the weak"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "AVATAR_OF",
+                "target": "Vishnu",
+                "description": "Matsya is the first avatar of the Hindu god Vishnu."
+            },
+            {
+                "type": "SAVIOR_OF",
+                "target": "Manu",
+                "description": "Matsya saves Manu from the great deluge."
+            },
+            {
+                "type": "ENEMY_OF",
+                "target": "Hayagriva",
+                "description": "Matsya slays the demon Hayagriva who steals the Vedas."
+            }
+        ],
+        "associated_entities": [
+            "Manu",
+            "Vishnu",
+            "Hayagriva"
+        ],
+        "symbolic_items": [
+            "Ship",
+            "Horn"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Hindu mythology",
+        "historical_period": "Vedic period",
+        "geographic_range": "Indian subcontinent",
+        "cultural_significance": "Represents divine intervention and protection during times of crisis",
+        "primary_sources": [
+            "Shatapatha Brahmana",
+            "Mahabharata",
+            "Matsya Purana"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a regular fish",
+        "NOT without Vishnu's upper body",
+        "NOT a non-divine entity"
+    ]
+}

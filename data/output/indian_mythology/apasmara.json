@@ -1,0 +1,72 @@
+{
+    "name": "Apasmara",
+    "domain": "indian_mythology",
+    "entity_type": "mythological_demon",
+    "alternative_names": [
+        "Muyalaka",
+        "Muyalakan"
+    ],
+    "primary_sources": [
+        "Shiva Purana",
+        "Dictionary of Hindu Lore and Legend by Anna Dallapiccola"
+    ],
+    "visual_attributes": {
+        "morphology": "diminutive humanoid figure",
+        "distinctive_features": [
+            "clutching a cobra",
+            "subdued under Shiva's right foot"
+        ],
+        "color_palette": [
+            "dark brown",
+            "black",
+            "earthy tones"
+        ],
+        "texture": "rough, earthy skin",
+        "size_and_scale": "small, dwarf-like stature",
+        "structural_arrangement": "crouched or lying underfoot",
+        "domain_specific_visual": {
+            "iconography": "depicted in Hindu art under Nataraja's foot"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "symbolizes spiritual ignorance and ahamkara",
+        "secondary_functions": [
+            "represents loss of memory",
+            "embodies ego"
+        ],
+        "domain_specific_functional": {
+            "cosmic_role": "maintains balance between spiritual knowledge and ignorance"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "SUBDUED_BY",
+                "target": "Nataraja",
+                "description": "Shiva in the form of Nataraja subdues Apasmara under his right foot"
+            }
+        ],
+        "associated_entities": [
+            "Nataraja",
+            "Dakshinamurti"
+        ],
+        "symbolic_items": [
+            "cobra"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Hindu mythology",
+        "historical_period": "ancient",
+        "geographic_range": "Indian subcontinent",
+        "cultural_significance": "represents the necessary ignorance for the cycle of rebirth",
+        "primary_sources": [
+            "Shiva Purana",
+            "Dictionary of Hindu Lore and Legend by Anna Dallapiccola"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic demon",
+        "NOT without a cobra",
+        "NOT without being underfoot of Nataraja"
+    ]
+}

@@ -1,0 +1,94 @@
+{
+    "name": "Airavata",
+    "domain": "indian_mythology",
+    "entity_type": "Divine Elephant",
+    "alternative_names": [
+        "Abhra-matanga",
+        "Naga-malla",
+        "Arkasodara",
+        "Erawan"
+    ],
+    "primary_sources": [
+        "Ramayana",
+        "Vishnu Purana",
+        "Mahabharata",
+        "Matangalila",
+        "Bhagavad Gita"
+    ],
+    "visual_attributes": {
+        "morphology": "Elephant with multiple heads, trunks, and tusks",
+        "distinctive_features": [
+            "Three heads",
+            "Six tusks",
+            "Three trunks",
+            "Pristine white color"
+        ],
+        "color_palette": [
+            "White"
+        ],
+        "texture": "Smooth",
+        "size_and_scale": "Gigantic, larger than a typical elephant",
+        "structural_arrangement": "Symmetrical arrangement of heads and trunks",
+        "domain_specific_visual": {
+            "ELEPHANT_TYPE": "Divine",
+            "HEAD_COUNT": "Three",
+            "TUSK_COUNT": "Six"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Vehicle of Indra",
+        "secondary_functions": [
+            "Guardian of compass points",
+            "Cloud producer"
+        ],
+        "domain_specific_functional": {
+            "SYMBOLIZES": "Rain and clouds",
+            "ROLE_IN_MYTH": "King of elephants"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "VEHICLE_OF",
+                "target": "Indra",
+                "description": "Airavata serves as the main vehicle for the deity Indra."
+            },
+            {
+                "type": "HAS_SPOUSE",
+                "target": "Abhramu",
+                "description": "Abhramu is the elephant wife of Airavata."
+            },
+            {
+                "type": "HAS_PARENT",
+                "target": "Iravati",
+                "description": "Airavata is the third son of Iravati."
+            }
+        ],
+        "associated_entities": [
+            "Indra",
+            "Iravati",
+            "Abhramu"
+        ],
+        "symbolic_items": [
+            "Garland from sage Durvasa"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Hindu mythology",
+        "historical_period": "Ancient",
+        "geographic_range": "Indian subcontinent",
+        "cultural_significance": "Symbol of strength, rain, and divine authority",
+        "primary_sources": [
+            "Ramayana",
+            "Vishnu Purana",
+            "Mahabharata",
+            "Matangalila",
+            "Bhagavad Gita"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a regular elephant",
+        "NOT a single-headed elephant",
+        "NOT a non-mythological creature"
+    ]
+}

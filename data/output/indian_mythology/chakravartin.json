@@ -1,0 +1,85 @@
+{
+    "name": "Chakravartin",
+    "domain": "indian_mythology",
+    "entity_type": "Universal Ruler",
+    "alternative_names": [
+        "Cakravartin",
+        "Chakravarti",
+        "Wheel-turning Monarch"
+    ],
+    "primary_sources": [
+        "Arthashastra",
+        "Bhagavata Puranas",
+        "Mahāvastu",
+        "Divyāvadāna",
+        "Milindapañha"
+    ],
+    "visual_attributes": {
+        "morphology": "Regal human figure with divine attributes",
+        "distinctive_features": [
+            "Imperial Gesture with clenched left hand at chest and right hand reaching up",
+            "Uṣṇīṣa or turban/hair binding",
+            "Chhatra or parasol"
+        ],
+        "color_palette": [
+            "Golden",
+            "Royal Blue",
+            "Crimson"
+        ],
+        "texture": "Smooth and luminous",
+        "size_and_scale": "Larger-than-life, majestic presence",
+        "structural_arrangement": "Surrounded by seven attributes including Chakraratna wheel, state elephant, charger horse, octagonal gem, empress, defense minister, and finance minister",
+        "domain_specific_visual": {
+            "Saptaratna": "Seven Jewels including Ratna-Chakra, Empress, Divine Jewellery, Immense Wealth, Huge Army of War-Chariots, Huge Army of Cavalry, Huge Army of Elephants"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Upholder of Dharma",
+        "secondary_functions": [
+            "Temporal and spiritual leadership",
+            "Universal sovereignty"
+        ],
+        "domain_specific_functional": {
+            "Role_in_Buddhism": "Secular counterpart of a Buddha",
+            "Role_in_Jainism": "World Conqueror with 32 major signs of excellence"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_TITLE",
+                "target": "Bharata",
+                "description": "Bharata was conferred the title of Chakravartin Samrāj"
+            },
+            {
+                "type": "HAS_TITLE",
+                "target": "Emperor Ashoka",
+                "description": "Ashoka is considered a historical Chakravartin"
+            }
+        ],
+        "associated_entities": [
+            "Vishnu",
+            "Buddha",
+            "Maitreya"
+        ],
+        "symbolic_items": [
+            "Dharmachakra",
+            "Chakraratna wheel"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Indian subcontinent",
+        "historical_period": "4th to 3rd century BCE",
+        "geographic_range": "Indian subcontinent and Southeast Asia",
+        "cultural_significance": "Symbolizes ideal universal rulership and dharma",
+        "primary_sources": [
+            "Upinder Singh's A History of Ancient and Early Medieval India",
+            "Dictionary of Hindu Lore and Legend by Anna Dallapiccola"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT Generic King",
+        "NOT Without Divine Attributes",
+        "NOT Limited to a Single Religion"
+    ]
+}

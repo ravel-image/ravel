@@ -1,0 +1,91 @@
+{
+    "name": "Bhairava",
+    "domain": "indian_mythology",
+    "entity_type": "Deity",
+    "alternative_names": [
+        "Kāla Bhairava",
+        "Daṇḍapāni",
+        "Śvāśva",
+        "Heruka",
+        "Vajrabhairava",
+        "Mahākāla",
+        "Yamantaka"
+    ],
+    "primary_sources": [
+        "Shiva Purana",
+        "Vijñāna Bhairava Tantra",
+        "Rudrayamala Tantra",
+        "Vajrabhairava Tantras"
+    ],
+    "visual_attributes": {
+        "morphology": "Anthropomorphic form with multiple arms and a fierce expression",
+        "distinctive_features": [
+            "Holds a rod or danda",
+            "Accompanied by a dog as a vehicle",
+            "Carries a skull (kapala) in hand"
+        ],
+        "color_palette": [
+            "Dark blue",
+            "Black",
+            "Red"
+        ],
+        "texture": "Smooth skin with ornate jewelry",
+        "size_and_scale": "Larger than life-size, often depicted as towering over other figures",
+        "structural_arrangement": "Multiple arms arranged symmetrically, often in a dynamic pose",
+        "domain_specific_visual": {
+            "SHAIVITE_ICONOGRAPHY": "Third eye on forehead",
+            "BUDDHIST_ICONOGRAPHY": "Fierce expression with wrathful deities"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Protector and punisher of evil",
+        "secondary_functions": [
+            "Guardian of Shakta pithas",
+            "Transformer of anger into understanding"
+        ],
+        "domain_specific_functional": {
+            "SHAIVISM_ROLE": "Manifestation of Shiva representing Supreme Reality",
+            "BUDDHISM_ROLE": "Fierce emanation of bodhisattva Mañjuśrī"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "MANIFESTATION_OF",
+                "target": "Shiva",
+                "description": "Bhairava is a powerful manifestation of Shiva in Shaivism."
+            },
+            {
+                "type": "EMANATION_OF",
+                "target": "Mañjuśrī",
+                "description": "In Vajrayana Buddhism, Bhairava is considered a fierce emanation of bodhisattva Mañjuśrī."
+            }
+        ],
+        "associated_entities": [
+            "Shiva",
+            "Mañjuśrī",
+            "Brahma",
+            "Vishnu"
+        ],
+        "symbolic_items": [
+            "Danda",
+            "Kapala",
+            "Dog"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Indian subcontinent",
+        "historical_period": "Ancient to present",
+        "geographic_range": "India, Nepal, Indonesia, Sri Lanka, Japan, Tibet",
+        "cultural_significance": "Represents the destruction of fear and protection against evil",
+        "primary_sources": [
+            "Shiva Purana",
+            "Vijñāna Bhairava Tantra"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic Hindu deity without distinctive Shaivite features",
+        "NOT depicted without a dog or danda",
+        "NOT framed solely within a single religious tradition, as Bhairava spans both Hinduism and Buddhism"
+    ]
+}

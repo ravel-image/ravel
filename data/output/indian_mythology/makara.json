@@ -1,0 +1,92 @@
+{
+    "name": "Makara",
+    "domain": "indian_mythology",
+    "entity_type": "mythical_creature",
+    "alternative_names": [
+        "Makaradhvaja",
+        "Makarakundala"
+    ],
+    "primary_sources": [
+        "Vedic texts",
+        "Mahabharata",
+        "Harivamsa",
+        "Jain text of Sūryaprajñapti"
+    ],
+    "visual_attributes": {
+        "morphology": "Chimeric creature with a combination of terrestrial and aquatic features",
+        "distinctive_features": [
+            "Head and jaws of a crocodile",
+            "Trunk of an elephant",
+            "Tail of a peacock",
+            "Scales of a fish",
+            "Feet of a lion"
+        ],
+        "color_palette": [
+            "Green",
+            "Blue",
+            "Gold"
+        ],
+        "texture": "Scaly and smooth",
+        "size_and_scale": "Large, comparable to a crocodile or elephant",
+        "structural_arrangement": "Front half terrestrial, back half aquatic",
+        "domain_specific_visual": {
+            "Vahana": "Vehicle of river goddess Ganga and god Varuna",
+            "Temple_iconography": "Commonly depicted in Hindu and Buddhist temples"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Guardian of gateways and thresholds",
+        "secondary_functions": [
+            "Symbol of chaos and order",
+            "Emblem of Kamadeva"
+        ],
+        "domain_specific_functional": {
+            "Astrological_significance": "Equivalent to Capricorn in Hindu astrology",
+            "Ceremonial_role": "Used in temple architecture and jewelry"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "VEHICLE_OF",
+                "target": "Ganga",
+                "description": "Makara serves as the vahana or vehicle of the river goddess Ganga."
+            },
+            {
+                "type": "VEHICLE_OF",
+                "target": "Varuna",
+                "description": "Makara is the vehicle of Varuna, the god of the ocean."
+            },
+            {
+                "type": "EMBLEM_OF",
+                "target": "Kamadeva",
+                "description": "Makara is the emblem of Kamadeva, the god of love."
+            }
+        ],
+        "associated_entities": [
+            "Ganga",
+            "Varuna",
+            "Kamadeva"
+        ],
+        "symbolic_items": [
+            "Makarakundalas",
+            "Makaradhvaja"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Indian subcontinent",
+        "historical_period": "Vedic era to present",
+        "geographic_range": "South Asia, particularly India and Sri Lanka",
+        "cultural_significance": "Represents water, fertility, and protection",
+        "primary_sources": [
+            "Vedic texts",
+            "Mahabharata",
+            "Harivamsa"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic crocodile",
+        "NOT a simple elephant",
+        "NOT a purely aquatic creature"
+    ]
+}

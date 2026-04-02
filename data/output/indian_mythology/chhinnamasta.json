@@ -1,0 +1,94 @@
+{
+    "name": "Chhinnamasta",
+    "domain": "indian_mythology",
+    "entity_type": "Hindu Goddess",
+    "alternative_names": [
+        "Chinnamastā",
+        "Chhinnamastika",
+        "Chhinnamasta Kali",
+        "Prachanda Chandika",
+        "Jogani Maa"
+    ],
+    "primary_sources": [
+        "Shakta Maha-bhagavata Purana",
+        "Devi-Bhagavata Purana",
+        "Sadhanamala",
+        "Chhinnamastakalpa",
+        "Tantrasara"
+    ],
+    "visual_attributes": {
+        "morphology": "Self-decapitated nude goddess",
+        "distinctive_features": [
+            "Holds her own severed head in one hand",
+            "Holds a scimitar in another hand",
+            "Three jets of blood spurt from her neck",
+            "Blood is drunk by her severed head and two attendants"
+        ],
+        "color_palette": [
+            "Red",
+            "Black",
+            "Gold"
+        ],
+        "texture": "Smooth skin with blood flowing",
+        "size_and_scale": "Human-sized deity",
+        "structural_arrangement": "Usually standing or seated on a divine copulating couple",
+        "domain_specific_visual": {
+            "MAHAVIDYA_ICONOGRAPHY": "Part of the ten Mahavidyas",
+            "TANTRIC_SYMBOLISM": "Represents both life-giving and life-slaying aspects"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Symbolizes both life-giving and life-slaying aspects of Devi",
+        "secondary_functions": [
+            "Embodiment of sexual energy",
+            "Symbol of sexual self-control",
+            "Conveys spiritual self-realization"
+        ],
+        "domain_specific_functional": {
+            "KUNDALINI_AWAKENING": "Represents the awakening of spiritual energy",
+            "SELF_SACRIFICE": "Emphasizes self-sacrifice and maternal elements"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "RELATED_TO",
+                "target": "Mahadevi",
+                "description": "Chhinnamasta is a ferocious aspect of Mahadevi, the Hindu mother goddess"
+            },
+            {
+                "type": "PART_OF",
+                "target": "Mahavidyas",
+                "description": "One of the ten goddesses from the esoteric tradition of Tantra"
+            },
+            {
+                "type": "RELATED_TO",
+                "target": "Vajrayogini",
+                "description": "Closely related to the Tibetan Buddhist goddess Vajrayogini"
+            }
+        ],
+        "associated_entities": [
+            "Mahavidyas",
+            "Vajrayogini"
+        ],
+        "symbolic_items": [
+            "Scimitar",
+            "Severed head"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Hindu and Buddhist traditions",
+        "historical_period": "Known since at least the 9th century",
+        "geographic_range": "Primarily worshipped in Nepal and eastern India",
+        "cultural_significance": "Significant Tantric deity, symbolizing complex dualities",
+        "primary_sources": [
+            "Shakta Maha-bhagavata Purana",
+            "Devi-Bhagavata Purana"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic Hindu goddess",
+        "NOT without the self-decapitation motif",
+        "NOT solely a benevolent or peaceful deity"
+    ]
+}

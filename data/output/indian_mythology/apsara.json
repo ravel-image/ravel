@@ -1,0 +1,95 @@
+{
+    "name": "Apsara",
+    "domain": "indian_mythology",
+    "entity_type": "Celestial Being",
+    "alternative_names": [
+        "Accharā",
+        "Bidadari",
+        "Biraddali",
+        "Hapsari",
+        "Widadari",
+        "Helloi",
+        "Tennin",
+        "Tennyo",
+        "Tennan"
+    ],
+    "primary_sources": [
+        "Rigveda",
+        "Ramayana",
+        "Mahabharata",
+        "Kaushitaki Upanishad",
+        "Natya Shastra"
+    ],
+    "visual_attributes": {
+        "morphology": "Humanoid with ethereal features",
+        "distinctive_features": [
+            "Slim waist and fair large hips",
+            "Eyes like lotus leaves",
+            "Ability to change shape at will"
+        ],
+        "color_palette": [
+            "Golden",
+            "White",
+            "Blue"
+        ],
+        "texture": "Smooth and radiant skin",
+        "size_and_scale": "Human-sized",
+        "structural_arrangement": "Graceful and elegant posture, often depicted dancing",
+        "domain_specific_visual": {
+            "CLOTHING": "Flowing garments, often disrobed by the wind",
+            "ACCESSORIES": "Ornate jewelry and headdresses"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Entertain gods through dance and music",
+        "secondary_functions": [
+            "Seduce sages to prevent divine powers",
+            "Symbolize facets of performing arts"
+        ],
+        "domain_specific_functional": {
+            "ASSOCIATED_WITH": "Clouds and water",
+            "ROLE_IN_MYTHS": "Distracting ascetics from penance"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "WIFE_OF",
+                "target": "Gandharva",
+                "description": "Apsaras are often considered the wives of the Gandharvas, the court musicians of Indra."
+            },
+            {
+                "type": "ENTERTAINER_OF",
+                "target": "Indra",
+                "description": "Apsaras reside in the palaces of the gods and entertain them by dancing to the music of the Gandharvas."
+            }
+        ],
+        "associated_entities": [
+            "Indra",
+            "Gandharva",
+            "Rishis"
+        ],
+        "symbolic_items": [
+            "Lotus flowers",
+            "Musical instruments"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Hindu and Buddhist mythology",
+        "historical_period": "Ancient",
+        "geographic_range": "South Asia and Southeast Asia",
+        "cultural_significance": "Symbol of beauty, grace, and the performing arts",
+        "primary_sources": [
+            "Rigveda",
+            "Ramayana",
+            "Mahabharata",
+            "Kaushitaki Upanishad",
+            "Natya Shastra"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT Generic Fairy",
+        "NOT Angelic Wings",
+        "NOT Western Cultural Context"
+    ]
+}

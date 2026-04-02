@@ -1,0 +1,99 @@
+{
+    "name": "Ghatotkacha",
+    "domain": "indian_mythology",
+    "entity_type": "mythological warrior",
+    "alternative_names": [
+        "Ghaṭotkaca",
+        "Bald Pot"
+    ],
+    "primary_sources": [
+        "Mahabharata"
+    ],
+    "visual_attributes": {
+        "morphology": "humanoid with a pot-shaped bald head",
+        "distinctive_features": [
+            "bald head shaped like a pot",
+            "gigantic stature",
+            "rakshasa features"
+        ],
+        "color_palette": [
+            "dark",
+            "earthy tones",
+            "red accents"
+        ],
+        "texture": "smooth skin with a robust build",
+        "size_and_scale": "gigantic, towering over regular humans",
+        "structural_arrangement": "muscular build with broad shoulders",
+        "domain_specific_visual": {
+            "rakshasa_traits": "sharp teeth, fierce eyes"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "warrior in the Kurukshetra War",
+        "secondary_functions": [
+            "protector of the Pandavas",
+            "user of magical powers"
+        ],
+        "domain_specific_functional": {
+            "battle_role": "head of one akshauhini army",
+            "magical_abilities": "illusion and enlargement"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_PARENT",
+                "target": "Bhima",
+                "description": "Ghatotkacha is the son of Bhima."
+            },
+            {
+                "type": "HAS_PARENT",
+                "target": "Hidimbi",
+                "description": "Ghatotkacha is the son of the rakshasi Hidimbi."
+            },
+            {
+                "type": "HAS_SPOUSE",
+                "target": "Ahilawati",
+                "description": "Ghatotkacha's wife."
+            },
+            {
+                "type": "HAS_CHILD",
+                "target": "Anjanaparva",
+                "description": "Ghatotkacha's son who was killed in the Kurukshetra War."
+            },
+            {
+                "type": "HAS_CHILD",
+                "target": "Meghavarna",
+                "description": "Ghatotkacha's son who survived the war."
+            },
+            {
+                "type": "ENEMY_OF",
+                "target": "Kauravas",
+                "description": "Fought against the Kauravas in the Kurukshetra War."
+            }
+        ],
+        "associated_entities": [
+            "Karna",
+            "Ashwatthama",
+            "Duryodhana"
+        ],
+        "symbolic_items": [
+            "mace",
+            "Vasavi Shakti"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Indian mythology, Mahabharata",
+        "historical_period": "ancient epic era",
+        "geographic_range": "Indian subcontinent",
+        "cultural_significance": "symbol of loyalty and sacrifice",
+        "primary_sources": [
+            "Mahabharata"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic demon",
+        "NOT a human warrior without rakshasa features",
+        "NOT a non-mythological character"
+    ]
+}

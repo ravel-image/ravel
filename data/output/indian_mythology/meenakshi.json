@@ -1,0 +1,84 @@
+{
+    "name": "Meenakshi",
+    "domain": "indian_mythology",
+    "entity_type": "Hindu Goddess",
+    "alternative_names": [
+        "Minakshi",
+        "Mīnāṭci",
+        "Aṅgayaṟkaṇṇi",
+        "Taḍādakai"
+    ],
+    "primary_sources": [
+        "Meenakshi Pancharatnam",
+        "Thiruvilaiyadal Puranam",
+        "Tamil literature"
+    ],
+    "visual_attributes": {
+        "morphology": "Humanoid with divine features",
+        "distinctive_features": [
+            "Fish-like eyes",
+            "Three breasts (until meeting Shiva)",
+            "Raised right hand holding a lotus with a green parrot"
+        ],
+        "color_palette": [
+            "Green",
+            "Gold",
+            "Red"
+        ],
+        "texture": "Smooth and divine glow",
+        "size_and_scale": "Human-sized deity",
+        "structural_arrangement": "Standing posture with one hand raised and the other by her side",
+        "domain_specific_visual": {
+            "ICONOGRAPHY": "Lotus with parrot, fish-eyed",
+            "ATTIRE": "Traditional South Indian attire with jewelry"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Goddess of Madurai, form of Parvati",
+        "secondary_functions": [
+            "Warrior queen",
+            "Protector of devotees"
+        ],
+        "domain_specific_functional": {
+            "SYMBOLISM": "Represents divine femininity and power",
+            "CULTURAL_ROLE": "Central figure in Meenakshi Tirukalyanam festival"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "DIVINE_CONSORT_OF",
+                "target": "Sundaresvarar",
+                "description": "Meenakshi is the divine consort of Sundaresvarar, a form of Shiva."
+            },
+            {
+                "type": "SISTER_OF",
+                "target": "Alagar",
+                "description": "Meenakshi is considered the sister of Alagar, a form of Vishnu."
+            }
+        ],
+        "associated_entities": [
+            "Sundaresvarar",
+            "Alagar"
+        ],
+        "symbolic_items": [
+            "Lotus",
+            "Parrot"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Madurai, South India",
+        "historical_period": "Ancient to present",
+        "geographic_range": "Primarily South India",
+        "cultural_significance": "Represents the intersection of domesticity and divinity in Tamil culture",
+        "primary_sources": [
+            "Meenakshi Pancharatnam",
+            "Thiruvilaiyadal Puranam"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT Generic Hindu Goddess",
+        "NOT Without fish-like eyes",
+        "NOT Without lotus and parrot"
+    ]
+}

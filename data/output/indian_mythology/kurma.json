@@ -1,0 +1,91 @@
+{
+    "name": "Kurma",
+    "domain": "indian_mythology",
+    "entity_type": "Avatar of Vishnu",
+    "alternative_names": [
+        "Kacchapam",
+        "Kamaṭha",
+        "Akupara",
+        "Ambucara-Atmana"
+    ],
+    "primary_sources": [
+        "Yajurveda",
+        "Bhagavata Purana",
+        "Shatapatha Brahmana",
+        "Puranas"
+    ],
+    "visual_attributes": {
+        "morphology": "Tortoise-like form with a large, rounded shell",
+        "distinctive_features": [
+            "Large, domed shell",
+            "Four sturdy legs",
+            "Head resembling a tortoise with a serene expression"
+        ],
+        "color_palette": [
+            "Brown",
+            "Green",
+            "Gold"
+        ],
+        "texture": "Scaly and rough on the shell, smooth on the limbs",
+        "size_and_scale": "Gigantic, capable of supporting a mountain",
+        "structural_arrangement": "Shell forms the base, limbs and head extend outward",
+        "domain_specific_visual": {
+            "SYMBOLIC_REPRESENTATION": "World-Turtle supporting the Earth",
+            "ASSOCIATED_WITH": "Churning of the Ocean of Milk"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Support the churning rod during the Samudra Manthana",
+        "secondary_functions": [
+            "Symbolize steadiness and firmness",
+            "Represent the base of the cosmic order"
+        ],
+        "domain_specific_functional": {
+            "SYMBOLIZES": "Yajna-Purusha, the deity of sacrifice",
+            "REPRESENTS": "Meditation and spiritual regeneration"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "AVATAR_OF",
+                "target": "Vishnu",
+                "description": "Kurma is the second avatar of Vishnu in the Dashavatara."
+            },
+            {
+                "type": "PARTICIPATED_IN",
+                "target": "Samudra Manthana",
+                "description": "Kurma served as the base for the churning rod in the legend."
+            },
+            {
+                "type": "SYNONYMOUS_WITH",
+                "target": "Kashyapa",
+                "description": "Kurma is equated with Kashyapa, the progenitor of all beings."
+            }
+        ],
+        "associated_entities": [
+            "Vishnu",
+            "Kashyapa",
+            "Garuda"
+        ],
+        "symbolic_items": [
+            "Churning Rod",
+            "Amrita"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Vedic literature, specifically the Yajurveda",
+        "historical_period": "Vedic to post-Vedic era",
+        "geographic_range": "Indian subcontinent",
+        "cultural_significance": "Represents the cosmic order and spiritual regeneration",
+        "primary_sources": [
+            "Yajurveda",
+            "Shatapatha Brahmana"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a common tortoise",
+        "NOT a small or ordinary-sized turtle",
+        "NOT devoid of mythological context"
+    ]
+}

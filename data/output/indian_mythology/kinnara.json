@@ -1,0 +1,88 @@
+{
+    "name": "Kinnara",
+    "domain": "indian_mythology",
+    "entity_type": "Mythological Creature",
+    "alternative_names": [
+        "Kiṃnara",
+        "Keinnaya",
+        "Kenar",
+        "Jinnalaluo"
+    ],
+    "primary_sources": [
+        "Mahabharata",
+        "Jataka tales",
+        "Lotus Sutra",
+        "Vishnudharmottara"
+    ],
+    "visual_attributes": {
+        "morphology": "Part human, part bird",
+        "distinctive_features": [
+            "Human torso and arms",
+            "Bird wings, tail, and feet",
+            "Often depicted with musical instruments"
+        ],
+        "color_palette": [
+            "Gold",
+            "White",
+            "Blue"
+        ],
+        "texture": "Feathery and smooth",
+        "size_and_scale": "Human-sized",
+        "structural_arrangement": "Upper body of a human with lower body of a bird",
+        "domain_specific_visual": {
+            "CULTURAL_ATTIRE": "Traditional garments with floral motifs",
+            "MUSICAL_INSTRUMENT": "Kinnari vina"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Celestial musician and protector",
+        "secondary_functions": [
+            "Symbol of love and devotion",
+            "Guardian of humans"
+        ],
+        "domain_specific_functional": {
+            "SYMBOL_OF_BEAUTY": "Represents feminine beauty and grace",
+            "CULTURAL_SYMBOL": "Appears in art and literature as a symbol of harmony"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ASSOCIATED_WITH",
+                "target": "Kinnari",
+                "description": "Female counterpart of Kinnara, often depicted together"
+            },
+            {
+                "type": "MENTIONED_WITH",
+                "target": "Devas",
+                "description": "Often mentioned alongside other celestial beings"
+            }
+        ],
+        "associated_entities": [
+            "Kalaviṅka",
+            "Gandharvas",
+            "Apsaras"
+        ],
+        "symbolic_items": [
+            "Kinnari vina",
+            "Garlands",
+            "Flower trays"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Himalayas",
+        "historical_period": "Ancient Indian and Buddhist texts",
+        "geographic_range": "India, Southeast Asia, China, Myanmar, Cambodia, Thailand",
+        "cultural_significance": "Represents music, love, and protection in mythology",
+        "primary_sources": [
+            "Mahabharata",
+            "Jataka tales",
+            "Lotus Sutra"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT Centaur",
+        "NOT Horse-like features",
+        "NOT Confused with Kalaviṅka"
+    ]
+}

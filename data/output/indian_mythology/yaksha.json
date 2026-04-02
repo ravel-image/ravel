@@ -1,0 +1,87 @@
+{
+    "name": "Yaksha",
+    "domain": "indian_mythology",
+    "entity_type": "nature_spirit",
+    "alternative_names": [
+        "Yakkha",
+        "Yakṣa",
+        "Yakkhini",
+        "Yakshini"
+    ],
+    "primary_sources": [
+        "Hindu texts",
+        "Jain texts",
+        "Buddhist texts",
+        "Maurya Empire sculptures"
+    ],
+    "visual_attributes": {
+        "morphology": "humanoid with supernatural features",
+        "distinctive_features": [
+            "guardian-like presence",
+            "often depicted with jewels",
+            "sometimes with tusks or fangs"
+        ],
+        "color_palette": [
+            "green",
+            "earth tones",
+            "gold"
+        ],
+        "texture": "smooth with ornate decorations",
+        "size_and_scale": "monumental, often around 2 meters tall",
+        "structural_arrangement": "upright, often in a guarding posture",
+        "domain_specific_visual": {
+            "associated_with": "trees, water, treasure",
+            "cultural_dance": "Yakshagana"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "guardian of treasures and natural elements",
+        "secondary_functions": [
+            "protector of the righteous",
+            "attendant to deities"
+        ],
+        "domain_specific_functional": {
+            "role_in_buddhism": "attendant of Vaiśravaṇa",
+            "role_in_jainism": "guardian deity around Jina images"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "RULED_BY",
+                "target": "Kubera",
+                "description": "Kubera is considered the king of the yakshas."
+            },
+            {
+                "type": "ATTENDANT_TO",
+                "target": "Vaiśravaṇa",
+                "description": "Yakshas serve as attendants to Vaiśravaṇa in Buddhism."
+            }
+        ],
+        "associated_entities": [
+            "Kubera",
+            "Vaiśravaṇa",
+            "Lakshmi"
+        ],
+        "symbolic_items": [
+            "money-pot",
+            "club"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "South Asia",
+        "historical_period": "3rd century BCE to present",
+        "geographic_range": "India, Nepal, Thailand, Sri Lanka",
+        "cultural_significance": "symbolizes protection, wealth, and nature",
+        "primary_sources": [
+            "Hindu texts",
+            "Jain texts",
+            "Buddhist texts"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT generic forest spirit",
+        "NOT devoid of cultural attire",
+        "NOT solely malevolent"
+    ]
+}

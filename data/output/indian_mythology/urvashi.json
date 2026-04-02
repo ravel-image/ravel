@@ -1,0 +1,92 @@
+{
+    "name": "Urvashi",
+    "domain": "indian_mythology",
+    "entity_type": "Apsara",
+    "alternative_names": [
+        "Urvaśī"
+    ],
+    "primary_sources": [
+        "Rigveda",
+        "Ramayana",
+        "Mahabharata",
+        "Puranas",
+        "Vikramorvashiyam by Kalidasa"
+    ],
+    "visual_attributes": {
+        "morphology": "Humanoid with ethereal beauty",
+        "distinctive_features": [
+            "Exceptionally beautiful face",
+            "Graceful dancer's physique",
+            "Ethereal and radiant presence"
+        ],
+        "color_palette": [
+            "Golden",
+            "Silver",
+            "Peach"
+        ],
+        "texture": "Smooth and glowing skin",
+        "size_and_scale": "Average human female size",
+        "structural_arrangement": "Symmetrical and harmonious body proportions",
+        "domain_specific_visual": {
+            "APSARA_ATTIRE": "Traditional celestial garments",
+            "JEWELRY": "Ornate and divine jewelry"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Celestial dancer and entertainer",
+        "secondary_functions": [
+            "Symbol of beauty and allure",
+            "Inspiration for arts and literature"
+        ],
+        "domain_specific_functional": {
+            "ROLE_IN_MYTHS": "Participant in divine and mortal interactions",
+            "SYMBOLISM": "Personification of dawn and beauty"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "MARRIED_TO",
+                "target": "Pururavas",
+                "description": "Urvashi was married to the mortal king Pururavas."
+            },
+            {
+                "type": "CREATED_BY",
+                "target": "Narayana",
+                "description": "Urvashi emerged from the thigh of sage Narayana."
+            },
+            {
+                "type": "ASSOCIATED_WITH",
+                "target": "Indra",
+                "description": "Urvashi occupies a special place in the court of Indra."
+            }
+        ],
+        "associated_entities": [
+            "Pururavas",
+            "Narayana",
+            "Indra"
+        ],
+        "symbolic_items": [
+            "Celestial garments",
+            "Divine jewelry"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Hindu mythology",
+        "historical_period": "Vedic period to Gupta period",
+        "geographic_range": "Ancient India",
+        "cultural_significance": "Represents beauty, allure, and the divine feminine",
+        "primary_sources": [
+            "Rigveda",
+            "Ramayana",
+            "Mahabharata",
+            "Puranas",
+            "Vikramorvashiyam by Kalidasa"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic fairy",
+        "NOT a mortal human",
+        "NOT devoid of divine or celestial attributes"
+    ]
+}

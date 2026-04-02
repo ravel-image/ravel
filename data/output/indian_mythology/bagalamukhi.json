@@ -1,0 +1,89 @@
+{
+    "name": "Bagalamukhi",
+    "domain": "indian_mythology",
+    "entity_type": "Tantric Deity",
+    "alternative_names": [
+        "Bagala",
+        "Pitambaradevi",
+        "Shatrubuddhivinashini",
+        "Brahmastra Roopini",
+        "Kalyani"
+    ],
+    "primary_sources": [
+        "Kubjika Tantra",
+        "Tantrasara",
+        "Bagalamukhistotratram",
+        "Rudrayamala"
+    ],
+    "visual_attributes": {
+        "morphology": "Humanoid with either two or four arms",
+        "distinctive_features": [
+            "Yellow complexion",
+            "Golden throne amidst an ocean",
+            "Yellow crescent moon on forehead",
+            "Sometimes depicted with a crane head or riding a crane"
+        ],
+        "color_palette": [
+            "Yellow",
+            "Gold",
+            "White"
+        ],
+        "texture": "Smooth and adorned with golden ornaments",
+        "size_and_scale": "Human-sized deity",
+        "structural_arrangement": "Seated on a throne, holding a club and pulling a demon's tongue",
+        "domain_specific_visual": {
+            "CLOTHING": "Yellow garments",
+            "ORNAMENTS": "Yellow flowers and golden jewelry"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Goddess of control and paralysis",
+        "secondary_functions": [
+            "Bestower of supernatural powers",
+            "Protector against enemies"
+        ],
+        "domain_specific_functional": {
+            "STAMBHANA": "Power to stun or paralyze enemies",
+            "SIDDHIS": "Grants divine powers and successes"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "MANIFESTATION_OF",
+                "target": "Devi",
+                "description": "Bagalamukhi is one of the ten forms of the Devi."
+            },
+            {
+                "type": "HAS_TEMPLE",
+                "target": "Kamakhya Temple",
+                "description": "One of the primary centers of Tantricism dedicated to Bagalamukhi."
+            }
+        ],
+        "associated_entities": [
+            "Vishnu",
+            "Parvati",
+            "Madan"
+        ],
+        "symbolic_items": [
+            "Club",
+            "Golden throne",
+            "Yellow flowers"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Hindu mythology",
+        "historical_period": "Satya Yuga",
+        "geographic_range": "India and Nepal",
+        "cultural_significance": "Represents potent female force and control over adversaries",
+        "primary_sources": [
+            "Kubjika Tantra",
+            "Tantrasara"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT Generic Hindu Goddess",
+        "NOT Without Yellow Color",
+        "NOT Without Club and Demon Interaction"
+    ]
+}

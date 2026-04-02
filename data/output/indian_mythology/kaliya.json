@@ -1,0 +1,82 @@
+{
+    "name": "Kaliya",
+    "domain": "indian_mythology",
+    "entity_type": "Nāga",
+    "alternative_names": [
+        "Kāliya",
+        "Kaliya Nāga"
+    ],
+    "primary_sources": [
+        "Bhagavata Purana",
+        "regional legends"
+    ],
+    "visual_attributes": {
+        "morphology": "serpentine with multiple heads",
+        "distinctive_features": [
+            "multiple heads",
+            "venomous fangs",
+            "large coiling body"
+        ],
+        "color_palette": [
+            "dark green",
+            "black",
+            "poisonous purple"
+        ],
+        "texture": "scaly",
+        "size_and_scale": "gigantic, capable of coiling around a human",
+        "structural_arrangement": "coiled body with heads raised",
+        "domain_specific_visual": {
+            "head_count": "multiple",
+            "venomous_aura": "visible poisonous fumes"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "guardian of the Yamunā river",
+        "secondary_functions": [
+            "symbol of danger",
+            "test of Krishna's power"
+        ],
+        "domain_specific_functional": {
+            "role_in_legend": "antagonist subdued by Krishna",
+            "ecological_impact": "polluted the Yamunā river"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ENEMY_OF",
+                "target": "Krishna",
+                "description": "Kaliya was subdued by Krishna in the Yamunā river."
+            },
+            {
+                "type": "FEARED_BY",
+                "target": "Garuḍa",
+                "description": "Kaliya was driven away from his home by Garuḍa."
+            }
+        ],
+        "associated_entities": [
+            "Krishna",
+            "Garuḍa",
+            "Rādhā"
+        ],
+        "symbolic_items": [
+            "poisonous water",
+            "Kadamba tree"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Vrindavan, Yamunā river",
+        "historical_period": "ancient Hindu mythology",
+        "geographic_range": "Yamunā river, Vrindavan, and possibly Fiji",
+        "cultural_significance": "represents the triumph of good over evil",
+        "primary_sources": [
+            "Bhagavata Purana",
+            "regional legends"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic snake",
+        "NOT a single-headed serpent",
+        "NOT a non-mythological creature"
+    ]
+}

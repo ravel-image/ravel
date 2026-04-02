@@ -1,0 +1,83 @@
+{
+    "name": "Vetala",
+    "domain": "indian_mythology",
+    "entity_type": "paranormal entity",
+    "alternative_names": [
+        "Betal",
+        "Vetal",
+        "Vetoba"
+    ],
+    "primary_sources": [
+        "Vetala Panchavimshati",
+        "Kathasaritsagara",
+        "Dictionary of Hindu Lore and Legend"
+    ],
+    "visual_attributes": {
+        "morphology": "humanoid form with a spectral, ghostly appearance",
+        "distinctive_features": [
+            "possesses reanimated corpses",
+            "haunts cemeteries and charnel grounds",
+            "demonic and spectral visage"
+        ],
+        "color_palette": [
+            "ashen gray",
+            "pale white",
+            "dark shadows"
+        ],
+        "texture": "ethereal and ghostly",
+        "size_and_scale": "human-sized",
+        "structural_arrangement": "corpse-like with a spectral overlay",
+        "domain_specific_visual": {
+            "HAUNTS_LOCATION": "charnel grounds",
+            "POSSESSES": "corpses"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "haunting and possessing corpses",
+        "secondary_functions": [
+            "fortune telling",
+            "guarding villages"
+        ],
+        "domain_specific_functional": {
+            "REPULSED_BY": "chanting of mantras",
+            "FREED_BY": "performing funerary rites"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HUSBAND_OF",
+                "target": "Shantadurga",
+                "description": "Betal is said to be the husband of the goddess Shantadurga."
+            },
+            {
+                "type": "FORM_OF",
+                "target": "Bhairava",
+                "description": "Betal is a form of Bhairava and is the head of all spirits."
+            }
+        ],
+        "associated_entities": [
+            "Shantadurga",
+            "Bhairava"
+        ],
+        "symbolic_items": [
+            "corpse",
+            "charnel ground"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Hindu mythology",
+        "historical_period": "no later than the 11th century",
+        "geographic_range": "Konkan region, India",
+        "cultural_significance": "represents spirits trapped between life and afterlife, sought by sorcerers for their knowledge",
+        "primary_sources": [
+            "Vetala Panchavimshati",
+            "Kathasaritsagara"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic ghost",
+        "NOT a zombie",
+        "NOT a Western vampire"
+    ]
+}

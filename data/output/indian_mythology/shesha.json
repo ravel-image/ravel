@@ -1,0 +1,98 @@
+{
+    "name": "Shesha",
+    "domain": "indian_mythology",
+    "entity_type": "serpentine demigod",
+    "alternative_names": [
+        "Sheshanaga",
+        "Adishesha",
+        "Ananta",
+        "Ananta Shesha"
+    ],
+    "primary_sources": [
+        "Puranas",
+        "Mahabharata",
+        "Bhagavata Purana",
+        "Brahma Purana",
+        "Brahmanda Purana"
+    ],
+    "visual_attributes": {
+        "morphology": "serpentine with multiple heads",
+        "distinctive_features": [
+            "thousand-headed serpent",
+            "ornate crowns on each head",
+            "jewels on hoods"
+        ],
+        "color_palette": [
+            "white",
+            "blue",
+            "red"
+        ],
+        "texture": "scaly",
+        "size_and_scale": "massive, capable of coiling through space",
+        "structural_arrangement": "coiled form, often forming a bed for Vishnu",
+        "domain_specific_visual": {
+            "HEAD_COUNT": "up to one million",
+            "CROWN_TYPE": "ornate"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "supporting the universe",
+        "secondary_functions": [
+            "singing the glories of Vishnu",
+            "stabilizing the Earth"
+        ],
+        "domain_specific_functional": {
+            "ROLE_IN_CREATION": "primordial being of creation",
+            "ROLE_IN_DESTRUCTION": "creates Rudras to destroy the universe"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_CONSORT",
+                "target": "Nagalakshmi",
+                "description": "Shesha is married to Nagalakshmi, personification of the divine ocean."
+            },
+            {
+                "type": "INCARNATED_AS",
+                "target": "Lakshmana",
+                "description": "Incarnated as Lakshmana, brother of Rama."
+            },
+            {
+                "type": "INCARNATED_AS",
+                "target": "Balarama",
+                "description": "Incarnated as Balarama, brother of Krishna."
+            },
+            {
+                "type": "SUPPORTS",
+                "target": "Vishnu",
+                "description": "Forms the bed for Vishnu in his Narayana form."
+            }
+        ],
+        "associated_entities": [
+            "Vishnu",
+            "Lakshmana",
+            "Balarama",
+            "Nagalakshmi"
+        ],
+        "symbolic_items": [
+            "crown",
+            "jewels"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Hindu mythology",
+        "historical_period": "ancient",
+        "geographic_range": "Indian subcontinent",
+        "cultural_significance": "symbolizes eternity and stability",
+        "primary_sources": [
+            "Puranas",
+            "Mahabharata"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a common snake",
+        "NOT a single-headed serpent",
+        "NOT devoid of ornate crowns or jewels"
+    ]
+}

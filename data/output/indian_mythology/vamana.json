@@ -1,0 +1,98 @@
+{
+    "name": "Vamana",
+    "domain": "indian_mythology",
+    "entity_type": "Avatar of Vishnu",
+    "alternative_names": [
+        "Trivikrama",
+        "Urukrama",
+        "Upendra",
+        "Dadhivamana",
+        "Ulagalanthan",
+        "Balibandhana"
+    ],
+    "primary_sources": [
+        "Vedas",
+        "Puranas",
+        "Rigveda",
+        "Aitareya Brahmana",
+        "Matsya Purana"
+    ],
+    "visual_attributes": {
+        "morphology": "Dwarf-like human form",
+        "distinctive_features": [
+            "Short stature",
+            "Three steps symbolizing cosmic order",
+            "Transformation into a giant form as Trivikrama"
+        ],
+        "color_palette": [
+            "Blue",
+            "Gold",
+            "White"
+        ],
+        "texture": "Smooth skin",
+        "size_and_scale": "Initially small, grows to cosmic size",
+        "structural_arrangement": "Human form with divine attributes",
+        "domain_specific_visual": {
+            "CROWN": "Traditional Hindu crown",
+            "AURA": "Divine glow or halo"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Restoration of cosmic order",
+        "secondary_functions": [
+            "Symbol of humility",
+            "Protector of the universe"
+        ],
+        "domain_specific_functional": {
+            "SYMBOLIZES": "Three states of existence and cosmic planes",
+            "ROLE_IN_MYTH": "Reclaiming the three worlds from Mahabali"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_PARENT",
+                "target": "Kashyapa",
+                "description": "Vamana is the son of the sage Kashyapa."
+            },
+            {
+                "type": "HAS_PARENT",
+                "target": "Aditi",
+                "description": "Vamana is the son of Aditi."
+            },
+            {
+                "type": "ENEMY_OF",
+                "target": "Mahabali",
+                "description": "Vamana opposed Mahabali to restore cosmic order."
+            },
+            {
+                "type": "INCARNATION_OF",
+                "target": "Vishnu",
+                "description": "Vamana is an avatar of the deity Vishnu."
+            }
+        ],
+        "associated_entities": [
+            "Indra",
+            "Mahabali"
+        ],
+        "symbolic_items": [
+            "Three steps",
+            "Crown"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Hindu mythology",
+        "historical_period": "Treta Yuga",
+        "geographic_range": "Indian subcontinent",
+        "cultural_significance": "Represents humility and the restoration of dharma",
+        "primary_sources": [
+            "Vedas",
+            "Puranas"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT Generic Dwarf",
+        "NOT Ordinary Human",
+        "NOT Non-divine Entity"
+    ]
+}

@@ -1,0 +1,77 @@
+{
+    "name": "Surasundari",
+    "domain": "indian_mythology",
+    "entity_type": "mythological figure",
+    "alternative_names": [
+        "beautiful goddess",
+        "apsara",
+        "salabhanjika"
+    ],
+    "primary_sources": [
+        "Shilpa-Prakasha",
+        "Kshirarnava"
+    ],
+    "visual_attributes": {
+        "morphology": "graceful, feminine form",
+        "distinctive_features": [
+            "adho-drishti (looking down)",
+            "sensual and graceful posture",
+            "often depicted as dancing"
+        ],
+        "color_palette": [
+            "golden",
+            "earth tones",
+            "vibrant jewel tones"
+        ],
+        "texture": "smooth, polished stone",
+        "size_and_scale": "life-sized or larger sculptures",
+        "structural_arrangement": "often integrated into temple architecture as decorative elements",
+        "domain_specific_visual": {
+            "temple_motif": "integrated into pillars and walls",
+            "attire": "traditional Indian garments with intricate jewelry"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "symbol of feminine beauty and cosmic energy",
+        "secondary_functions": [
+            "attendant to deities",
+            "representation of prosperity"
+        ],
+        "domain_specific_functional": {
+            "spiritual_role": "embodiment of shakti",
+            "secular_role": "symbol of royal prosperity"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ATTENDANT_TO",
+                "target": "gods and goddesses",
+                "description": "Surasundaris serve as attendants to deities in temple sculptures."
+            }
+        ],
+        "associated_entities": [
+            "yakshis",
+            "apsaras"
+        ],
+        "symbolic_items": [
+            "tree (as salabhanjika)",
+            "musical instruments"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Indian subcontinent",
+        "historical_period": "9th century CE onwards",
+        "geographic_range": "primarily found in Indian temple architecture",
+        "cultural_significance": "represents beauty, prosperity, and cosmic energy",
+        "primary_sources": [
+            "Shilpa-Prakasha",
+            "Kshirarnava"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT generic female figure",
+        "NOT modern attire",
+        "NOT unrelated to temple architecture"
+    ]
+}

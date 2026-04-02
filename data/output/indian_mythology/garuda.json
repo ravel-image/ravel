@@ -1,0 +1,105 @@
+{
+    "name": "Garuda",
+    "domain": "indian_mythology",
+    "entity_type": "Divine Bird Deity",
+    "alternative_names": [
+        "Tarkshya",
+        "Vainateya",
+        "Garuḍa",
+        "Garuḷa"
+    ],
+    "primary_sources": [
+        "Puranas",
+        "Vedas",
+        "Mahabharata",
+        "Rigveda",
+        "Shatapatha Brahmana",
+        "Garuda Purana"
+    ],
+    "visual_attributes": {
+        "morphology": "Eagle-like form with partially open wings, sometimes anthropomorphic with human features",
+        "distinctive_features": [
+            "Emerald-colored body",
+            "Golden-yellow wings",
+            "Eagle-like nose or beak",
+            "Big open eyes"
+        ],
+        "color_palette": [
+            "Emerald",
+            "Golden-yellow",
+            "Scarlet",
+            "Black"
+        ],
+        "texture": "Feathery and smooth",
+        "size_and_scale": "Massive, capable of blocking out the sun",
+        "structural_arrangement": "Wings slightly open, either in zoomorphic or anthropomorphic form",
+        "domain_specific_visual": {
+            "ICONOGRAPHY": "Kneeling figure with serpents, hands in namaste posture, sometimes carrying Vishnu"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Mount of Vishnu",
+        "secondary_functions": [
+            "Protector",
+            "Enemy of serpents",
+            "Symbol of courage"
+        ],
+        "domain_specific_functional": {
+            "SYMBOLISM": "Iconic symbol of kings' duty and power, insignia of royalty or dharma"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_PARENT",
+                "target": "Kashyapa",
+                "description": "Garuda is the son of the sage Kashyapa."
+            },
+            {
+                "type": "HAS_PARENT",
+                "target": "Vinata",
+                "description": "Garuda is the son of Vinata."
+            },
+            {
+                "type": "HAS_SIBLING",
+                "target": "Aruna",
+                "description": "Garuda is the younger brother of Aruna, the charioteer of the Sun."
+            },
+            {
+                "type": "MOUNT_OF",
+                "target": "Vishnu",
+                "description": "Garuda serves as the mount (vahana) of the Hindu god Vishnu."
+            },
+            {
+                "type": "ENEMY_OF",
+                "target": "Nāgas",
+                "description": "Garuda is an enemy of every serpent."
+            }
+        ],
+        "associated_entities": [
+            "Vishnu",
+            "Aruna",
+            "Nāgas"
+        ],
+        "symbolic_items": [
+            "Amrita jar",
+            "Umbrella"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Hindu mythology",
+        "historical_period": "Vedic period",
+        "geographic_range": "India, Indonesia, Thailand",
+        "cultural_significance": "Symbol of power, courage, and protection; associated with royalty and dharma",
+        "primary_sources": [
+            "Puranas",
+            "Vedas",
+            "Mahabharata"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic eagle",
+        "NOT a simple bird without anthropomorphic features",
+        "NOT a non-mythological creature"
+    ]
+}

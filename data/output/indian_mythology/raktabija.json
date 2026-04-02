@@ -1,0 +1,86 @@
+{
+    "name": "Raktabīja",
+    "domain": "indian_mythology",
+    "entity_type": "Asura",
+    "alternative_names": [
+        "Raktabeej",
+        "Raktabija"
+    ],
+    "primary_sources": [
+        "Devi Mahatmya",
+        "Puranas"
+    ],
+    "visual_attributes": {
+        "morphology": "Humanoid with demonic features",
+        "distinctive_features": [
+            "Blood-red skin",
+            "Multiple identical clones arising from blood drops",
+            "Wields traditional weapons like swords and clubs"
+        ],
+        "color_palette": [
+            "blood-red",
+            "dark brown",
+            "black"
+        ],
+        "texture": "Smooth skin with a sheen of blood",
+        "size_and_scale": "Giant stature, approximately 10-12 feet tall",
+        "structural_arrangement": "Humanoid form with muscular build",
+        "domain_specific_visual": {
+            "WEAPONRY": "Carries swords, clubs, and other traditional weapons",
+            "CLONING_FEATURE": "Each drop of blood creates a clone"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Antagonist in battles against goddesses",
+        "secondary_functions": [
+            "Symbol of regenerative evil",
+            "Challenge to divine forces"
+        ],
+        "domain_specific_functional": {
+            "BATTLE_STRATEGY": "Uses blood to create clones",
+            "MYTHOLOGICAL_ROLE": "Represents the challenge of overcoming seemingly insurmountable evil"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "ENEMY_OF",
+                "target": "Durga",
+                "description": "Fought against Durga and her forms in battle"
+            },
+            {
+                "type": "ENEMY_OF",
+                "target": "Kali",
+                "description": "Battled with Kali who consumed his blood to prevent cloning"
+            },
+            {
+                "type": "HAS_SIBLING",
+                "target": "Mahishasura",
+                "description": "Raktabīja and Mahishasura are brothers"
+            }
+        ],
+        "associated_entities": [
+            "Shumbha",
+            "Nishumbha"
+        ],
+        "symbolic_items": [
+            "Blood drops",
+            "Weapons"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Hindu mythology, specifically from the Puranas",
+        "historical_period": "Ancient Hindu texts",
+        "geographic_range": "Indian subcontinent",
+        "cultural_significance": "Represents the regenerative nature of evil and the power of divine intervention",
+        "primary_sources": [
+            "Devi Mahatmya",
+            "Puranas"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a generic demon",
+        "NOT without blood-red skin",
+        "NOT without the ability to clone from blood drops"
+    ]
+}

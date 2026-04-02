@@ -1,0 +1,114 @@
+{
+    "name": "Narasimha",
+    "domain": "indian_mythology",
+    "entity_type": "Avatar of Vishnu",
+    "alternative_names": [
+        "Agni Lochana",
+        "Bhairavadambara",
+        "Karala",
+        "Hiranyakashipumardana",
+        "Nakhastra",
+        "Simhavadana",
+        "Simha"
+    ],
+    "primary_sources": [
+        "Rigveda",
+        "Shatapatha Brahmana",
+        "Vajaseneyi Samhita",
+        "Pancavimsa Brahmana",
+        "Taittiriya Brahmana",
+        "Valmiki Ramayana",
+        "Harivamsa",
+        "Vishnu Purana",
+        "Bhagavata Purana",
+        "Agni Purana",
+        "Brahmanda Purana",
+        "Vayu Purana",
+        "Brahma Purana",
+        "Vishnudharmottara Purana",
+        "Kurma Purana",
+        "Matsya Purana",
+        "Padma Purana",
+        "Shiva Purana",
+        "Linga Purana",
+        "Skanda Purana",
+        "Paripatal",
+        "Narasimha Tapaniya Upanishad"
+    ],
+    "visual_attributes": {
+        "morphology": "Human torso with a lion's head and claws",
+        "distinctive_features": [
+            "Lion's head",
+            "Fiery eyes",
+            "Wide mouth with projecting teeth",
+            "Claws as weapons"
+        ],
+        "color_palette": [
+            "Golden",
+            "Red",
+            "Brown"
+        ],
+        "texture": "Furry and muscular",
+        "size_and_scale": "Larger than a human, imposing and majestic",
+        "structural_arrangement": "Human-like body with lion features integrated seamlessly",
+        "domain_specific_visual": {
+            "ICONOGRAPHY": "Depicted in both fierce (ugra) and serene (saumya) forms",
+            "THIRD_EYE": "Possesses a third eye similar to Shiva"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "Protector of devotees and destroyer of evil",
+        "secondary_functions": [
+            "God of yoga",
+            "God of destruction during Pralaya"
+        ],
+        "domain_specific_functional": {
+            "AVATAR_ROLE": "Circumvented the boon of Hiranyakashipu to protect Prahlada",
+            "SYMBOLISM": "Represents the triumph of good over evil"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "HAS_ENEMY",
+                "target": "Hiranyakashipu",
+                "description": "Narasimha killed Hiranyakashipu to protect his devotee Prahlada"
+            },
+            {
+                "type": "HAS_DEVOTEE",
+                "target": "Prahlada",
+                "description": "Protected Prahlada from his father Hiranyakashipu"
+            },
+            {
+                "type": "IS_AVATAR_OF",
+                "target": "Vishnu",
+                "description": "Narasimha is the fourth avatar of Vishnu"
+            }
+        ],
+        "associated_entities": [
+            "Vishnu",
+            "Hiranyakashipu",
+            "Prahlada"
+        ],
+        "symbolic_items": [
+            "Claws",
+            "Lion's mane"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Hindu mythology",
+        "historical_period": "Referenced from Vedic times to early centuries CE",
+        "geographic_range": "Indian subcontinent",
+        "cultural_significance": "Central figure in Vaishnava theology and iconography",
+        "primary_sources": [
+            "Rigveda",
+            "Bhagavata Purana",
+            "Vishnu Purana"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a regular lion",
+        "NOT a human without lion features",
+        "NOT a generic deity without specific iconographic elements"
+    ]
+}

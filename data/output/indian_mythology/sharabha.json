@@ -1,0 +1,95 @@
+{
+    "name": "Sharabha",
+    "domain": "indian_mythology",
+    "entity_type": "mythological creature",
+    "alternative_names": [
+        "Sarabha",
+        "Sharabheshvara",
+        "Sharabheshvaramurti"
+    ],
+    "primary_sources": [
+        "Shiva Purana",
+        "Mahabharata",
+        "Sharabha Upanishad",
+        "Kalika Purana",
+        "Kamikagama",
+        "Sritattvanidhi"
+    ],
+    "visual_attributes": {
+        "morphology": "part-lion, part-bird with eight legs",
+        "distinctive_features": [
+            "lion-faced with matted hair",
+            "two wings",
+            "eight legs with sharp claws",
+            "thousand arms in some depictions",
+            "ornamented crown"
+        ],
+        "color_palette": [
+            "black",
+            "golden",
+            "red"
+        ],
+        "texture": "feathery and furry",
+        "size_and_scale": "size of a camel",
+        "structural_arrangement": "four legs touching the ground, four legs uplifted",
+        "domain_specific_visual": {
+            "iconography": "depicted with Narasimha beneath its legs, holding various weapons and symbols"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "to pacify Narasimha, the fierce avatar of Vishnu",
+        "secondary_functions": [
+            "symbol of power and majesty",
+            "perfection of effort in Buddhism"
+        ],
+        "domain_specific_functional": {
+            "role_in_mythology": "incarnation of Shiva to subdue Vishnu's avatar",
+            "cultural_role": "emblematic figure in Hindu and Buddhist art"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "INCARNATION_OF",
+                "target": "Shiva",
+                "description": "Sharabha is an incarnation of Shiva to pacify Narasimha."
+            },
+            {
+                "type": "ENEMY_OF",
+                "target": "Narasimha",
+                "description": "Sharabha is depicted as subduing Narasimha in Shaiva texts."
+            },
+            {
+                "type": "DEFEATED_BY",
+                "target": "Gandabherunda",
+                "description": "In some Vaishnava texts, Sharabha is defeated by Gandabherunda, a form of Vishnu."
+            }
+        ],
+        "associated_entities": [
+            "Narasimha",
+            "Gandabherunda"
+        ],
+        "symbolic_items": [
+            "thunderbolt",
+            "chakra",
+            "sword",
+            "fire"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Hindu mythology",
+        "historical_period": "ancient to medieval India",
+        "geographic_range": "Indian subcontinent",
+        "cultural_significance": "represents the power struggle between Shaiva and Vaishnava sects",
+        "primary_sources": [
+            "Shiva Purana",
+            "Mahabharata",
+            "Sharabha Upanishad"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT a common lion",
+        "NOT a simple bird",
+        "NOT a generic mythical creature without specific iconography"
+    ]
+}

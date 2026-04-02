@@ -1,0 +1,82 @@
+{
+    "name": "Kirtimukha",
+    "domain": "indian_mythology",
+    "entity_type": "ornamental motif",
+    "alternative_names": [
+        "kīrttimukha",
+        "glorious face"
+    ],
+    "primary_sources": [
+        "Skanda Purana",
+        "Shiva Purana"
+    ],
+    "visual_attributes": {
+        "morphology": "swallowing fierce face with huge fangs and gaping mouth",
+        "distinctive_features": [
+            "bulging eyes",
+            "emaciated, ravenous lion-like appearance",
+            "often only the upper jaw and top of the face visible"
+        ],
+        "color_palette": [
+            "stone grey",
+            "earthy tones",
+            "dark shadows"
+        ],
+        "texture": "carved stone, rough and intricate",
+        "size_and_scale": "varies depending on temple architecture, often large enough to be a prominent feature above temple entrances",
+        "structural_arrangement": "positioned above temple entrances or deity images, sometimes integrated into temple pinnacles",
+        "domain_specific_visual": {
+            "APOTROPAIC_DEMON_MASK": "gruesome, awe-inspiring guardian of the threshold",
+            "GAVAKSHA_TOPPER": "tops gavaksha (kudu, nasi) motifs in Dravidian architecture"
+        }
+    },
+    "functional_attributes": {
+        "primary_function": "apotropaic guardian of temple thresholds",
+        "secondary_functions": [
+            "symbol of Shiva",
+            "ornamental embellishment"
+        ],
+        "domain_specific_functional": {
+            "SYMBOL_OF_REABSORPTION": "marks the entry into the temple, signifying reabsorption",
+            "REPRESENTS_CONSUMPTION": "engaged in swallowing, representing the 'all consuming'"
+        }
+    },
+    "relational_attributes": {
+        "relationships": [
+            {
+                "type": "CREATED_BY",
+                "target": "Shiva",
+                "description": "Created by Shiva from a burst of power from his third eye."
+            },
+            {
+                "type": "CHALLENGED_BY",
+                "target": "Rahu",
+                "description": "Rahu was sent by Jalandhara to challenge Shiva, leading to the creation of Kirtimukha."
+            }
+        ],
+        "associated_entities": [
+            "Shiva",
+            "Rahu",
+            "Jalandhara"
+        ],
+        "symbolic_items": [
+            "temple lintel",
+            "gavaksha motifs"
+        ]
+    },
+    "contextual_attributes": {
+        "origin": "Hindu mythology, South Asia",
+        "historical_period": "ancient",
+        "geographic_range": "South Asia and Southeast Asia",
+        "cultural_significance": "serves as a protective symbol and representation of Shiva's power",
+        "primary_sources": [
+            "Skanda Purana",
+            "Shiva Purana"
+        ]
+    },
+    "contrastive_constraints": [
+        "NOT Simhamukha",
+        "NOT a full-bodied lion",
+        "NOT a generic demon face without swallowing action"
+    ]
+}
