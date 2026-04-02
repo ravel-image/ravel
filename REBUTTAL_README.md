@@ -127,9 +127,9 @@ python scripts/run_generation.py --prompt "Vetala" --backbone flux --srd --outpu
 python scripts/run_generation.py --prompt "Kinnara" --backbone flux --srd --output output/
 
 # Relational — entity resolved from KG (no name given in prompt)
-python scripts/run_generation.py --prompt "Yama's sister" --backbone flux --srd --output output/
-python scripts/run_generation.py --prompt "Shiva's wife" --backbone flux --srd --output output/
-python scripts/run_generation.py --prompt "Kartikeya's vehicle" --backbone flux --srd --output output/
+python scripts/run_generation.py --prompt "Yama and his sister" --backbone flux --srd --output output/
+python scripts/run_generation.py --prompt "Shiva and his wife" --backbone flux --srd --output output/
+python scripts/run_generation.py --prompt "Kartikeya on his vehicle" --backbone flux --srd --output output/
 ```
 
 ### Greek Mythology
@@ -146,8 +146,8 @@ python scripts/run_generation.py --prompt "Graeae" --backbone flux --srd --outpu
 python scripts/run_generation.py --prompt "Ceryneian Hind" --backbone flux --srd --output output/
 
 # Relational
-python scripts/run_generation.py --prompt "Cerberus's parent" --backbone flux --srd --output output/
-python scripts/run_generation.py --prompt "Typhon's child" --backbone flux --srd --output output/
+python scripts/run_generation.py --prompt "Cerberus and his parent" --backbone flux --srd --output output/
+python scripts/run_generation.py --prompt "Typhon and his child" --backbone flux --srd --output output/
 ```
 
 ### Chinese Mythology
@@ -164,7 +164,7 @@ python scripts/run_generation.py --prompt "Yinglong" --backbone flux --srd --out
 python scripts/run_generation.py --prompt "Jiangshi" --backbone flux --srd --output output/
 
 # Relational
-python scripts/run_generation.py --prompt "Fenghuang's paired creature" --backbone flux --srd --output output/
+python scripts/run_generation.py --prompt "Fenghuang and its paired creature" --backbone flux --srd --output output/
 ```
 
 ### Literary
@@ -180,7 +180,7 @@ python scripts/run_generation.py --prompt "The Golem of Prague" --backbone flux 
 python scripts/run_generation.py --prompt "Roc Bird" --backbone flux --srd --output output/
 
 # Relational
-python scripts/run_generation.py --prompt "Grendel's enemy" --backbone flux --srd --output output/
+python scripts/run_generation.py --prompt "Grendel and his enemy" --backbone flux --srd --output output/
 ```
 
 ### Biology
