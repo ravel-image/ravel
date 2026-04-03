@@ -1,1 +1,96 @@
-
+{
+  "prompt": "Goddess Ganga",
+  "enriched_prompt": "In a divine Himalayan setting, Goddess Ganga emerges gracefully from a sacred river, embodying purity, divinity, and cosmic flow. She is depicted as a radiant Hindu goddess with serene expression, standing or walking over flowing water. She wears a white or light blue silk saree symbolizing purity, adorned with intricate gold jewelry and ornaments. Her long flowing hair cascades like water, sometimes partially tied. A glowing halo surrounds her head. She holds a lotus flower and a kamandalu (water pot), symbolizing life and purity. In the background, Lord Shiva may be subtly present, representing her descent from his matted locks. The environment includes snow-capped Himalayan mountains, sacred riverbanks, and a divine atmosphere with soft golden light. The water flows dynamically around her feet, emphasizing her identity as the river goddess.",
+  "final_prompt": "A highly detailed depiction of Goddess Ganga emerging from a sacred river in the Himalayas. She stands gracefully on flowing water, wearing a white and light blue silk saree with gold borders, adorned with intricate gold jewelry including necklaces, bangles, and earrings. Her expression is calm and divine, with a radiant golden halo behind her head. Her long dark hair flows like water. She holds a pink lotus in one hand and a golden kamandalu in the other. The water splashes gently around her feet, symbolizing life and purity. In the background, snow-capped Himalayan mountains rise under a glowing sky. A subtle presence of Lord Shiva appears behind or beside her, referencing her origin. The scene is bathed in soft golden light, emphasizing divinity and serenity.",
+  "backbone": "glm_image",
+  "seed": 42,
+  "domain": "mythological_deity",
+  "entities": [
+    "Goddess Ganga"
+  ],
+  "attributes": [
+    "divine female deity standing or walking on flowing river water",
+    "white or light blue saree symbolizing purity",
+    "intricate gold jewelry including necklaces, bangles, and earrings",
+    "radiant halo around head",
+    "long flowing hair resembling water",
+    "holding lotus flower",
+    "holding kamandalu (water pot)",
+    "presence or reference to Lord Shiva",
+    "Himalayan mountain background",
+    "water splashing or flowing around feet",
+    "serene divine facial expression",
+    "golden or divine ambient lighting"
+  ],
+  "contrastive": [
+    "NOT a generic woman — must clearly appear as a divine Hindu goddess",
+    "NOT standing on land — must be interacting with flowing water",
+    "NOT wearing modern clothing — must wear traditional saree",
+    "NOT dark or dull lighting — must have divine glowing illumination",
+    "NOT missing symbolic objects — lotus and/or kamandalu should be present"
+  ],
+  "srd_enabled": true,
+  "images": {
+    "00_base": "raw prompt, no KG enrichment",
+    "01_ravel": "KG-enriched prompt, no SRD",
+    "final": "best image after SRD (round 2)"
+  },
+  "srd": {
+    "converged": true,
+    "convergence_round": 2,
+    "final_gsi": 0.9167,
+    "gsi_trajectory": [
+      0.5833,
+      0.9167
+    ],
+    "rounds": [
+      {
+        "round": 1,
+        "image": "02_srd_r1_gsi0.58.png",
+        "gsi": 0.5833,
+        "decay": 0.9,
+        "converged": false,
+        "escape": false,
+        "present_attrs": [
+          "divine female deity standing or walking on flowing river water",
+          "white or light blue saree symbolizing purity",
+          "intricate gold jewelry including necklaces, bangles, and earrings",
+          "radiant halo around head",
+          "holding lotus flower",
+          "Himalayan mountain background",
+          "water splashing or flowing around feet"
+        ],
+        "missing_attrs": [
+          "long flowing hair resembling water",
+          "holding kamandalu (water pot)",
+          "presence or reference to Lord Shiva",
+          "serene divine facial expression",
+          "golden or divine ambient lighting"
+        ]
+      },
+      {
+        "round": 2,
+        "image": "03_srd_r2_gsi0.92.png",
+        "gsi": 0.9167,
+        "decay": 0.5,
+        "converged": true,
+        "escape": false,
+        "present_attrs": [
+          "divine female deity standing or walking on flowing river water",
+          "white or light blue saree symbolizing purity",
+          "intricate gold jewelry including necklaces, bangles, and earrings",
+          "radiant halo around head",
+          "long flowing hair resembling water",
+          "holding lotus flower",
+          "holding kamandalu (water pot)",
+          "presence or reference to Lord Shiva",
+          "Himalayan mountain background",
+          "water splashing or flowing around feet",
+          "serene divine facial expression",
+          "golden or divine ambient lighting"
+        ],
+        "missing_attrs": []
+      }
+    ]
+  }
+}
