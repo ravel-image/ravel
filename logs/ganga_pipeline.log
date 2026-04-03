@@ -1,0 +1,707 @@
+2026-04-02 21:56:21,944 | DEBUG    | [#0000]  _: <POOL> created, routing address IPv4Address(('0e6d187a.databases.neo4j.io', 7687))
+2026-04-02 21:56:21,944 | DEBUG    | [#0000]  _: <WORKSPACE> resolve home database
+2026-04-02 21:56:21,944 | DEBUG    | [#0000]  _: <POOL> attempting to update routing table from IPv4Address(('0e6d187a.databases.neo4j.io', 7687))
+2026-04-02 21:56:21,944 | DEBUG    | [#0000]  _: <RESOLVE> in: 0e6d187a.databases.neo4j.io:7687
+2026-04-02 21:56:21,962 | DEBUG    | [#0000]  _: <RESOLVE> dns resolver out: 34.31.169.230:7687
+2026-04-02 21:56:21,962 | DEBUG    | [#0000]  _: <POOL> _acquire router connection, database=None, address=ResolvedIPv4Address(('34.31.169.230', 7687))
+2026-04-02 21:56:21,962 | DEBUG    | [#0000]  _: <POOL> trying to hand out new connection
+2026-04-02 21:56:21,971 | DEBUG    | [#0000]  C: <OPEN> 34.31.169.230:7687
+2026-04-02 21:56:22,002 | DEBUG    | [#EEDA]  C: <SECURE> 0e6d187a.databases.neo4j.io
+2026-04-02 21:56:22,034 | DEBUG    | [#EEDA]  C: <MAGIC> 0x6060B017
+2026-04-02 21:56:22,034 | DEBUG    | [#EEDA]  C: <HANDSHAKE> 0x000001FF 0x00080805 0x00020404 0x00000003
+2026-04-02 21:56:22,064 | DEBUG    | [#EEDA]  S: <HANDSHAKE> 0x000001FF [4] 0x00040404 0x00040405 0x00020805 0x00000006 0x00
+2026-04-02 21:56:22,064 | DEBUG    | [#EEDA]  C: <HANDSHAKE> 0x00000006 0x00
+2026-04-02 21:56:22,064 | DEBUG    | [#EEDA]  C: HELLO {'user_agent': 'neo4j-python/6.1.0 Python/3.10.20-final-0 (linux)', 'routing': {'address': '0e6d187a.databases.neo4j.io:7687'}, 'bolt_agent': {'product': 'neo4j-python/6.1.0', 'platform': 'Linux 5.14.0-611.13.1.el9_7.x86_64; x86_64', 'language': 'Python/3.10.20-final-0', 'language_details': 'CPython; 3.10.20-final-0 (main, Mar 11 2026 17:46:40) [GCC 14.3.0]'}}
+2026-04-02 21:56:22,064 | DEBUG    | [#EEDA]  _: <CONNECTION> client state: CONNECTED > AUTHENTICATION
+2026-04-02 21:56:22,065 | DEBUG    | [#EEDA]  C: LOGON {'scheme': 'basic', 'principal': '0e6d187a', 'credentials': '*******'}
+2026-04-02 21:56:22,065 | DEBUG    | [#EEDA]  _: <CONNECTION> client state: AUTHENTICATION > READY
+2026-04-02 21:56:22,095 | DEBUG    | [#EEDA]  S: SUCCESS {'server': 'Neo4j/5.27-aura', 'protocol_version': '6.0', 'connection_id': 'bolt-218212', 'hints': {'connection.recv_timeout_seconds': 60, 'ssr.enabled': True}}
+2026-04-02 21:56:22,095 | DEBUG    | [#EEDA]  _: <CONNECTION> server state: CONNECTED > AUTHENTICATION
+2026-04-02 21:56:22,096 | DEBUG    | [#EEDA]  S: SUCCESS {'advertised_address': 'p-mt-163021453c5e-13-0002.production-orch-0702.neo4j.io:7687'}
+2026-04-02 21:56:22,096 | DEBUG    | [#EEDA]  _: <CONNECTION> server state: AUTHENTICATION > READY
+2026-04-02 21:56:22,096 | DEBUG    | [#EEDA]  C: ROUTE {'address': '0e6d187a.databases.neo4j.io:7687'} () {}
+2026-04-02 21:56:22,127 | DEBUG    | [#EEDA]  S: SUCCESS {'rt': {'servers': [{'addresses': ['p-mt-163021453c5e-13-0003.production-orch-0702.neo4j.io:7687'], 'role': 'WRITE'}, {'addresses': ['p-mt-163021453c5e-13-0003.production-orch-0702.neo4j.io:7687'], 'role': 'READ'}, {'addresses': ['p-mt-163021453c5e-13-0003.production-orch-0702.neo4j.io:7687'], 'role': 'ROUTE'}], 'ttl': 10, 'db': '0e6d187a'}}
+2026-04-02 21:56:22,127 | DEBUG    | [#EEDA]  _: <POOL> released bolt-218212
+2026-04-02 21:56:22,127 | DEBUG    | [#0000]  _: <ROUTING> updated table=RoutingTable(database='0e6d187a', routers=(IPv4Address(('p-mt-163021453c5e-13-0003.production-orch-0702.neo4j.io', 7687)),), readers=(IPv4Address(('p-mt-163021453c5e-13-0003.production-orch-0702.neo4j.io', 7687)),), writers=(IPv4Address(('p-mt-163021453c5e-13-0003.production-orch-0702.neo4j.io', 7687)),), last_updated_time=3228336.622341226, ttl=10)
+2026-04-02 21:56:22,127 | DEBUG    | [#0000]  _: <POOL> update routing table from address=ResolvedIPv4Address(('34.31.169.230', 7687)) (RoutingTable(database='0e6d187a', routers=(IPv4Address(('p-mt-163021453c5e-13-0003.production-orch-0702.neo4j.io', 7687)),), readers=(IPv4Address(('p-mt-163021453c5e-13-0003.production-orch-0702.neo4j.io', 7687)),), writers=(IPv4Address(('p-mt-163021453c5e-13-0003.production-orch-0702.neo4j.io', 7687)),), last_updated_time=3228336.622341226, ttl=10))
+2026-04-02 21:56:22,127 | DEBUG    | [#0000]  _: <WORKSPACE> pinning database: '0e6d187a'
+2026-04-02 21:56:22,127 | DEBUG    | [#0000]  _: <POOL> acquire routing connection, access_mode='READ', database=AcquisitionDatabase(name='0e6d187a', guessed=False)
+2026-04-02 21:56:22,127 | DEBUG    | [#0000]  _: <POOL> routing aged?, database=0e6d187a
+2026-04-02 21:56:22,127 | DEBUG    | [#0000]  _: <ROUTING> purge check: last_updated_time=3228336.622341226, ttl=10, perf_time=3228336.622634732 => False
+2026-04-02 21:56:22,127 | DEBUG    | [#0000]  _: <ROUTING> checking table freshness (readonly=True): table expired=False, has_server_for_mode=True, table routers=OrderedSet((IPv4Address(('p-mt-163021453c5e-13-0003.production-orch-0702.neo4j.io', 7687)))) => True
+2026-04-02 21:56:22,127 | DEBUG    | [#0000]  _: <POOL> using existing routing table RoutingTable(database='0e6d187a', routers=(IPv4Address(('p-mt-163021453c5e-13-0003.production-orch-0702.neo4j.io', 7687)),), readers=(IPv4Address(('p-mt-163021453c5e-13-0003.production-orch-0702.neo4j.io', 7687)),), writers=(IPv4Address(('p-mt-163021453c5e-13-0003.production-orch-0702.neo4j.io', 7687)),), last_updated_time=3228336.622341226, ttl=10)
+2026-04-02 21:56:22,127 | DEBUG    | [#0000]  _: <POOL> acquire address, database='0e6d187a' address=IPv4Address(('p-mt-163021453c5e-13-0003.production-orch-0702.neo4j.io', 7687))
+2026-04-02 21:56:22,127 | DEBUG    | [#0000]  _: <POOL> trying to hand out new connection
+2026-04-02 21:56:22,127 | DEBUG    | [#0000]  _: <RESOLVE> in: p-mt-163021453c5e-13-0003.production-orch-0702.neo4j.io:7687
+2026-04-02 21:56:22,143 | DEBUG    | [#0000]  _: <RESOLVE> dns resolver out: 34.31.169.230:7687
+2026-04-02 21:56:22,144 | DEBUG    | [#0000]  C: <OPEN> 34.31.169.230:7687
+2026-04-02 21:56:22,175 | DEBUG    | [#EEDC]  C: <SECURE> p-mt-163021453c5e-13-0003.production-orch-0702.neo4j.io
+2026-04-02 21:56:22,208 | DEBUG    | [#EEDC]  C: <MAGIC> 0x6060B017
+2026-04-02 21:56:22,208 | DEBUG    | [#EEDC]  C: <HANDSHAKE> 0x000001FF 0x00080805 0x00020404 0x00000003
+2026-04-02 21:56:22,240 | DEBUG    | [#EEDC]  S: <HANDSHAKE> 0x000001FF [4] 0x00040404 0x00040405 0x00020805 0x00000006 0x00
+2026-04-02 21:56:22,241 | DEBUG    | [#EEDC]  C: <HANDSHAKE> 0x00000006 0x00
+2026-04-02 21:56:22,241 | DEBUG    | [#EEDC]  C: HELLO {'user_agent': 'neo4j-python/6.1.0 Python/3.10.20-final-0 (linux)', 'routing': {'address': '0e6d187a.databases.neo4j.io:7687'}, 'bolt_agent': {'product': 'neo4j-python/6.1.0', 'platform': 'Linux 5.14.0-611.13.1.el9_7.x86_64; x86_64', 'language': 'Python/3.10.20-final-0', 'language_details': 'CPython; 3.10.20-final-0 (main, Mar 11 2026 17:46:40) [GCC 14.3.0]'}}
+2026-04-02 21:56:22,241 | DEBUG    | [#EEDC]  _: <CONNECTION> client state: CONNECTED > AUTHENTICATION
+2026-04-02 21:56:22,241 | DEBUG    | [#EEDC]  C: LOGON {'scheme': 'basic', 'principal': '0e6d187a', 'credentials': '*******'}
+2026-04-02 21:56:22,241 | DEBUG    | [#EEDC]  _: <CONNECTION> client state: AUTHENTICATION > READY
+2026-04-02 21:56:22,273 | DEBUG    | [#EEDC]  S: SUCCESS {'server': 'Neo4j/5.27-aura', 'protocol_version': '6.0', 'connection_id': 'bolt-218541', 'hints': {'connection.recv_timeout_seconds': 60, 'ssr.enabled': True}}
+2026-04-02 21:56:22,273 | DEBUG    | [#EEDC]  _: <CONNECTION> server state: CONNECTED > AUTHENTICATION
+2026-04-02 21:56:22,273 | DEBUG    | [#EEDC]  S: SUCCESS {'advertised_address': 'p-mt-163021453c5e-13-0003.production-orch-0702.neo4j.io:7687'}
+2026-04-02 21:56:22,274 | DEBUG    | [#EEDC]  _: <CONNECTION> server state: AUTHENTICATION > READY
+2026-04-02 21:56:22,274 | DEBUG    | [#EEDC]  _: <POOL> released bolt-218541
+2026-04-02 21:56:22,274 | INFO     | Neo4j connected: neo4j+s://0e6d187a.databases.neo4j.io
+2026-04-02 21:56:22,339 | DEBUG    | [#0000]  _: <WORKSPACE> routing towards cached database: 0e6d187a
+2026-04-02 21:56:22,339 | DEBUG    | [#0000]  _: <POOL> acquire routing connection, access_mode='WRITE', database=AcquisitionDatabase(name='0e6d187a', guessed=True)
+2026-04-02 21:56:22,339 | DEBUG    | [#0000]  _: <POOL> routing aged?, database=0e6d187a
+2026-04-02 21:56:22,340 | DEBUG    | [#0000]  _: <ROUTING> purge check: last_updated_time=3228336.622341226, ttl=10, perf_time=3228336.834975658 => False
+2026-04-02 21:56:22,340 | DEBUG    | [#0000]  _: <ROUTING> checking table freshness (readonly=False): table expired=False, has_server_for_mode=True, table routers=OrderedSet((IPv4Address(('p-mt-163021453c5e-13-0003.production-orch-0702.neo4j.io', 7687)))) => True
+2026-04-02 21:56:22,340 | DEBUG    | [#0000]  _: <POOL> using existing routing table RoutingTable(database='0e6d187a', routers=(IPv4Address(('p-mt-163021453c5e-13-0003.production-orch-0702.neo4j.io', 7687)),), readers=(IPv4Address(('p-mt-163021453c5e-13-0003.production-orch-0702.neo4j.io', 7687)),), writers=(IPv4Address(('p-mt-163021453c5e-13-0003.production-orch-0702.neo4j.io', 7687)),), last_updated_time=3228336.622341226, ttl=10)
+2026-04-02 21:56:22,340 | DEBUG    | [#0000]  _: <POOL> acquire address, database='0e6d187a' address=IPv4Address(('p-mt-163021453c5e-13-0003.production-orch-0702.neo4j.io', 7687))
+2026-04-02 21:56:22,340 | DEBUG    | [#EEDC]  _: <POOL> picked existing connection bolt-218541
+2026-04-02 21:56:22,340 | DEBUG    | [#EEDC]  _: <POOL> checked re_auth auth=None updated=False force=False
+2026-04-02 21:56:22,340 | DEBUG    | [#EEDC]  _: <POOL> handing out existing connection
+2026-04-02 21:56:22,340 | DEBUG    | [#EEDC]  C: RUN 'MATCH (e:Entity) WHERE e.domain IS NOT NULL RETURN e.name AS name' {} {}
+2026-04-02 21:56:22,340 | DEBUG    | [#EEDC]  _: <CONNECTION> client state: READY > STREAMING
+2026-04-02 21:56:22,340 | DEBUG    | [#EEDC]  C: PULL {'n': 1000}
+2026-04-02 21:56:22,373 | DEBUG    | [#EEDC]  S: SUCCESS {'t_first': 1, 'fields': ['name'], 'db': '0e6d187a'}
+2026-04-02 21:56:22,373 | DEBUG    | [#EEDC]  _: <CONNECTION> server state: READY > STREAMING
+2026-04-02 21:56:22,373 | DEBUG    | [#0000]  _: <WORKSPACE> pinning database: '0e6d187a'
+2026-04-02 21:56:22,376 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,376 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,376 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,376 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,376 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,376 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,376 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,376 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,376 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,376 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,376 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,376 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,377 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,377 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,377 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,377 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,377 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,377 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,377 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,377 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,377 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,377 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,377 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,377 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,377 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,378 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,378 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,378 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,378 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,378 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,378 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,378 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,378 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,378 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,378 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,378 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,378 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,378 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,379 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,379 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,379 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,379 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,379 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,379 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,379 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,379 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,379 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,379 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,379 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,379 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,379 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,379 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,380 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,380 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,380 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,380 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,380 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,380 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,380 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,380 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,380 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,380 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,380 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,380 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,380 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,381 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,381 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,381 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,381 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,381 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,381 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,381 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,381 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,381 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,381 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,381 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,382 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,382 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,382 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,382 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,382 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,382 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,382 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,382 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,382 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,382 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,382 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,382 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,382 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,383 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,383 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,383 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,383 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,383 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,383 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,383 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,383 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,383 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,383 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,383 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,383 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,383 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,384 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,384 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,384 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,384 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,384 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,384 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,384 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,384 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,384 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,384 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,384 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,384 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,384 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,384 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,385 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,385 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,385 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,385 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,385 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,385 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,385 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,385 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,385 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,385 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,385 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,385 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,385 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,386 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,386 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,386 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,386 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,386 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,386 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,386 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,386 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,386 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,386 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,386 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,386 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,386 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,387 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,387 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,387 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,387 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,387 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,387 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,387 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,387 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,387 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,387 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,387 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,387 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,387 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,388 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,388 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,388 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,388 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,388 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,388 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,388 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,388 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,388 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,388 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,388 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,389 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,389 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,389 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,389 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,389 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,389 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,389 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,389 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,389 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,389 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,389 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,389 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,389 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,390 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,390 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,390 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,390 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,390 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,390 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,390 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,390 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,390 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,390 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,390 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,390 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,390 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,390 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,391 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,391 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,391 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,391 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,391 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,391 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,391 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,391 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,391 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,391 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,391 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,391 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,391 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,392 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,392 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,392 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,392 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,392 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,392 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,392 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,392 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,392 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,392 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,392 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,392 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,392 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,393 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,393 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,393 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,393 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,393 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,393 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,393 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,393 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,393 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,393 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,393 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,393 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,393 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,394 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,394 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,394 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,394 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,394 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,394 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,394 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,394 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,394 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,394 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,394 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,394 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,394 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,394 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,395 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,395 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,395 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,395 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,395 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,395 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,395 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,395 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,395 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,395 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,395 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,395 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,395 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,396 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,396 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,396 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,396 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,396 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,396 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,396 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,396 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,396 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,396 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,396 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,396 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,396 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,397 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,397 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,397 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,397 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,397 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,397 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,397 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,397 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,397 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,397 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,397 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,397 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,397 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,398 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,398 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,398 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,398 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,398 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,398 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,398 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,398 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,398 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,398 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,398 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,398 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,398 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,399 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,399 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,399 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,399 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,399 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,399 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,399 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,399 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,399 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,399 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,399 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,399 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,399 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,399 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,400 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,400 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,400 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,400 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,400 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,400 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,400 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,400 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,400 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,400 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,400 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,400 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,400 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,401 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,401 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,401 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,401 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,401 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,401 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,401 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,401 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,401 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,401 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,401 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,401 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,401 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,402 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,402 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,402 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,402 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,402 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,402 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,402 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,402 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,402 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,402 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,402 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,402 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,402 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,403 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,403 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,403 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,403 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,403 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,403 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,403 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,403 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,403 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,403 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,403 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,403 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,403 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,403 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,404 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,404 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,404 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,404 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,404 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,404 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,404 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,404 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,404 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,404 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,404 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,404 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,404 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,405 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,405 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,405 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,405 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,405 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,405 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,405 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,405 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,405 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,405 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,405 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,405 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,405 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,406 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,406 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,406 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,406 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,406 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,406 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,406 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,406 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,406 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,406 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,406 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,406 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,406 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,407 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,407 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,407 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,407 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,407 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,407 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,407 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,407 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,407 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,407 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,407 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,407 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,407 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,408 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,408 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,408 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,408 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,408 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,408 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,408 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,408 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,408 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,408 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,408 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,408 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,408 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,409 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,409 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,409 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,409 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,409 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,409 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,409 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,409 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,409 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,409 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,409 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,409 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,409 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,410 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,410 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,410 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,410 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,410 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,410 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,410 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,410 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,410 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,410 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,410 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,410 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,410 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,411 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,411 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,411 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,411 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:22,411 | DEBUG    | [#EEDC]  S: SUCCESS {'bookmark': 'FB:kcwQbkqCnCUUQ2uXIwuFeJOCZskUK5A=', 'statuses': [{'gql_status': '00000', 'status_description': 'note: successful completion'}], 'type': 'r', 't_last': 1, 'db': '0e6d187a'}
+2026-04-02 21:56:22,411 | DEBUG    | [#EEDC]  _: <CONNECTION> server state: STREAMING > READY
+2026-04-02 21:56:22,411 | DEBUG    | [#EEDC]  _: <POOL> released bolt-218541
+2026-04-02 21:56:22,411 | INFO     |   KG name cache: 460 enriched entities loaded
+2026-04-02 21:56:22,419 | INFO     | Retrieving context for: 'Ganga'
+2026-04-02 21:56:22,809 | DEBUG    | Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-8d8ac95a-234c-433a-bcd1-919dff89e905', 'content': None, 'json_data': {'messages': [{'role': 'system', 'content': 'You extract entity names and optional relational intent from a text-to-image prompt.\nThe entity could be a mythological figure, rare animal, plant, artifact, or phenomenon.\n\nRules:\n- Extract the most specific proper name(s) mentioned\n- Handle any capitalization (YAMA, yama, Yama → "Yama")\n- For descriptive references ("the Hindu god of death") resolve to the proper name\n- For relational queries ("Ram\'s wife", "Yama\'s mount", "Krishna\'s enemy")\n  extract BOTH the anchor entity AND a relationship type in UPPERCASE_SNAKE_CASE\n- If the prompt is very long, focus only on the first sentence\n\nReturn ONLY valid JSON:\n{\n  "entities": ["EntityName1", "EntityName2"],\n  "relational_intent": {\n    "anchor": "AnchorEntityName",\n    "relation": "RELATIONSHIP_TYPE"\n  }\n}\nSet relational_intent to null if no relational query detected.\nRelationship type examples: HAS_SPOUSE, RIDES, HAS_CHILD, HAS_PARENT,\nHAS_SIBLING, ENEMY_OF, ALLY_OF, WIELDS, RULES_OVER, TEACHER_OF, STUDENT_OF\nNo explanation, no markdown, just the JSON.'}, {'role': 'user', 'content': 'Ganga'}], 'model': 'gpt-4o', 'max_tokens': 150, 'temperature': 0}}
+2026-04-02 21:56:22,824 | DEBUG    | Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2026-04-02 21:56:22,825 | DEBUG    | connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2026-04-02 21:56:22,847 | DEBUG    | connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x15552bd349d0>
+2026-04-02 21:56:22,847 | DEBUG    | start_tls.started ssl_context=<ssl.SSLContext object at 0x15552c607840> server_hostname='api.openai.com' timeout=5.0
+2026-04-02 21:56:22,857 | DEBUG    | start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x15552bd34820>
+2026-04-02 21:56:22,857 | DEBUG    | send_request_headers.started request=<Request [b'POST']>
+2026-04-02 21:56:22,857 | DEBUG    | send_request_headers.complete
+2026-04-02 21:56:22,857 | DEBUG    | send_request_body.started request=<Request [b'POST']>
+2026-04-02 21:56:22,857 | DEBUG    | send_request_body.complete
+2026-04-02 21:56:22,857 | DEBUG    | receive_response_headers.started request=<Request [b'POST']>
+2026-04-02 21:56:23,845 | DEBUG    | receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 03 Apr 2026 01:56:23 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'CF-Ray', b'9e6474daebddccb0-IAD'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Server', b'cloudflare'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'experiment-aawniq'), (b'openai-processing-ms', b'539'), (b'openai-project', b'proj_vAjBi7WmgGzFatchM4I8KfPS'), (b'openai-version', b'2020-10-01'), (b'x-openai-proxy-wasm', b'v0.1'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'30000000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'29999741'), (b'x-ratelimit-reset-requests', b'6ms'), (b'x-ratelimit-reset-tokens', b'0s'), (b'x-request-id', b'req_46f7f0d436094939929cd63427b58778'), (b'set-cookie', b'__cf_bm=LdxaXDQxoRw7N3G5Y6pbqwgrQV91oBLlbpfmBleuLZQ-1775181382.861641-1.0.1.1-cgPrS3FTlM4z__jQTKD1kkJIJWbmpuhsF6nDWsk8tMZvRuxlrDqUagxfRz4DaEMzkSkWx3WqofYDpxy1E6JlV3.WUp68WTyG9gTNWpc7oRm.fyeLX..V0Hlfffi_s7Ut; HttpOnly; Secure; Path=/; Domain=api.openai.com; Expires=Fri, 03 Apr 2026 02:26:23 GMT'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2026-04-02 21:56:23,845 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 21:56:23,845 | DEBUG    | receive_response_body.started request=<Request [b'POST']>
+2026-04-02 21:56:23,847 | DEBUG    | receive_response_body.complete
+2026-04-02 21:56:23,847 | DEBUG    | response_closed.started
+2026-04-02 21:56:23,847 | DEBUG    | response_closed.complete
+2026-04-02 21:56:23,847 | DEBUG    | HTTP Response: POST https://api.openai.com/v1/chat/completions "200 OK" Headers({'date': 'Fri, 03 Apr 2026 01:56:23 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'cf-ray': '9e6474daebddccb0-IAD', 'cf-cache-status': 'DYNAMIC', 'server': 'cloudflare', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'x-content-type-options': 'nosniff', 'access-control-expose-headers': 'X-Request-ID', 'openai-organization': 'experiment-aawniq', 'openai-processing-ms': '539', 'openai-project': 'proj_vAjBi7WmgGzFatchM4I8KfPS', 'openai-version': '2020-10-01', 'x-openai-proxy-wasm': 'v0.1', 'x-ratelimit-limit-requests': '10000', 'x-ratelimit-limit-tokens': '30000000', 'x-ratelimit-remaining-requests': '9999', 'x-ratelimit-remaining-tokens': '29999741', 'x-ratelimit-reset-requests': '6ms', 'x-ratelimit-reset-tokens': '0s', 'x-request-id': 'req_46f7f0d436094939929cd63427b58778', 'set-cookie': '__cf_bm=LdxaXDQxoRw7N3G5Y6pbqwgrQV91oBLlbpfmBleuLZQ-1775181382.861641-1.0.1.1-cgPrS3FTlM4z__jQTKD1kkJIJWbmpuhsF6nDWsk8tMZvRuxlrDqUagxfRz4DaEMzkSkWx3WqofYDpxy1E6JlV3.WUp68WTyG9gTNWpc7oRm.fyeLX..V0Hlfffi_s7Ut; HttpOnly; Secure; Path=/; Domain=api.openai.com; Expires=Fri, 03 Apr 2026 02:26:23 GMT', 'content-encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'})
+2026-04-02 21:56:23,847 | DEBUG    | request_id: req_46f7f0d436094939929cd63427b58778
+2026-04-02 21:56:23,854 | INFO     |   Extracted: ['Ganga'], relational: None
+2026-04-02 21:56:23,854 | DEBUG    | [#0000]  _: <WORKSPACE> routing towards cached database: 0e6d187a
+2026-04-02 21:56:23,854 | DEBUG    | [#0000]  _: <POOL> acquire routing connection, access_mode='WRITE', database=AcquisitionDatabase(name='0e6d187a', guessed=True)
+2026-04-02 21:56:23,854 | DEBUG    | [#0000]  _: <POOL> routing aged?, database=0e6d187a
+2026-04-02 21:56:23,854 | DEBUG    | [#0000]  _: <ROUTING> purge check: last_updated_time=3228336.622341226, ttl=10, perf_time=3228338.349745446 => False
+2026-04-02 21:56:23,854 | DEBUG    | [#0000]  _: <ROUTING> checking table freshness (readonly=False): table expired=False, has_server_for_mode=True, table routers=OrderedSet((IPv4Address(('p-mt-163021453c5e-13-0003.production-orch-0702.neo4j.io', 7687)))) => True
+2026-04-02 21:56:23,854 | DEBUG    | [#0000]  _: <POOL> using existing routing table RoutingTable(database='0e6d187a', routers=(IPv4Address(('p-mt-163021453c5e-13-0003.production-orch-0702.neo4j.io', 7687)),), readers=(IPv4Address(('p-mt-163021453c5e-13-0003.production-orch-0702.neo4j.io', 7687)),), writers=(IPv4Address(('p-mt-163021453c5e-13-0003.production-orch-0702.neo4j.io', 7687)),), last_updated_time=3228336.622341226, ttl=10)
+2026-04-02 21:56:23,854 | DEBUG    | [#0000]  _: <POOL> acquire address, database='0e6d187a' address=IPv4Address(('p-mt-163021453c5e-13-0003.production-orch-0702.neo4j.io', 7687))
+2026-04-02 21:56:23,855 | DEBUG    | [#EEDC]  _: <POOL> picked existing connection bolt-218541
+2026-04-02 21:56:23,855 | DEBUG    | [#EEDC]  _: <POOL> checked re_auth auth=None updated=False force=False
+2026-04-02 21:56:23,855 | DEBUG    | [#EEDC]  _: <POOL> handing out existing connection
+2026-04-02 21:56:23,855 | DEBUG    | [#EEDC]  C: RUN '\n        MATCH (e:Entity)\n        WHERE e.domain IS NOT NULL\n          AND (\n            toLower(e.name) = toLower($name)\n            OR any(a IN e.alternative_names WHERE toLower(a) = toLower($name))\n          )\n        RETURN e\n        LIMIT 1\n        ' {'name': 'Ganga'} {}
+2026-04-02 21:56:23,855 | DEBUG    | [#EEDC]  C: PULL {'n': 1000}
+2026-04-02 21:56:23,888 | DEBUG    | [#EEDC]  S: SUCCESS {'t_first': 1, 'fields': ['e'], 'db': '0e6d187a'}
+2026-04-02 21:56:23,888 | DEBUG    | [#EEDC]  _: <CONNECTION> server state: READY > STREAMING
+2026-04-02 21:56:23,888 | DEBUG    | [#0000]  _: <WORKSPACE> pinning database: '0e6d187a'
+2026-04-02 21:56:23,889 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:23,889 | DEBUG    | [#EEDC]  S: SUCCESS {'bookmark': 'FB:kcwQbkqCnCUUQ2uXIwuFeJOCZskUK5A=', 'statuses': [{'gql_status': '00000', 'status_description': 'note: successful completion'}], 'type': 'r', 't_last': 1, 'db': '0e6d187a'}
+2026-04-02 21:56:23,889 | DEBUG    | [#EEDC]  _: <CONNECTION> server state: STREAMING > READY
+2026-04-02 21:56:23,889 | DEBUG    | [#EEDC]  _: <POOL> released bolt-218541
+2026-04-02 21:56:23,889 | INFO     |   Matched 'Ganga' → 'Ganga'
+2026-04-02 21:56:23,889 | DEBUG    | [#0000]  _: <WORKSPACE> routing towards cached database: 0e6d187a
+2026-04-02 21:56:23,889 | DEBUG    | [#0000]  _: <POOL> acquire routing connection, access_mode='WRITE', database=AcquisitionDatabase(name='0e6d187a', guessed=True)
+2026-04-02 21:56:23,889 | DEBUG    | [#0000]  _: <POOL> routing aged?, database=0e6d187a
+2026-04-02 21:56:23,889 | DEBUG    | [#0000]  _: <ROUTING> purge check: last_updated_time=3228336.622341226, ttl=10, perf_time=3228338.384931947 => False
+2026-04-02 21:56:23,890 | DEBUG    | [#0000]  _: <ROUTING> checking table freshness (readonly=False): table expired=False, has_server_for_mode=True, table routers=OrderedSet((IPv4Address(('p-mt-163021453c5e-13-0003.production-orch-0702.neo4j.io', 7687)))) => True
+2026-04-02 21:56:23,890 | DEBUG    | [#0000]  _: <POOL> using existing routing table RoutingTable(database='0e6d187a', routers=(IPv4Address(('p-mt-163021453c5e-13-0003.production-orch-0702.neo4j.io', 7687)),), readers=(IPv4Address(('p-mt-163021453c5e-13-0003.production-orch-0702.neo4j.io', 7687)),), writers=(IPv4Address(('p-mt-163021453c5e-13-0003.production-orch-0702.neo4j.io', 7687)),), last_updated_time=3228336.622341226, ttl=10)
+2026-04-02 21:56:23,890 | DEBUG    | [#0000]  _: <POOL> acquire address, database='0e6d187a' address=IPv4Address(('p-mt-163021453c5e-13-0003.production-orch-0702.neo4j.io', 7687))
+2026-04-02 21:56:23,890 | DEBUG    | [#EEDC]  _: <POOL> picked existing connection bolt-218541
+2026-04-02 21:56:23,890 | DEBUG    | [#EEDC]  _: <POOL> checked re_auth auth=None updated=False force=False
+2026-04-02 21:56:23,890 | DEBUG    | [#EEDC]  _: <POOL> handing out existing connection
+2026-04-02 21:56:23,890 | DEBUG    | [#EEDC]  C: RUN '\n            MATCH (e:Entity {name: $name})-[*1..1]-(nb:Entity)\n            WHERE nb.domain IS NOT NULL AND nb.name <> $name\n            RETURN DISTINCT nb\n            LIMIT 10\n            ' {'name': 'Ganga'} {}
+2026-04-02 21:56:23,890 | DEBUG    | [#EEDC]  C: PULL {'n': 1000}
+2026-04-02 21:56:23,925 | DEBUG    | [#EEDC]  S: SUCCESS {'t_first': 1, 'fields': ['nb'], 'db': '0e6d187a'}
+2026-04-02 21:56:23,925 | DEBUG    | [#EEDC]  _: <CONNECTION> server state: READY > STREAMING
+2026-04-02 21:56:23,925 | DEBUG    | [#0000]  _: <WORKSPACE> pinning database: '0e6d187a'
+2026-04-02 21:56:23,926 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:23,926 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:23,926 | DEBUG    | [#EEDC]  S: SUCCESS {'bookmark': 'FB:kcwQbkqCnCUUQ2uXIwuFeJOCZskUK5A=', 'statuses': [{'gql_status': '00000', 'status_description': 'note: successful completion'}], 'type': 'r', 't_last': 0, 'db': '0e6d187a'}
+2026-04-02 21:56:23,926 | DEBUG    | [#EEDC]  _: <CONNECTION> server state: STREAMING > READY
+2026-04-02 21:56:23,926 | DEBUG    | [#EEDC]  _: <POOL> released bolt-218541
+2026-04-02 21:56:23,926 | DEBUG    | [#0000]  _: <WORKSPACE> routing towards cached database: 0e6d187a
+2026-04-02 21:56:23,927 | DEBUG    | [#0000]  _: <POOL> acquire routing connection, access_mode='WRITE', database=AcquisitionDatabase(name='0e6d187a', guessed=True)
+2026-04-02 21:56:23,927 | DEBUG    | [#0000]  _: <POOL> routing aged?, database=0e6d187a
+2026-04-02 21:56:23,927 | DEBUG    | [#0000]  _: <ROUTING> purge check: last_updated_time=3228336.622341226, ttl=10, perf_time=3228338.422069415 => False
+2026-04-02 21:56:23,927 | DEBUG    | [#0000]  _: <ROUTING> checking table freshness (readonly=False): table expired=False, has_server_for_mode=True, table routers=OrderedSet((IPv4Address(('p-mt-163021453c5e-13-0003.production-orch-0702.neo4j.io', 7687)))) => True
+2026-04-02 21:56:23,927 | DEBUG    | [#0000]  _: <POOL> using existing routing table RoutingTable(database='0e6d187a', routers=(IPv4Address(('p-mt-163021453c5e-13-0003.production-orch-0702.neo4j.io', 7687)),), readers=(IPv4Address(('p-mt-163021453c5e-13-0003.production-orch-0702.neo4j.io', 7687)),), writers=(IPv4Address(('p-mt-163021453c5e-13-0003.production-orch-0702.neo4j.io', 7687)),), last_updated_time=3228336.622341226, ttl=10)
+2026-04-02 21:56:23,927 | DEBUG    | [#0000]  _: <POOL> acquire address, database='0e6d187a' address=IPv4Address(('p-mt-163021453c5e-13-0003.production-orch-0702.neo4j.io', 7687))
+2026-04-02 21:56:23,927 | DEBUG    | [#EEDC]  _: <POOL> picked existing connection bolt-218541
+2026-04-02 21:56:23,927 | DEBUG    | [#EEDC]  _: <POOL> checked re_auth auth=None updated=False force=False
+2026-04-02 21:56:23,927 | DEBUG    | [#EEDC]  _: <POOL> handing out existing connection
+2026-04-02 21:56:23,927 | DEBUG    | [#EEDC]  C: RUN '\n        MATCH (a:Entity)-[r]->(b:Entity)\n        WHERE a.name IN $names OR b.name IN $names\n        RETURN a.name AS from_node, type(r) AS rel_type, b.name AS to_node\n        LIMIT 50\n        ' {'names': ['Ganga']} {}
+2026-04-02 21:56:23,927 | DEBUG    | [#EEDC]  C: PULL {'n': 1000}
+2026-04-02 21:56:23,960 | DEBUG    | [#EEDC]  S: SUCCESS {'t_first': 0, 'fields': ['from_node', 'rel_type', 'to_node'], 'db': '0e6d187a'}
+2026-04-02 21:56:23,960 | DEBUG    | [#EEDC]  _: <CONNECTION> server state: READY > STREAMING
+2026-04-02 21:56:23,961 | DEBUG    | [#0000]  _: <WORKSPACE> pinning database: '0e6d187a'
+2026-04-02 21:56:23,967 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:23,967 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:23,967 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:23,967 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:23,967 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:23,967 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:23,967 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:23,967 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:23,967 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:23,967 | DEBUG    | [#EEDC]  S: RECORD * 1
+2026-04-02 21:56:23,968 | DEBUG    | [#EEDC]  S: SUCCESS {'bookmark': 'FB:kcwQbkqCnCUUQ2uXIwuFeJOCZskUK5A=', 'statuses': [{'gql_status': '00000', 'status_description': 'note: successful completion'}], 'type': 'r', 't_last': 5, 'db': '0e6d187a'}
+2026-04-02 21:56:23,968 | DEBUG    | [#EEDC]  _: <CONNECTION> server state: STREAMING > READY
+2026-04-02 21:56:23,968 | DEBUG    | [#EEDC]  _: <POOL> released bolt-218541
+2026-04-02 21:56:23,968 | INFO     |   ContextPacket: 1 primary, 2 neighbours, 9 attributes, 10 relationships
+2026-04-02 21:56:23,968 | INFO     | ============================================================
+2026-04-02 21:56:23,968 | INFO     | RETRIEVED ENTITIES
+2026-04-02 21:56:23,968 | INFO     | ============================================================
+2026-04-02 21:56:23,968 | INFO     |   Name      : Ganga
+2026-04-02 21:56:23,968 | INFO     |   Domain    : indian_mythology
+2026-04-02 21:56:23,968 | INFO     |   Morphology: Flowing river with divine feminine form
+2026-04-02 21:56:23,968 | INFO     |   Features  : ['Matted locks of Shiva', 'Flowing water with divine aura', 'Presence of sacred confluences']
+2026-04-02 21:56:23,968 | INFO     |   Colors    : ['Blue', 'White', 'Silver']
+2026-04-02 21:56:23,968 | INFO     |   Texture   : Smooth and flowing
+2026-04-02 21:56:23,968 | INFO     |   Size      : 2,525 kilometers long
+2026-04-02 21:56:23,968 | INFO     | ============================================================
+2026-04-02 21:56:23,968 | INFO     | RELATIONSHIPS
+2026-04-02 21:56:23,968 | INFO     | ============================================================
+2026-04-02 21:56:23,968 | INFO     |   (Ganga) -[HAS_PARENT]-> (Shiva)
+2026-04-02 21:56:23,968 | INFO     |   (Ganga) -[HAS_CONFLUENCE_WITH]-> (Yamuna)
+2026-04-02 21:56:23,968 | INFO     |   (Ganga) -[INVERSE_VEHICLE_OF]-> (Makara)
+2026-04-02 21:56:23,968 | INFO     |   (Ganga) -[INVERSE_HUSBAND_OF]-> (Shiva)
+2026-04-02 21:56:23,968 | INFO     |   (Ganga) -[WIFE_OF]-> (Shiva)
+2026-04-02 21:56:23,968 | INFO     |   (Shiva) -[HAS_CHILD]-> (Ganga)
+2026-04-02 21:56:23,968 | INFO     |   (Shiva) -[HUSBAND_OF]-> (Ganga)
+2026-04-02 21:56:23,968 | INFO     |   (Shiva) -[INVERSE_WIFE_OF]-> (Ganga)
+2026-04-02 21:56:23,968 | INFO     |   (Yamuna) -[INVERSE_HAS_CONFLUENCE_WITH]-> (Ganga)
+2026-04-02 21:56:23,968 | INFO     |   (Makara) -[VEHICLE_OF]-> (Ganga)
+2026-04-02 21:56:23,968 | INFO     | ============================================================
+2026-04-02 21:56:23,968 | INFO     | CONTRASTIVE CONSTRAINTS
+2026-04-02 21:56:23,968 | INFO     | ============================================================
+2026-04-02 21:56:23,968 | INFO     |   NOT a generic river
+2026-04-02 21:56:23,969 | INFO     |   NOT devoid of divine attributes
+2026-04-02 21:56:23,969 | INFO     |   NOT a non-sacred water body
+2026-04-02 21:56:23,969 | DEBUG    | Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-5a6c5d36-fade-424a-b069-d48bfb38e01a', 'content': None, 'json_data': {'messages': [{'role': 'system', 'content': 'You write a precise contrastive visual sub-prompt for a single rare entity\nfor use in a text-to-image generation pipeline.\n\nCover ALL of the following attribute categories (skip only if genuinely N/A):\n\n1. PHYSICAL PROPERTIES — exact body structure, number of arms/heads/limbs,\n   overall form, size, proportions\n2. APPEARANCE / MORPHOLOGY — colors (be specific: "storm-cloud dark blue",\n   not "dark"), texture (smooth/scaly/feathered), surface quality\n3. UNIQUE FACTS — what makes this entity visually unlike anything common\n4. FUNCTIONAL PROPERTIES — what it does, its role, powers, ecological function\n5. PERSONALITY TRAITS / BEHAVIOR — emotional expression, posture, demeanor\n   (important for mythological figures and animals)\n6. MATERIAL & COMPOSITION — what it is made of or composed of (for artifacts)\n   or biological makeup (for organisms)\n7. USAGE CONTEXT / SYMBOLIC ITEMS — what it carries, wears, is associated with\n8. ORIGIN & HISTORY — cultural/geographic grounding, era, tradition\n9. DISTINCTIVE FEATURES with NOT-X constraints — at least 2 explicit\n   "NOT [generic alternative]" phrases that prevent the model defaulting\n   to a common prior. Example: "NOT a western grim reaper", "NOT a generic deer"\n\nWrite a dense, vivid paragraph (60-100 words) covering as many of these\nas possible. Do NOT use numbered lists — write as flowing descriptive prose.\nReturn ONLY the sub-prompt text.'}, {'role': 'user', 'content': 'Entity: Ganga\nDomain: indian_mythology\nType: Goddess/River\n\nPhysical / Visual attributes:\n  Morphology: Flowing river with divine feminine form\n  Distinctive features: Matted locks of Shiva; Flowing water with divine aura; Presence of sacred confluences\n  Colors: Blue, White, Silver\n  Texture: Smooth and flowing\n  Size: 2,525 kilometers long\n  Structure: Originates from the Himalayas, flows through plains, and empties into the Bay of Bengal\n\nFunctional / Contextual:\n  Primary function: Sacred river and goddess\n  Origin: Himalayas, India\n  Cultural significance: Most sacred river in Hinduism, symbolizing purity and life\n  Historical period: Ancient\n\nContrastive constraints (must appear as NOT-X in your sub-prompt):\n  - NOT a generic river\n  - NOT devoid of divine attributes\n  - NOT a non-sacred water body\n\nWrite the contrastive sub-prompt for Ganga now.'}], 'model': 'gpt-4o', 'max_tokens': 250, 'temperature': 0.3}}
+2026-04-02 21:56:23,970 | DEBUG    | Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2026-04-02 21:56:23,970 | DEBUG    | connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2026-04-02 21:56:23,977 | DEBUG    | connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x15552bd36530>
+2026-04-02 21:56:23,977 | DEBUG    | start_tls.started ssl_context=<ssl.SSLContext object at 0x15552c494740> server_hostname='api.openai.com' timeout=5.0
+2026-04-02 21:56:23,987 | DEBUG    | start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x15552bd36620>
+2026-04-02 21:56:23,987 | DEBUG    | send_request_headers.started request=<Request [b'POST']>
+2026-04-02 21:56:23,987 | DEBUG    | send_request_headers.complete
+2026-04-02 21:56:23,987 | DEBUG    | send_request_body.started request=<Request [b'POST']>
+2026-04-02 21:56:23,987 | DEBUG    | send_request_body.complete
+2026-04-02 21:56:23,987 | DEBUG    | receive_response_headers.started request=<Request [b'POST']>
+2026-04-02 21:56:26,610 | DEBUG    | receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 03 Apr 2026 01:56:26 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'CF-Ray', b'9e6474e1f9fafc57-IAD'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Server', b'cloudflare'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'experiment-aawniq'), (b'openai-processing-ms', b'2519'), (b'openai-project', b'proj_vAjBi7WmgGzFatchM4I8KfPS'), (b'openai-version', b'2020-10-01'), (b'x-openai-proxy-wasm', b'v0.1'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'30000000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'29999425'), (b'x-ratelimit-reset-requests', b'6ms'), (b'x-ratelimit-reset-tokens', b'1ms'), (b'x-request-id', b'req_d1654b16f81344acacf0827c18370657'), (b'set-cookie', b'__cf_bm=unppVlu5iImAyE1DecBLD2AaZNSe.hhQSmuJ31y6YFw-1775181383.9918687-1.0.1.1-cn5wJInMKoYvD.jVqIJC1lknvmPVu7HCvCDkgyLmxy97VeRrAQcQsta2vRy0IbJRL8wGGJDwlH_XWnBzR2qxDLrSk5JhR2lDvvvZYgR1O7ff64AobCPLWPrYBXJaLyS5; HttpOnly; Secure; Path=/; Domain=api.openai.com; Expires=Fri, 03 Apr 2026 02:26:26 GMT'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2026-04-02 21:56:26,611 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 21:56:26,611 | DEBUG    | receive_response_body.started request=<Request [b'POST']>
+2026-04-02 21:56:26,613 | DEBUG    | receive_response_body.complete
+2026-04-02 21:56:26,613 | DEBUG    | response_closed.started
+2026-04-02 21:56:26,613 | DEBUG    | response_closed.complete
+2026-04-02 21:56:26,613 | DEBUG    | HTTP Response: POST https://api.openai.com/v1/chat/completions "200 OK" Headers({'date': 'Fri, 03 Apr 2026 01:56:26 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'cf-ray': '9e6474e1f9fafc57-IAD', 'cf-cache-status': 'DYNAMIC', 'server': 'cloudflare', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'x-content-type-options': 'nosniff', 'access-control-expose-headers': 'X-Request-ID', 'openai-organization': 'experiment-aawniq', 'openai-processing-ms': '2519', 'openai-project': 'proj_vAjBi7WmgGzFatchM4I8KfPS', 'openai-version': '2020-10-01', 'x-openai-proxy-wasm': 'v0.1', 'x-ratelimit-limit-requests': '10000', 'x-ratelimit-limit-tokens': '30000000', 'x-ratelimit-remaining-requests': '9999', 'x-ratelimit-remaining-tokens': '29999425', 'x-ratelimit-reset-requests': '6ms', 'x-ratelimit-reset-tokens': '1ms', 'x-request-id': 'req_d1654b16f81344acacf0827c18370657', 'set-cookie': '__cf_bm=unppVlu5iImAyE1DecBLD2AaZNSe.hhQSmuJ31y6YFw-1775181383.9918687-1.0.1.1-cn5wJInMKoYvD.jVqIJC1lknvmPVu7HCvCDkgyLmxy97VeRrAQcQsta2vRy0IbJRL8wGGJDwlH_XWnBzR2qxDLrSk5JhR2lDvvvZYgR1O7ff64AobCPLWPrYBXJaLyS5; HttpOnly; Secure; Path=/; Domain=api.openai.com; Expires=Fri, 03 Apr 2026 02:26:26 GMT', 'content-encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'})
+2026-04-02 21:56:26,613 | DEBUG    | request_id: req_d1654b16f81344acacf0827c18370657
+2026-04-02 21:56:26,613 | INFO     |   Sub-prompt for 'Ganga': The Ganga, a divine embodiment of purity and life, flows with a celestial grace ...
+2026-04-02 21:56:26,614 | DEBUG    | Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-e3c83dcd-c50e-4612-9774-0cb8e3893957', 'content': None, 'json_data': {'messages': [{'role': 'system', 'content': 'You are composing a final text-to-image prompt by merging per-entity\ncontrastive sub-prompts into one coherent scene.\n\nRules:\n1. Every entity sub-prompt below must be fully represented — do not drop\n   any entity\'s visual details or NOT-X constraints\n2. Describe how the entities relate to each other visually in the scene,\n   based on their relationship type\n3. Maintain the original query\'s intent — if the query asks for\n   "Yama and his sister", both Yama AND Yami must be prominent\n4. Compose as ONE flowing paragraph of vivid, specific imagery\n5. Keep all NOT-X constraints from all sub-prompts\n6. Do NOT add generic quality tags like "8k masterpiece" or "photorealistic"\n   unless they are domain-appropriate\n\nReturn ONLY the final merged prompt.'}, {'role': 'user', 'content': 'ORIGINAL QUERY: "Ganga"\n\nRELATIONSHIP CONTEXT:\n  (Ganga) --[HAS_PARENT]--> (Shiva)\n  (Ganga) --[HAS_CONFLUENCE_WITH]--> (Yamuna)\n  (Ganga) --[INVERSE_VEHICLE_OF]--> (Makara)\n  (Ganga) --[INVERSE_HUSBAND_OF]--> (Shiva)\n  (Ganga) --[WIFE_OF]--> (Shiva)\n  (Shiva) --[HAS_CHILD]--> (Ganga)\n\nPER-ENTITY SUB-PROMPTS:\n[Ganga]\nThe Ganga, a divine embodiment of purity and life, flows with a celestial grace that transcends the mundane. Her form is both a sacred river and a goddess, stretching 2,525 kilometers from the snow-capped Himalayas to the Bay of Bengal. Her waters shimmer in hues of deep blue, pristine white, and radiant silver, exuding a smooth, flowing texture that is imbued with a divine aura. Her presence is marked by the matted locks of Shiva, symbolizing her divine origin and connection. As the most sacred river in Hinduism, she is a living symbol of purity, carrying the spiritual essence of sacred confluences. NOT a generic river, she embodies the divine feminine, NOT devoid of divine attributes, and is far from a non-sacred water body. Her origins in ancient India root her deeply in cultural and spiritual history, making her a revered figure in Indian mythology.\n\nMerge these into one coherent scene prompt that captures all entities\nas described above with their relationship visually expressed.'}], 'model': 'gpt-4o', 'max_tokens': 600, 'temperature': 0.3}}
+2026-04-02 21:56:26,614 | DEBUG    | Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2026-04-02 21:56:26,615 | DEBUG    | send_request_headers.started request=<Request [b'POST']>
+2026-04-02 21:56:26,615 | DEBUG    | send_request_headers.complete
+2026-04-02 21:56:26,615 | DEBUG    | send_request_body.started request=<Request [b'POST']>
+2026-04-02 21:56:26,615 | DEBUG    | send_request_body.complete
+2026-04-02 21:56:26,615 | DEBUG    | receive_response_headers.started request=<Request [b'POST']>
+2026-04-02 21:56:30,007 | DEBUG    | receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 03 Apr 2026 01:56:30 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'CF-Ray', b'9e6474f25ba0fc57-IAD'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Server', b'cloudflare'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'experiment-aawniq'), (b'openai-processing-ms', b'3286'), (b'openai-project', b'proj_vAjBi7WmgGzFatchM4I8KfPS'), (b'openai-version', b'2020-10-01'), (b'x-openai-proxy-wasm', b'v0.1'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'30000000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'29999478'), (b'x-ratelimit-reset-requests', b'6ms'), (b'x-ratelimit-reset-tokens', b'1ms'), (b'x-request-id', b'req_d3839612c6bf41a49592b5650c5e8f27'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2026-04-02 21:56:30,008 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 21:56:30,008 | DEBUG    | receive_response_body.started request=<Request [b'POST']>
+2026-04-02 21:56:30,012 | DEBUG    | receive_response_body.complete
+2026-04-02 21:56:30,012 | DEBUG    | response_closed.started
+2026-04-02 21:56:30,012 | DEBUG    | response_closed.complete
+2026-04-02 21:56:30,012 | DEBUG    | HTTP Response: POST https://api.openai.com/v1/chat/completions "200 OK" Headers({'date': 'Fri, 03 Apr 2026 01:56:30 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'cf-ray': '9e6474f25ba0fc57-IAD', 'cf-cache-status': 'DYNAMIC', 'server': 'cloudflare', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'x-content-type-options': 'nosniff', 'access-control-expose-headers': 'X-Request-ID', 'openai-organization': 'experiment-aawniq', 'openai-processing-ms': '3286', 'openai-project': 'proj_vAjBi7WmgGzFatchM4I8KfPS', 'openai-version': '2020-10-01', 'x-openai-proxy-wasm': 'v0.1', 'x-ratelimit-limit-requests': '10000', 'x-ratelimit-limit-tokens': '30000000', 'x-ratelimit-remaining-requests': '9999', 'x-ratelimit-remaining-tokens': '29999478', 'x-ratelimit-reset-requests': '6ms', 'x-ratelimit-reset-tokens': '1ms', 'x-request-id': 'req_d3839612c6bf41a49592b5650c5e8f27', 'content-encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'})
+2026-04-02 21:56:30,012 | DEBUG    | request_id: req_d3839612c6bf41a49592b5650c5e8f27
+2026-04-02 21:56:30,012 | INFO     |   Enriched prompt synthesised (1179 chars)
+2026-04-02 21:56:30,012 | INFO     | ============================================================
+2026-04-02 21:56:30,012 | INFO     | PER-ENTITY SUB-PROMPTS (Step 2 CoT)
+2026-04-02 21:56:30,012 | INFO     | ============================================================
+2026-04-02 21:56:30,012 | INFO     | [Ganga]
+2026-04-02 21:56:30,012 | INFO     | The Ganga, a divine embodiment of purity and life, flows with a celestial grace that transcends the mundane. Her form is both a sacred river and a goddess, stretching 2,525 kilometers from the snow-capped Himalayas to the Bay of Bengal. Her waters shimmer in hues of deep blue, pristine white, and radiant silver, exuding a smooth, flowing texture that is imbued with a divine aura. Her presence is marked by the matted locks of Shiva, symbolizing her divine origin and connection. As the most sacred river in Hinduism, she is a living symbol of purity, carrying the spiritual essence of sacred confluences. NOT a generic river, she embodies the divine feminine, NOT devoid of divine attributes, and is far from a non-sacred water body. Her origins in ancient India root her deeply in cultural and spiritual history, making her a revered figure in Indian mythology.
+2026-04-02 21:56:30,012 | INFO     | ============================================================
+2026-04-02 21:56:30,012 | INFO     | FINAL ENRICHED PROMPT (Step 3 Merge)
+2026-04-02 21:56:30,013 | INFO     | ============================================================
+2026-04-02 21:56:30,013 | INFO     | In a scene of divine majesty, the Ganga flows with celestial grace, her waters shimmering in deep blue, pristine white, and radiant silver as they cascade from the snow-capped peaks of the Himalayas towards the Bay of Bengal. Her form is both a sacred river and a goddess, embodying the divine feminine with a smooth, flowing texture that exudes a divine aura. At her source, she emerges from the matted locks of Shiva, her divine parent and husband, symbolizing their eternal connection. Shiva stands majestically by her side, his presence powerful and serene, reinforcing their sacred bond. The Ganga, not a mere river but a living symbol of purity, carries the spiritual essence of sacred confluences, notably merging with the Yamuna, whose waters intertwine with hers in a harmonious dance of sacred unity. Nearby, the mythical Makara, her vehicle, is poised gracefully, its form a blend of terrestrial and aquatic features, adding to the scene's mythological richness. This tableau is steeped in the cultural and spiritual history of ancient India, with each element reinforcing the Ganga's revered status in Indian mythology, far from any notion of a non-sacred water body.
+2026-04-02 21:56:30,013 | DEBUG    | [#0000]  _: <POOL> close
+2026-04-02 21:56:30,013 | DEBUG    | [#EEDA]  C: GOODBYE
+2026-04-02 21:56:30,013 | DEBUG    | [#EEDA]  C: <CLOSE>
+2026-04-02 21:56:30,013 | DEBUG    | [#EEDC]  C: GOODBYE
+2026-04-02 21:56:30,013 | DEBUG    | [#EEDC]  C: <CLOSE>
+2026-04-02 21:56:30,013 | INFO     | Neo4j: driver closed.
+2026-04-02 21:56:30,013 | INFO     | Done. Log saved to logs/ganga_pipeline.log
+2026-04-02 21:56:30,077 | DEBUG    | close.started
+2026-04-02 21:56:30,078 | DEBUG    | close.complete
+2026-04-02 21:56:30,078 | DEBUG    | close.started
+2026-04-02 21:56:30,078 | DEBUG    | close.complete
